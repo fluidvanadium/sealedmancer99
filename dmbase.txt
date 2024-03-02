@@ -13,7 +13,7 @@
 	],
 
 	"layouts": {
-		"Allstars": {
+		"Sealed": {
 			"weight": 7,
 			"slots": {
   				"Any": 99,
