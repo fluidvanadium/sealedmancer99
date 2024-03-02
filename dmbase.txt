@@ -1,0 +1,24 @@
+[Settings]
+{
+	"name": "sealedmancer99",
+	
+	"boostersPerPlayer": 1,
+	"withReplacement": true,
+	"colorBalance": true,
+
+	"boosterSettings": [
+		{
+			"picks": 99,
+		}, 
+	],
+
+	"layouts": {
+		"Allstars": {
+			"weight": 7,
+			"slots": {
+  				"Any": 99,
+			}
+		},
+	}
+}
+[Any]
