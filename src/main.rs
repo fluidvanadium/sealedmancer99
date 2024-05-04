@@ -60,8 +60,7 @@ async fn app() -> Result<u64, Error> {
     Ok(0)
 }
 
-fn main() {
-    let rt = tokio::runtime::Runtime::new().unwrap();
-    let future = app();
-    let _ = dbg!(rt.block_on(future));
+#[tokio::main]
+async fn main() {
+    app().await.unwrap();
 }
