@@ -10,7 +10,7 @@ use std::path::Path;
 
 async fn app() -> Result<u64, Error> {
     let source_path = Path::new("./dmbase.txt");
-    let dest_path = Path::new("./list.txt");
+    let dest_path = Path::new("./draftmancer-sealed99.txt");
 
     let mut source_file = File::open(source_path).unwrap();
     let mut source_data = String::new();
