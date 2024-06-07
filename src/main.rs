@@ -9,16 +9,6 @@ use std::io::Write;
 use std::path::Path;
 
 async fn app() -> Result<u64, Error> {
-    let source_path = Path::new("./dmbase.txt");
-    let dest_path = Path::new("./draftmancer-sealed99.txt");
-
-    let mut source_file = File::open(source_path).unwrap();
-    let mut source_data = String::new();
-    source_file.read_to_string(&mut source_data).unwrap();
-
-    let mut dest_file = File::create(dest_path).unwrap();
-    dest_file.write_all(dbg!(source_data).as_bytes()).unwrap();
-
     let query = Query::Custom(
         "(legal:vintage -t:stickers -o:sticker -t:attraction -o:attraction -o:sticker -o:commander not:meld -o:draft) or (name:/^a-/) or ('commander' -o:'your commander' o:'cast a commander') or (fo:meld)'Stone-Throwing Devils' or 'Pradesh Gypsies' or 'Shahrazad' or 'Downdraft' or 'Backdraft'".to_string(),
     );
@@ -30,6 +20,16 @@ async fn app() -> Result<u64, Error> {
         .search()
         .await?;
     println!("search download completed (not:split)");
+
+    let source_path = Path::new("./dmbase.txt");
+    let dest_path = Path::new("./draftmancer-sealed99.txt");
+
+    let mut source_file = File::open(source_path).unwrap();
+    let mut source_data = String::new();
+    source_file.read_to_string(&mut source_data).unwrap();
+
+    let mut dest_file = File::create(dest_path).unwrap();
+    dest_file.write_all(dbg!(source_data).as_bytes()).unwrap();
 
     for _ in 0..cards.size_hint().0 {
         dest_file
