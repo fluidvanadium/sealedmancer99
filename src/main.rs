@@ -10,7 +10,7 @@ use std::path::Path;
 
 async fn app() -> Result<u64, Error> {
     let query = Query::Custom(
-        "(legal:vintage -t:stickers -o:sticker -t:attraction -o:attraction -o:sticker -o:commander not:meld -o:draft) or (name:/^a-/) or ('commander' -o:'your commander' o:'cast a commander') or (fo:meld) or 'Stone-Throwing Devils' or 'Pradesh Gypsies' or 'Shahrazad' or 'Downdraft' or 'Backdraft'".to_string(),
+        "(legal:vintage -t:stickers -o:sticker -o:ticket -o:{TK} -t:attraction -o:attraction -o:commander not:meld -o:draft) or (name:/^a-/) or ('commander' -o:'your commander' o:'cast a commander') or (fo:meld) or 'Stone-Throwing Devils' or 'Pradesh Gypsies' or 'Shahrazad' or 'Downdraft' or 'Backdraft'".to_string(),
     );
     // meld. basics. commander
     // let query = Query::And(vec![proto_query, Query::Custom("r:common".to_string())]);

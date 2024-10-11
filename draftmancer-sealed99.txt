@@ -2735,7 +2735,6 @@ Bloom Hulk
 Blooming Blast
 Blooming Marsh
 Bloom Tender
-Blorbian Buddy
 Blossom Dryad
 Blossoming Bogbeast
 Blossoming Calm
@@ -7109,6 +7108,7 @@ Eldrazi Skyspawner
 Eldrazi Temple
 Eldritch Evolution
 Eldritch Immunity
+Eldritch Moon Checklist
 Eldritch Pact
 Electric Eel
 Electrickery
@@ -24688,7 +24688,6 @@ Tibalt's Rager
 Tibalt's Trickery
 Tibalt, the Fiend-Blooded
 Tibor and Lumia
-Ticket Turbotubes
 Ticking Gnomes
 Tidal Barracuda
 Tidal Bore
