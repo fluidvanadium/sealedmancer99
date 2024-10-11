@@ -7109,7 +7109,6 @@ Eldrazi Skyspawner
 Eldrazi Temple
 Eldritch Evolution
 Eldritch Immunity
-Eldritch Moon Checklist
 Eldritch Pact
 Electric Eel
 Electrickery
