@@ -9,8 +9,18 @@ use std::io::Write;
 use std::path::Path;
 
 async fn app() -> Result<u64, Error> {
+    let source_path = Path::new("./dmbase.txt");
+    let dest_path = Path::new("./draftmancer-sealed99.txt");
+
+    let mut source_file = File::open(source_path).unwrap();
+    let mut source_data = String::new();
+    source_file.read_to_string(&mut source_data).unwrap();
+
+    let mut dest_file = File::create(dest_path).unwrap();
+    dest_file.write_all(source_data.as_bytes()).unwrap();
+
     let query = Query::Custom(
-        "(legal:vintage -t:stickers -o:sticker -o:ticket -o:{TK} -t:attraction -o:attraction -o:commander not:meld -o:draft) or (name:/^a-/) or ('commander' -o:'your commander' o:'cast a commander') or (fo:meld) or 'Stone-Throwing Devils' or 'Pradesh Gypsies' or 'Shahrazad' or 'Downdraft' or 'Backdraft'".to_string(),
+        "(legal:vintage -t:stickers -o:sticker -o:ticket -o:{TK} -t:attraction -o:Attraction -o:commander not:meld -o:draft) or (name:/^a-/) or ('commander' -o:'your commander' o:'cast a commander') or (fo:meld) or 'Stone-Throwing Devils' or 'Pradesh Gypsies' or 'Shahrazad' or 'Downdraft' or 'Backdraft'".to_string(),
     );
     // meld. basics. commander
     // let query = Query::And(vec![proto_query, Query::Custom("r:common".to_string())]);
@@ -20,16 +30,6 @@ async fn app() -> Result<u64, Error> {
         .search()
         .await?;
     println!("search download completed (not:split)");
-
-    let source_path = Path::new("./dmbase.txt");
-    let dest_path = Path::new("./draftmancer-sealed99.txt");
-
-    let mut source_file = File::open(source_path).unwrap();
-    let mut source_data = String::new();
-    source_file.read_to_string(&mut source_data).unwrap();
-
-    let mut dest_file = File::create(dest_path).unwrap();
-    dest_file.write_all(dbg!(source_data).as_bytes()).unwrap();
 
     for _ in 0..cards.size_hint().0 {
         dest_file
