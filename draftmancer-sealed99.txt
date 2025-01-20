@@ -2837,7 +2837,7 @@ Bog Tatters
 Bog Witch
 Bog Wraith
 Bog Wreckage
-Bohn, Beguiling Balladeer
+Edgin, Larcenous Lutenist
 Boil
 Boilerbilges Ripper
 Boiling Blood
@@ -3721,7 +3721,7 @@ Cartouche of Solidarity
 Cartouche of Strength
 Cartouche of Zeal
 Carven Caryatid
-Casal, Lurkwood Pathfinder 
+Doric, Nature's Warden
 Cascade Bluffs
 Cascade Seer
 Cascading Cataracts
@@ -7788,7 +7788,7 @@ Evil Eye of Urborg
 Evil Presence
 Evil Twin
 Evincar's Justice
-Evin, Waterdeep Opportunist
+Forge, Neverwinter Charlatan
 Eviscerate
 Eviscerator
 Eviscerator's Insight
@@ -12714,7 +12714,7 @@ Junkyo Bell
 Juntu Stakes
 Junún Efreet
 Juri, Master of the Revue
-Jurin, Leading the Charge
+Holga, Relentless Rager
 Jushi Apprentice 
 Just Fate
 Justice
@@ -14832,7 +14832,7 @@ Masticore
 Masumaro, First to Live
 Matca Rioters
 Mathas, Fiend Seeker
-Mathise, Surge Channeler
+Simon, Wild Magic Sorcerer
 Matopi Golem
 Matsu-Tribe Birdstalker
 Matsu-Tribe Decoy
@@ -18818,7 +18818,7 @@ Rappelling Scouts
 Raptor Companion
 Raptor Hatchling
 Rasaad yn Bashir
-Rashel, Fist of Torm
+Xenk, Paladin Unbroken
 Rashida Scalebane
 Rashka the Slayer
 Rashmi and Ragavan
