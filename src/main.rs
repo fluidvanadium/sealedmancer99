@@ -28,36 +28,46 @@ async fn app() -> Result<u64, Error> {
 
     let mut cards = Query::And(vec![query.clone(), Query::Custom("not:split".to_string())])
         .search()
-        .await?;
+        .await
+        .unwrap();
     println!("search download completed (not:split)");
 
-    for _ in 0..cards.size_hint().0 {
-        dest_file
-            .write_all(
-                dbg!(cards.next().await.unwrap()?.name)
-                    .split("//")
-                    .next()
-                    .unwrap()
-                    .as_bytes(),
-            )
-            .expect("Unable to write data");
-        dest_file
-            .write_all("\n".as_bytes())
-            .expect("Unable to write data");
-    }
+    for _ in 0..cards.size_hint().0 {}
 
     let mut cards = Query::And(vec![query, Query::Custom("is:split".to_string())])
         .search()
-        .await?;
+        .await
+        .unwrap();
     println!("search download completed (split)");
     for _ in 0..cards.size_hint().0 {
         dest_file
-            .write_all(dbg!(cards.next().await.unwrap()?.name).as_bytes())
+            .write_all(dbg!(cards.next().await.unwrap().unwrap().name).as_bytes())
             .unwrap();
         dest_file.write_all("\n".as_bytes()).unwrap();
     }
 
     Ok(0)
+}
+
+fn pick_next_card(
+    cards: &mut scryfall::list::ListIter,
+    file: File,
+    split: Option<&str>,
+) -> Result<(), String> {
+    let v1 = cards.next().await;
+
+    dest_file
+        .write_all(
+            dbg!(cards.next().await.unwrap().unwrap().name)
+                .split("//")
+                .next()
+                .unwrap()
+                .as_bytes(),
+        )
+        .expect("Unable to write data");
+    dest_file
+        .write_all("\n".as_bytes())
+        .expect("Unable to write data");
 }
 
 #[tokio::main]
