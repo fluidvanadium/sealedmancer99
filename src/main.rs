@@ -60,10 +60,25 @@ async fn app() -> Result<u64, Error> {
         .unwrap();
     println!("search download completed (split)");
     for _ in 0..cards.size_hint().0 {
-        dest_file
-            .write_all(dbg!(cards.next().await.unwrap().unwrap().name).as_bytes())
-            .unwrap();
-        dest_file.write_all("\n".as_bytes()).unwrap();
+        let next_card = cards.next().await;
+        let card_name_result = process_next_card(&next_card).await;
+
+        match card_name_result {
+            Ok(card_name) => {
+                dest_file
+                    .write_all(card_name.as_bytes())
+                    .expect("Unable to write data");
+                dest_file
+                    .write_all("\n".as_bytes())
+                    .expect("Unable to write data");
+            }
+            Err(err) => {
+                dest_file
+                    .write_all(err.to_string().as_bytes())
+                    .expect("Unable to write data");
+                break;
+            }
+        }
     }
 
     Ok(0)
