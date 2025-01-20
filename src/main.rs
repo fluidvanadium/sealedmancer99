@@ -1,6 +1,6 @@
-// use scryfall::card::{Le-ality, Rarity};
 // use scryfall::format::Format;
 use scryfall::search::prelude::*;
+use scryfall::Card;
 // use scryfall::set::Set;
 use scryfall::Error;
 use std::fs::File;
@@ -33,18 +33,25 @@ async fn app() -> Result<u64, Error> {
     println!("search download completed (not:split)");
 
     for _ in 0..cards.size_hint().0 {
-        dest_file
-            .write_all(
-                dbg!(cards.next().await.unwrap().unwrap().name)
-                    .split("//")
-                    .next()
-                    .unwrap()
-                    .as_bytes(),
-            )
-            .expect("Unable to write data");
-        dest_file
-            .write_all("\n".as_bytes())
-            .expect("Unable to write data");
+        let next_card = cards.next().await;
+        let card_name_result = process_next_card(&next_card).await;
+
+        match card_name_result {
+            Ok(card_name) => {
+                dest_file
+                    .write_all(card_name.split("//").next().unwrap().as_bytes())
+                    .expect("Unable to write data");
+                dest_file
+                    .write_all("\n".as_bytes())
+                    .expect("Unable to write data");
+            }
+            Err(err) => {
+                dest_file
+                    .write_all(err.to_string().as_bytes())
+                    .expect("Unable to write data");
+                break;
+            }
+        }
     }
 
     let mut cards = Query::And(vec![query, Query::Custom("is:split".to_string())])
@@ -60,6 +67,15 @@ async fn app() -> Result<u64, Error> {
     }
 
     Ok(0)
+}
+
+async fn process_next_card(card: &Option<Result<Card, Error>>) -> Result<String, String> {
+    let v1 = card.as_ref().unwrap();
+    let v2 = v1.as_ref().map_err(|e| e.to_string())?;
+    let name = v2.name.clone();
+    println!("{name}");
+    Ok(name)
+    // Ok(match name.split("//") {})
 }
 
 #[tokio::main]
