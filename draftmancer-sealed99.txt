@@ -8954,7 +8954,6 @@ Forerunner of the Legion
 Foresee
 Foreshadow
 Foresight
-Forest
 Forest Bear
 Forethought Amulet
 Forever Young
@@ -12443,7 +12442,6 @@ Ishai, Ojutai Dragonspeaker
 Ishi-Ishi, Akki Crackshot
 Ishkanah, Grafwidow
 Isildur's Fateful Strike
-Island
 Island Fish Jasconius
 Island of Wak-Wak
 Island Sanctuary
@@ -15822,7 +15820,6 @@ Mother of Runes
 Mothrider Patrol
 Mothrider Samurai
 Motivated Pony
-Mountain
 Mountain Bandit
 Mountain Goat
 Mountain Stronghold
@@ -17913,7 +17910,6 @@ Plague Stinger
 Plague Wight
 Plague Wind
 Plague Witch
-Plains
 Planar Ally
 Planar Atlas
 Planar Birth
@@ -22287,12 +22283,6 @@ Sneaky Snacker
 Snooping Newsie
 Snorting Gahr
 Snowblind
-Snow-Covered Forest
-Snow-Covered Island
-Snow-Covered Mountain
-Snow-Covered Plains
-Snow-Covered Swamp
-Snow-Covered Wastes
 Snow Day
 Snow Devil
 Snowfall
@@ -23784,7 +23774,6 @@ Swab Goblin
 Swaggering Corsair
 Swallowing Plague
 Swallow Whole
-Swamp
 Swamp Mosquito
 Swans of Bryn Argoll
 Swan Song
@@ -27173,7 +27162,6 @@ Wasteland Strangler
 Wasteland Viper
 Waste Management
 Waste Not
-Wastes
 Wastescape Battlemage
 Watchdog
 Watcher for Tomorrow
