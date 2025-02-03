@@ -1,0 +1,13 @@
+4396 Plains
+4396 Island
+4396 Swamp
+4396 Mountain
+4396 Forest
+628 Wastes
+1099 Snow-Covered Plains
+1099 Snow-Covered Island
+1099 Snow-Covered Swamp
+1099 Snow-Covered Mountain
+1099 Snow-Covered Forest
+157 Snow-Covered Wastes
+
