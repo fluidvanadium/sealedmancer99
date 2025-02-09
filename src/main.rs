@@ -18,9 +18,7 @@ async fn query_to_draftmancer_list(query: &Query) -> String {
     let non_splits = name_strings_for_draftmancer(query, false).await;
     let splits = name_strings_for_draftmancer(query, true).await;
 
-    let all = non_splits + &splits;
-
-    all
+    non_splits + &splits
 }
 
 async fn name_strings_for_draftmancer(query: &Query, splits: bool) -> String {
@@ -33,7 +31,7 @@ async fn name_strings_for_draftmancer(query: &Query, splits: bool) -> String {
     };
 
     if let Ok(mut cards) = complete_query.clone().search().await {
-        println!("search download completed (split)");
+        println!("search download completed (splits = {splits})");
         loop {
             let next_card = cards.next().await;
             match next_card {
