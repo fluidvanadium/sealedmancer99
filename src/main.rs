@@ -9,20 +9,11 @@ use std::io::Write;
 use std::path::Path;
 
 async fn app() -> Result<u64, Error> {
-    let n = 256;
-    let dest_filename = format!("./draftmancer-sealed{n}.txt");
+    let dest_filename = format!("./draftmancer-for-subset-constructed.txt");
 
-    let source_path = Path::new("./dmbase.txt");
     let dest_path = Path::new(dest_filename.as_str());
 
-    let mut source_file = File::open(source_path).unwrap();
-    let mut source_data = String::new();
-    source_file.read_to_string(&mut source_data).unwrap();
-
-    source_data = source_data.replace("99", n.to_string().as_str());
-
     let mut dest_file = File::create(dest_path).unwrap();
-    dest_file.write_all(source_data.as_bytes()).unwrap();
 
     let query = Query::Custom(
         "(legal:vintage -t:stickers -o:sticker -o:ticket -o:{TK} (-t:attraction -o:Attraction or name:attraction) -o:draft -t:basic -(-fo:meld is:meld)) or (name:/^a-/) or 'Stone-Throwing Devils' or 'Pradesh Gypsies' or 'Shahrazad' or 'Downdraft' or 'Backdraft'".to_string(),
