@@ -93,11 +93,11 @@ async fn process_next_card(card: &Option<Result<Card, Error>>) -> Result<String,
 #[tokio::main]
 async fn main() {
     let format = vec![
+        (format!("./draftmancer-for-subset-constructed.txt"),"(legal:vintage -t:stickers -o:sticker -o:ticket -o:{TK} (-t:attraction -o:Attraction or name:attraction) -o:draft -t:basic -(-fo:meld is:meld)) or (name:/^a-/) or 'Stone-Throwing Devils' or 'Pradesh Gypsies' or 'Shahrazad' or 'Downdraft' or 'Backdraft'".to_string()),
         (
             format!("./draftmancer-for-subset-fundamental.txt"),
             "Downdraft".to_string(),
         ),
-        // (format!("./draftmancer-for-subset-constructed.txt"),"(legal:vintage -t:stickers -o:sticker -o:ticket -o:{TK} (-t:attraction -o:Attraction or name:attraction) -o:draft -t:basic -(-fo:meld is:meld)) or (name:/^a-/) or 'Stone-Throwing Devils' or 'Pradesh Gypsies' or 'Shahrazad' or 'Downdraft' or 'Backdraft'".to_string()),
     ];
     for (dest_filename, query) in format.iter() {
         write_query(dest_filename, query).await.unwrap();
