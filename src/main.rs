@@ -11,7 +11,10 @@ use std::io::Read;
 use std::io::Write;
 use std::path::Path;
 
-async fn write_query(destination_filename: &String, query: &Query) -> Result<u64, Error> {
+async fn query_to_draftmancer_list(
+    destination_filename: &String,
+    query: &Query,
+) -> Result<u64, Error> {
     let dest_path = Path::new(destination_filename.as_str());
 
     let mut dest_file = File::create(dest_path).unwrap();
@@ -92,6 +95,15 @@ async fn process_next_card(card: &Option<Result<Card, Error>>) -> Result<String,
 async fn main() {
     std::env::set_current_dir("results/lists").unwrap();
 
+    let vintage_taste_ban = Query::Or(vec![
+        Query::And(vec![
+            format(Format::Vintage), //
+            not(exact("Hobble")),    //
+        ]),
+        exact("Stone-Throwing Devils"),
+        exact("Pradesh Gypsies"),
+    ]);
+
     let basics = type_line("basic".to_string());
     let draft_duds = Query::And(vec![
         oracle_text("draft"), //
@@ -110,22 +122,21 @@ async fn main() {
         ("./meld_duds.txt".to_string(), meld_duds.clone()),
         ("./rebalanced.txt".to_string(), rebalanced.clone()),
         (
-            "./for-subset-fundamental.txt".to_string(),
+            "./for-subset-constructed.txt".to_string(),
             Query::Or(vec![
                 Query::And(vec![
-                    format(Format::Vintage),
+                    vintage_taste_ban.clone(),
                     not(basics),
                     not(draft_duds),
                     not(meld_duds),
-                    set("bfz"),                             // A `Param` variant.
-                    rarity(scryfall::card::Rarity::Mythic), // A `Param` variant.
-                    CardIs::OddCmc.into(),
                 ]),
                 rebalanced,
             ]),
         ),
     ];
     for (dest_filename, query) in format.iter() {
-        write_query(dest_filename, query).await.unwrap();
+        query_to_draftmancer_list(dest_filename, query)
+            .await
+            .unwrap();
     }
 }
