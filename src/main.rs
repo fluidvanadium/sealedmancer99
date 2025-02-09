@@ -1,4 +1,5 @@
 use scryfall::format::Format;
+use scryfall::list::ListIter;
 use scryfall::search::param;
 use scryfall::search::param::exact;
 // use scryfall::format::Format;
@@ -21,68 +22,57 @@ async fn query_to_draftmancer_list(
 
     println!("query ready");
 
-    let mut cards = Query::And(vec![query.clone(), Query::Custom("not:split".to_string())])
-        .search()
-        .await
-        .unwrap();
-    println!("search download completed (not:split)");
+    let non_splits = name_strings_for_draftmancer(query, false).await;
+    let splits = name_strings_for_draftmancer(query, true).await;
 
-    for _ in 0..cards.size_hint().0 {
-        let next_card = cards.next().await;
-        let card_name_result = process_next_card(&next_card).await;
+    let all = non_splits + &splits;
 
-        match card_name_result {
-            Ok(card_name) => {
-                dest_file
-                    .write_all(card_name.split("//").next().unwrap().as_bytes())
-                    .expect("Unable to write data");
-                dest_file
-                    .write_all("\n".as_bytes())
-                    .expect("Unable to write data");
-            }
-            Err(err) => {
-                dest_file
-                    .write_all(err.to_string().as_bytes())
-                    .expect("Unable to write data");
-                break;
-            }
-        }
-    }
-
-    if let Ok(mut cards) = Query::And(vec![query.clone(), Query::Custom("is:split".to_string())])
-        .search()
-        .await
-    {
-        println!("search download completed (split)");
-        for _ in 0..cards.size_hint().0 {
-            let next_card = cards.next().await;
-            let card_name_result = process_next_card(&next_card).await;
-
-            match card_name_result {
-                Ok(card_name) => {
-                    dest_file
-                        .write_all(card_name.as_bytes())
-                        .expect("Unable to write data");
-                    dest_file
-                        .write_all("\n".as_bytes())
-                        .expect("Unable to write data");
-                }
-                Err(err) => {
-                    dest_file
-                        .write_all(err.to_string().as_bytes())
-                        .expect("Unable to write data");
-                    break;
-                }
-            }
-        }
-    }
+    dest_file
+        .write_all(all.as_bytes())
+        .expect("Unable to write data");
 
     Ok(0)
 }
 
-async fn process_next_card(card: &Option<Result<Card, Error>>) -> Result<String, String> {
-    let v1 = card.as_ref().unwrap();
-    let v2 = v1.as_ref().map_err(|e| e.to_string())?;
+async fn name_strings_for_draftmancer(query: &Query, splits: bool) -> String {
+    let mut card_list = "".to_string();
+
+    let complete_query = if splits {
+        Query::And(vec![query.clone(), Query::Custom("is:split".to_string())])
+    } else {
+        Query::And(vec![query.clone(), Query::Custom("not:split".to_string())])
+    };
+
+    if let Ok(mut cards) = complete_query.clone().search().await {
+        println!("search download completed (split)");
+        loop {
+            let next_card = cards.next().await;
+            match next_card {
+                None => {
+                    break;
+                }
+                Some(card) => {
+                    let card_name = process_next_card(&card).await.unwrap();
+
+                    let name = if splits {
+                        card_name
+                    } else {
+                        card_name.split("//").next().unwrap().to_string()
+                    };
+                    println!("> {name}");
+                    card_list = card_list
+                        + "
+" + &name;
+                }
+            }
+        }
+    }
+
+    card_list
+}
+
+async fn process_next_card(card: &Result<Card, Error>) -> Result<String, String> {
+    let v2 = card.as_ref().map_err(|e| e.to_string())?;
     let name = v2.name.clone();
     println!("> {name}");
     Ok(name)
@@ -91,7 +81,7 @@ async fn process_next_card(card: &Option<Result<Card, Error>>) -> Result<String,
 
 #[tokio::main]
 async fn main() {
-    dbg!(exact("Dungeon Delver").search().await.unwrap().next().await);
+    // dbg!(exact("Dungeon Delver").search().await.unwrap().next().await);
 
     std::env::set_current_dir("results/lists").unwrap();
 
@@ -143,27 +133,40 @@ async fn main() {
                 Query::And(vec![
                     vintage_taste_ban.clone(),
                     not(basics.clone()),
-                    not(draft_involved.clone()),
                     not(meld_duds.clone()),
                     not(unfun.clone()),
                 ]),
                 rebalanced.clone(),
             ]),
         ),
-        // (
-        //     "./for-subset-allstars.txt".to_string(),
-        //     Query::Or(vec![
-        //         Query::And(vec![
-        //             vintage_taste_ban.clone(),
-        //             not(basics.clone()),
-        //             not(draft_involved.clone()),
-        //             not(commander_synergy.clone()),
-        //             not(meld_duds.clone()),
-        //             not(unfun.clone()),
-        //         ]),
-        //         rebalanced,
-        //     ]),
-        // ),
+        (
+            // also works for fundamental magic
+            "./for-subset-allstars.txt".to_string(),
+            Query::Or(vec![
+                Query::And(vec![
+                    vintage_taste_ban.clone(),
+                    not(basics.clone()),
+                    not(draft_involved.clone()),
+                    not(commander_synergy.clone()),
+                    not(meld_duds.clone()),
+                    not(unfun.clone()),
+                ]),
+                rebalanced.clone(),
+            ]),
+        ),
+        (
+            "./for-subset-draft.txt".to_string(),
+            Query::Or(vec![
+                Query::And(vec![
+                    vintage_taste_ban.clone(),
+                    not(basics.clone()),
+                    not(commander_synergy.clone()),
+                    not(meld_duds.clone()),
+                    not(unfun.clone()),
+                ]),
+                rebalanced.clone(),
+            ]),
+        ),
     ];
     for (dest_filename, query) in format.iter() {
         query_to_draftmancer_list(dest_filename, query)
