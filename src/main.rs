@@ -83,13 +83,15 @@ async fn process_next_card(card: &Option<Result<Card, Error>>) -> Result<String,
     let v1 = card.as_ref().unwrap();
     let v2 = v1.as_ref().map_err(|e| e.to_string())?;
     let name = v2.name.clone();
-    println!("{name}");
+    println!("> {name}");
     Ok(name)
     // Ok(match name.split("//") {})
 }
 
 #[tokio::main]
 async fn main() {
+    std::env::set_current_dir("results/lists").unwrap();
+
     let basics = type_line("basic".to_string());
     let draft_duds = Query::And(vec![
         oracle_text("draft"), //
@@ -99,22 +101,27 @@ async fn main() {
         CardIs::Meld.into(),           //
         not(full_oracle_text("meld")), //
     ]);
+    let rebalanced = name(Regex::from(r"^A-"));
     let format = [
         // ("./draftmancer-for-subset-constructed.txt".to_string(),
         //     Query::Custom("(legal:vintage -t:stickers -o:sticker -o:ticket -o:{TK} (-t:attraction -o:Attraction or name:attraction) (-o:draft or 'draft') -t:basic -(-fo:meld is:meld)) or (name:/^a-/) or 'Stone-Throwing Devils' or 'Pradesh Gypsies' or 'Shahrazad'".to_string())),
         ("./basics.txt".to_string(), basics.clone()),
-        ("./excluded_draft_duds.txt".to_string(), draft_duds.clone()),
-        ("./excluded_meld_duds.txt".to_string(), meld_duds.clone()),
+        ("./draft_duds.txt".to_string(), draft_duds.clone()),
+        ("./meld_duds.txt".to_string(), meld_duds.clone()),
+        ("./rebalanced.txt".to_string(), rebalanced.clone()),
         (
-            "./draftmancer-for-subset-fundamental.txt".to_string(),
-            Query::And(vec![
-                format(Format::Vintage),
-                not(basics),
-                not(draft_duds),
-                not(meld_duds),
-                set("bfz"),                             // A `Param` variant.
-                rarity(scryfall::card::Rarity::Mythic), // A `Param` variant.
-                CardIs::OddCmc.into(),
+            "./for-subset-fundamental.txt".to_string(),
+            Query::Or(vec![
+                Query::And(vec![
+                    format(Format::Vintage),
+                    not(basics),
+                    not(draft_duds),
+                    not(meld_duds),
+                    set("bfz"),                             // A `Param` variant.
+                    rarity(scryfall::card::Rarity::Mythic), // A `Param` variant.
+                    CardIs::OddCmc.into(),
+                ]),
+                rebalanced,
             ]),
         ),
     ];

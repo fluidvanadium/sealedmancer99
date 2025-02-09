@@ -1,0 +1,217 @@
+A-Acererak the Archlich
+A-Akki Ronin
+A-Alrund, God of the Cosmos 
+A-Alrund's Epiphany
+A-Ancestral Katana
+A-Ardent Dustspeaker
+A-Armory Veteran
+A-Asari Captain
+A-Baleful Beholder
+A-Base Camp
+A-Binding Geist 
+A-Blessed Hippogriff 
+A-Blood Artist
+A-Bretagard Stronghold
+A-Briar Hydra
+A-Brine Comber 
+A-Bruenor Battlehammer
+A-Buy Your Silence
+A-Cabaretti Charm
+A-Canopy Tactician
+A-Capenna Express
+A-Carnelian Orb of Dragonkind
+A-Case the Joint
+A-Cauldron Familiar
+A-Celebrity Fencer
+A-Celestial Regulator
+A-Circle of the Land Druid
+A-Circuit Mender
+A-Civil Servant
+A-Cloister Gargoyle
+A-Cobbled Lancer
+A-Cosmos Charger
+A-Cosmos Elixir
+A-Dawnbringer Cleric
+A-Deal Gone Bad
+A-Death-Priest of Myrkul
+A-Demilich
+A-Demon's Due
+A-Devoted Grafkeeper 
+A-Dokuchi Silencer
+A-Dorothea, Vengeful Victim 
+A-Dragonborn Looter
+A-Dragon's Rage Channeler
+A-Dreamshackle Geist
+A-Druid Class
+A-Druidic Ritual
+A-Dueling Coach
+A-Dungeon Descent
+A-Dwarfhold Champion
+A-Earthquake Dragon
+A-Eiganjo Exemplar
+A-Elderfang Ritualist
+A-Elderleaf Mentor
+A-Ellywick Tumblestrum
+A-Elven Bow
+A-Emerald Dragon 
+A-Excavation Explosion
+A-Exhibition Magician
+A-Eyes of the Beholder
+A-Falcon Abomination
+A-Fall of the Impostor
+A-Fates' Reversal
+A-Find the Path
+A-Fires of Invention
+A-Forge Boss
+A-Futurist Operative
+A-Galvanic Discharge
+A-Geological Appraiser
+A-Geology Enthusiast
+A-Glamorous Outlaw
+A-Glittermonger
+A-Gnarlid Colony
+A-Goggles of Night
+A-Goma Fada Vanguard
+A-Graveyard Shift
+A-Guide of Souls
+A-Guildsworn Prowler
+A-Gutter Skulker 
+A-Hagra Constrictor
+A-Hall of Tagsin
+A-Harald, King of Skemfar
+A-Harald Unites the Elves
+A-Haywire Mite
+A-Heartfire Hero
+A-High-Rise Sawjack
+A-Hobbling Zombie
+A-Imperial Subduer
+A-Incriminate
+A-Iridescent Hornbeetle
+A-Jackhammer
+A-Jade Orb of Dragonkind
+A-Kargan Intimidator
+A-Kargan Warleader
+A-Karn, Living Legacy
+A-Kenku Artificer
+A-Knockout Blow
+A-Krydle of Baldur's Gate
+A-Lantern Bearer 
+A-Lantern of Revealing
+A-Lapis Orb of Dragonkind
+A-Leyline of Resonance
+A-Lier, Disciple of the Drowned
+A-Llanowar Greenwidow
+A-Llanowar Loamspeaker
+A-Maelstrom Muse
+A-Manticore
+A-Masked Bandits
+A-Master of Winds
+A-Mentor's Guidance
+A-Meria's Outrider
+A-Metropolis Angel
+A-Midnight Assassin
+A-Mightstone's Animation
+A-Minsc & Boo, Timeless Heroes
+A-Mischievous Catgeist 
+A-Mishra, Excavation Prodigy
+A-Moon-Circuit Hacker
+A-Moss-Pit Skeleton
+A-Most Wanted
+A-Mr. Orfeo, the Boulder
+A-Nadu, Winged Wisdom
+A-Nael, Avizoa Aeronaut
+A-Nahiri, Heir of the Ancients
+A-Narfi, Betrayer King
+A-Nashi, Moon Sage's Scion
+A-Navigation Orb
+A-Nezumi Prowler
+A-Ocelot Pride
+A-Ochre Jelly
+A-Ominous Parcel
+A-Omnath, Locus of Creation
+A-Oran-Rief Ooze
+A-Orcish Bowmasters
+A-Paragon of Modernity
+A-Patrician Geist
+A-Peerless Samurai
+A-Phantom Carriage
+A-Phylath, World Sculptor
+A-Plate Armor
+A-Precipitous Drop
+A-Prosperous Thief
+A-Pseudodragon Familiar
+A-Psionic Snoop
+A-Public Enemy
+A-Pyre-Sledge Arsonist
+A-Queza, Augur of Agonies
+A-Radha, Coalition Warlord
+A-Radha's Firebrand
+A-Raiyuu, Storm's Edge
+A-Rakish Revelers
+A-Ready to Rumble
+A-Return Upon the Tide
+A-Revel Ruiner
+A-Riveteers Initiate
+A-Rockslide Sorcerer
+A-Rowan, Scholar of Sparks 
+A-Rulik Mons, Warren Chief
+A-Saheeli, Filigree Master
+A-Satoru Umezawa
+A-Scout the Wilderness
+A-Security Rhox
+A-Sepulcher Ghoul
+A-Sewer Crocodile
+A-Shattered Seraph
+A-Shessra, Death's Whisper
+A-Shipwreck Sifters
+A-Sigardian Paladin
+A-Sigil of Myrkul
+A-Silver-Fur Master
+A-Sizzling Soloist
+A-Skemfar Avenger
+A-Skemfar Elderhall
+A-Skull Skaab
+A-Skyclave Shadowcat
+A-Social Climber
+A-Sorcerer Class
+A-Soul of Windgrace
+A-Spara's Adjudicators
+A-Speakeasy Server
+A-Spell Satchel
+A-Split the Spoils
+A-Splitting the Powerstone
+A-Sprouting Goblin
+A-Steadfast Unicorn
+A-Stimulus Package
+A-Stitched Assistant
+A-Sunbathing Rootwalla
+A-Symmetry Sage
+A-Syndicate Infiltrator
+A-Tanazir Quandrix
+A-Tatyova, Steward of Tides
+A-Teferi, Time Raveler
+A-Tenured Inkcaster
+A-The Meathook Massacre
+A-The One Ring
+A-Thornmantle Striker
+A-Thousand-Faced Shadow
+A-Thran Portal
+A-Thran Spider
+A-Tome Shredder
+A-Triumphant Adventurer
+A-Tyvar Kell
+A-Umara Mystic
+A-Unholy Heat
+A-Urza, Powerstone Prodigy
+A-Urza's Command
+A-Uurg, Spawn of Turg
+A-Vampire Scrivener
+A-Vega, the Watcher
+A-Visions of Phyrexia
+A-Warm Welcome
+A-Winota, Joiner of Forces
+A-Wizard Class
+A-You Come to a River
+A-Young Blue Dragon 
+A-Young Red Dragon 
+A-Zar Ojanen, Scion of Efrava
