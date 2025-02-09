@@ -92,10 +92,16 @@ async fn main() {
         CardIs::Meld.into(),           //
         not(full_oracle_text("meld")), //
     ]);
-    let unfun = Query::Or(vec![
-        full_oracle_text("sticker"), //
-        full_oracle_text("ticket"),  //
-        full_oracle_text("{TK}"),    //
+    let unfun = Query::And(vec![
+        Or(vec![
+            full_oracle_text("sticker"), //
+            full_oracle_text("ticket"),  //
+            full_oracle_text(""),        //
+            full_oracle_text("{TK}"),    //
+        ]),
+        not(exact("Ticket Tortoise")),
+        not(name("Ticket Booth")),
+        not(name("Fatal Attraction")),
     ]);
     let commander_synergy = Query::And(vec![
         oracle_text("commander"),                       //
