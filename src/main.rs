@@ -95,17 +95,23 @@ async fn main() {
         oracle_text("draft"), //
         not(name("draft")),   //
     ]);
+    let meld_duds = Query::And(vec![
+        CardIs::Meld.into(),           //
+        not(full_oracle_text("meld")), //
+    ]);
     let format = [
         // ("./draftmancer-for-subset-constructed.txt".to_string(),
         //     Query::Custom("(legal:vintage -t:stickers -o:sticker -o:ticket -o:{TK} (-t:attraction -o:Attraction or name:attraction) (-o:draft or 'draft') -t:basic -(-fo:meld is:meld)) or (name:/^a-/) or 'Stone-Throwing Devils' or 'Pradesh Gypsies' or 'Shahrazad'".to_string())),
         ("./basics.txt".to_string(), basics.clone()),
         ("./excluded_draft_duds.txt".to_string(), draft_duds.clone()),
+        ("./excluded_meld_duds.txt".to_string(), meld_duds.clone()),
         (
             "./draftmancer-for-subset-fundamental.txt".to_string(),
             Query::And(vec![
                 format(Format::Vintage),
-                not(draft_duds),
                 not(basics),
+                not(draft_duds),
+                not(meld_duds),
                 set("bfz"),                             // A `Param` variant.
                 rarity(scryfall::card::Rarity::Mythic), // A `Param` variant.
                 CardIs::OddCmc.into(),
