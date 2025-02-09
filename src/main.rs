@@ -36,20 +36,20 @@ async fn name_strings_for_draftmancer(query: &Query, splits: bool) -> String {
             let next_card = cards.next().await;
             match next_card {
                 None => {
+                    println!("no more cards");
                     break;
                 }
                 Some(card) => {
-                    if let Ok(card_name) = process_next_card(&card).await {
-                        let name = if splits {
-                            card_name
-                        } else {
-                            card_name.split("//").next().unwrap().to_string()
-                        };
-                        println!("> {name}");
-                        card_list = card_list
-                            + "
+                    let card_name = process_next_card(&card).await.unwrap();
+                    let name = if splits {
+                        card_name
+                    } else {
+                        card_name.split("//").next().unwrap().to_string()
+                    };
+                    println!("> {name}");
+                    card_list = card_list
+                        + "
 " + &name;
-                    }
                 }
             }
         }
