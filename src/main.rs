@@ -1,3 +1,4 @@
+use scryfall::search::param;
 // use scryfall::format::Format;
 use scryfall::search::prelude::*;
 use scryfall::Card;
@@ -8,7 +9,7 @@ use std::io::Read;
 use std::io::Write;
 use std::path::Path;
 
-async fn write_query(destination_filename: &String, query: &String) -> Result<u64, Error> {
+async fn write_query(destination_filename: &String, query: &Query) -> Result<u64, Error> {
     let dest_path = Path::new(destination_filename.as_str());
 
     let mut dest_file = File::create(dest_path).unwrap();
@@ -17,13 +18,10 @@ async fn write_query(destination_filename: &String, query: &String) -> Result<u6
     // let query = Query::And(vec![proto_query, Query::Custom("r:common".to_string())]);
     println!("query ready");
 
-    let mut cards = Query::And(vec![
-        Query::Custom(query.clone()),
-        Query::Custom("not:split".to_string()),
-    ])
-    .search()
-    .await
-    .unwrap();
+    let mut cards = Query::And(vec![query.clone(), Query::Custom("not:split".to_string())])
+        .search()
+        .await
+        .unwrap();
     println!("search download completed (not:split)");
 
     for _ in 0..cards.size_hint().0 {
@@ -48,32 +46,30 @@ async fn write_query(destination_filename: &String, query: &String) -> Result<u6
         }
     }
 
-    let mut cards = Query::And(vec![
-        Query::Custom(query.clone()),
-        Query::Custom("is:split".to_string()),
-    ])
-    .search()
-    .await
-    .unwrap();
-    println!("search download completed (split)");
-    for _ in 0..cards.size_hint().0 {
-        let next_card = cards.next().await;
-        let card_name_result = process_next_card(&next_card).await;
+    if let Ok(mut cards) = Query::And(vec![query.clone(), Query::Custom("is:split".to_string())])
+        .search()
+        .await
+    {
+        println!("search download completed (split)");
+        for _ in 0..cards.size_hint().0 {
+            let next_card = cards.next().await;
+            let card_name_result = process_next_card(&next_card).await;
 
-        match card_name_result {
-            Ok(card_name) => {
-                dest_file
-                    .write_all(card_name.as_bytes())
-                    .expect("Unable to write data");
-                dest_file
-                    .write_all("\n".as_bytes())
-                    .expect("Unable to write data");
-            }
-            Err(err) => {
-                dest_file
-                    .write_all(err.to_string().as_bytes())
-                    .expect("Unable to write data");
-                break;
+            match card_name_result {
+                Ok(card_name) => {
+                    dest_file
+                        .write_all(card_name.as_bytes())
+                        .expect("Unable to write data");
+                    dest_file
+                        .write_all("\n".as_bytes())
+                        .expect("Unable to write data");
+                }
+                Err(err) => {
+                    dest_file
+                        .write_all(err.to_string().as_bytes())
+                        .expect("Unable to write data");
+                    break;
+                }
             }
         }
     }
@@ -92,11 +88,26 @@ async fn process_next_card(card: &Option<Result<Card, Error>>) -> Result<String,
 
 #[tokio::main]
 async fn main() {
-    let format = vec![
-        (format!("./draftmancer-for-subset-constructed.txt"),"(legal:vintage -t:stickers -o:sticker -o:ticket -o:{TK} (-t:attraction -o:Attraction or name:attraction) -o:draft -t:basic -(-fo:meld is:meld)) or (name:/^a-/) or 'Stone-Throwing Devils' or 'Pradesh Gypsies' or 'Shahrazad' or 'Downdraft' or 'Backdraft'".to_string()),
+    let format = [
+        ("./draftmancer-for-subset-constructed.txt".to_string(),
+            Query::Custom("(legal:vintage -t:stickers -o:sticker -o:ticket -o:{TK} (-t:attraction -o:Attraction or name:attraction) (-o:draft or 'draft') -t:basic -(-fo:meld is:meld)) or (name:/^a-/) or 'Stone-Throwing Devils' or 'Pradesh Gypsies' or 'Shahrazad'".to_string())),
         (
-            format!("./draftmancer-for-subset-fundamental.txt"),
-            "Downdraft".to_string(),
+            "./basics.txt".to_string(),
+            type_line("basic".to_string())
+        ),
+        (
+            "./test_downdraft.txt".to_string(),
+            param::exact("Downdraft".to_string()),
+        ),
+        (
+            "./draftmancer-for-subset-fundamental.txt".to_string(),
+            Query::And(vec![
+                 Query::Or(vec![power(9), toughness(9)]),
+                 Query::Custom("t:eldrazi".to_string()),
+                 set("bfz"),             // A `Param` variant.
+                 rarity(scryfall::card::Rarity::Mythic), // A `Param` variant.
+                 CardIs::OddCmc.into(),
+             ])
         ),
     ];
     for (dest_filename, query) in format.iter() {
