@@ -8,16 +8,11 @@ use std::io::Read;
 use std::io::Write;
 use std::path::Path;
 
-async fn app() -> Result<u64, Error> {
-    let dest_filename = format!("./draftmancer-for-subset-constructed.txt");
-
-    let dest_path = Path::new(dest_filename.as_str());
+async fn write_query(destination_filename: String, query: Query) -> Result<u64, Error> {
+    let dest_path = Path::new(destination_filename.as_str());
 
     let mut dest_file = File::create(dest_path).unwrap();
 
-    let query = Query::Custom(
-        "(legal:vintage -t:stickers -o:sticker -o:ticket -o:{TK} (-t:attraction -o:Attraction or name:attraction) -o:draft -t:basic -(-fo:meld is:meld)) or (name:/^a-/) or 'Stone-Throwing Devils' or 'Pradesh Gypsies' or 'Shahrazad' or 'Downdraft' or 'Backdraft'".to_string(),
-    );
     // meld. basics. commander
     // let query = Query::And(vec![proto_query, Query::Custom("r:common".to_string())]);
     println!("query ready");
@@ -91,5 +86,9 @@ async fn process_next_card(card: &Option<Result<Card, Error>>) -> Result<String,
 
 #[tokio::main]
 async fn main() {
-    app().await.unwrap();
+    let dest_filename = format!("./draftmancer-for-subset-constructed.txt");
+    let query = Query::Custom(
+        "(legal:vintage -t:stickers -o:sticker -o:ticket -o:{TK} (-t:attraction -o:Attraction or name:attraction) -o:draft -t:basic -(-fo:meld is:meld)) or (name:/^a-/) or 'Stone-Throwing Devils' or 'Pradesh Gypsies' or 'Shahrazad' or 'Downdraft' or 'Backdraft'".to_string(),
+    );
+    write_query(dest_filename, query).await.unwrap();
 }
