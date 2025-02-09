@@ -41,17 +41,17 @@ async fn name_strings_for_draftmancer(query: &Query, splits: bool) -> String {
                     break;
                 }
                 Some(card) => {
-                    let card_name = process_next_card(&card).await.unwrap();
-
-                    let name = if splits {
-                        card_name
-                    } else {
-                        card_name.split("//").next().unwrap().to_string()
-                    };
-                    println!("> {name}");
-                    card_list = card_list
-                        + "
+                    if let Ok(card_name) = process_next_card(&card).await {
+                        let name = if splits {
+                            card_name
+                        } else {
+                            card_name.split("//").next().unwrap().to_string()
+                        };
+                        println!("> {name}");
+                        card_list = card_list
+                            + "
 " + &name;
+                    }
                 }
             }
         }
@@ -104,8 +104,6 @@ async fn main() {
     ]);
     let rebalanced = name(Regex::from(r"^A-"));
     let format = [
-        // ("./draftmancer-for-subset-constructed.txt".to_string(),
-        //     Query::Custom("(legal:vintage -t:stickers -o:sticker -o:ticket -o:{TK} (-t:attraction -o:Attraction or name:attraction) (-o:draft or 'draft') -t:basic -(-fo:meld is:meld)) or (name:/^a-/) or 'Stone-Throwing Devils' or 'Pradesh Gypsies' or 'Shahrazad'".to_string())),
         ("./basics.txt".to_string(), basics.clone()),
         ("./draft_involved.txt".to_string(), draft_involved.clone()),
         ("./meld_duds.txt".to_string(), meld_duds.clone()),
