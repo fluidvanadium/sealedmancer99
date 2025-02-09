@@ -19,8 +19,6 @@ async fn query_to_draftmancer_list(
 
     let mut dest_file = File::create(dest_path).unwrap();
 
-    // meld. basics. commander
-    // let query = Query::And(vec![proto_query, Query::Custom("r:common".to_string())]);
     println!("query ready");
 
     let mut cards = Query::And(vec![query.clone(), Query::Custom("not:split".to_string())])
@@ -93,6 +91,8 @@ async fn process_next_card(card: &Option<Result<Card, Error>>) -> Result<String,
 
 #[tokio::main]
 async fn main() {
+    dbg!(exact("Dungeon Delver").search().await.unwrap().next().await);
+
     std::env::set_current_dir("results/lists").unwrap();
 
     let vintage_taste_ban = Query::Or(vec![
@@ -102,10 +102,11 @@ async fn main() {
         ]),
         exact("Stone-Throwing Devils"),
         exact("Pradesh Gypsies"),
+        exact("Shahrazad"),
     ]);
 
     let basics = type_line("basic".to_string());
-    let draft_duds = Query::And(vec![
+    let draft_involved = Query::And(vec![
         oracle_text("draft"), //
         not(name("draft")),   //
     ]);
@@ -113,26 +114,56 @@ async fn main() {
         CardIs::Meld.into(),           //
         not(full_oracle_text("meld")), //
     ]);
+    let unfun = Query::Or(vec![
+        full_oracle_text("sticker"), //
+        full_oracle_text("ticket"),  //
+        full_oracle_text("{TK}"),    //
+    ]);
+    let commander_synergy = Query::And(vec![
+        oracle_text("commander"),                       //
+        not(name("commander")),                         //
+        not(full_oracle_text("can be your commander")), //
+    ]);
     let rebalanced = name(Regex::from(r"^A-"));
     let format = [
         // ("./draftmancer-for-subset-constructed.txt".to_string(),
         //     Query::Custom("(legal:vintage -t:stickers -o:sticker -o:ticket -o:{TK} (-t:attraction -o:Attraction or name:attraction) (-o:draft or 'draft') -t:basic -(-fo:meld is:meld)) or (name:/^a-/) or 'Stone-Throwing Devils' or 'Pradesh Gypsies' or 'Shahrazad'".to_string())),
         ("./basics.txt".to_string(), basics.clone()),
-        ("./draft_duds.txt".to_string(), draft_duds.clone()),
+        ("./draft_involved.txt".to_string(), draft_involved.clone()),
         ("./meld_duds.txt".to_string(), meld_duds.clone()),
+        ("./unfun.txt".to_string(), unfun.clone()),
+        (
+            "./commander_synergy.txt".to_string(),
+            commander_synergy.clone(),
+        ),
         ("./rebalanced.txt".to_string(), rebalanced.clone()),
         (
             "./for-subset-constructed.txt".to_string(),
             Query::Or(vec![
                 Query::And(vec![
                     vintage_taste_ban.clone(),
-                    not(basics),
-                    not(draft_duds),
-                    not(meld_duds),
+                    not(basics.clone()),
+                    not(draft_involved.clone()),
+                    not(meld_duds.clone()),
+                    not(unfun.clone()),
                 ]),
-                rebalanced,
+                rebalanced.clone(),
             ]),
         ),
+        // (
+        //     "./for-subset-allstars.txt".to_string(),
+        //     Query::Or(vec![
+        //         Query::And(vec![
+        //             vintage_taste_ban.clone(),
+        //             not(basics.clone()),
+        //             not(draft_involved.clone()),
+        //             not(commander_synergy.clone()),
+        //             not(meld_duds.clone()),
+        //             not(unfun.clone()),
+        //         ]),
+        //         rebalanced,
+        //     ]),
+        // ),
     ];
     for (dest_filename, query) in format.iter() {
         query_to_draftmancer_list(dest_filename, query)
