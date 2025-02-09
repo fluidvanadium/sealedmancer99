@@ -91,20 +91,20 @@ async fn process_next_card(card: &Option<Result<Card, Error>>) -> Result<String,
 #[tokio::main]
 async fn main() {
     let basics = type_line("basic".to_string());
-    let not_draft_duds = Query::Or(vec![name("draft"), not(oracle_text("draft"))]);
+    let draft_duds = Query::And(vec![
+        oracle_text("draft"), //
+        not(name("draft")),   //
+    ]);
     let format = [
         // ("./draftmancer-for-subset-constructed.txt".to_string(),
         //     Query::Custom("(legal:vintage -t:stickers -o:sticker -o:ticket -o:{TK} (-t:attraction -o:Attraction or name:attraction) (-o:draft or 'draft') -t:basic -(-fo:meld is:meld)) or (name:/^a-/) or 'Stone-Throwing Devils' or 'Pradesh Gypsies' or 'Shahrazad'".to_string())),
         ("./basics.txt".to_string(), basics.clone()),
-        (
-            "./excluded_draft_duds.txt".to_string(),
-            not(not_draft_duds.clone()),
-        ),
+        ("./excluded_draft_duds.txt".to_string(), draft_duds.clone()),
         (
             "./draftmancer-for-subset-fundamental.txt".to_string(),
             Query::And(vec![
                 format(Format::Vintage),
-                not_draft_duds,
+                not(draft_duds),
                 not(basics),
                 set("bfz"),                             // A `Param` variant.
                 rarity(scryfall::card::Rarity::Mythic), // A `Param` variant.
