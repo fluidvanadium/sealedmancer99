@@ -12,14 +12,7 @@ use std::io::Read;
 use std::io::Write;
 use std::path::Path;
 
-async fn query_to_draftmancer_list(
-    destination_filename: &String,
-    query: &Query,
-) -> Result<u64, Error> {
-    let dest_path = Path::new(destination_filename.as_str());
-
-    let mut dest_file = File::create(dest_path).unwrap();
-
+async fn query_to_draftmancer_list(query: &Query) -> String {
     println!("query ready");
 
     let non_splits = name_strings_for_draftmancer(query, false).await;
@@ -27,11 +20,7 @@ async fn query_to_draftmancer_list(
 
     let all = non_splits + &splits;
 
-    dest_file
-        .write_all(all.as_bytes())
-        .expect("Unable to write data");
-
-    Ok(0)
+    all
 }
 
 async fn name_strings_for_draftmancer(query: &Query, splits: bool) -> String {
@@ -72,9 +61,8 @@ async fn name_strings_for_draftmancer(query: &Query, splits: bool) -> String {
 }
 
 async fn process_next_card(card: &Result<Card, Error>) -> Result<String, String> {
-    let v2 = card.as_ref().map_err(|e| e.to_string())?;
-    let name = v2.name.clone();
-    println!("> {name}");
+    let v1 = card.as_ref().map_err(|e| e.to_string())?;
+    let name = v1.name.clone();
     Ok(name)
     // Ok(match name.split("//") {})
 }
@@ -168,9 +156,17 @@ async fn main() {
             ]),
         ),
     ];
-    for (dest_filename, query) in format.iter() {
-        query_to_draftmancer_list(dest_filename, query)
-            .await
-            .unwrap();
+    // for (destination_filename, query) in format.iter() {
+    let index = 6;
+    let (destination_filename, query) = format[index].clone();
+    {
+        let list = query_to_draftmancer_list(&query).await;
+
+        let dest_path = Path::new(destination_filename.as_str());
+        let mut dest_file = File::create(dest_path).unwrap();
+
+        dest_file
+            .write_all(list.as_bytes())
+            .expect("Unable to write data");
     }
 }
