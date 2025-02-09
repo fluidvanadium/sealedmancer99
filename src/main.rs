@@ -93,10 +93,9 @@ async fn main() {
         not(full_oracle_text("meld")), //
     ]);
     let unfun = Query::And(vec![
-        Or(vec![
+        Query::Or(vec![
             full_oracle_text("sticker"), //
             full_oracle_text("ticket"),  //
-            full_oracle_text(""),        //
             full_oracle_text("{TK}"),    //
         ]),
         not(exact("Ticket Tortoise")),
