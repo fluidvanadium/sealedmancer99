@@ -8,7 +8,7 @@ use std::io::Read;
 use std::io::Write;
 use std::path::Path;
 
-async fn write_query(destination_filename: String, query: Query) -> Result<u64, Error> {
+async fn write_query(destination_filename: &String, query: &String) -> Result<u64, Error> {
     let dest_path = Path::new(destination_filename.as_str());
 
     let mut dest_file = File::create(dest_path).unwrap();
@@ -17,10 +17,13 @@ async fn write_query(destination_filename: String, query: Query) -> Result<u64, 
     // let query = Query::And(vec![proto_query, Query::Custom("r:common".to_string())]);
     println!("query ready");
 
-    let mut cards = Query::And(vec![query.clone(), Query::Custom("not:split".to_string())])
-        .search()
-        .await
-        .unwrap();
+    let mut cards = Query::And(vec![
+        Query::Custom(query.clone()),
+        Query::Custom("not:split".to_string()),
+    ])
+    .search()
+    .await
+    .unwrap();
     println!("search download completed (not:split)");
 
     for _ in 0..cards.size_hint().0 {
@@ -45,10 +48,13 @@ async fn write_query(destination_filename: String, query: Query) -> Result<u64, 
         }
     }
 
-    let mut cards = Query::And(vec![query, Query::Custom("is:split".to_string())])
-        .search()
-        .await
-        .unwrap();
+    let mut cards = Query::And(vec![
+        Query::Custom(query.clone()),
+        Query::Custom("is:split".to_string()),
+    ])
+    .search()
+    .await
+    .unwrap();
     println!("search download completed (split)");
     for _ in 0..cards.size_hint().0 {
         let next_card = cards.next().await;
@@ -86,9 +92,8 @@ async fn process_next_card(card: &Option<Result<Card, Error>>) -> Result<String,
 
 #[tokio::main]
 async fn main() {
-    let dest_filename = format!("./draftmancer-for-subset-constructed.txt");
-    let query = Query::Custom(
-        "(legal:vintage -t:stickers -o:sticker -o:ticket -o:{TK} (-t:attraction -o:Attraction or name:attraction) -o:draft -t:basic -(-fo:meld is:meld)) or (name:/^a-/) or 'Stone-Throwing Devils' or 'Pradesh Gypsies' or 'Shahrazad' or 'Downdraft' or 'Backdraft'".to_string(),
-    );
-    write_query(dest_filename, query).await.unwrap();
+    let format = vec![(format!("./draftmancer-for-subset-constructed.txt"),"(legal:vintage -t:stickers -o:sticker -o:ticket -o:{TK} (-t:attraction -o:Attraction or name:attraction) -o:draft -t:basic -(-fo:meld is:meld)) or (name:/^a-/) or 'Stone-Throwing Devils' or 'Pradesh Gypsies' or 'Shahrazad' or 'Downdraft' or 'Backdraft'".to_string())]    ;
+    for (dest_filename, query) in format.iter() {
+        write_query(dest_filename, query).await.unwrap();
+    }
 }
