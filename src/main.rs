@@ -26,6 +26,8 @@ async fn name_strings_for_draftmancer(query: &Query, splits: bool) -> String {
 
     if let Ok(mut cards) = complete_query.clone().search().await {
         println!("search download completed (splits = {splits})");
+        let mut backup_cards = cards.clone();
+
         loop {
             let next_card = cards.next().await;
             match next_card {
@@ -39,6 +41,9 @@ async fn name_strings_for_draftmancer(query: &Query, splits: bool) -> String {
                             .duration_since(SystemTime::UNIX_EPOCH)
                             .unwrap()
                             .as_micros();
+
+                        backup_cards = cards.clone();
+
                         let card_name = card.name;
                         let name = if splits {
                             card_name
@@ -52,7 +57,7 @@ async fn name_strings_for_draftmancer(query: &Query, splits: bool) -> String {
                     }
                     Err(e) => {
                         dbg!(e);
-                        panic!();
+                        cards = backup_cards.clone();
                     }
                 },
             }
