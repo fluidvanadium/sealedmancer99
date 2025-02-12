@@ -41,7 +41,7 @@ async fn name_strings_for_draftmancer(query: &Query, splits: bool) -> String {
                         let lookup_time = SystemTime::now()
                             .duration_since(before_time)
                             .unwrap()
-                            .as_nanos();
+                            .as_millis();
 
                         backup_cards = cards.clone();
 
