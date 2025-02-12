@@ -59,7 +59,7 @@ async fn name_strings_for_draftmancer(query: &Query, splits: bool) -> String {
 }
 
 async fn process_next_card(card: &Result<Card, Error>) -> Result<String, String> {
-    let v1 = card.as_ref().map_err(|e| e.to_string())?;
+    let v1 = card.as_ref().map_err(|e| dbg!(e).to_string())?;
     let name = v1.name.clone();
     Ok(name)
     // Ok(match name.split("//") {})
