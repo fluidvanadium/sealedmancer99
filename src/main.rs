@@ -29,10 +29,7 @@ async fn name_strings_for_draftmancer(query: &Query, splits: bool) -> String {
         let mut backup_cards = cards.clone();
 
         loop {
-            let before_time = SystemTime::now()
-                .duration_since(SystemTime::UNIX_EPOCH)
-                .unwrap()
-                .as_micros();
+            let before_time = SystemTime::now();
             let next_card = cards.next().await;
             match next_card {
                 None => {
@@ -44,7 +41,7 @@ async fn name_strings_for_draftmancer(query: &Query, splits: bool) -> String {
                         let lookup_time = SystemTime::now()
                             .duration_since(before_time)
                             .unwrap()
-                            .as_micros();
+                            .as_nanos();
 
                         backup_cards = cards.clone();
 
