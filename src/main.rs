@@ -1,6 +1,4 @@
 use scryfall::format::Format;
-use scryfall::list::ListIter;
-use scryfall::search::param;
 use scryfall::search::param::exact;
 // use scryfall::format::Format;
 use scryfall::search::prelude::*;
@@ -8,7 +6,6 @@ use scryfall::Card;
 // use scryfall::set::Set;
 use scryfall::Error;
 use std::fs::File;
-use std::io::Read;
 use std::io::Write;
 use std::path::Path;
 
