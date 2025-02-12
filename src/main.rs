@@ -1,10 +1,6 @@
 use scryfall::format::Format;
 use scryfall::search::param::exact;
-// use scryfall::format::Format;
 use scryfall::search::prelude::*;
-use scryfall::Card;
-// use scryfall::set::Set;
-use scryfall::Error;
 use std::fs::File;
 use std::io::Write;
 use std::path::Path;
@@ -36,30 +32,29 @@ async fn name_strings_for_draftmancer(query: &Query, splits: bool) -> String {
                     println!("no more cards");
                     break;
                 }
-                Some(card) => {
-                    let card_name = process_next_card(&card).await.unwrap();
-                    let name = if splits {
-                        card_name
-                    } else {
-                        card_name.split("//").next().unwrap().to_string()
-                    };
-                    println!("> {name}");
-                    card_list = card_list
-                        + "
+                Some(card_result) => match card_result {
+                    Ok(card) => {
+                        let card_name = card.name;
+                        let name = if splits {
+                            card_name
+                        } else {
+                            card_name.split("//").next().unwrap().to_string()
+                        };
+                        println!("> {name}");
+                        card_list = card_list
+                            + "
 " + &name;
-                }
+                    }
+                    Err(e) => {
+                        dbg!(e);
+                        panic!();
+                    }
+                },
             }
         }
     }
 
     card_list
-}
-
-async fn process_next_card(card: &Result<Card, Error>) -> Result<String, String> {
-    let v1 = card.as_ref().map_err(|e| dbg!(e).to_string())?;
-    let name = v1.name.clone();
-    Ok(name)
-    // Ok(match name.split("//") {})
 }
 
 #[tokio::main]
