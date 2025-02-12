@@ -4,6 +4,7 @@ use scryfall::search::prelude::*;
 use std::fs::File;
 use std::io::Write;
 use std::path::Path;
+use std::time::SystemTime;
 
 async fn query_to_draftmancer_list(query: &Query) -> String {
     println!("query ready");
@@ -34,13 +35,17 @@ async fn name_strings_for_draftmancer(query: &Query, splits: bool) -> String {
                 }
                 Some(card_result) => match card_result {
                     Ok(card) => {
+                        let now = SystemTime::now()
+                            .duration_since(SystemTime::UNIX_EPOCH)
+                            .unwrap()
+                            .as_micros();
                         let card_name = card.name;
                         let name = if splits {
                             card_name
                         } else {
                             card_name.split("//").next().unwrap().to_string()
                         };
-                        println!("> {name}");
+                        println!("{now} > {name}");
                         card_list = card_list
                             + "
 " + &name;
