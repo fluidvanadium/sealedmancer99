@@ -95,9 +95,10 @@ async fn main() {
     ]);
     let unfun = Query::And(vec![
         Query::Or(vec![
-            full_oracle_text("sticker"), //
-            full_oracle_text("ticket"),  //
-            full_oracle_text("{TK}"),    //
+            full_oracle_text("sticker"),    //
+            full_oracle_text("ticket"),     //
+            full_oracle_text("{TK}"),       //
+            full_oracle_text("attraction"), //
         ]),
         not(exact("Ticket Tortoise")),
         not(name("Ticket Booth")),
@@ -109,6 +110,7 @@ async fn main() {
         not(full_oracle_text("can be your commander")), //
     ]);
     let rebalanced = name(Regex::from(r"^A-"));
+    let conspiracy = type_line("conspiracy");
     let format = [
         ("./basics.txt".to_string(), basics.clone()),
         ("./draft_involved.txt".to_string(), draft_involved.clone()),
@@ -126,8 +128,10 @@ async fn main() {
                     vintage_taste_ban.clone(),
                     not(basics.clone()),
                     not(meld_duds.clone()),
+                    not(draft_involved.clone()),
                     not(unfun.clone()),
                 ]),
+                conspiracy.clone(),
                 rebalanced.clone(),
             ]),
         ),
@@ -156,6 +160,7 @@ async fn main() {
                     not(meld_duds.clone()),
                     not(unfun.clone()),
                 ]),
+                conspiracy.clone(),
                 rebalanced.clone(),
             ]),
         ),
