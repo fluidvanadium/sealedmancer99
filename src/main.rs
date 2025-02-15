@@ -4,7 +4,8 @@ use scryfall::search::prelude::*;
 use std::fs::File;
 use std::io::Write;
 use std::path::Path;
-use std::time::SystemTime;
+use std::thread::sleep;
+use std::time::{Duration, SystemTime};
 
 async fn query_to_draftmancer_list(query: &Query) -> String {
     println!("query ready");
@@ -30,6 +31,9 @@ async fn name_strings_for_draftmancer(query: &Query, splits: bool) -> String {
 
         loop {
             let before_time = SystemTime::now();
+
+            sleep(Duration::from_millis(1));
+
             let next_card = cards.next().await;
             match next_card {
                 None => {
@@ -59,6 +63,7 @@ async fn name_strings_for_draftmancer(query: &Query, splits: bool) -> String {
                     Err(e) => {
                         dbg!(e);
                         cards = backup_cards.clone();
+                        sleep(Duration::from_secs(5));
                     }
                 },
             }
