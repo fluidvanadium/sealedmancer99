@@ -32,7 +32,7 @@ async fn name_strings_for_draftmancer(query: &Query, splits: bool) -> String {
         loop {
             let before_time = SystemTime::now();
 
-            sleep(Duration::from_millis(1));
+            sleep(Duration::from_millis(10));
 
             let next_card = cards.next().await;
             match next_card {
