@@ -25,6 +25,9 @@ async fn name_strings_for_draftmancer(query: &Query, splits: bool) -> String {
         Query::And(vec![query.clone(), Query::Custom("not:split".to_string())])
     };
 
+    let mut total_retrieve_time = 0;
+    let mut total_error_time = 0;
+
     if let Ok(mut cards) = complete_query.clone().search().await {
         println!("search download completed (splits = {splits})");
         let mut backup_cards = cards.clone();
@@ -34,6 +37,12 @@ async fn name_strings_for_draftmancer(query: &Query, splits: bool) -> String {
             let before_time = SystemTime::now();
 
             let next_card = cards.next().await;
+
+            let lookup_time = SystemTime::now()
+                .duration_since(before_time)
+                .unwrap()
+                .as_nanos();
+
             match next_card {
                 None => {
                     println!("no more cards");
@@ -41,10 +50,7 @@ async fn name_strings_for_draftmancer(query: &Query, splits: bool) -> String {
                 }
                 Some(card_result) => match card_result {
                     Ok(card) => {
-                        let lookup_time = SystemTime::now()
-                            .duration_since(before_time)
-                            .unwrap()
-                            .as_millis();
+                        total_retrieve_time += lookup_time;
 
                         backup_cards = cards.clone();
 
@@ -60,6 +66,7 @@ async fn name_strings_for_draftmancer(query: &Query, splits: bool) -> String {
 " + &name;
                     }
                     Err(e) => {
+                        total_error_time += lookup_time;
                         dbg!(e);
                         cards = backup_cards.clone();
                         sleep(Duration::from_secs(5));
