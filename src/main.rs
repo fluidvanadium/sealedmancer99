@@ -74,6 +74,8 @@ async fn name_strings_for_draftmancer(query: &Query, splits: bool) -> String {
                 },
             }
         }
+        dbg!(total_retrieve_time);
+        dbg!(total_error_time);
     }
 
     card_list
