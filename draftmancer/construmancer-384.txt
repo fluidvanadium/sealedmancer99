@@ -1,6 +1,6 @@
 [Settings]
 {
-	"name": "sealedmancer128",
+	"name": "construmancer384",
 	
 	"boostersPerPlayer": 1,
 	"withReplacement": true,
@@ -8,15 +8,15 @@
 
 	"boosterSettings": [
 		{
-			"picks": 128,
+			"picks": 384,
 		}, 
 	],
 
 	"layouts": {
 		"Sealed": {
-			"weight": 123,
+			"weight": 1,
 			"slots": {
-  				"Any": 128,
+  				"Any": 384,
 			}
 		},
 	}
