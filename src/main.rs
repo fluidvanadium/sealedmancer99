@@ -33,7 +33,7 @@ async fn name_strings_for_draftmancer(query: &Query, splits: bool) -> String {
         let mut backup_cards = cards.clone();
 
         loop {
-            sleep(Duration::from_millis(10));
+            sleep(Duration::from_millis(50));
             let before_time = SystemTime::now();
 
             let next_card = cards.next().await;
