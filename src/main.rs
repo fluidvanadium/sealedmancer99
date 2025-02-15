@@ -165,11 +165,11 @@ async fn main() {
             ]),
         ),
     ];
-    // for (destination_filename, query) in format.iter() {
-    let index = 6;
-    let (destination_filename, query) = format[index].clone();
+    for (destination_filename, query) in format.iter()
+    // let index = 6;
+    // let (destination_filename, query) = format[index].clone();
     {
-        let list = query_to_draftmancer_list(&query).await;
+        let list = query_to_draftmancer_list(query).await;
 
         let dest_path = Path::new(destination_filename.as_str());
         let mut dest_file = File::create(dest_path).unwrap();
