@@ -121,47 +121,73 @@ async fn main() {
             commander_synergy.clone(),
         ),
         ("./rebalanced.txt".to_string(), rebalanced.clone()),
-        (
-            "./for-subset-constructed.txt".to_string(),
-            Query::Or(vec![
-                Query::And(vec![
-                    vintage_taste_ban.clone(),
-                    not(basics.clone()),
-                    not(meld_duds.clone()),
-                    not(draft_involved.clone()),
-                    not(unfun.clone()),
-                ]),
-                conspiracy.clone(),
-                rebalanced.clone(),
-            ]),
-        ),
-        (
-            // also works for fundamental magic
-            "./for-subset-allstars.txt".to_string(),
-            Query::Or(vec![
-                Query::And(vec![
-                    vintage_taste_ban.clone(),
-                    not(basics.clone()),
-                    not(draft_involved.clone()),
-                    not(commander_synergy.clone()),
-                    not(meld_duds.clone()),
-                    not(unfun.clone()),
-                ]),
-                rebalanced.clone(),
-            ]),
-        ),
+        // equal access low choice
         (
             "./for-subset-draft.txt".to_string(),
             Query::Or(vec![
+                rebalanced.clone(),
                 Query::And(vec![
                     vintage_taste_ban.clone(),
                     not(basics.clone()),
-                    not(commander_synergy.clone()),
                     not(meld_duds.clone()),
                     not(unfun.clone()),
+                    //
+                    not(commander_synergy.clone()),
+                    // not(draft_involved.clone()),
                 ]),
                 conspiracy.clone(),
+            ]),
+        ),
+        // equal access high choice
+        (
+            "./for-subset-constructed.txt".to_string(),
+            Query::Or(vec![
                 rebalanced.clone(),
+                Query::And(vec![
+                    vintage_taste_ban.clone(),
+                    not(basics.clone()),
+                    not(meld_duds.clone()),
+                    not(unfun.clone()),
+                    //
+                    // not(commander_synergy.clone()),
+                    // not(draft_involved.clone()),
+                ]),
+                conspiracy.clone(),
+            ]),
+        ),
+        // unequal access low choice.
+        // also appropriate for fundamental magic
+        (
+            "./for-subset-sealed.txt".to_string(),
+            Query::Or(vec![
+                rebalanced.clone(),
+                Query::And(vec![
+                    vintage_taste_ban.clone(),
+                    not(basics.clone()),
+                    not(meld_duds.clone()),
+                    not(unfun.clone()),
+                    //
+                    not(commander_synergy.clone()),
+                    not(draft_involved.clone()),
+                ]),
+                // conspiracy.clone(),
+            ]),
+        ),
+        // unequal access high choice
+        (
+            "./for-subset-allstars.txt".to_string(),
+            Query::Or(vec![
+                rebalanced.clone(),
+                Query::And(vec![
+                    vintage_taste_ban.clone(),
+                    not(basics.clone()),
+                    not(meld_duds.clone()),
+                    not(unfun.clone()),
+                    //
+                    // not(commander_synergy.clone()),
+                    // not(draft_involved.clone()),
+                ]),
+                // conspiracy.clone(),
             ]),
         ),
     ];
