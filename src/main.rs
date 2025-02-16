@@ -137,6 +137,7 @@ async fn main() {
         not(name("Ticket Booth")),
         not(name("Fatal Attraction")),
     ]);
+    // often a dud in limited
     let commander_synergy = Query::And(vec![
         oracle_text("commander"),                       //
         not(name("commander")),                         //
@@ -183,7 +184,7 @@ async fn main() {
                     not(unfun.clone()),
                     //
                     // not(commander_synergy.clone()),
-                    // not(draft_involved.clone()),
+                    not(draft_involved.clone()),
                 ]),
                 conspiracy.clone(),
             ]),
@@ -218,7 +219,7 @@ async fn main() {
                     not(unfun.clone()),
                     //
                     // not(commander_synergy.clone()),
-                    // not(draft_involved.clone()),
+                    not(draft_involved.clone()),
                 ]),
                 // conspiracy.clone(),
             ]),
