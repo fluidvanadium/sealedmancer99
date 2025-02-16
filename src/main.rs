@@ -61,7 +61,7 @@ async fn name_strings_for_draftmancer(query: &Query, splits: bool) -> (String, R
                 }
                 Some(card_result) => match card_result {
                     Ok(card) => {
-                        let sleep_time: u128 = 100_000;
+                        let sleep_time: u128 = 1_000_000;
                         sleep(Duration::from_nanos(sleep_time as u64));
 
                         lazy_report.number_of_cards += 1;
@@ -84,7 +84,7 @@ async fn name_strings_for_draftmancer(query: &Query, splits: bool) -> (String, R
                     Err(e) => {
                         dbg!(e);
 
-                        let sleep_time: u128 = 1_000_000_000;
+                        let sleep_time: u128 = 60_000_000_000;
                         sleep(Duration::from_nanos(sleep_time as u64));
 
                         lazy_report.number_of_errors += 1;
