@@ -1,0 +1,10 @@
+number_of_cards: 12
+number_of_errors: 0
+success_sleep_nanos: 1_200_000
+error_sleep_nanos: 0
+success_server_nanos: 10_290
+success_server_nanos_per_card: 857
+cards_per_error: N/A
+error_server_nanos: 0
+error_server_nanos_per_error: N/A
+error_server_nanos_per_card: 0

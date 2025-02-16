@@ -153,7 +153,6 @@ A-Cobbled Lancer
 Acolyte Hybrid
 Acolyte of Aclazotz
 Acolyte of Affliction
-Acolyte of Bahamut
 Acolyte of the Inferno
 Acolyte of Xathrid
 Acolyte's Reward
@@ -217,7 +216,6 @@ A-Dreamshackle Geist
 Adrenaline Jockey
 Adrestia
 Adriana, Captain of the Guard
-Adriana's Valor
 Adric, Mathematical Genius
 Adrix and Nev, Twincasters
 A-Druid Class
@@ -229,7 +227,6 @@ Adun Oakenshield
 Advanced Hoverguard
 Advanced Stitchwing
 Advance Scout
-Advantageous Proclamation
 Advent of the Wurm
 Adventure Awaits
 Adventurers' Guildhouse
@@ -318,7 +315,6 @@ Aether Poisoner
 Aether Refinery
 Aether Revolt
 Aether Rift
-Aether Searcher
 Aethershield Artificer
 Aether Shockwave
 Aether Snap
@@ -384,15 +380,12 @@ Ageless Sentinels
 Agency Coroner
 Agency Outfitter
 Agent Frank Horrigan
-Agent of Acquisitions
 Agent of Erebos
 Agent of Horizons
 Agent of Masks
 Agent of Shauku
 Agent of Stromgald
 Agent of the Fates
-Agent of the Iron Throne
-Agent of the Shadow Thieves
 Agent of Treachery
 Agent's Toolkit
 A-Geological Appraiser
@@ -542,7 +535,6 @@ Akroma's Blessing
 Akroma's Devoted
 Akroma's Memorial
 Akroma's Vengeance
-Akroma's Will
 Akroma, Vision of Ixidor
 Akron Legionnaire
 A-Krydle of Baldur's Gate
@@ -766,7 +758,6 @@ Anafenza, Kin-Tree Spirit
 Anafenza, the Foremost
 A-Nahiri, Heir of the Ancients
 Analyze the Pollen
-Anara, Wolvid Familiar
 Anarchist
 Anarchy
 A-Narfi, Betrayer King
@@ -852,7 +843,6 @@ Angelic Destiny
 Angelic Edict
 Angelic Exaltation
 Angelic Favor
-Angelic Field Marshal
 Angelic Gift
 Angelic Guardian
 Angelic Intervention
@@ -934,7 +924,6 @@ Animation Module
 Animist's Awakening
 Animist's Might
 Anim Pakal, Thousandth Moon
-Animus of Predation
 Anje Falkenrath
 Anje, Maid of Dishonor
 Anje's Ravager
@@ -1118,8 +1107,6 @@ Arcane Lighthouse
 Arcane Melee
 Arcane Proxy
 Arcane Sanctum
-Arcane Savant
-Arcane Signet
 Arcane Spyglass
 Arcane Subtraction
 Arcane Teachings
@@ -1161,7 +1148,6 @@ Archangel of Thune
 Archangel of Tithes
 Archangel of Wrath
 Archangel's Light
-Archdemon of Paliano
 Archdemon of Unx
 Archdruid's Charm
 Archelos, Lagoon Mystic
@@ -1187,7 +1173,6 @@ Architects of Will
 Archive Dragon
 Archive Trap
 Archivist
-Archivist of Gondor
 Archivist of Oghma
 Archmage Ascension
 Archmage Emeritus
@@ -1514,13 +1499,11 @@ Assembled Alphas
 Assemble the Entmoot
 Assemble the Legion
 Assemble the Players
-Assemble the Rank and Vile
 Assembly Hall
 Assembly-Worker
 Assert Authority
 Assimilate Essence
 Assimilation Aegis
-Astarion's Thirst
 Astarion, the Decadent
 A-Steadfast Unicorn
 A-Stimulus Package
@@ -1856,7 +1839,6 @@ Backstreet Bruiser
 Back to Basics
 Back to Nature
 Backup Agent
-Backup Plan
 Backwoods Survivalists
 Bad Deal
 Badlands
@@ -1954,7 +1936,6 @@ Bane, Lord of Darkness
 Bane of Bala Ged
 Bane of Progress
 Bane of the Living
-Bane's Contingency
 Bane's Invoker
 Baneslayer Angel
 Banewasp Affliction
@@ -2099,7 +2080,6 @@ Bastion Enforcer
 Bastion Inventor
 Bastion Mastodon
 Bastion of Remembrance
-Bastion Protector
 Bat Colony
 Bathe in Dragonfire
 Bathe in Light
@@ -2223,7 +2203,6 @@ Beckoning Will-o'-Wisp
 Become Anonymous
 Become Brutes
 Become Immense
-Become the Pilot
 Bedevil
 Bedhead Beastie
 Bedlam
@@ -2394,7 +2373,6 @@ Biorhythm
 Bioshift
 Biotransference
 Biovisionary
-Biowaste Blob
 Birchlore Rangers
 Bird Admirer 
 Bird Maiden
@@ -2758,7 +2736,6 @@ Bloodstone Cameo
 Bloodstone Goblin
 Blood Sun
 Bloodsworn Squire 
-Bloodsworn Steward
 Bloodtallow Candle
 Bloodthirster
 Bloodthirsty Adversary
@@ -3075,7 +3052,6 @@ Brackish Blunder
 Brackish Trudge
 Brackwater Elemental
 Brago, King Eternal
-Brago's Favor
 Brago's Representative
 Braided Net 
 Braid of Fire
@@ -3522,7 +3498,6 @@ Cacophony Scamp
 Cacophony Unleashed
 Cactarantula
 Cactusfolk Sureshot
-Cactus Preserve
 Cadaver Imp
 Cadaverous Bloom
 Cadaverous Knight
@@ -3564,7 +3539,6 @@ Caller of Gales
 Caller of the Claw
 Caller of the Hunt
 Caller of the Pack
-Caller of the Untamed
 Call for Aid
 Call for Blood
 Call Forth the Tempest
@@ -3611,17 +3585,14 @@ Camera Launcher
 Camouflage
 C.A.M.P.
 Campaign of Vengeance
-Campfire
 Campus Guide
 Campus Renovation
 Canal Courier
-Canal Dredger
 Canal Monitor
 Cancel
 Candelabra of Tawnos
 Candlegrove Witch
 Candlekeep Inspiration
-Candlekeep Sage
 Candlelight Vigil
 Candlelit Cavalry
 Candles' Glow
@@ -3691,7 +3662,6 @@ Captain's Hook
 Captain Sisay
 Captain's Maneuver
 Captain Storm, Cosmium Raider
-Captain Vargus Wrath
 Captivating Cave
 Captivating Crew
 Captivating Glance
@@ -4381,11 +4351,9 @@ Clamavus
 Clammy Prowler
 Clamorous Ironclad
 Clamor Shaman
-Clan Crafter
 Clan Defiance
 Clandestine Meddler
 Clan Guildmage
-Clara Oswald
 Clarion Cathars
 Clarion Spirit
 Clarion Ultimatum
@@ -4466,7 +4434,6 @@ Cloak of Feathers
 Cloak of Invisibility
 Cloak of Mists
 Cloak of the Bat
-Cloakwood Hermit
 Cloakwood Swarmkeeper
 Clock of Omens
 Clockspinning
@@ -4509,7 +4476,6 @@ Cloudgoat Ranger
 Cloudheath Drake
 Cloudhoof Kirin
 Cloud Key
-Cloudkill
 Cloudkin Seer
 Cloud Manta
 Cloud of Faeries
@@ -4574,7 +4540,6 @@ Code of Constraint
 Codespell Cleric
 Codex Shredder
 Codie, Vociferous Codex
-Codsworth, Handy Helper
 Coerced Confession
 Coerced to Kill
 Coercion
@@ -4587,10 +4552,6 @@ Cognivore
 Cogwork Archivist
 Cogwork Assembler
 Cogworker's Puzzleknot
-Cogwork Grinder
-Cogwork Librarian
-Cogwork Spy
-Cogwork Tracker
 Cogwork Wrestler
 Coiled Tinviper
 Coiling Oracle
@@ -4665,7 +4626,6 @@ Comet, Stellar Pup
 Comet Storm
 Comeuppance
 Coming In Hot
-Command Beacon
 Commandeer
 Commander Eesha
 Commander Greven il-Vec
@@ -4677,13 +4637,11 @@ Commander's Insignia
 Commander Sofia Daguerre
 Commander's Plate
 Commander's Sphere
-Command From the Shadows
 Commanding Presence
 Command of Unsummoning
 Commando Raid
 Command the Dreadhorde
 Command the Storm
-Command Tower
 Commencement of Festivities
 Commence the Endgame
 Commercial District
@@ -4867,7 +4825,6 @@ Conundrum Sphinx
 Convalescence
 Convalescent Care
 Convenient Target
-Convergence of Dominion
 Conversion
 Conversion Apparatus
 Conversion Chamber
@@ -5153,12 +5110,10 @@ Crew Captain
 Crib Swap
 Crime Novelist
 Crimestopper Sprite
-Criminal Past
 Crimson Acolyte
 Crimson Caravaneer
 Crimson Fleet Commodore
 Crimson Hellkite
-Crimson Honor Guard
 Crimson Kobolds
 Crimson Mage
 Crimson Manticore
@@ -5335,7 +5290,6 @@ Cultbrand Cinder
 Cult Conscript
 Cult Guildmage
 Cult Healer
-Cultist of the Absolute
 Cultist's Staff
 Cultivate
 Cultivator Colossus
@@ -5443,7 +5397,6 @@ Curtain of Light
 Curtains' Call
 Custodian of the Trove
 Custodi Lich
-Custodi Peacekeeper
 Custodi Soulbinders
 Custodi Soulcaller
 Custodi Squire
@@ -5776,7 +5729,6 @@ Deadly Insect
 Deadly Plot
 Deadly Recluse
 Deadly Riposte
-Deadly Rollick
 Deadly Tempest
 Deadly Visit
 Deadly Wanderings
@@ -5792,7 +5744,6 @@ Dead Weight
 Deadwood Treefolk
 Deafening Clarion
 Deafening Silence
-Deal Broker
 Deal Gone Bad
 Dearly Departed
 Death Baron
@@ -5996,7 +5947,6 @@ Defiler of Souls
 Defiler of Vigor
 Defiling Tears
 Deflecting Palm
-Deflecting Swat
 Deflection
 Defossilize
 Deftblade Elite
@@ -6075,7 +6025,6 @@ Demon of Dark Schemes
 Demon of Death's Gate
 Demon of Fate's Design
 Demon of Loathing
-Demon of Wailing Agonies
 Demon's Disciple
 Demon's Due
 Demon's Grasp
@@ -6600,7 +6549,6 @@ Double Cleave
 Double Down
 Double Major
 Double Negative
-Double Stroke
 Double Vision
 Doubling Chant
 Doubling Cube
@@ -6650,7 +6598,6 @@ Dragonborn Champion
 Dragonborn Looter
 Dragon Breath
 Dragon Broodmother
-Dragon Cultist
 Dragon Egg
 Dragon Engine
 Dragon Fangs
@@ -6859,7 +6806,6 @@ Drift of Phantasms
 Drift of the Dead
 Drill Bit
 Drill-Skimmer
-Drillworks Mole
 Drinker of Sorrow
 Dripping Dead
 Dripping-Tongue Zubera
@@ -6913,7 +6859,6 @@ Drowner Initiate
 Drowner of Hope
 Drowner of Secrets
 Drowner of Truth 
-Drown in Dreams
 Drown in Filth
 Drown in Ichor
 Drown in Shapelessness
@@ -6996,7 +6941,6 @@ Dune Mover
 Dunerider Outlaw
 Dunes of the Dead
 Dungeon Crawler
-Dungeon Delver
 Dungeon Descent
 Dungeoneer's Pack
 Dungeon Geists
@@ -7172,7 +7116,6 @@ Echo Circlet
 Echoes of Eternity
 Echoes of the Kin Tree
 Echoing Assault
-Echoing Boon
 Echoing Calm
 Echoing Courage
 Echoing Decay
@@ -7184,7 +7127,6 @@ Echo Inspector
 Echo Mage
 Echo of Dusk
 Echo of Eons
-Echo Storm
 Echo Tracer
 Ecological Appreciation
 Ecologist's Terrarium
@@ -7508,7 +7450,6 @@ Emissary of Hope
 Emissary of Soulfire
 Emissary of Sunrise
 Emissary of the Sleepless
-Emissary's Ploy
 Emmara, Soul of the Accord
 Emmara Tandris
 Emmessi Tome
@@ -7529,7 +7470,6 @@ Empyrean Eagle
 Empyrial Archangel
 Empyrial Armor
 Empyrial Plate
-Empyrial Storm
 Emrakul's Evangel
 Emrakul's Hatcher
 Emrakul's Influence
@@ -7783,7 +7723,6 @@ Escape Velocity
 Escarpment Fortress
 Esika, God of the Tree 
 Esika's Chariot
-Esior, Wardwing Familiar
 Esix, Fractal Bloom
 Esoteric Duplicator
 Esper Battlemage
@@ -8116,7 +8055,6 @@ Fabrication Module
 Faceless Butcher
 Faceless Devourer
 Faceless Haven
-Faceless One
 Face of Divinity
 Face of Fear
 Faces of the Past
@@ -8231,7 +8169,6 @@ False Peace
 False Prophet
 False Summoning
 Falter
-Falthis, Shadowcat Familiar
 Familiar Ground
 Familiar's Ruse
 Family Reunion
@@ -8289,7 +8226,6 @@ Farseek
 Farsight Adept
 Farsight Mask
 Farsight Ritual
-Far Traveler
 Far Wanderings
 Fascination
 Fastbond
@@ -8522,7 +8458,6 @@ Fevered Visions
 Fey Steed
 Feywild Caretaker
 Feywild Trickster
-Feywild Visitor
 Fickle Efreet
 Fiddlehead Kami
 Field Creeper
@@ -8546,7 +8481,6 @@ Fiendlash
 Fiend of the Shadows
 Fiendslayer Paladin
 Fierce Empath
-Fierce Guardianship
 Fierce Invocation
 Fierce Retribution
 Fierce Witchstalker
@@ -8742,7 +8676,6 @@ Flame Jet
 Flamekin Bladewhirl
 Flamekin Brawler
 Flamekin Harbinger
-Flamekin Herald
 Flamekin Spitfire
 Flamekin Village
 Flame-Kin War Scout
@@ -8773,7 +8706,6 @@ Flame Wave
 Flamewave Invoker
 Flame-Wreathed Phoenix
 Flamewright
-Flaming Fist
 Flaming Fist Officer
 Flaming Gambit
 Flaming Sword
@@ -8800,7 +8732,6 @@ Flash of Insight
 Flatline
 Flatten
 Flawless Forgery
-Flawless Maneuver
 Flaxen Intruder 
 Flay
 Flayed Nim
@@ -8957,7 +8888,6 @@ Fogwalker
 Foil
 Fold into Aether
 Folio of Fancies
-Folk Hero
 Folk Medicine
 Folk of An-Havva
 Folk of the Pines
@@ -8969,7 +8899,6 @@ Font of Agonies
 Font of Fertility
 Font of Fortunes
 Font of Ire
-Font of Magic
 Font of Mythos
 Font of Progress
 Font of Return
@@ -9043,7 +8972,6 @@ Forgeborn Oreads
 Forge Boss
 Forge Devil
 Forgehammer Centurion
-Forge of Heroes
 Forger's Foundry
 Forgestoker Dragon
 Forget
@@ -9342,7 +9270,6 @@ Fury Charm
 Fury of the Horde
 Fury Sliver
 Furystoke Giant
-Fury Storm
 Fusion Elemental
 Future Sight
 Futurist Operative
@@ -9447,7 +9374,6 @@ Gang of Elk
 Gangrenous Goliath
 Gangrenous Zombies
 Gang Up
-Garbage Fire
 Garenbrig Carver 
 Garenbrig Paladin
 Garenbrig Squire
@@ -9591,7 +9517,6 @@ Genesis
 Genesis Chamber
 Genesis Hydra
 Genesis of the Daleks
-Genesis Storm
 Genesis Ultimatum
 Genesis Wave
 Genestealer Locus
@@ -9603,7 +9528,6 @@ Genju of the Fields
 Genju of the Realm
 Genju of the Spires
 Genku, Future Shaper
-Geode Golem
 Geode Rager
 Geological Appraiser
 Geology Enthusiast
@@ -10506,7 +10430,6 @@ Gravity Negator
 Gravity Sphere
 Gravity Well
 Graxiplon
-Gray Harbor Merfolk
 Gray Merchant of Asphodel
 Gray Ogre
 Graypelt Hunter
@@ -10758,7 +10681,6 @@ Guarded Heir
 Guard Gomazoa
 Guardian Angel
 Guardian Archon
-Guardian Augmenter
 Guardian Automaton
 Guardian Beast
 Guardian Gladewalker
@@ -10805,7 +10727,6 @@ Guide of Souls
 Guiding Bolt
 Guiding Spirit
 Guiding Voice
-Guild Artisan
 Guild Feud
 Guild Globe
 Guildless Commons
@@ -11009,7 +10930,6 @@ Hardened-Scale Armor
 Hardened Scales
 Hard Evidence
 Hard-Hitting Question
-Hardy Outlander
 Hardy Veteran
 Hare Apparent
 Hargilde, Kindly Runechanter
@@ -11087,7 +11007,6 @@ Haunted Guardian
 Haunted Hellride
 Haunted Library
 Haunted Mire
-Haunted One
 Haunted Plate Mail
 Haunted Ridge
 Haunted Screen
@@ -11284,7 +11203,6 @@ Hellion Eruption
 Hellish Rebuke
 Hellish Sideswipe
 Hellkite Charger
-Hellkite Courser
 Hellkite Hatchling
 Hellkite Igniter
 Hellkite Overlord
@@ -11322,7 +11240,6 @@ Henge of Ramos
 Henge Walker
 Henrika Domnathi 
 Henry Wu, InGen Geneticist
-Henzie "Toolbox" Torre
 Heraldic Banner
 Herald of Anafenza
 Herald of Anguish
@@ -11497,7 +11414,6 @@ Hipparion
 Hired Blade
 Hired Claw
 Hired Giant
-Hired Heist
 Hired Hexblade
 Hired Muscle 
 Hired Poisoner
@@ -11549,7 +11465,6 @@ Hold for Ransom
 Holdout Settlement
 Hold the Gates
 Hold the Line
-Hold the Perimeter
 Holistic Wisdom
 Hollowborn Barghest
 Hollow Dogs
@@ -11868,7 +11783,6 @@ Hyena Umbra
 Hylda of the Icy Crown
 Hylda's Crown of Winter
 Hymn of Rebirth
-Hymn of the Wilds
 Hymn to Tourach
 Hypergenesis
 Hyperion Blacksmith
@@ -11997,7 +11911,6 @@ Illuminor Szeras
 Illuna, Apex of Wishes
 Illusionary Armor
 Illusionary Forces
-Illusionary Informant
 Illusionary Mask
 Illusionary Presence
 Illusionary Servant
@@ -12023,7 +11936,6 @@ Imaryll, Elfhame Elite
 Imi Statue
 Immaculate Magistrate
 Immard, the Stormcleaver
-Immediate Action
 Immersturm Predator
 Immersturm Raider
 Immersturm Skullcairn
@@ -12085,7 +11997,6 @@ Implement of Improvement
 Implement of Malice
 Implements of Sacrifice
 Implode
-Imposing Grandeur
 Imposing Sovereign
 Imposing Vantasaur
 Imposing Visage
@@ -12115,7 +12026,6 @@ Incandescent Soulstoke
 Incarnation Technique
 Incendiary
 Incendiary Command
-Incendiary Dissent
 Incendiary Flow
 Incendiary Oracle
 Incendiary Sabotage
@@ -12334,7 +12244,6 @@ Inspiring Bard
 Inspiring Call
 Inspiring Captain
 Inspiring Cleric
-Inspiring Leader
 Inspiring Overseer
 Inspiring Paladin
 Inspiring Refrain
@@ -12540,7 +12449,6 @@ Ironroot Treefolk
 Ironroot Warlord
 Ironscale Hydra
 Ironshell Beetle
-Ironsoul Enforcer
 Iron Star
 Irontread Crusher
 Iron Tusk Elephant
@@ -12579,7 +12487,6 @@ Isperia the Inscrutable
 Isshin, Two Heavens as One
 Isu the Abominable
 It Doesn't Add Up
-Iterative Analysis
 Ith, High Arcanist
 Ithilien Kingfisher
 It of the Horrid Swarm
@@ -12756,7 +12663,6 @@ Jeskai Runemark
 Jeskai Sage
 Jeskai Student
 Jeskai Windscout
-Jeska's Will
 Jeska, Thrice Reborn
 Jeska, Warrior Adept
 Jester's Cap
@@ -12769,7 +12675,6 @@ Jetmir's Fixer
 Jetmir's Garden
 Jetting Glasskite
 Jeweled Amulet
-Jeweled Lotus
 Jeweled Spirit
 Jeweled Torque
 Jewel-Eyed Cobra
@@ -12800,7 +12705,6 @@ Jinxed Choker
 Jinxed Idol
 Jinxed Ring
 Jirina, Dauntless General
-Jirina Kudro
 Jiwari, the Earth Aflame
 Jodah, Archmage Eternal
 Jodah's Avenger
@@ -12934,7 +12838,6 @@ Jwari Scuttler
 Jwari Shapeshifter
 Jwar Isle Avenger
 Jwar Isle Refuge
-Jyoti, Moag Ancient
 K-9, Mark I
 Kaalia of the Vast
 Kaalia, Zenith Seeker
@@ -12991,7 +12894,6 @@ Kamahl's Desire
 Kamahl's Druidic Vow
 Kamahl's Sledge
 Kamahl's Summons
-Kamahl's Will
 Kambal, Consul of Allocation
 Kambal, Profiteering Mayor
 Kamber, the Plunderer
@@ -13143,7 +13045,6 @@ Kazuul Warlord
 Kederekt Creeper
 Kederekt Leviathan
 Kederekt Parasite
-Kediss, Emberclaw Familiar
 Keen Buccaneer
 Keen Duelist
 Keen-Eared Sentry
@@ -13199,7 +13100,6 @@ Keldon Twilight
 Keldon Vandals
 Keldon Warcaller
 Keldon Warlord
-Keleth, Sunmane Familiar
 Kelinore Bat
 Kellan, Daring Traveler 
 Kellan, Inquisitive Prodigy 
@@ -13407,7 +13307,6 @@ Kjeldoran Skycaptain
 Kjeldoran Skyknight
 Kjeldoran War Cry
 Kjeldoran Warrior
-Klauth's Will
 Klauth, Unrivaled Ancient
 Klothys, God of Destiny
 Klothys's Design
@@ -13868,7 +13767,6 @@ Lead-Belly Chimera
 Lead by Example
 Leaden Fists
 Leaden Myr
-Leadership Vacuum
 Lead Golem
 Lead Pipe
 Lead the Stampede
@@ -13966,7 +13864,6 @@ Leonin Warleader
 Leopard-Spotted Jiao
 Leori, Sparktouched Hunter
 Leovold, Emissary of Trest
-Leovold's Operative
 Leshrac's Rite
 Leshrac's Sigil
 Lesser Gargadon
@@ -14374,7 +14271,6 @@ Lorehold Command
 Lorehold Excavation
 Lorehold Pledgemage
 Lorescale Coatl
-Lore Seeker
 Loreseeker's Stone
 Lore Weaver
 Lórien Revealed
@@ -14443,20 +14339,14 @@ Loxodon Stalwart
 Loxodon Surveyor
 Loxodon Warhammer
 Loxodon Wayfarer
-Loyal Apprentice
 Loyal Cathar 
-Loyal Drake
 Loyal Gryff
-Loyal Guardian
 Loyal Gyrfalcon
 Loyal Inventor
 Loyal Pegasus
 Loyal Retainers
 Loyal Sentry
-Loyal Subordinate
-Loyal Unicorn
 Loyal Warhound
-Lozhan, Dragons' Legacy
 Lu Bu, Master-at-Arms
 Lucent Liminid
 Lucid Dreams
@@ -14520,7 +14410,6 @@ Lurebound Scarecrow
 Lure of Prey
 Lurker
 Lurking Arynx
-Lurking Automaton
 Lurking Chupacabra
 Lurking Crocodile
 Lurking Deadeye
@@ -14697,7 +14586,6 @@ Mahamoti Djinn
 Mairsil, the Pretender
 Maja, Bretagard Protector
 Majestic Auricorn
-Majestic Genesis
 Majestic Heliopterus
 Majestic Metamorphosis
 Majestic Myriarch
@@ -14878,7 +14766,6 @@ Marchesa's Decree
 Marchesa's Emissary
 Marchesa's Infiltrator
 Marchesa's Smuggler
-Marchesa's Surprise Party
 Marchesa, the Black Rose
 March from the Black Gate
 March from the Tomb
@@ -15037,7 +14924,6 @@ Mass Polymorph
 Mass Production
 Master Apothecary
 Master Biomancer
-Master Chef
 Master Decoy
 Masterful Replication
 Master Healer
@@ -16100,7 +15986,6 @@ Mu Yanling
 Mu Yanling, Celestial Wind
 Mu Yanling, Sky Dancer
 Mu Yanling, Wind Rider
-Muzzio's Preparations
 Muzzio, Visionary Architect
 Muzzle
 Mwonvuli Acid-Moss
@@ -16206,7 +16091,6 @@ Mythos of Nethroi
 Mythos of Snapdax
 Mythos of Vadrok
 Myth Realized
-Myth Unbound
 Naban, Dean of Iteration
 Nacatl Hunt-Pride
 Nacatl Outlander
@@ -16303,7 +16187,6 @@ Natural Reclamation
 Natural Selection
 Natural Spring
 Natural State
-Natural Unity
 Nature's Blessing
 Nature's Chant
 Nature's Chosen
@@ -16463,7 +16346,6 @@ Nest Invader
 Nest of Scarabs
 Nest Robber
 Netcaster Spider
-Netherborn Altar
 Netherborn Phalanx
 Netherese Puzzle-Ward
 Nethergoyf
@@ -16699,10 +16581,8 @@ Niv-Mizzet, the Firemind
 Niv-Mizzet, Visionary
 Nix
 Nobilis of War
-Noble Banneret
 Noble Benefactor
 Noble Elephant
-Noble Heritage
 Noble Hierarch
 Noble Panther
 Noble Purpose
@@ -16744,7 +16624,6 @@ Norika Yamazaki, the Poet
 Norin, Swift Survivalist
 Norin the Wary
 Norn's Annex
-Norn's Choirmaster
 Norn's Decree
 Norn's Inquisitor
 Norn's Wellspring
@@ -16936,7 +16815,6 @@ Obscura Initiate
 Obscura Interceptor
 Obscura Storefront
 Obscuring Aether
-Obscuring Haze
 Observant Alseid
 Obsessive Astronomer
 Obsessive Search
@@ -17167,7 +17045,6 @@ Opaline Bracers
 Opaline Sliver
 Opaline Unicorn
 Opal Lake Gatekeepers
-Opal Palace
 Opal Titan
 Open Fire
 Open into Wonder
@@ -17518,8 +17395,6 @@ Paleontologist's Pick-Axe
 Pale Recluse
 Pale Rider of Trostad
 Pale Wayfarer
-Paliano, the High City
-Paliano Vanguard
 Palinchron
 Palisade Giant
 Palladia-Mors
@@ -17610,7 +17485,6 @@ Part Water
 Party Thrasher
 Pashalik Mons
 Passageway Seer
-Passionate Archaeologist
 Passwall Adept
 Past in Flames
 Patagia Golem
@@ -17627,7 +17501,6 @@ Pathbreaker Ibex
 Pathbreaker Wurm
 Pathfinding Axejaw
 Pathmaker Initiate
-Path of Ancestry
 Path of Anger's Flame
 Path of Annihilation
 Path of Bravery
@@ -18215,7 +18088,6 @@ Pooling Venom
 Poppet Stitcher 
 Pop Quiz
 Popular Egotist
-Popular Entertainer
 Porcelain Legionnaire
 Porcelain Zealot
 Porcuparrot
@@ -18270,7 +18142,6 @@ Power Matrix
 Power of Fire
 Power of Persuasion
 Power Plant Worker
-Power Play
 Power Sink
 Powerstone Engineer
 Powerstone Fracture
@@ -18705,7 +18576,6 @@ Pyre-Sledge Arsonist
 Pyre Spawn
 Pyreswipe Hawk
 Pyretic Charge
-Pyretic Hunter
 Pyretic Prankster 
 Pyretic Rebirth
 Pyretic Ritual
@@ -18962,7 +18832,6 @@ Rain of Rust
 Rain of Salt
 Rain of Tears
 Rain of Thorns
-Raised by Giants
 Raised by Wolves
 Raise Dead
 Raise the Alarm
@@ -19450,7 +19319,6 @@ Regeneration
 Regenerations Restored
 Regenesis
 Regent's Authority
-Regicide
 Regisaur Alpha
 Regna's Sanction
 Regna, the Redeemer
@@ -20034,7 +19902,6 @@ Rix Maadi, Dungeon Palace
 Rix Maadi Guildmage
 Rix Maadi Reveler
 RMS Titanic
-Road of Return
 Road Rage
 Roadside Assistance
 Roadside Blowout
@@ -20250,7 +20117,6 @@ Royal Falcon
 Royal Herbalist
 Royal Treatment
 Royal Trooper
-Royal Warden
 Rubbleback Rhino
 Rubblebelt Boar
 Rubblebelt Braggart
@@ -20296,7 +20162,6 @@ Ruins Recluse
 Rukarumel, Biologist
 Rukh Egg
 Rule of Law
-Rule with an Even Hand
 Rulik Mons, Warren Chief
 Rumbleweed
 Rumbling Aftershocks
@@ -20520,7 +20385,6 @@ Sai of the Shinobi
 Sakashima of a Thousand Faces
 Sakashima's Protege
 Sakashima's Student
-Sakashima's Will
 Sakashima the Impostor
 Sakiko, Mother of Summer
 Sakura-Tribe Elder
@@ -20591,7 +20455,6 @@ Sanctum Gargoyle
 Sanctum Guardian
 Sanctum of All
 Sanctum of Calm Waters
-Sanctum of Eternity
 Sanctum of Fruitful Harvest
 Sanctum of Shattered Heights
 Sanctum of Stone Fangs
@@ -20732,7 +20595,6 @@ Satyr's Cunning
 Satyr Wayfinder
 Saurian Symbiote
 Sauroform Hybrid
-Sauron, Lord of the Rings
 Sauron's Ransom
 Sauron, the Dark Lord
 Sauron, the Lidless Eye
@@ -20894,7 +20756,6 @@ Scion of Calamity
 Scion of Darkness
 Scion of Draco
 Scion of Glaciers
-Scion of Halaster
 Scion of Oona
 Scion of Opulence
 Scion of Stygia
@@ -21157,11 +21018,9 @@ Secret Passage
 Secret Plans
 Secret Rendezvous
 Secret Salvage
-Secrets of Paradise
 Secrets of the Dead
 Secrets of the Golden City
 Secrets of the Key
-Secret Summoning
 Secure the Scene
 Secure the Wastes
 Securitron Squadron
@@ -21307,7 +21166,6 @@ Senseless Rage
 Sensor Splicer
 Sensory Deprivation
 Sentinel
-Sentinel Dispatch
 Sentinel of Lost Lore
 Sentinel of the Eternal Watch
 Sentinel of the Nameless City
@@ -21527,7 +21385,6 @@ Shambling Strider
 Shambling Suit
 Shambling Swarm
 Shambling Vent
-Shameless Charlatan
 Shanid, Sleepers' Scourge
 Shanna, Purifying Blade
 Shanna, Sisay's Legacy
@@ -21639,7 +21496,6 @@ Shepherd of the Lost
 Sheriff of Safe Passage
 Shessra, Death's Whisper
 Shield Bearer
-Shield Broker
 Shield Dancer
 Shielded Aether Thief
 Shielded by Faith
@@ -21856,7 +21712,6 @@ Siegebreaker Giant
 Siegecraft
 Siege Dragon
 Siege-Gang Commander
-Siege-Gang Lieutenant
 Siegehorn Ceratops
 Siege Mastodon
 Siege Modification
@@ -22208,7 +22063,6 @@ Skull Skaab
 Skullslither Worm
 Skullsnap Nuisance
 Skullsnatcher
-Skull Storm
 Skulltap
 Skullwinder
 Skybeast Tracker
@@ -22240,14 +22094,12 @@ Sky Crier
 Sky Diamond
 Sky-Eel School
 Skyfire Kirin
-Skyfire Phoenix
 Skyfisher Spider
 Skygames
 Skyhunter Cub
 Skyhunter Patrol
 Skyhunter Prowler
 Skyhunter Skirmisher
-Skyhunter Strike Force
 Sky Hussar
 Skyknight Legionnaire
 Skyknight Squire
@@ -22332,7 +22184,6 @@ Slagwurm Armor
 Slashing Tiger
 Slash of Talons
 Slash Panther
-Slash the Ranks
 Slate of Ancestry
 Slate Street Ruffian
 Slaughter
@@ -22485,7 +22336,6 @@ Smolder Initiate
 Smother
 Smothering Abomination
 Smothering Tithe
-Smuggler Captain
 Smuggler's Buggy
 Smuggler's Copter
 Smuggler's Share
@@ -22791,7 +22641,6 @@ Souvenir Snatcher
 Sovereign Okinec Ahau
 Sovereign's Bite
 Sovereigns of Lost Alara
-Sovereign's Realm
 Sower of Chaos
 Sower of Discord
 Sower of Temptation
@@ -23049,7 +22898,6 @@ Spire Monitor
 Spire of Industry
 Spire Owl
 Spire Patrol
-Spire Phantasm
 Spire Serpent
 Spireside Infiltrator
 Spirespine
@@ -23463,7 +23311,6 @@ Stinging Hivemaster
 Stinging Licid
 Stinging Lionfish
 Stinging Shot
-Stinging Study
 Stingmoggie
 Stingscourger
 Sting, the Glinting Dagger
@@ -23617,7 +23464,6 @@ Storm Skreelix
 Storm Spirit
 Stormsplitter
 Storm Strike
-Stormsurge Kraken
 Storm's Wrath
 Storm the Citadel
 Storm the Festival
@@ -23669,7 +23515,6 @@ Street Riot
 Street Savvy
 Street Spasm
 Street Sweeper
-Street Urchin
 Streetwise Negotiator
 Street Wraith
 Strefan, Maurer Progenitor
@@ -23745,10 +23590,8 @@ Student of Ojutai
 Student of Warfare
 Study
 Study Break
-Study Hall
 Stuffed Bear
 Stuffy Doll
-Stumpsquall Hydra
 Stump Stomp 
 Stun
 Stunning Reversal
@@ -23763,7 +23606,6 @@ Sturmgeist
 Stymied Hopes
 Subdue
 Subira, Tulzidi Caravanner
-Subjugate the Hobbits
 Subjugator Angel
 Sublime Archangel
 Sublime Epiphany
@@ -23835,7 +23677,6 @@ Summer Bloom
 Summit Apes
 Summit Prowler
 Summoner's Bane
-Summoner's Bond
 Summoner's Egg
 Summoner's Pact
 Summoning Station
@@ -24091,7 +23932,6 @@ Swooping Lookout
 Swooping Protector
 Swooping Pteranodon
 Swooping Talon
-Sword Coast Sailor
 Sword Coast Serpent 
 Sword Dancer
 Sword of Body and Mind
@@ -24201,7 +24041,6 @@ Syr Konrad, the Grim
 Sythis, Harvest's Hand
 Szadek, Lord of Secrets
 Szarekh, the Silent King
-Szat's Will
 T-45 Power Armor
 Tabaxi Toucaneers
 Tablet of Compleation
@@ -24353,7 +24192,6 @@ Tangletrap
 Tangletrove Kelp
 Tangle Tumbler
 Tanglewalker
-Tangleweave Armor
 Tangle Wire
 Taniwha
 Tanuki Transplanter
@@ -24414,7 +24252,6 @@ Taunting Elf
 Taunting Kobold
 Taunting Sliver
 Taurean Mauler
-Tavern Brawler
 Tavern Ruffian 
 Tavern Scoundrel
 Tavern Swindler
@@ -24899,11 +24736,9 @@ Theoretical Duplication
 The Ozolith
 The Pandorica
 The Parting of the Ways
-The Peregrine Dynamo
 The Phasing of Zhalfir
 The Pride of Hull Clade
 The Princess Takes Flight
-The Prismatic Piper
 The Prydwen, Steel Flagship
 The Rack
 The Rani
@@ -24944,7 +24779,6 @@ Thespian's Stage
 The Stasis Coffin
 The Stone Brain
 The Surgical Bay
-The Swarmlord
 The Swarmweaver
 The Tabernacle at Pendrell Vale
 The Tale of Tamiyo
@@ -25218,13 +25052,11 @@ Thunderbolt
 Thunderbreak Regent
 Thunder Brute
 Thunderclap
-Thunderclap Drake
 Thunderclap Wyvern
 Thundercloud Elemental
 Thundercloud Shaman
 Thunder Dragon
 Thunder Drake
-Thunderfoot Baloth
 Thunderhawk Gunship
 Thunderhead Gunner
 Thunderheads
@@ -25350,7 +25182,6 @@ Time Lord Regeneration
 Timely Hordemate
 Timely Interference
 Timely Reinforcements
-Timely Ward
 Time of Heroes
 Time of Ice
 Time of Need
@@ -25478,7 +25309,6 @@ Tomb Trawler
 Tomb Tyrant
 Tome Anima
 Tomebound Lich
-Tome of Legends
 Tome of the Guildpact
 Tome Raider
 Tome Scour
@@ -26038,7 +25868,6 @@ Tyrant of Discord
 Tyrant of Kher Ridges
 Tyrant of Valakut
 Tyrant's Choice
-Tyrant's Familiar
 Tyrant's Machine
 Tyrant's Scorn
 Tyrite Sanctum
@@ -26211,7 +26040,6 @@ Unerring Sling
 Unesh, Criosphinx Sovereign
 Unexpected Fangs
 Unexpectedly Absent
-Unexpected Potential
 Unexpected Results
 Unexpected Windfall
 Unexplained Absence
@@ -26752,7 +26580,6 @@ Veteran Guardmouse
 Veteran Motorist
 Veteran of the Depths
 Veteran's Armaments
-Veteran Soldier
 Veteran's Powerblade
 Veteran's Reflexes
 Veteran's Sidearm
@@ -26761,7 +26588,6 @@ Veteran's Voice
 Veteran Swordsmith
 Veteran Warleader
 Vex
-Vexilus Praetor
 Vexing Arcanix
 Vexing Bauble
 Vexing Beetle
@@ -26942,12 +26768,7 @@ Visions
 Vision Skeins
 Visions of Beyond
 Visions of Brutality
-Visions of Dominance
-Visions of Dread
-Visions of Duplicity
-Visions of Glory
 Visions of Phyrexia
-Visions of Ruin
 Vislor Turlough
 Vitality Charm
 Vitality Hunter
@@ -27057,7 +26878,6 @@ Voidwing Hybrid
 Void Winnower
 Voja, Jaws of the Conclave
 Volatile Arsonist 
-Volatile Chimera
 Volatile Claws
 Volatile Fault
 Volatile Fjord
@@ -27423,7 +27243,6 @@ Warrior's Honor
 Warriors' Lesson
 Warrior's Oath
 Warrior's Stand
-War Room
 War Screecher
 War-Spike Changeling
 War Squeak
@@ -27568,7 +27387,6 @@ Wei Ambush Force
 Wei Assassins
 Wei Elite Companions
 Weigh Down
-Weight Advantage
 Weight of Conscience
 Weight of Memory
 Weight of Spires
@@ -27607,7 +27425,6 @@ Wellwisher
 Werebear
 Werefox Bodyguard
 Werewolf Pack Leader
-We Ride at Dawn
 Wernog, Rider's Chaplain
 Western Paladin
 Westfold Rider
@@ -27670,7 +27487,6 @@ Whiskervale Forerunner
 Whisper Agent
 Whisper, Blood Liturgist
 Whisperer of the Wilds
-Whispergear Sneak
 Whispering Madness
 Whispering Shade
 Whispering Snitch
@@ -27940,7 +27756,6 @@ Witch-king, Sky Scourge
 Witch-Maw Nephilim
 Witch of the Moors
 Witch's Cauldron
-Witch's Clinic
 Witch's Cottage
 Witch's Familiar
 Witch's Mark
@@ -28076,7 +27891,6 @@ World Breaker
 Worldfire
 Worldgorger Dragon
 Worldheart Phoenix
-Worldknit
 Worldly Counsel
 Worldly Tutor
 Worldpurge
@@ -28311,7 +28125,6 @@ Yuan-Ti Malison
 Yuki-Onna
 Yukora, the Prisoner
 Yuma, Proud Protector
-Yuriko, the Tiger's Shadow
 Yurlok of Scorch Thrash
 Yusri, Fortune's Flame
 Zabaz, the Glimmerwasp

@@ -217,7 +217,6 @@ A-Dreamshackle Geist
 Adrenaline Jockey
 Adrestia
 Adriana, Captain of the Guard
-Adriana's Valor
 Adric, Mathematical Genius
 Adrix and Nev, Twincasters
 A-Druid Class
@@ -229,7 +228,6 @@ Adun Oakenshield
 Advanced Hoverguard
 Advanced Stitchwing
 Advance Scout
-Advantageous Proclamation
 Advent of the Wurm
 Adventure Awaits
 Adventurers' Guildhouse
@@ -1514,7 +1512,6 @@ Assembled Alphas
 Assemble the Entmoot
 Assemble the Legion
 Assemble the Players
-Assemble the Rank and Vile
 Assembly Hall
 Assembly-Worker
 Assert Authority
@@ -1856,7 +1853,6 @@ Backstreet Bruiser
 Back to Basics
 Back to Nature
 Backup Agent
-Backup Plan
 Backwoods Survivalists
 Bad Deal
 Badlands
@@ -3075,7 +3071,6 @@ Brackish Blunder
 Brackish Trudge
 Brackwater Elemental
 Brago, King Eternal
-Brago's Favor
 Brago's Representative
 Braided Net 
 Braid of Fire
@@ -4677,7 +4672,6 @@ Commander's Insignia
 Commander Sofia Daguerre
 Commander's Plate
 Commander's Sphere
-Command From the Shadows
 Commanding Presence
 Command of Unsummoning
 Commando Raid
@@ -6600,7 +6594,6 @@ Double Cleave
 Double Down
 Double Major
 Double Negative
-Double Stroke
 Double Vision
 Doubling Chant
 Doubling Cube
@@ -7172,7 +7165,6 @@ Echo Circlet
 Echoes of Eternity
 Echoes of the Kin Tree
 Echoing Assault
-Echoing Boon
 Echoing Calm
 Echoing Courage
 Echoing Decay
@@ -7508,7 +7500,6 @@ Emissary of Hope
 Emissary of Soulfire
 Emissary of Sunrise
 Emissary of the Sleepless
-Emissary's Ploy
 Emmara, Soul of the Accord
 Emmara Tandris
 Emmessi Tome
@@ -11497,7 +11488,6 @@ Hipparion
 Hired Blade
 Hired Claw
 Hired Giant
-Hired Heist
 Hired Hexblade
 Hired Muscle 
 Hired Poisoner
@@ -11549,7 +11539,6 @@ Hold for Ransom
 Holdout Settlement
 Hold the Gates
 Hold the Line
-Hold the Perimeter
 Holistic Wisdom
 Hollowborn Barghest
 Hollow Dogs
@@ -11868,7 +11857,6 @@ Hyena Umbra
 Hylda of the Icy Crown
 Hylda's Crown of Winter
 Hymn of Rebirth
-Hymn of the Wilds
 Hymn to Tourach
 Hypergenesis
 Hyperion Blacksmith
@@ -12023,7 +12011,6 @@ Imaryll, Elfhame Elite
 Imi Statue
 Immaculate Magistrate
 Immard, the Stormcleaver
-Immediate Action
 Immersturm Predator
 Immersturm Raider
 Immersturm Skullcairn
@@ -12115,7 +12102,6 @@ Incandescent Soulstoke
 Incarnation Technique
 Incendiary
 Incendiary Command
-Incendiary Dissent
 Incendiary Flow
 Incendiary Oracle
 Incendiary Sabotage
@@ -12579,7 +12565,6 @@ Isperia the Inscrutable
 Isshin, Two Heavens as One
 Isu the Abominable
 It Doesn't Add Up
-Iterative Analysis
 Ith, High Arcanist
 Ithilien Kingfisher
 It of the Horrid Swarm
@@ -14878,7 +14863,6 @@ Marchesa's Decree
 Marchesa's Emissary
 Marchesa's Infiltrator
 Marchesa's Smuggler
-Marchesa's Surprise Party
 Marchesa, the Black Rose
 March from the Black Gate
 March from the Tomb
@@ -16100,7 +16084,6 @@ Mu Yanling
 Mu Yanling, Celestial Wind
 Mu Yanling, Sky Dancer
 Mu Yanling, Wind Rider
-Muzzio's Preparations
 Muzzio, Visionary Architect
 Muzzle
 Mwonvuli Acid-Moss
@@ -16303,7 +16286,6 @@ Natural Reclamation
 Natural Selection
 Natural Spring
 Natural State
-Natural Unity
 Nature's Blessing
 Nature's Chant
 Nature's Chosen
@@ -18270,7 +18252,6 @@ Power Matrix
 Power of Fire
 Power of Persuasion
 Power Plant Worker
-Power Play
 Power Sink
 Powerstone Engineer
 Powerstone Fracture
@@ -20296,7 +20277,6 @@ Ruins Recluse
 Rukarumel, Biologist
 Rukh Egg
 Rule of Law
-Rule with an Even Hand
 Rulik Mons, Warren Chief
 Rumbleweed
 Rumbling Aftershocks
@@ -21157,11 +21137,9 @@ Secret Passage
 Secret Plans
 Secret Rendezvous
 Secret Salvage
-Secrets of Paradise
 Secrets of the Dead
 Secrets of the Golden City
 Secrets of the Key
-Secret Summoning
 Secure the Scene
 Secure the Wastes
 Securitron Squadron
@@ -21307,7 +21285,6 @@ Senseless Rage
 Sensor Splicer
 Sensory Deprivation
 Sentinel
-Sentinel Dispatch
 Sentinel of Lost Lore
 Sentinel of the Eternal Watch
 Sentinel of the Nameless City
@@ -22791,7 +22768,6 @@ Souvenir Snatcher
 Sovereign Okinec Ahau
 Sovereign's Bite
 Sovereigns of Lost Alara
-Sovereign's Realm
 Sower of Chaos
 Sower of Discord
 Sower of Temptation
@@ -23835,7 +23811,6 @@ Summer Bloom
 Summit Apes
 Summit Prowler
 Summoner's Bane
-Summoner's Bond
 Summoner's Egg
 Summoner's Pact
 Summoning Station
@@ -26211,7 +26186,6 @@ Unerring Sling
 Unesh, Criosphinx Sovereign
 Unexpected Fangs
 Unexpectedly Absent
-Unexpected Potential
 Unexpected Results
 Unexpected Windfall
 Unexplained Absence
@@ -27568,7 +27542,6 @@ Wei Ambush Force
 Wei Assassins
 Wei Elite Companions
 Weigh Down
-Weight Advantage
 Weight of Conscience
 Weight of Memory
 Weight of Spires
@@ -28076,7 +28049,6 @@ World Breaker
 Worldfire
 Worldgorger Dragon
 Worldheart Phoenix
-Worldknit
 Worldly Counsel
 Worldly Tutor
 Worldpurge
