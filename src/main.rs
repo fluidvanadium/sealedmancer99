@@ -6,17 +6,23 @@ use std::io::Write;
 use std::path::Path;
 use std::thread::sleep;
 use std::time::{Duration, SystemTime};
+use timestamp::Report;
 
-async fn query_to_draftmancer_list(query: &Query) -> String {
+mod timestamp;
+
+async fn query_to_draftmancer_list(query: &Query) -> (String, Report) {
     println!("query ready");
 
-    let non_splits = name_strings_for_draftmancer(query, false).await;
-    let splits = name_strings_for_draftmancer(query, true).await;
+    let (non_split_cards, non_split_report) = name_strings_for_draftmancer(query, false).await;
+    let (split_cards, split_report) = name_strings_for_draftmancer(query, true).await;
 
-    non_splits + &splits
+    (
+        non_split_cards + &split_cards,
+        non_split_report + split_report,
+    )
 }
 
-async fn name_strings_for_draftmancer(query: &Query, splits: bool) -> String {
+async fn name_strings_for_draftmancer(query: &Query, splits: bool) -> (String, Report) {
     let mut card_list = "".to_string();
 
     let complete_query = if splits {
@@ -25,15 +31,20 @@ async fn name_strings_for_draftmancer(query: &Query, splits: bool) -> String {
         Query::And(vec![query.clone(), Query::Custom("not:split".to_string())])
     };
 
-    let mut total_retrieve_time = 0;
-    let mut total_error_time = 0;
+    let mut lazy_report = Report {
+        number_of_cards: 0,
+        number_of_errors: 0,
+        success_sleep_nanos: 0,
+        error_sleep_nanos: 0,
+        success_server_nanos: 0,
+        error_server_nanos: 0,
+    };
 
     if let Ok(mut cards) = complete_query.clone().search().await {
         println!("search download completed (splits = {splits})");
         let mut backup_cards = cards.clone();
 
         loop {
-            sleep(Duration::from_millis(50));
             let before_time = SystemTime::now();
 
             let next_card = cards.next().await;
@@ -50,7 +61,12 @@ async fn name_strings_for_draftmancer(query: &Query, splits: bool) -> String {
                 }
                 Some(card_result) => match card_result {
                     Ok(card) => {
-                        total_retrieve_time += lookup_time;
+                        let sleep_time: u128 = 50_000_000;
+                        sleep(Duration::from_nanos(sleep_time as u64));
+
+                        lazy_report.number_of_cards += 1;
+                        lazy_report.success_sleep_nanos += sleep_time;
+                        lazy_report.success_server_nanos += lookup_time;
 
                         backup_cards = cards.clone();
 
@@ -66,26 +82,30 @@ async fn name_strings_for_draftmancer(query: &Query, splits: bool) -> String {
 " + &name;
                     }
                     Err(e) => {
-                        total_error_time += lookup_time;
                         dbg!(e);
+
+                        let sleep_time: u128 = 5_000_000_000;
+                        sleep(Duration::from_nanos(sleep_time as u64));
+
+                        lazy_report.number_of_errors += 1;
+                        lazy_report.error_sleep_nanos += sleep_time;
+                        lazy_report.error_server_nanos += lookup_time;
+
                         cards = backup_cards.clone();
-                        sleep(Duration::from_secs(5));
                     }
                 },
             }
         }
-        dbg!(total_retrieve_time);
-        dbg!(total_error_time);
     }
 
-    card_list
+    (card_list, lazy_report)
 }
 
 #[tokio::main]
 async fn main() {
     // dbg!(exact("Dungeon Delver").search().await.unwrap().next().await);
 
-    std::env::set_current_dir("results/lists").unwrap();
+    std::env::set_current_dir("results").unwrap();
 
     let vintage_taste_ban = Query::Or(vec![
         Query::And(vec![
@@ -204,17 +224,24 @@ async fn main() {
             ]),
         ),
     ];
-    for (destination_filename, query) in format.iter()
+    for (name, query) in format.iter()
     // let index = 6;
     // let (destination_filename, query) = format[index].clone();
     {
-        let list = query_to_draftmancer_list(query).await;
+        let (list, report) = query_to_draftmancer_list(query).await;
 
-        let dest_path = Path::new(destination_filename.as_str());
-        let mut dest_file = File::create(dest_path).unwrap();
+        let var_name = "lists/".to_string() + name.as_str();
+        let list_path = Path::new(var_name.as_str());
+        let var_name = "lists/".to_string() + name.as_str();
+        let report_path = Path::new(var_name.as_str());
+        let mut list_file = File::create(list_path).unwrap();
+        let mut report_file = File::create(report_path).unwrap();
 
-        dest_file
+        list_file
             .write_all(list.as_bytes())
+            .expect("Unable to write data");
+        report_file
+            .write_all(report.to_string().as_bytes())
             .expect("Unable to write data");
     }
 }
