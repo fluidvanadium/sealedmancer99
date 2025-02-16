@@ -230,10 +230,10 @@ async fn main() {
     {
         let (list, report) = query_to_draftmancer_list(query).await;
 
-        let var_name = "lists/".to_string() + name.as_str();
-        let list_path = Path::new(var_name.as_str());
-        let var_name = "lists/".to_string() + name.as_str();
-        let report_path = Path::new(var_name.as_str());
+        let list_path_name = "lists/".to_string() + name.as_str();
+        let list_path = Path::new(list_path_name.as_str());
+        let report_path_name = "reports/".to_string() + name.as_str();
+        let report_path = Path::new(report_path_name.as_str());
         let mut list_file = File::create(list_path).unwrap();
         let mut report_file = File::create(report_path).unwrap();
 
