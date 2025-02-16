@@ -316,7 +316,6 @@ Aether Poisoner
 Aether Refinery
 Aether Revolt
 Aether Rift
-Aether Searcher
 Aethershield Artificer
 Aether Shockwave
 Aether Snap
@@ -382,7 +381,6 @@ Ageless Sentinels
 Agency Coroner
 Agency Outfitter
 Agent Frank Horrigan
-Agent of Acquisitions
 Agent of Erebos
 Agent of Horizons
 Agent of Masks
@@ -932,7 +930,6 @@ Animation Module
 Animist's Awakening
 Animist's Might
 Anim Pakal, Thousandth Moon
-Animus of Predation
 Anje Falkenrath
 Anje, Maid of Dishonor
 Anje's Ravager
@@ -1116,7 +1113,6 @@ Arcane Lighthouse
 Arcane Melee
 Arcane Proxy
 Arcane Sanctum
-Arcane Savant
 Arcane Signet
 Arcane Spyglass
 Arcane Subtraction
@@ -1159,7 +1155,6 @@ Archangel of Thune
 Archangel of Tithes
 Archangel of Wrath
 Archangel's Light
-Archdemon of Paliano
 Archdemon of Unx
 Archdruid's Charm
 Archelos, Lagoon Mystic
@@ -3559,7 +3554,6 @@ Caller of Gales
 Caller of the Claw
 Caller of the Hunt
 Caller of the Pack
-Caller of the Untamed
 Call for Aid
 Call for Blood
 Call Forth the Tempest
@@ -3610,7 +3604,6 @@ Campfire
 Campus Guide
 Campus Renovation
 Canal Courier
-Canal Dredger
 Canal Monitor
 Cancel
 Candelabra of Tawnos
@@ -4582,10 +4575,6 @@ Cognivore
 Cogwork Archivist
 Cogwork Assembler
 Cogworker's Puzzleknot
-Cogwork Grinder
-Cogwork Librarian
-Cogwork Spy
-Cogwork Tracker
 Cogwork Wrestler
 Coiled Tinviper
 Coiling Oracle
@@ -5437,7 +5426,6 @@ Curtain of Light
 Curtains' Call
 Custodian of the Trove
 Custodi Lich
-Custodi Peacekeeper
 Custodi Soulbinders
 Custodi Soulcaller
 Custodi Squire
@@ -5786,7 +5774,6 @@ Dead Weight
 Deadwood Treefolk
 Deafening Clarion
 Deafening Silence
-Deal Broker
 Deal Gone Bad
 Dearly Departed
 Death Baron
@@ -9438,7 +9425,6 @@ Gang of Elk
 Gangrenous Goliath
 Gangrenous Zombies
 Gang Up
-Garbage Fire
 Garenbrig Carver 
 Garenbrig Paladin
 Garenbrig Squire
@@ -11985,7 +11971,6 @@ Illuminor Szeras
 Illuna, Apex of Wishes
 Illusionary Armor
 Illusionary Forces
-Illusionary Informant
 Illusionary Mask
 Illusionary Presence
 Illusionary Servant
@@ -13951,7 +13936,6 @@ Leonin Warleader
 Leopard-Spotted Jiao
 Leori, Sparktouched Hunter
 Leovold, Emissary of Trest
-Leovold's Operative
 Leshrac's Rite
 Leshrac's Sigil
 Lesser Gargadon
@@ -14359,7 +14343,6 @@ Lorehold Command
 Lorehold Excavation
 Lorehold Pledgemage
 Lorescale Coatl
-Lore Seeker
 Loreseeker's Stone
 Lore Weaver
 Lórien Revealed
@@ -14505,7 +14488,6 @@ Lurebound Scarecrow
 Lure of Prey
 Lurker
 Lurking Arynx
-Lurking Automaton
 Lurking Chupacabra
 Lurking Crocodile
 Lurking Deadeye
@@ -16681,7 +16663,6 @@ Niv-Mizzet, the Firemind
 Niv-Mizzet, Visionary
 Nix
 Nobilis of War
-Noble Banneret
 Noble Benefactor
 Noble Elephant
 Noble Heritage
@@ -17500,8 +17481,6 @@ Paleontologist's Pick-Axe
 Pale Recluse
 Pale Rider of Trostad
 Pale Wayfarer
-Paliano, the High City
-Paliano Vanguard
 Palinchron
 Palisade Giant
 Palladia-Mors
@@ -18686,7 +18665,6 @@ Pyre-Sledge Arsonist
 Pyre Spawn
 Pyreswipe Hawk
 Pyretic Charge
-Pyretic Hunter
 Pyretic Prankster 
 Pyretic Rebirth
 Pyretic Ritual
@@ -19431,7 +19409,6 @@ Regeneration
 Regenerations Restored
 Regenesis
 Regent's Authority
-Regicide
 Regisaur Alpha
 Regna's Sanction
 Regna, the Redeemer
@@ -22462,7 +22439,6 @@ Smolder Initiate
 Smother
 Smothering Abomination
 Smothering Tithe
-Smuggler Captain
 Smuggler's Buggy
 Smuggler's Copter
 Smuggler's Share
@@ -23025,7 +23001,6 @@ Spire Monitor
 Spire of Industry
 Spire Owl
 Spire Patrol
-Spire Phantasm
 Spire Serpent
 Spireside Infiltrator
 Spirespine
@@ -27031,7 +27006,6 @@ Voidwing Hybrid
 Void Winnower
 Voja, Jaws of the Conclave
 Volatile Arsonist 
-Volatile Chimera
 Volatile Claws
 Volatile Fault
 Volatile Fjord
@@ -27643,7 +27617,6 @@ Whiskervale Forerunner
 Whisper Agent
 Whisper, Blood Liturgist
 Whisperer of the Wilds
-Whispergear Sneak
 Whispering Madness
 Whispering Shade
 Whispering Snitch
