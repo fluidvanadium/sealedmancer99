@@ -21,16 +21,25 @@ impl Display for Report {
         let error_sleep_nanos = format_duh(&self.error_sleep_nanos);
 
         let success_server_nanos = format_duh(&self.success_server_nanos);
-        let success_server_nanos_per_card =
-            format_duh(&(self.success_server_nanos / self.number_of_cards));
+        let success_server_nanos_per_card = format_option(&u128::checked_div(
+            self.success_server_nanos,
+            self.number_of_cards,
+        ));
 
-        let cards_per_error = format_duh(&(self.number_of_cards / self.number_of_errors));
+        let cards_per_error = format_option(&u128::checked_div(
+            self.number_of_cards,
+            self.number_of_errors,
+        ));
 
         let error_server_nanos = format_duh(&self.error_server_nanos);
-        let error_server_nanos_per_error =
-            format_duh(&(self.error_server_nanos / self.number_of_errors));
-        let error_server_nanos_per_card =
-            format_duh(&(self.error_server_nanos / self.number_of_cards));
+        let error_server_nanos_per_error = format_option(&u128::checked_div(
+            self.error_server_nanos,
+            self.number_of_errors,
+        ));
+        let error_server_nanos_per_card = format_option(&u128::checked_div(
+            self.error_server_nanos,
+            self.number_of_cards,
+        ));
 
         write!(
             f,
@@ -48,6 +57,13 @@ error_server_nanos_per_card: {error_server_nanos_per_card}"
     }
 }
 
+fn format_option(option: &Option<u128>) -> String {
+    if let Some(number) = option {
+        format_duh(number)
+    } else {
+        "N/A".to_string()
+    }
+}
 fn format_duh(number: &u128) -> String {
     let format = CustomFormat::builder()
         .grouping(Grouping::Standard)
