@@ -224,10 +224,18 @@ async fn main() {
                 // conspiracy.clone(),
             ]),
         ),
-        // 14 card pickup deck
+        // 14 card pickup decks
         (
-            "./tarkir_dragonstorm.txt".to_string(),
+            "./tdm.txt".to_string(),
             Query::And(vec![set("TDM"), not(type_line("basic"))]),
+        ),
+        (
+            "./dft.txt".to_string(),
+            Query::And(vec![set("DFT"), not(type_line("basic"))]),
+        ),
+        (
+            "./fdn.txt".to_string(),
+            Query::And(vec![set("FDN"), not(type_line("basic"))]),
         ),
     ];
     let index = 10;
