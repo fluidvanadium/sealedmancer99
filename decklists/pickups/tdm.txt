@@ -1,8 +1,8 @@
-217 Plains
-217 Island
-217 Swamp
-217 Mountain
-217 Forest
+108 Plains
+108 Island
+108 Swamp
+108 Mountain
+108 Forest
 4 Abzan Devotee
 4 Abzan Monument
 4 Adorned Crocodile
