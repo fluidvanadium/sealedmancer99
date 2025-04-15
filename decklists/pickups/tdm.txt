@@ -1,0 +1,276 @@
+217 Plains
+217 Island
+217 Swamp
+217 Mountain
+217 Forest
+4 Abzan Devotee
+4 Abzan Monument
+4 Adorned Crocodile
+4 Aegis Sculptor
+4 Agent of Kotis
+4 Aggressive Negotiations
+4 Ainok Wayfarer
+4 Alchemist's Assistant
+4 Alesha's Legacy
+4 All-Out Assault
+4 Ambling Stormshell
+4 Anafenza, Unyielding Lineage
+4 Arashin Sunshield
+4 Armament Dragon
+4 Attuned Hunter
+4 Auroral Procession
+4 Avenger of the Fallen
+4 Awaken the Honored Dead
+4 Barrensteppe Siege
+4 Bearer of Glory
+4 Betor, Kin to All
+4 Bewildering Blizzard
+4 Bloodfell Caves
+4 Bloomvine Regent 
+4 Blossoming Sands
+4 Bone-Cairn Butcher
+4 Boulderborn Dragon
+4 Breaching Dragonstorm
+4 Call the Spirit Dragons
+4 Caustic Exhale
+4 Champion of Dusan
+4 Channeled Dragonfire
+4 Clarion Conqueror
+4 Constrictor Sage
+4 Coordinated Maneuver
+4 Cori Mountain Monastery
+4 Cori Mountain Stalwart
+4 Cori-Steel Cutter
+4 Corroding Dragonstorm
+4 Craterhoof Behemoth
+4 Cruel Truths
+4 Dalkovan Encampment
+4 Dalkovan Packbeasts
+4 Death Begets Life
+4 Defibrillating Current
+4 Delta Bloodflies
+4 Descendant of Storms
+4 Desperate Measures
+4 Devoted Duelist
+4 Dirgur Island Dragon 
+4 Dismal Backwater
+4 Dispelling Exhale
+4 Disruptive Stormbrood 
+4 Dracogenesis
+4 Dragonback Assault
+4 Dragonback Lancer
+4 Dragonbroods' Relic
+4 Dragonclaw Strike
+4 Dragonfire Blade
+4 Dragonologist
+4 Dragon Sniper
+4 Dragon's Prey
+4 Dragonstorm Forecaster
+4 Dragonstorm Globe
+4 Dusyut Earthcarver
+4 Duty Beyond Death
+4 Effortless Master
+4 Elspeth, Storm Slayer
+4 Embermouth Sentinel
+4 Encroaching Dragonstorm
+4 Equilibrium Adept
+4 Eshki Dragonclaw
+4 Essence Anchor
+4 Evolving Wilds
+4 Fangkeeper's Familiar
+4 Felothar, Dawn of the Abzan
+4 Feral Deathgorger 
+4 Fire-Rim Form
+4 Flamehold Grappler
+4 Fleeting Effigy
+4 Focus the Mind
+4 Formation Breaker
+4 Fortress Kin-Guard
+4 Fresh Start
+4 Frontier Bivouac
+4 Frontline Rush
+4 Frostcliff Siege
+4 Furious Forebear
+4 Glacial Dragonhunt
+4 Glacierwood Siege
+4 Great Arashin City
+4 Gurmag Nightwatch
+4 Gurmag Rakshasa
+4 Hardened Tactician
+4 Herd Heirloom
+4 Heritage Reclamation
+4 Highspire Bell-Ringer
+4 Hollowmurk Siege
+4 Host of the Hereafter
+4 Humbling Elder
+4 Hundred-Battle Veteran
+4 Iceridge Serpent
+4 Inevitable Defeat
+4 Inspirited Vanguard
+4 Iridescent Tiger
+4 Jade-Cast Sentinel
+4 Jeskai Brushmaster
+4 Jeskai Devotee
+4 Jeskai Monument
+4 Jeskai Revelation
+4 Jeskai Shrinekeeper
+4 Jungle Hollow
+4 Karakyk Guardian
+4 Kheru Goldkeeper
+4 Kin-Tree Nurturer
+4 Kin-Tree Severance
+4 Kishla Skimmer
+4 Kishla Trawlers
+4 Kishla Village
+4 Knockout Maneuver
+4 Kotis, the Fangkeeper
+4 Krotiq Nestguard
+4 Krumar Initiate
+4 Lasyd Prowler
+4 Lie in Wait
+4 Lightfoot Technique
+4 Lotuslight Dancers
+4 Loxodon Battle Priest
+4 Maelstrom of the Spirit Dragon
+4 Magmatic Hellkite
+4 Mammoth Bellow
+4 Marang River Regent 
+4 Mardu Devotee
+4 Mardu Monument
+4 Mardu Siegebreaker
+4 Marshal of the Lost
+4 Meticulous Artisan
+4 Mistrise Village
+4 Molten Exhale
+4 Monastery Messenger
+4 Mox Jasper
+4 Mystic Monastery
+4 Naga Fleshcrafter
+4 Narset, Jeskai Waymaster
+4 Narset's Rebuke
+4 Nature's Rhythm
+4 Neriv, Heart of the Storm
+4 New Way Forward
+4 Nightblade Brigade
+4 Nomad Outpost
+4 Opulent Palace
+4 Osseous Exhale
+4 Overwhelming Surge
+4 Perennation
+4 Piercing Exhale
+4 Poised Practitioner
+4 Purging Stormbrood 
+4 Qarsi Revenant
+4 Rainveil Rejuvenator
+4 Rakshasa's Bargain
+4 Rally the Monastery
+4 Rebellious Strike
+4 Rediscover the Way
+4 Reigning Victor
+4 Reputable Merchant
+4 Rescue Leopard
+4 Reverberating Summons
+4 Revival of the Ancestors
+4 Riling Dawnbreaker 
+4 Ringing Strike Mastery
+4 Rite of Renewal
+4 Riverwalk Technique
+4 Riverwheel Sweep
+4 Roamer's Routine
+4 Roar of Endless Song
+4 Roiling Dragonstorm
+4 Rot-Curse Rakshasa
+4 Rugged Highlands
+4 Runescale Stormbrood 
+4 Sage of the Fang
+4 Sage of the Skies
+4 Sagu Pummeler
+4 Sagu Wildling 
+4 Salt Road Packbeast
+4 Salt Road Skirmish
+4 Sandskitter Outrider
+4 Sandsteppe Citadel
+4 Sarkhan, Dragon Ascendant
+4 Sarkhan's Resolve
+4 Scavenger Regent 
+4 Scoured Barrens
+4 Seize Opportunity
+4 Severance Priest
+4 Shiko, Paragon of the Way
+4 Shock Brigade
+4 Shocking Sharpshooter
+4 Sibsig Appraiser
+4 Sidisi, Regent of the Mire
+4 Sinkhole Surveyor
+4 Skirmish Rhino
+4 Smile at Death
+4 Snakeskin Veil
+4 Snowmelt Stag
+4 Songcrafter Mage
+4 Sonic Shrieker
+4 Spectral Denial
+4 Stadium Headliner
+4 Stalwart Successor
+4 Starry-Eyed Skyrider
+4 Static Snare
+4 Stillness in Motion
+4 Stormbeacon Blade
+4 Stormplain Detainment
+4 Stormscale Scion
+4 Stormshriek Feral 
+4 Strategic Betrayal
+4 Sultai Devotee
+4 Sultai Monument
+4 Summit Intimidator
+4 Sunpearl Kirin
+4 Sunset Strikemaster
+4 Surrak, Elusive Hunter
+4 Swiftwater Cliffs
+4 Synchronized Charge
+4 Taigam, Master Opportunist
+4 Teeming Dragonstorm
+4 Tempest Hawk
+4 Temur Battlecrier
+4 Temur Devotee
+4 Temur Monument
+4 Temur Tawnyback
+4 Tersa Lightshatter
+4 Teval, Arbiter of Virtue
+4 The Sibsig Ceremony
+4 Thornwood Falls
+4 Thunder of Unity
+4 Trade Route Envoy
+4 Tranquil Cove
+4 Traveling Botanist
+4 Twin Bolt
+4 Twinmaw Stormbrood 
+4 Ugin, Eye of the Storms
+4 Unburied Earthcarver
+4 Underfoot Underdogs
+4 Undergrowth Leopard
+4 Unending Whisper
+4 United Battlefront
+4 Unrooted Ancestor
+4 Unsparing Boltcaster
+4 Ureni's Rebuff
+4 Ureni, the Song Unending
+4 Venerated Stormsinger
+4 Veteran Ice Climber
+4 Voice of Victory
+4 Wail of War
+4 Warden of the Grove
+4 War Effort
+4 Watcher of the Wayside
+4 Wayspeaker Bodyguard
+4 Whirlwing Stormbrood 
+4 Wild Ride
+4 Windcrag Siege
+4 Wind-Scarred Crag
+4 Wingblade Disciple
+4 Wingspan Stride
+4 Winternight Stories
+4 Worthy Cost
+4 Yathan Roadwatcher
+4 Yathan Tombguard
+4 Zurgo's Vanguard
+4 Zurgo, Thunder's Decree
