@@ -224,25 +224,31 @@ async fn main() {
                 // conspiracy.clone(),
             ]),
         ),
+        // 14 card pickup deck
+        (
+            "./tarkir_dragonstorm.txt".to_string(),
+            Query::And(vec![set("TDM"), not(type_line("basic"))]),
+        ),
     ];
-    for (name, query) in format.iter()
-    // let index = 6;
-    // let (destination_filename, query) = format[index].clone();
-    {
-        let (list, report) = query_to_draftmancer_list(query).await;
+    let index = 10;
+    let (destination_filename, der_query) = format[index].clone();
+    let query = &der_query;
+    // for (destination_filename, query) in format.iter()
+    // {
+    let (list, report) = query_to_draftmancer_list(query).await;
 
-        let list_path_name = "lists/".to_string() + name.as_str();
-        let list_path = Path::new(list_path_name.as_str());
-        let report_path_name = "reports/".to_string() + name.as_str();
-        let report_path = Path::new(report_path_name.as_str());
-        let mut list_file = File::create(list_path).unwrap();
-        let mut report_file = File::create(report_path).unwrap();
+    let list_path_name = "lists/".to_string() + destination_filename.as_str();
+    let list_path = Path::new(list_path_name.as_str());
+    let report_path_name = "reports/".to_string() + destination_filename.as_str();
+    let report_path = Path::new(report_path_name.as_str());
+    let mut list_file = File::create(list_path).unwrap();
+    let mut report_file = File::create(report_path).unwrap();
 
-        list_file
-            .write_all(list.as_bytes())
-            .expect("Unable to write data");
-        report_file
-            .write_all(report.to_string().as_bytes())
-            .expect("Unable to write data");
-    }
+    list_file
+        .write_all(list.as_bytes())
+        .expect("Unable to write data");
+    report_file
+        .write_all(report.to_string().as_bytes())
+        .expect("Unable to write data");
+    // }
 }
