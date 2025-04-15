@@ -80,7 +80,6 @@ Fire-Rim Form
 Flamehold Grappler
 Fleeting Effigy
 Focus the Mind
-Forest
 Formation Breaker
 Fortress Kin-Guard
 Fresh Start
@@ -105,7 +104,6 @@ Iceridge Serpent
 Inevitable Defeat
 Inspirited Vanguard
 Iridescent Tiger
-Island
 Jade-Cast Sentinel
 Jeskai Brushmaster
 Jeskai Devotee
@@ -141,7 +139,6 @@ Meticulous Artisan
 Mistrise Village
 Molten Exhale
 Monastery Messenger
-Mountain
 Mox Jasper
 Mystic Monastery
 Naga Fleshcrafter
@@ -157,7 +154,6 @@ Osseous Exhale
 Overwhelming Surge
 Perennation
 Piercing Exhale
-Plains
 Poised Practitioner
 Purging Stormbrood 
 Qarsi Revenant
@@ -225,7 +221,6 @@ Summit Intimidator
 Sunpearl Kirin
 Sunset Strikemaster
 Surrak, Elusive Hunter
-Swamp
 Swiftwater Cliffs
 Synchronized Charge
 Taigam, Master Opportunist
