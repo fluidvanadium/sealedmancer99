@@ -1,0 +1,517 @@
+205 Plains
+205 Island
+205 Swamp
+205 Mountain
+205 Forest
+4 Abrade
+4 Abyssal Harvester
+4 Adamant Will
+4 Adaptive Automaton
+4 Adventuring Gear
+4 Aegis Turtle
+4 Aetherize
+4 Affectionate Indrik
+4 Aggressive Mammoth
+4 Ajani, Caller of the Pride
+4 Ajani's Pridemate
+4 Alesha, Who Laughs at Fate
+4 Ambush Wolf
+4 Ancestor Dragon
+4 Angelic Destiny
+4 Angelic Edict
+4 Angel of Finality
+4 Angel of Vitality
+4 An Offer You Can't Refuse
+4 Anthem of Champions
+4 Apothecary Stomper
+4 Arahbo, the First Fang
+4 Arbiter of Woe
+4 Arcane Epiphany
+4 Arcanis the Omnipotent
+4 Archmage of Runes
+4 Archway Angel
+4 Armasaur Guide
+4 Ashroot Animist
+4 Aurelia, the Warleader
+4 Authority of the Consuls
+4 Axgard Cavalry
+4 Ayli, Eternal Pilgrim
+4 Azorius Guildgate
+4 Bake into a Pie
+4 Ball Lightning
+4 Ballyrush Banneret
+4 Balmor, Battlemage Captain
+4 Banishing Light
+4 Banner of Kinship
+4 Basilisk Collar
+4 Battle-Rattle Shaman
+4 Battlesong Berserker
+4 Bear Cub
+4 Beast-Kin Ranger
+4 Bigfin Bouncer
+4 Billowing Shriekmass
+4 Biogenic Upgrade
+4 Bishop's Soldier
+4 Bite Down
+4 Blanchwood Armor
+4 Blasphemous Edict
+4 Bloodfell Caves
+4 Bloodthirsty Conqueror
+4 Bloodtithe Collector
+4 Blossoming Sands
+4 Bolt Bend
+4 Boltwave
+4 Boros Charm
+4 Boros Guildgate
+4 Brass's Bounty
+4 Brazen Scourge
+4 Brineborn Cutthroat
+4 Broken Wings
+4 Bulk Up
+4 Burglar Rat
+4 Burnished Hart
+4 Burrog Befuddler
+4 Burst Lightning
+4 Bushwhack
+4 Cackling Prowler
+4 Campus Guide
+4 Cancel
+4 Carnelian Orb of Dragonkind
+4 Cat Collector
+4 Cathar Commando
+4 Celestial Armor
+4 Cemetery Recruitment
+4 Cephalid Inkmage
+4 Chandra, Flameshaper
+4 Charming Prince
+4 Chart a Course
+4 Circuitous Route
+4 Claws Out
+4 Clinquant Skymage
+4 Cloudblazer
+4 Confiscate
+4 Consuming Aberration
+4 Corsair Captain
+4 Courageous Goblin
+4 Crackling Cyclops
+4 Crash Through
+4 Crawling Barrens
+4 Crossway Troublemakers
+4 Crow of Dark Tidings
+4 Crusader of Odric
+4 Crypt Feaster
+4 Cryptic Caves
+4 Crystal Barricade
+4 Cultivator's Caravan
+4 Curator of Destinies
+4 Darksteel Colossus
+4 Dauntless Veteran
+4 Dawnwing Marshal
+4 Day of Judgment
+4 Dazzling Angel
+4 Deadly Brew
+4 Deadly Plot
+4 Deadly Riposte
+4 Death Baron
+4 Deathmark
+4 Demolition Field
+4 Demonic Pact
+4 Desecration Demon
+4 Devout Decree
+4 Diamond Mare
+4 Dictate of Kruphix
+4 Dimir Guildgate
+4 Diregraf Ghoul
+4 Disenchant
+4 Dismal Backwater
+4 Dive Down
+4 Divine Resilience
+4 Doubling Season
+4 Dragon Fodder
+4 Dragonlord's Servant
+4 Dragon Mage
+4 Dragonmaster Outcast
+4 Dragon Trainer
+4 Drake Hatcher
+4 Drakuseth, Maw of Flames
+4 Dread Summons
+4 Dreadwing Scavenger
+4 Driver of the Dead
+4 Drogskol Reaver
+4 Dropkick Bomber
+4 Druid of the Cowl
+4 Dryad Militant
+4 Duress
+4 Dwynen, Gilt-Leaf Daen
+4 Dwynen's Elite
+4 Eager Trufflesnout
+4 Eaten Alive
+4 Eaten by Piranhas
+4 Electroduplicate
+4 Elementalist Adept
+4 Elenda, Saint of Dusk
+4 Elfsworn Giant
+4 Elspeth's Smite
+4 Elvish Archdruid
+4 Elvish Regrower
+4 Empyrean Eagle
+4 Enigma Drake
+4 Erudite Wizard
+4 Essence Scatter
+4 Etali, Primal Storm
+4 Evolving Wilds
+4 Exclusion Mage
+4 Exemplar of Light
+4 Expedition Map
+4 Exsanguinate
+4 Extravagant Replication
+4 Faebloom Trick
+4 Fake Your Own Death
+4 Fanatical Firebrand
+4 Feed the Swarm
+4 Feldon's Cane
+4 Felidar Cub
+4 Felidar Retreat
+4 Felidar Savior
+4 Felling Blow
+4 Fiendish Panda
+4 Fierce Empath
+4 Fiery Annihilation
+4 Finale of Revelation
+4 Firebrand Archer
+4 Fire Elemental
+4 Fireshrieker
+4 Firespitter Whelp
+4 Fishing Pole
+4 Flamewake Phoenix
+4 Flashfreeze
+4 Fleeting Distraction
+4 Fleeting Flight
+4 Fog Bank
+4 Frenzied Goblin
+4 Fumigate
+4 Fynn, the Fangbearer
+4 Garna, Bloodfist of Keld
+4 Garruk's Uprising
+4 Gate Colossus
+4 Gatekeeper of Malakir
+4 Gateway Sneak
+4 Genesis Wave
+4 Ghalta, Primal Hunger
+4 Ghitu Lavarunner
+4 Giada, Font of Hope
+4 Giant Cindermaw
+4 Giant Growth
+4 Gigantosaurus
+4 Gilded Lotus
+4 Gleaming Barrier
+4 Gnarlback Rhino
+4 Gnarlid Colony
+4 Goblin Boarders
+4 Goblin Firebomb
+4 Goblin Negotiation
+4 Goblin Oriflamme
+4 Goblin Smuggler
+4 Goblin Surprise
+4 Goldvein Pick
+4 Golgari Guildgate
+4 Good-Fortune Unicorn
+4 Gorehorn Raider
+4 Grappling Kraken
+4 Gratuitous Violence
+4 Grow from the Ashes
+4 Gruul Guildgate
+4 Guarded Heir
+4 Gutless Plunderer
+4 Guttersnipe
+4 Halana and Alena, Partners
+4 Harbinger of the Tides
+4 Hare Apparent
+4 Harmless Offering
+4 Healer's Hawk
+4 Heartfire Immolator
+4 Hedron Archive
+4 Helpful Hunter
+4 Heraldic Banner
+4 Herald of Eternal Dawn
+4 Herald of Faith
+4 Heroes' Bane
+4 Heroic Reinforcements
+4 Hero's Downfall
+4 Hidetsugu's Second Rite
+4 Highborn Vampire
+4 High Fae Trickster
+4 High-Society Hunter
+4 Hinterland Sanctifier
+4 Hoarding Dragon
+4 Homunculus Horde
+4 Hungry Ghoul
+4 Icewind Elemental
+4 Immersturm Predator
+4 Impact Tremors
+4 Imperious Perfect
+4 Imprisoned in the Moon
+4 Incinerating Blast
+4 Infernal Vessel
+4 Infestation Sage
+4 Ingenious Leonin
+4 Inspiration from Beyond
+4 Inspiring Call
+4 Inspiring Overseer
+4 Inspiring Paladin
+4 Into the Roil
+4 Involuntary Employment
+4 Izzet Guildgate
+4 Jazal Goldmane
+4 Joraga Invocation
+4 Joust Through
+4 Juggernaut
+4 Jungle Hollow
+4 Kaito, Cunning Infiltrator
+4 Kalastria Highborn
+4 Kargan Dragonrider
+4 Kellan, Planar Trailblazer
+4 Kindled Fury
+4 Kiora, the Rising Tide
+4 Kitesail Corsair
+4 Knight of Grace
+4 Knight of Malice
+4 Koma, World-Eater
+4 Krenko, Mob Boss
+4 Kykar, Zephyr Awakener
+4 Lathliss, Dragon Queen
+4 Lathril, Blade of the Elves
+4 Leonin Skyhunter
+4 Leonin Vanguard
+4 Leyline Axe
+4 Lightshell Duo
+4 Liliana, Dreadhorde General
+4 Linden, the Steadfast Queen
+4 Llanowar Elves
+4 Loot, Exuberant Explorer
+4 Luminous Rebuke
+4 Lunar Insight
+4 Lyra Dawnbringer
+4 Maalfeld Twins
+4 Macabre Waltz
+4 Maelstrom Pulse
+4 Magnigoth Sentry
+4 Make a Stand
+4 Make Your Move
+4 Marauding Blight-Priest
+4 Massacre Wurm
+4 Mazemind Tome
+4 Maze's End
+4 Mentor of the Meek
+4 Meteor Golem
+4 Micromancer
+4 Midnight Reaper
+4 Midnight Snack
+4 Mild-Mannered Librarian
+4 Mindsparker
+4 Mischievous Mystic
+4 Mischievous Pup
+4 Mocking Sprite
+4 Mold Adder
+4 Moment of Craving
+4 Moment of Triumph
+4 Mortify
+4 Mossborn Hydra
+4 Muldrotha, the Gravetide
+4 Myojin of Night's Reach
+4 Mystical Teachings
+4 Mystic Archaeologist
+4 Needletooth Pack
+4 Negate
+4 Nessian Hornbeetle
+4 New Horizons
+4 Nine-Lives Familiar
+4 Niv-Mizzet, Visionary
+4 Nullpriest of Oblivion
+4 Obliterating Bolt
+4 Offer Immortality
+4 Omniscience
+4 Opt
+4 Ordeal of Nylea
+4 Orzhov Guildgate
+4 Overrun
+4 Ovika, Enigma Goliath
+4 Pacifism
+4 Painful Quandary
+4 Pelakka Wurm
+4 Perforating Artist
+4 Phyrexian Arena
+4 Pilfer
+4 Pirate's Cutlass
+4 Prayer of Binding
+4 Predator Ooze
+4 Preposterous Proportions
+4 Prideful Parent
+4 Primal Might
+4 Prime Speaker Zegana
+4 Primeval Bounty
+4 Progenitus
+4 Pulse Tracker
+4 Pyromancer's Goggles
+4 Quakestrider Ceratops
+4 Quick-Draw Katana
+4 Quick Study
+4 Quilled Greatwurm
+4 Raging Redcap
+4 Raise the Past
+4 Rakdos Guildgate
+4 Ramos, Dragon Engine
+4 Rampaging Baloths
+4 Rapacious Dragon
+4 Ravenous Amulet
+4 Ravenous Giant
+4 Reassembling Skeleton
+4 Reclamation Sage
+4 Redcap Gutter-Dweller
+4 Refute
+4 Regal Caracal
+4 Release the Dogs
+4 Resolute Reinforcements
+4 Revenge of the Rats
+4 Rise of the Dark Realms
+4 Rite of Replication
+4 Rite of the Dragoncaller
+4 River's Rebuke
+4 Rogue's Passage
+4 Ruby, Daring Tracker
+4 Rugged Highlands
+4 Run Away Together
+4 Rune-Scarred Demon
+4 Rune-Sealed Wall
+4 Sanguine Indulgence
+4 Sanguine Syphoner
+4 Savage Ventmaw
+4 Savannah Lions
+4 Scavenging Ooze
+4 Scorching Dragonfire
+4 Scoured Barrens
+4 Scrawling Crawler
+4 Searslicer Goblin
+4 Secluded Courtyard
+4 Seeker's Folly
+4 Seismic Rupture
+4 Seize the Spoils
+4 Selesnya Guildgate
+4 Self-Reflection
+4 Serra Angel
+4 Shipwreck Dowser
+4 Shivan Dragon
+4 Simic Guildgate
+4 Sire of Seven Deaths
+4 Skeleton Archer
+4 Skyknight Squire
+4 Skyraker Giant
+4 Skyship Buccaneer
+4 Slagstorm
+4 Slumbering Cerberus
+4 Snakeskin Veil
+4 Solemn Simulacrum
+4 Sorcerous Spyglass
+4 Soul-Guide Lantern
+4 Soul-Shackled Zombie
+4 Soulstone Sanctuary
+4 Sower of Chaos
+4 Spectral Sailor
+4 Sphinx of Forgotten Lore
+4 Sphinx of the Final Word
+4 Spinner of Souls
+4 Spitfire Lagac
+4 Springbloom Druid
+4 Squad Rallier
+4 Stab
+4 Starlight Snare
+4 Stasis Snare
+4 Steel Hellkite
+4 Storm Fleet Spy
+4 Strix Lookout
+4 Stroke of Midnight
+4 Stromkirk Bloodthief
+4 Stromkirk Noble
+4 Strongbox Raider
+4 Sun-Blessed Healer
+4 Sure Strike
+4 Surrak, the Hunt Caller
+4 Suspicious Shambler
+4 Swab Goblin
+4 Swiftblade Vindicator
+4 Swiftfoot Boots
+4 Swiftwater Cliffs
+4 Sylvan Scavenging
+4 Syr Alin, the Lion's Claw
+4 Tajuru Pathwarden
+4 Tatyova, Benthic Druid
+4 Taurean Mauler
+4 Teach by Example
+4 Tempest Djinn
+4 Temple of Abandon
+4 Temple of Deceit
+4 Temple of Enlightenment
+4 Temple of Epiphany
+4 Temple of Malady
+4 Temple of Malice
+4 Temple of Mystery
+4 Temple of Plenty
+4 Temple of Silence
+4 Temple of Triumph
+4 Terror of Mount Velus
+4 Think Twice
+4 Thornweald Archer
+4 Thornwood Falls
+4 Thousand-Year Storm
+4 Thrashing Brontodon
+4 Three Tree Mascot
+4 Thrill of Possibility
+4 Time Stop
+4 Tinybones, Bauble Burglar
+4 Tolarian Terror
+4 Tragic Banshee
+4 Tranquil Cove
+4 Treetop Snarespinner
+4 Tribute to Hunger
+4 Trygon Predator
+4 Twinblade Blessing
+4 Twinblade Paladin
+4 Twinflame Tyrant
+4 Uncharted Haven
+4 Uncharted Voyage
+4 Undying Malice
+4 Unflinching Courage
+4 Unsummon
+4 Untamed Hunger
+4 Valkyrie's Call
+4 Valorous Stance
+4 Vampire Gourmand
+4 Vampire Interloper
+4 Vampire Neonate
+4 Vampire Nighthawk
+4 Vampire Soulcaller
+4 Vampire Spawn
+4 Vampiric Rites
+4 Vanguard Seraph
+4 Vengeful Bloodwitch
+4 Venom Connoisseur
+4 Viashino Pyromancer
+4 Vile Entomber
+4 Vivien Reid
+4 Vizier of the Menagerie
+4 Volley Veteran
+4 Voracious Greatshark
+4 Wardens of the Cycle
+4 Wary Thespian
+4 Wildborn Preserver
+4 Wildheart Invoker
+4 Wildwood Scourge
+4 Wilt-Leaf Liege
+4 Wind-Scarred Crag
+4 Wishclaw Talisman
+4 Witness Protection
+4 Youthful Valkyrie
+4 Zetalpa, Primal Dawn
+4 Zimone, Paradox Sculptor
+4 Zombify
+4 Zul Ashur, Lich Lord
