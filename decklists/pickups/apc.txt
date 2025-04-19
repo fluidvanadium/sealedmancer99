@@ -1,0 +1,148 @@
+57 Plains
+57 Island
+57 Swamp
+57 Mountain
+57 Forest
+4 Aether Mutation
+4 Ana Disciple
+4 Ana Sanctuary
+4 Anavolver
+4 Angelfire Crusader
+4 Battlefield Forge
+4 Bloodfire Colossus
+4 Bloodfire Dwarf
+4 Bloodfire Infusion
+4 Bloodfire Kavu
+4 Bog Gnarr
+4 Brass Herald
+4 Captain's Maneuver
+4 Caves of Koilos
+4 Ceta Disciple
+4 Ceta Sanctuary
+4 Cetavolver
+4 Coalition Flag
+4 Coalition Honor Guard
+4 Coastal Drake
+4 Consume Strength
+4 Cromat
+4 Dead Ringers
+4 Death Grasp
+4 Death Mutation
+4 Dega Disciple
+4 Dega Sanctuary
+4 Degavolver
+4 Desolation Angel
+4 Desolation Giant
+4 Diversionary Tactics
+4 Divine Light
+4 Dodecapod
+4 Dragon Arch
+4 Dwarven Landslide
+4 Dwarven Patrol
+4 Ebony Treefolk
+4 Emblazoned Golem
+4 Enlistment Officer
+4 Evasive Action
+4 False Dawn
+4 Fervent Charge
+4 Flowstone Charger
+4 Foul Presence
+4 Fungal Shambler
+4 Gaea's Balance
+4 Gaea's Skyfolk
+4 Gerrard Capashen
+4 Gerrard's Verdict
+4 Glade Gnarr
+4 Goblin Legionnaire
+4 Goblin Ringleader
+4 Goblin Trenches
+4 Grave Defiler
+4 Guided Passage
+4 Haunted Angel
+4 Helionaut
+4 Ice Cave
+4 Illuminate
+4 Index
+4 Jaded Response
+4 Jilt
+4 Jungle Barrier
+4 Kavu Glider
+4 Kavu Howler
+4 Kavu Mauler
+4 Last Caress
+4 Last Stand
+4 Lay of the Land
+4 Legacy Weapon
+4 Lightning Angel
+4 Living Airship
+4 Llanowar Dead
+4 Llanowar Wastes
+4 Manacles of Decay
+4 Martyrs' Tomb
+4 Mask of Intolerance
+4 Mind Extraction
+4 Minotaur Illusionist
+4 Minotaur Tactician
+4 Mournful Zombie
+4 Mystic Snake
+4 Necra Disciple
+4 Necra Sanctuary
+4 Necravolver
+4 Orim's Thunder
+4 Overgrown Estate
+4 Penumbra Bobcat
+4 Penumbra Kavu
+4 Penumbra Wurm
+4 Pernicious Deed
+4 Phyrexian Arena
+4 Phyrexian Gargantua
+4 Phyrexian Rager
+4 Planar Despair
+4 Powerstone Minefield
+4 Prophetic Bolt
+4 Putrid Warrior
+4 Quagmire Druid
+4 Quicksilver Dagger
+4 Raka Disciple
+4 Raka Sanctuary
+4 Rakavolver
+4 Razorfin Hunter
+4 Reef Shaman
+4 Savage Gorilla
+4 Shield of Duty and Reason
+4 Shimmering Mirage
+4 Shivan Reef
+4 Smash
+4 Soul Link
+4 Spectral Lynx
+4 Spiritmonger
+4 Squee's Embrace
+4 Squee's Revenge
+4 Standard Bearer
+4 Strength of Night
+4 Suffocating Blast
+4 Suppress
+4 Sylvan Messenger
+4 Symbiotic Deployment
+4 Tahngarth's Glare
+4 Temporal Spring
+4 Tidal Courier
+4 Tranquil Path
+4 Tundra Kavu
+4 Unnatural Selection
+4 Urborg Elf
+4 Urborg Uprising
+4 Vindicate
+4 Vodalian Mystic
+4 Whirlpool Drake
+4 Whirlpool Rider
+4 Whirlpool Warrior
+4 Wild Research
+4 Yavimaya Coast
+4 Yavimaya's Embrace
+4 Zombie Boa
+4 Fire // Ice
+4 Illusion // Reality
+4 Life // Death
+4 Night // Day
+4 Order // Chaos

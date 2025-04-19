@@ -237,8 +237,16 @@ async fn main() {
             "./fdn.txt".to_string(),
             Query::And(vec![set("FDN"), not(type_line("basic"))]),
         ),
+        (
+            "./apc.txt".to_string(),
+            Query::And(vec![set("APC"), not(type_line("basic"))]),
+        ),
+        (
+            "./dsk.txt".to_string(),
+            Query::And(vec![set("DSK"), not(type_line("basic"))]),
+        ),
     ];
-    let index = 10;
+    let index = 14;
     let (destination_filename, der_query) = format[index].clone();
     let query = &der_query;
     // for (destination_filename, query) in format.iter()
