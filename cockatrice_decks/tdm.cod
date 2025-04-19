@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cockatrice_deck version="1">
+    <lastLoadedTimestamp>Tue Apr 15 23:36:08 2025</lastLoadedTimestamp>
+    <deckname></deckname>
+    <bannerCard providerId=""></bannerCard>
+    <comments></comments>
+    <tags/>
+    <zone name="main">
+        <card number="108" name="Plains"/>
+        <card number="108" name="Island"/>
+        <card number="108" name="Swamp"/>
+        <card number="108" name="Mountain"/>
+        <card number="108" name="Forest"/>
+        <card number="4" name="Abzan Devotee"/>
+        <card number="4" name="Abzan Monument"/>
+        <card number="4" name="Adorned Crocodile"/>
+        <card number="4" name="Aegis Sculptor"/>
+        <card number="4" name="Agent of Kotis"/>
+        <card number="4" name="Aggressive Negotiations"/>
+        <card number="4" name="Ainok Wayfarer"/>
+        <card number="4" name="Alchemist's Assistant"/>
+        <card number="4" name="Alesha's Legacy"/>
+        <card number="4" name="All-Out Assault"/>
+        <card number="4" name="Ambling Stormshell"/>
+        <card number="4" name="Anafenza, Unyielding Lineage"/>
+        <card number="4" name="Arashin Sunshield"/>
+        <card number="4" name="Armament Dragon"/>
+        <card number="4" name="Attuned Hunter"/>
+        <card number="4" name="Auroral Procession"/>
+        <card number="4" name="Avenger of the Fallen"/>
+        <card number="4" name="Awaken the Honored Dead"/>
+        <card number="4" name="Barrensteppe Siege"/>
+        <card number="4" name="Bearer of Glory"/>
+        <card number="4" name="Betor, Kin to All"/>
+        <card number="4" name="Bewildering Blizzard"/>
+        <card number="4" name="Bloodfell Caves"/>
+        <card number="4" name="Bloomvine Regent"/>
+        <card number="4" name="Blossoming Sands"/>
+        <card number="4" name="Bone-Cairn Butcher"/>
+        <card number="4" name="Boulderborn Dragon"/>
+        <card number="4" name="Breaching Dragonstorm"/>
+        <card number="4" name="Call the Spirit Dragons"/>
+        <card number="4" name="Caustic Exhale"/>
+        <card number="4" name="Champion of Dusan"/>
+        <card number="4" name="Channeled Dragonfire"/>
+        <card number="4" name="Clarion Conqueror"/>
+        <card number="4" name="Constrictor Sage"/>
+        <card number="4" name="Coordinated Maneuver"/>
+        <card number="4" name="Cori Mountain Monastery"/>
+        <card number="4" name="Cori Mountain Stalwart"/>
+        <card number="4" name="Cori-Steel Cutter"/>
+        <card number="4" name="Corroding Dragonstorm"/>
+        <card number="4" name="Craterhoof Behemoth"/>
+        <card number="4" name="Cruel Truths"/>
+        <card number="4" name="Dalkovan Encampment"/>
+        <card number="4" name="Dalkovan Packbeasts"/>
+        <card number="4" name="Death Begets Life"/>
+        <card number="4" name="Defibrillating Current"/>
+        <card number="4" name="Delta Bloodflies"/>
+        <card number="4" name="Descendant of Storms"/>
+        <card number="4" name="Desperate Measures"/>
+        <card number="4" name="Devoted Duelist"/>
+        <card number="4" name="Dirgur Island Dragon // Skimming Strike"/>
+        <card number="4" name="Dismal Backwater"/>
+        <card number="4" name="Dispelling Exhale"/>
+        <card number="4" name="Disruptive Stormbrood // Petty Revenge"/>
+        <card number="4" name="Dracogenesis"/>
+        <card number="4" name="Dragonback Assault"/>
+        <card number="4" name="Dragonback Lancer"/>
+        <card number="4" name="Dragonbroods' Relic"/>
+        <card number="4" name="Dragonclaw Strike"/>
+        <card number="4" name="Dragonfire Blade"/>
+        <card number="4" name="Dragonologist"/>
+        <card number="4" name="Dragon Sniper"/>
+        <card number="4" name="Dragon's Prey"/>
+        <card number="4" name="Dragonstorm Forecaster"/>
+        <card number="4" name="Dragonstorm Globe"/>
+        <card number="4" name="Dusyut Earthcarver"/>
+        <card number="4" name="Duty Beyond Death"/>
+        <card number="4" name="Effortless Master"/>
+        <card number="4" name="Elspeth, Storm Slayer"/>
+        <card number="4" name="Embermouth Sentinel"/>
+        <card number="4" name="Encroaching Dragonstorm"/>
+        <card number="4" name="Equilibrium Adept"/>
+        <card number="4" name="Eshki Dragonclaw"/>
+        <card number="4" name="Essence Anchor"/>
+        <card number="4" name="Evolving Wilds"/>
+        <card number="4" name="Fangkeeper's Familiar"/>
+        <card number="4" name="Felothar, Dawn of the Abzan"/>
+        <card number="4" name="Feral Deathgorger // Dusk Sight"/>
+        <card number="4" name="Fire-Rim Form"/>
+        <card number="4" name="Flamehold Grappler"/>
+        <card number="4" name="Fleeting Effigy"/>
+        <card number="4" name="Focus the Mind"/>
+        <card number="4" name="Formation Breaker"/>
+        <card number="4" name="Fortress Kin-Guard"/>
+        <card number="4" name="Fresh Start"/>
+        <card number="4" name="Frontier Bivouac"/>
+        <card number="4" name="Frontline Rush"/>
+        <card number="4" name="Frostcliff Siege"/>
+        <card number="4" name="Furious Forebear"/>
+        <card number="4" name="Glacial Dragonhunt"/>
+        <card number="4" name="Glacierwood Siege"/>
+        <card number="4" name="Great Arashin City"/>
+        <card number="4" name="Gurmag Nightwatch"/>
+        <card number="4" name="Gurmag Rakshasa"/>
+        <card number="4" name="Hardened Tactician"/>
+        <card number="4" name="Herd Heirloom"/>
+        <card number="4" name="Heritage Reclamation"/>
+        <card number="4" name="Highspire Bell-Ringer"/>
+        <card number="4" name="Hollowmurk Siege"/>
+        <card number="4" name="Host of the Hereafter"/>
+        <card number="4" name="Humbling Elder"/>
+        <card number="4" name="Hundred-Battle Veteran"/>
+        <card number="4" name="Iceridge Serpent"/>
+        <card number="4" name="Inevitable Defeat"/>
+        <card number="4" name="Inspirited Vanguard"/>
+        <card number="4" name="Iridescent Tiger"/>
+        <card number="4" name="Jade-Cast Sentinel"/>
+        <card number="4" name="Jeskai Brushmaster"/>
+        <card number="4" name="Jeskai Devotee"/>
+        <card number="4" name="Jeskai Monument"/>
+        <card number="4" name="Jeskai Revelation"/>
+        <card number="4" name="Jeskai Shrinekeeper"/>
+        <card number="4" name="Jungle Hollow"/>
+        <card number="4" name="Karakyk Guardian"/>
+        <card number="4" name="Kheru Goldkeeper"/>
+        <card number="4" name="Kin-Tree Nurturer"/>
+        <card number="4" name="Kin-Tree Severance"/>
+        <card number="4" name="Kishla Skimmer"/>
+        <card number="4" name="Kishla Trawlers"/>
+        <card number="4" name="Kishla Village"/>
+        <card number="4" name="Knockout Maneuver"/>
+        <card number="4" name="Kotis, the Fangkeeper"/>
+        <card number="4" name="Krotiq Nestguard"/>
+        <card number="4" name="Krumar Initiate"/>
+        <card number="4" name="Lasyd Prowler"/>
+        <card number="4" name="Lie in Wait"/>
+        <card number="4" name="Lightfoot Technique"/>
+        <card number="4" name="Lotuslight Dancers"/>
+        <card number="4" name="Loxodon Battle Priest"/>
+        <card number="4" name="Maelstrom of the Spirit Dragon"/>
+        <card number="4" name="Magmatic Hellkite"/>
+        <card number="4" name="Mammoth Bellow"/>
+        <card number="4" name="Marang River Regent"/>
+        <card number="4" name="Mardu Devotee"/>
+        <card number="4" name="Mardu Monument"/>
+        <card number="4" name="Mardu Siegebreaker"/>
+        <card number="4" name="Marshal of the Lost"/>
+        <card number="4" name="Meticulous Artisan"/>
+        <card number="4" name="Mistrise Village"/>
+        <card number="4" name="Molten Exhale"/>
+        <card number="4" name="Monastery Messenger"/>
+        <card number="4" name="Mox Jasper"/>
+        <card number="4" name="Mystic Monastery"/>
+        <card number="4" name="Naga Fleshcrafter"/>
+        <card number="4" name="Narset, Jeskai Waymaster"/>
+        <card number="4" name="Narset's Rebuke"/>
+        <card number="4" name="Nature's Rhythm"/>
+        <card number="4" name="Neriv, Heart of the Storm"/>
+        <card number="4" name="New Way Forward"/>
+        <card number="4" name="Nightblade Brigade"/>
+        <card number="4" name="Nomad Outpost"/>
+        <card number="4" name="Opulent Palace"/>
+        <card number="4" name="Osseous Exhale"/>
+        <card number="4" name="Overwhelming Surge"/>
+        <card number="4" name="Perennation"/>
+        <card number="4" name="Piercing Exhale"/>
+        <card number="4" name="Poised Practitioner"/>
+        <card number="4" name="Purging Stormbrood // Absorb Essence"/>
+        <card number="4" name="Qarsi Revenant"/>
+        <card number="4" name="Rainveil Rejuvenator"/>
+        <card number="4" name="Rakshasa's Bargain"/>
+        <card number="4" name="Rally the Monastery"/>
+        <card number="4" name="Rebellious Strike"/>
+        <card number="4" name="Rediscover the Way"/>
+        <card number="4" name="Reigning Victor"/>
+        <card number="4" name="Reputable Merchant"/>
+        <card number="4" name="Rescue Leopard"/>
+        <card number="4" name="Reverberating Summons"/>
+        <card number="4" name="Revival of the Ancestors"/>
+        <card number="4" name="Riling Dawnbreaker // Signaling Roar"/>
+        <card number="4" name="Ringing Strike Mastery"/>
+        <card number="4" name="Rite of Renewal"/>
+        <card number="4" name="Riverwalk Technique"/>
+        <card number="4" name="Riverwheel Sweep"/>
+        <card number="4" name="Roamer's Routine"/>
+        <card number="4" name="Roar of Endless Song"/>
+        <card number="4" name="Roiling Dragonstorm"/>
+        <card number="4" name="Rot-Curse Rakshasa"/>
+        <card number="4" name="Rugged Highlands"/>
+        <card number="4" name="Runescale Stormbrood // Chilling Screech"/>
+        <card number="4" name="Sage of the Fang"/>
+        <card number="4" name="Sage of the Skies"/>
+        <card number="4" name="Sagu Pummeler"/>
+        <card number="4" name="Sagu Wildling // Roost Seek"/>
+        <card number="4" name="Salt Road Packbeast"/>
+        <card number="4" name="Salt Road Skirmish"/>
+        <card number="4" name="Sandskitter Outrider"/>
+        <card number="4" name="Sandsteppe Citadel"/>
+        <card number="4" name="Sarkhan, Dragon Ascendant"/>
+        <card number="4" name="Sarkhan's Resolve"/>
+        <card number="4" name="Scavenger Regent"/>
+        <card number="4" name="Scoured Barrens"/>
+        <card number="4" name="Seize Opportunity"/>
+        <card number="4" name="Severance Priest"/>
+        <card number="4" name="Shiko, Paragon of the Way"/>
+        <card number="4" name="Shock Brigade"/>
+        <card number="4" name="Shocking Sharpshooter"/>
+        <card number="4" name="Sibsig Appraiser"/>
+        <card number="4" name="Sidisi, Regent of the Mire"/>
+        <card number="4" name="Sinkhole Surveyor"/>
+        <card number="4" name="Skirmish Rhino"/>
+        <card number="4" name="Smile at Death"/>
+        <card number="4" name="Snakeskin Veil"/>
+        <card number="4" name="Snowmelt Stag"/>
+        <card number="4" name="Songcrafter Mage"/>
+        <card number="4" name="Sonic Shrieker"/>
+        <card number="4" name="Spectral Denial"/>
+        <card number="4" name="Stadium Headliner"/>
+        <card number="4" name="Stalwart Successor"/>
+        <card number="4" name="Starry-Eyed Skyrider"/>
+        <card number="4" name="Static Snare"/>
+        <card number="4" name="Stillness in Motion"/>
+        <card number="4" name="Stormbeacon Blade"/>
+        <card number="4" name="Stormplain Detainment"/>
+        <card number="4" name="Stormscale Scion"/>
+        <card number="4" name="Stormshriek Feral // Flush Out"/>
+        <card number="4" name="Strategic Betrayal"/>
+        <card number="4" name="Sultai Devotee"/>
+        <card number="4" name="Sultai Monument"/>
+        <card number="4" name="Summit Intimidator"/>
+        <card number="4" name="Sunpearl Kirin"/>
+        <card number="4" name="Sunset Strikemaster"/>
+        <card number="4" name="Surrak, Elusive Hunter"/>
+        <card number="4" name="Swiftwater Cliffs"/>
+        <card number="4" name="Synchronized Charge"/>
+        <card number="4" name="Taigam, Master Opportunist"/>
+        <card number="4" name="Teeming Dragonstorm"/>
+        <card number="4" name="Tempest Hawk"/>
+        <card number="4" name="Temur Battlecrier"/>
+        <card number="4" name="Temur Devotee"/>
+        <card number="4" name="Temur Monument"/>
+        <card number="4" name="Temur Tawnyback"/>
+        <card number="4" name="Tersa Lightshatter"/>
+        <card number="4" name="Teval, Arbiter of Virtue"/>
+        <card number="4" name="The Sibsig Ceremony"/>
+        <card number="4" name="Thornwood Falls"/>
+        <card number="4" name="Thunder of Unity"/>
+        <card number="4" name="Trade Route Envoy"/>
+        <card number="4" name="Tranquil Cove"/>
+        <card number="4" name="Traveling Botanist"/>
+        <card number="4" name="Twin Bolt"/>
+        <card number="4" name="Twinmaw Stormbrood // Charring Bite"/>
+        <card number="4" name="Ugin, Eye of the Storms"/>
+        <card number="4" name="Unburied Earthcarver"/>
+        <card number="4" name="Underfoot Underdogs"/>
+        <card number="4" name="Undergrowth Leopard"/>
+        <card number="4" name="Unending Whisper"/>
+        <card number="4" name="United Battlefront"/>
+        <card number="4" name="Unrooted Ancestor"/>
+        <card number="4" name="Unsparing Boltcaster"/>
+        <card number="4" name="Ureni's Rebuff"/>
+        <card number="4" name="Ureni, the Song Unending"/>
+        <card number="4" name="Venerated Stormsinger"/>
+        <card number="4" name="Veteran Ice Climber"/>
+        <card number="4" name="Voice of Victory"/>
+        <card number="4" name="Wail of War"/>
+        <card number="4" name="Warden of the Grove"/>
+        <card number="4" name="War Effort"/>
+        <card number="4" name="Watcher of the Wayside"/>
+        <card number="4" name="Wayspeaker Bodyguard"/>
+        <card number="4" name="Whirlwing Stormbrood // Dynamic Soar"/>
+        <card number="4" name="Wild Ride"/>
+        <card number="4" name="Windcrag Siege"/>
+        <card number="4" name="Wind-Scarred Crag"/>
+        <card number="4" name="Wingblade Disciple"/>
+        <card number="4" name="Wingspan Stride"/>
+        <card number="4" name="Winternight Stories"/>
+        <card number="4" name="Worthy Cost"/>
+        <card number="4" name="Yathan Roadwatcher"/>
+        <card number="4" name="Yathan Tombguard"/>
+        <card number="4" name="Zurgo's Vanguard"/>
+        <card number="4" name="Zurgo, Thunder's Decree"/>
+    </zone>
+</cockatrice_deck>

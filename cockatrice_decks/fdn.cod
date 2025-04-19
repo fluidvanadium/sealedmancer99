@@ -1,0 +1,527 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cockatrice_deck version="1">
+    <lastLoadedTimestamp>Tue Apr 15 23:23:24 2025</lastLoadedTimestamp>
+    <deckname></deckname>
+    <bannerCard providerId=""></bannerCard>
+    <comments></comments>
+    <tags/>
+    <zone name="main">
+        <card number="205" name="Plains"/>
+        <card number="205" name="Island"/>
+        <card number="205" name="Swamp"/>
+        <card number="205" name="Mountain"/>
+        <card number="205" name="Forest"/>
+        <card number="4" name="Abrade"/>
+        <card number="4" name="Abyssal Harvester"/>
+        <card number="4" name="Adamant Will"/>
+        <card number="4" name="Adaptive Automaton"/>
+        <card number="4" name="Adventuring Gear"/>
+        <card number="4" name="Aegis Turtle"/>
+        <card number="4" name="Aetherize"/>
+        <card number="4" name="Affectionate Indrik"/>
+        <card number="4" name="Aggressive Mammoth"/>
+        <card number="4" name="Ajani, Caller of the Pride"/>
+        <card number="4" name="Ajani's Pridemate"/>
+        <card number="4" name="Alesha, Who Laughs at Fate"/>
+        <card number="4" name="Ambush Wolf"/>
+        <card number="4" name="Ancestor Dragon"/>
+        <card number="4" name="Angelic Destiny"/>
+        <card number="4" name="Angelic Edict"/>
+        <card number="4" name="Angel of Finality"/>
+        <card number="4" name="Angel of Vitality"/>
+        <card number="4" name="An Offer You Can't Refuse"/>
+        <card number="4" name="Anthem of Champions"/>
+        <card number="4" name="Apothecary Stomper"/>
+        <card number="4" name="Arahbo, the First Fang"/>
+        <card number="4" name="Arbiter of Woe"/>
+        <card number="4" name="Arcane Epiphany"/>
+        <card number="4" name="Arcanis the Omnipotent"/>
+        <card number="4" name="Archmage of Runes"/>
+        <card number="4" name="Archway Angel"/>
+        <card number="4" name="Armasaur Guide"/>
+        <card number="4" name="Ashroot Animist"/>
+        <card number="4" name="Aurelia, the Warleader"/>
+        <card number="4" name="Authority of the Consuls"/>
+        <card number="4" name="Axgard Cavalry"/>
+        <card number="4" name="Ayli, Eternal Pilgrim"/>
+        <card number="4" name="Azorius Guildgate"/>
+        <card number="4" name="Bake into a Pie"/>
+        <card number="4" name="Ball Lightning"/>
+        <card number="4" name="Ballyrush Banneret"/>
+        <card number="4" name="Balmor, Battlemage Captain"/>
+        <card number="4" name="Banishing Light"/>
+        <card number="4" name="Banner of Kinship"/>
+        <card number="4" name="Basilisk Collar"/>
+        <card number="4" name="Battle-Rattle Shaman"/>
+        <card number="4" name="Battlesong Berserker"/>
+        <card number="4" name="Bear Cub"/>
+        <card number="4" name="Beast-Kin Ranger"/>
+        <card number="4" name="Bigfin Bouncer"/>
+        <card number="4" name="Billowing Shriekmass"/>
+        <card number="4" name="Biogenic Upgrade"/>
+        <card number="4" name="Bishop's Soldier"/>
+        <card number="4" name="Bite Down"/>
+        <card number="4" name="Blanchwood Armor"/>
+        <card number="4" name="Blasphemous Edict"/>
+        <card number="4" name="Bloodfell Caves"/>
+        <card number="4" name="Bloodthirsty Conqueror"/>
+        <card number="4" name="Bloodtithe Collector"/>
+        <card number="4" name="Blossoming Sands"/>
+        <card number="4" name="Bolt Bend"/>
+        <card number="4" name="Boltwave"/>
+        <card number="4" name="Boros Charm"/>
+        <card number="4" name="Boros Guildgate"/>
+        <card number="4" name="Brass's Bounty"/>
+        <card number="4" name="Brazen Scourge"/>
+        <card number="4" name="Brineborn Cutthroat"/>
+        <card number="4" name="Broken Wings"/>
+        <card number="4" name="Bulk Up"/>
+        <card number="4" name="Burglar Rat"/>
+        <card number="4" name="Burnished Hart"/>
+        <card number="4" name="Burrog Befuddler"/>
+        <card number="4" name="Burst Lightning"/>
+        <card number="4" name="Bushwhack"/>
+        <card number="4" name="Cackling Prowler"/>
+        <card number="4" name="Campus Guide"/>
+        <card number="4" name="Cancel"/>
+        <card number="4" name="Carnelian Orb of Dragonkind"/>
+        <card number="4" name="Cat Collector"/>
+        <card number="4" name="Cathar Commando"/>
+        <card number="4" name="Celestial Armor"/>
+        <card number="4" name="Cemetery Recruitment"/>
+        <card number="4" name="Cephalid Inkmage"/>
+        <card number="4" name="Chandra, Flameshaper"/>
+        <card number="4" name="Charming Prince"/>
+        <card number="4" name="Chart a Course"/>
+        <card number="4" name="Circuitous Route"/>
+        <card number="4" name="Claws Out"/>
+        <card number="4" name="Clinquant Skymage"/>
+        <card number="4" name="Cloudblazer"/>
+        <card number="4" name="Confiscate"/>
+        <card number="4" name="Consuming Aberration"/>
+        <card number="4" name="Corsair Captain"/>
+        <card number="4" name="Courageous Goblin"/>
+        <card number="4" name="Crackling Cyclops"/>
+        <card number="4" name="Crash Through"/>
+        <card number="4" name="Crawling Barrens"/>
+        <card number="4" name="Crossway Troublemakers"/>
+        <card number="4" name="Crow of Dark Tidings"/>
+        <card number="4" name="Crusader of Odric"/>
+        <card number="4" name="Crypt Feaster"/>
+        <card number="4" name="Cryptic Caves"/>
+        <card number="4" name="Crystal Barricade"/>
+        <card number="4" name="Cultivator's Caravan"/>
+        <card number="4" name="Curator of Destinies"/>
+        <card number="4" name="Darksteel Colossus"/>
+        <card number="4" name="Dauntless Veteran"/>
+        <card number="4" name="Dawnwing Marshal"/>
+        <card number="4" name="Day of Judgment"/>
+        <card number="4" name="Dazzling Angel"/>
+        <card number="4" name="Deadly Brew"/>
+        <card number="4" name="Deadly Plot"/>
+        <card number="4" name="Deadly Riposte"/>
+        <card number="4" name="Death Baron"/>
+        <card number="4" name="Deathmark"/>
+        <card number="4" name="Demolition Field"/>
+        <card number="4" name="Demonic Pact"/>
+        <card number="4" name="Desecration Demon"/>
+        <card number="4" name="Devout Decree"/>
+        <card number="4" name="Diamond Mare"/>
+        <card number="4" name="Dictate of Kruphix"/>
+        <card number="4" name="Dimir Guildgate"/>
+        <card number="4" name="Diregraf Ghoul"/>
+        <card number="4" name="Disenchant"/>
+        <card number="4" name="Dismal Backwater"/>
+        <card number="4" name="Dive Down"/>
+        <card number="4" name="Divine Resilience"/>
+        <card number="4" name="Doubling Season"/>
+        <card number="4" name="Dragon Fodder"/>
+        <card number="4" name="Dragonlord's Servant"/>
+        <card number="4" name="Dragon Mage"/>
+        <card number="4" name="Dragonmaster Outcast"/>
+        <card number="4" name="Dragon Trainer"/>
+        <card number="4" name="Drake Hatcher"/>
+        <card number="4" name="Drakuseth, Maw of Flames"/>
+        <card number="4" name="Dread Summons"/>
+        <card number="4" name="Dreadwing Scavenger"/>
+        <card number="4" name="Driver of the Dead"/>
+        <card number="4" name="Drogskol Reaver"/>
+        <card number="4" name="Dropkick Bomber"/>
+        <card number="4" name="Druid of the Cowl"/>
+        <card number="4" name="Dryad Militant"/>
+        <card number="4" name="Duress"/>
+        <card number="4" name="Dwynen, Gilt-Leaf Daen"/>
+        <card number="4" name="Dwynen's Elite"/>
+        <card number="4" name="Eager Trufflesnout"/>
+        <card number="4" name="Eaten Alive"/>
+        <card number="4" name="Eaten by Piranhas"/>
+        <card number="4" name="Electroduplicate"/>
+        <card number="4" name="Elementalist Adept"/>
+        <card number="4" name="Elenda, Saint of Dusk"/>
+        <card number="4" name="Elfsworn Giant"/>
+        <card number="4" name="Elspeth's Smite"/>
+        <card number="4" name="Elvish Archdruid"/>
+        <card number="4" name="Elvish Regrower"/>
+        <card number="4" name="Empyrean Eagle"/>
+        <card number="4" name="Enigma Drake"/>
+        <card number="4" name="Erudite Wizard"/>
+        <card number="4" name="Essence Scatter"/>
+        <card number="4" name="Etali, Primal Storm"/>
+        <card number="4" name="Evolving Wilds"/>
+        <card number="4" name="Exclusion Mage"/>
+        <card number="4" name="Exemplar of Light"/>
+        <card number="4" name="Expedition Map"/>
+        <card number="4" name="Exsanguinate"/>
+        <card number="4" name="Extravagant Replication"/>
+        <card number="4" name="Faebloom Trick"/>
+        <card number="4" name="Fake Your Own Death"/>
+        <card number="4" name="Fanatical Firebrand"/>
+        <card number="4" name="Feed the Swarm"/>
+        <card number="4" name="Feldon's Cane"/>
+        <card number="4" name="Felidar Cub"/>
+        <card number="4" name="Felidar Retreat"/>
+        <card number="4" name="Felidar Savior"/>
+        <card number="4" name="Felling Blow"/>
+        <card number="4" name="Fiendish Panda"/>
+        <card number="4" name="Fierce Empath"/>
+        <card number="4" name="Fiery Annihilation"/>
+        <card number="4" name="Finale of Revelation"/>
+        <card number="4" name="Firebrand Archer"/>
+        <card number="4" name="Fire Elemental"/>
+        <card number="4" name="Fireshrieker"/>
+        <card number="4" name="Firespitter Whelp"/>
+        <card number="4" name="Fishing Pole"/>
+        <card number="4" name="Flamewake Phoenix"/>
+        <card number="4" name="Flashfreeze"/>
+        <card number="4" name="Fleeting Distraction"/>
+        <card number="4" name="Fleeting Flight"/>
+        <card number="4" name="Fog Bank"/>
+        <card number="4" name="Frenzied Goblin"/>
+        <card number="4" name="Fumigate"/>
+        <card number="4" name="Fynn, the Fangbearer"/>
+        <card number="4" name="Garna, Bloodfist of Keld"/>
+        <card number="4" name="Garruk's Uprising"/>
+        <card number="4" name="Gate Colossus"/>
+        <card number="4" name="Gatekeeper of Malakir"/>
+        <card number="4" name="Gateway Sneak"/>
+        <card number="4" name="Genesis Wave"/>
+        <card number="4" name="Ghalta, Primal Hunger"/>
+        <card number="4" name="Ghitu Lavarunner"/>
+        <card number="4" name="Giada, Font of Hope"/>
+        <card number="4" name="Giant Cindermaw"/>
+        <card number="4" name="Giant Growth"/>
+        <card number="4" name="Gigantosaurus"/>
+        <card number="4" name="Gilded Lotus"/>
+        <card number="4" name="Gleaming Barrier"/>
+        <card number="4" name="Gnarlback Rhino"/>
+        <card number="4" name="Gnarlid Colony"/>
+        <card number="4" name="Goblin Boarders"/>
+        <card number="4" name="Goblin Firebomb"/>
+        <card number="4" name="Goblin Negotiation"/>
+        <card number="4" name="Goblin Oriflamme"/>
+        <card number="4" name="Goblin Smuggler"/>
+        <card number="4" name="Goblin Surprise"/>
+        <card number="4" name="Goldvein Pick"/>
+        <card number="4" name="Golgari Guildgate"/>
+        <card number="4" name="Good-Fortune Unicorn"/>
+        <card number="4" name="Gorehorn Raider"/>
+        <card number="4" name="Grappling Kraken"/>
+        <card number="4" name="Gratuitous Violence"/>
+        <card number="4" name="Grow from the Ashes"/>
+        <card number="4" name="Gruul Guildgate"/>
+        <card number="4" name="Guarded Heir"/>
+        <card number="4" name="Gutless Plunderer"/>
+        <card number="4" name="Guttersnipe"/>
+        <card number="4" name="Halana and Alena, Partners"/>
+        <card number="4" name="Harbinger of the Tides"/>
+        <card number="4" name="Hare Apparent"/>
+        <card number="4" name="Harmless Offering"/>
+        <card number="4" name="Healer's Hawk"/>
+        <card number="4" name="Heartfire Immolator"/>
+        <card number="4" name="Hedron Archive"/>
+        <card number="4" name="Helpful Hunter"/>
+        <card number="4" name="Heraldic Banner"/>
+        <card number="4" name="Herald of Eternal Dawn"/>
+        <card number="4" name="Herald of Faith"/>
+        <card number="4" name="Heroes' Bane"/>
+        <card number="4" name="Heroic Reinforcements"/>
+        <card number="4" name="Hero's Downfall"/>
+        <card number="4" name="Hidetsugu's Second Rite"/>
+        <card number="4" name="Highborn Vampire"/>
+        <card number="4" name="High Fae Trickster"/>
+        <card number="4" name="High-Society Hunter"/>
+        <card number="4" name="Hinterland Sanctifier"/>
+        <card number="4" name="Hoarding Dragon"/>
+        <card number="4" name="Homunculus Horde"/>
+        <card number="4" name="Hungry Ghoul"/>
+        <card number="4" name="Icewind Elemental"/>
+        <card number="4" name="Immersturm Predator"/>
+        <card number="4" name="Impact Tremors"/>
+        <card number="4" name="Imperious Perfect"/>
+        <card number="4" name="Imprisoned in the Moon"/>
+        <card number="4" name="Incinerating Blast"/>
+        <card number="4" name="Infernal Vessel"/>
+        <card number="4" name="Infestation Sage"/>
+        <card number="4" name="Ingenious Leonin"/>
+        <card number="4" name="Inspiration from Beyond"/>
+        <card number="4" name="Inspiring Call"/>
+        <card number="4" name="Inspiring Overseer"/>
+        <card number="4" name="Inspiring Paladin"/>
+        <card number="4" name="Into the Roil"/>
+        <card number="4" name="Involuntary Employment"/>
+        <card number="4" name="Izzet Guildgate"/>
+        <card number="4" name="Jazal Goldmane"/>
+        <card number="4" name="Joraga Invocation"/>
+        <card number="4" name="Joust Through"/>
+        <card number="4" name="Juggernaut"/>
+        <card number="4" name="Jungle Hollow"/>
+        <card number="4" name="Kaito, Cunning Infiltrator"/>
+        <card number="4" name="Kalastria Highborn"/>
+        <card number="4" name="Kargan Dragonrider"/>
+        <card number="4" name="Kellan, Planar Trailblazer"/>
+        <card number="4" name="Kindled Fury"/>
+        <card number="4" name="Kiora, the Rising Tide"/>
+        <card number="4" name="Kitesail Corsair"/>
+        <card number="4" name="Knight of Grace"/>
+        <card number="4" name="Knight of Malice"/>
+        <card number="4" name="Koma, World-Eater"/>
+        <card number="4" name="Krenko, Mob Boss"/>
+        <card number="4" name="Kykar, Zephyr Awakener"/>
+        <card number="4" name="Lathliss, Dragon Queen"/>
+        <card number="4" name="Lathril, Blade of the Elves"/>
+        <card number="4" name="Leonin Skyhunter"/>
+        <card number="4" name="Leonin Vanguard"/>
+        <card number="4" name="Leyline Axe"/>
+        <card number="4" name="Lightshell Duo"/>
+        <card number="4" name="Liliana, Dreadhorde General"/>
+        <card number="4" name="Linden, the Steadfast Queen"/>
+        <card number="4" name="Llanowar Elves"/>
+        <card number="4" name="Loot, Exuberant Explorer"/>
+        <card number="4" name="Luminous Rebuke"/>
+        <card number="4" name="Lunar Insight"/>
+        <card number="4" name="Lyra Dawnbringer"/>
+        <card number="4" name="Maalfeld Twins"/>
+        <card number="4" name="Macabre Waltz"/>
+        <card number="4" name="Maelstrom Pulse"/>
+        <card number="4" name="Magnigoth Sentry"/>
+        <card number="4" name="Make a Stand"/>
+        <card number="4" name="Make Your Move"/>
+        <card number="4" name="Marauding Blight-Priest"/>
+        <card number="4" name="Massacre Wurm"/>
+        <card number="4" name="Mazemind Tome"/>
+        <card number="4" name="Maze's End"/>
+        <card number="4" name="Mentor of the Meek"/>
+        <card number="4" name="Meteor Golem"/>
+        <card number="4" name="Micromancer"/>
+        <card number="4" name="Midnight Reaper"/>
+        <card number="4" name="Midnight Snack"/>
+        <card number="4" name="Mild-Mannered Librarian"/>
+        <card number="4" name="Mindsparker"/>
+        <card number="4" name="Mischievous Mystic"/>
+        <card number="4" name="Mischievous Pup"/>
+        <card number="4" name="Mocking Sprite"/>
+        <card number="4" name="Mold Adder"/>
+        <card number="4" name="Moment of Craving"/>
+        <card number="4" name="Moment of Triumph"/>
+        <card number="4" name="Mortify"/>
+        <card number="4" name="Mossborn Hydra"/>
+        <card number="4" name="Muldrotha, the Gravetide"/>
+        <card number="4" name="Myojin of Night's Reach"/>
+        <card number="4" name="Mystical Teachings"/>
+        <card number="4" name="Mystic Archaeologist"/>
+        <card number="4" name="Needletooth Pack"/>
+        <card number="4" name="Negate"/>
+        <card number="4" name="Nessian Hornbeetle"/>
+        <card number="4" name="New Horizons"/>
+        <card number="4" name="Nine-Lives Familiar"/>
+        <card number="4" name="Niv-Mizzet, Visionary"/>
+        <card number="4" name="Nullpriest of Oblivion"/>
+        <card number="4" name="Obliterating Bolt"/>
+        <card number="4" name="Offer Immortality"/>
+        <card number="4" name="Omniscience"/>
+        <card number="4" name="Opt"/>
+        <card number="4" name="Ordeal of Nylea"/>
+        <card number="4" name="Orzhov Guildgate"/>
+        <card number="4" name="Overrun"/>
+        <card number="4" name="Ovika, Enigma Goliath"/>
+        <card number="4" name="Pacifism"/>
+        <card number="4" name="Painful Quandary"/>
+        <card number="4" name="Pelakka Wurm"/>
+        <card number="4" name="Perforating Artist"/>
+        <card number="4" name="Phyrexian Arena"/>
+        <card number="4" name="Pilfer"/>
+        <card number="4" name="Pirate's Cutlass"/>
+        <card number="4" name="Prayer of Binding"/>
+        <card number="4" name="Predator Ooze"/>
+        <card number="4" name="Preposterous Proportions"/>
+        <card number="4" name="Prideful Parent"/>
+        <card number="4" name="Primal Might"/>
+        <card number="4" name="Prime Speaker Zegana"/>
+        <card number="4" name="Primeval Bounty"/>
+        <card number="4" name="Progenitus"/>
+        <card number="4" name="Pulse Tracker"/>
+        <card number="4" name="Pyromancer's Goggles"/>
+        <card number="4" name="Quakestrider Ceratops"/>
+        <card number="4" name="Quick-Draw Katana"/>
+        <card number="4" name="Quick Study"/>
+        <card number="4" name="Quilled Greatwurm"/>
+        <card number="4" name="Raging Redcap"/>
+        <card number="4" name="Raise the Past"/>
+        <card number="4" name="Rakdos Guildgate"/>
+        <card number="4" name="Ramos, Dragon Engine"/>
+        <card number="4" name="Rampaging Baloths"/>
+        <card number="4" name="Rapacious Dragon"/>
+        <card number="4" name="Ravenous Amulet"/>
+        <card number="4" name="Ravenous Giant"/>
+        <card number="4" name="Reassembling Skeleton"/>
+        <card number="4" name="Reclamation Sage"/>
+        <card number="4" name="Redcap Gutter-Dweller"/>
+        <card number="4" name="Refute"/>
+        <card number="4" name="Regal Caracal"/>
+        <card number="4" name="Release the Dogs"/>
+        <card number="4" name="Resolute Reinforcements"/>
+        <card number="4" name="Revenge of the Rats"/>
+        <card number="4" name="Rise of the Dark Realms"/>
+        <card number="4" name="Rite of Replication"/>
+        <card number="4" name="Rite of the Dragoncaller"/>
+        <card number="4" name="River's Rebuke"/>
+        <card number="4" name="Rogue's Passage"/>
+        <card number="4" name="Ruby, Daring Tracker"/>
+        <card number="4" name="Rugged Highlands"/>
+        <card number="4" name="Run Away Together"/>
+        <card number="4" name="Rune-Scarred Demon"/>
+        <card number="4" name="Rune-Sealed Wall"/>
+        <card number="4" name="Sanguine Indulgence"/>
+        <card number="4" name="Sanguine Syphoner"/>
+        <card number="4" name="Savage Ventmaw"/>
+        <card number="4" name="Savannah Lions"/>
+        <card number="4" name="Scavenging Ooze"/>
+        <card number="4" name="Scorching Dragonfire"/>
+        <card number="4" name="Scoured Barrens"/>
+        <card number="4" name="Scrawling Crawler"/>
+        <card number="4" name="Searslicer Goblin"/>
+        <card number="4" name="Secluded Courtyard"/>
+        <card number="4" name="Seeker's Folly"/>
+        <card number="4" name="Seismic Rupture"/>
+        <card number="4" name="Seize the Spoils"/>
+        <card number="4" name="Selesnya Guildgate"/>
+        <card number="4" name="Self-Reflection"/>
+        <card number="4" name="Serra Angel"/>
+        <card number="4" name="Shipwreck Dowser"/>
+        <card number="4" name="Shivan Dragon"/>
+        <card number="4" name="Simic Guildgate"/>
+        <card number="4" name="Sire of Seven Deaths"/>
+        <card number="4" name="Skeleton Archer"/>
+        <card number="4" name="Skyknight Squire"/>
+        <card number="4" name="Skyraker Giant"/>
+        <card number="4" name="Skyship Buccaneer"/>
+        <card number="4" name="Slagstorm"/>
+        <card number="4" name="Slumbering Cerberus"/>
+        <card number="4" name="Snakeskin Veil"/>
+        <card number="4" name="Solemn Simulacrum"/>
+        <card number="4" name="Sorcerous Spyglass"/>
+        <card number="4" name="Soul-Guide Lantern"/>
+        <card number="4" name="Soul-Shackled Zombie"/>
+        <card number="4" name="Soulstone Sanctuary"/>
+        <card number="4" name="Sower of Chaos"/>
+        <card number="4" name="Spectral Sailor"/>
+        <card number="4" name="Sphinx of Forgotten Lore"/>
+        <card number="4" name="Sphinx of the Final Word"/>
+        <card number="4" name="Spinner of Souls"/>
+        <card number="4" name="Spitfire Lagac"/>
+        <card number="4" name="Springbloom Druid"/>
+        <card number="4" name="Squad Rallier"/>
+        <card number="4" name="Stab"/>
+        <card number="4" name="Starlight Snare"/>
+        <card number="4" name="Stasis Snare"/>
+        <card number="4" name="Steel Hellkite"/>
+        <card number="4" name="Storm Fleet Spy"/>
+        <card number="4" name="Strix Lookout"/>
+        <card number="4" name="Stroke of Midnight"/>
+        <card number="4" name="Stromkirk Bloodthief"/>
+        <card number="4" name="Stromkirk Noble"/>
+        <card number="4" name="Strongbox Raider"/>
+        <card number="4" name="Sun-Blessed Healer"/>
+        <card number="4" name="Sure Strike"/>
+        <card number="4" name="Surrak, the Hunt Caller"/>
+        <card number="4" name="Suspicious Shambler"/>
+        <card number="4" name="Swab Goblin"/>
+        <card number="4" name="Swiftblade Vindicator"/>
+        <card number="4" name="Swiftfoot Boots"/>
+        <card number="4" name="Swiftwater Cliffs"/>
+        <card number="4" name="Sylvan Scavenging"/>
+        <card number="4" name="Syr Alin, the Lion's Claw"/>
+        <card number="4" name="Tajuru Pathwarden"/>
+        <card number="4" name="Tatyova, Benthic Druid"/>
+        <card number="4" name="Taurean Mauler"/>
+        <card number="4" name="Teach by Example"/>
+        <card number="4" name="Tempest Djinn"/>
+        <card number="4" name="Temple of Abandon"/>
+        <card number="4" name="Temple of Deceit"/>
+        <card number="4" name="Temple of Enlightenment"/>
+        <card number="4" name="Temple of Epiphany"/>
+        <card number="4" name="Temple of Malady"/>
+        <card number="4" name="Temple of Malice"/>
+        <card number="4" name="Temple of Mystery"/>
+        <card number="4" name="Temple of Plenty"/>
+        <card number="4" name="Temple of Silence"/>
+        <card number="4" name="Temple of Triumph"/>
+        <card number="4" name="Terror of Mount Velus"/>
+        <card number="4" name="Think Twice"/>
+        <card number="4" name="Thornweald Archer"/>
+        <card number="4" name="Thornwood Falls"/>
+        <card number="4" name="Thousand-Year Storm"/>
+        <card number="4" name="Thrashing Brontodon"/>
+        <card number="4" name="Three Tree Mascot"/>
+        <card number="4" name="Thrill of Possibility"/>
+        <card number="4" name="Time Stop"/>
+        <card number="4" name="Tinybones, Bauble Burglar"/>
+        <card number="4" name="Tolarian Terror"/>
+        <card number="4" name="Tragic Banshee"/>
+        <card number="4" name="Tranquil Cove"/>
+        <card number="4" name="Treetop Snarespinner"/>
+        <card number="4" name="Tribute to Hunger"/>
+        <card number="4" name="Trygon Predator"/>
+        <card number="4" name="Twinblade Blessing"/>
+        <card number="4" name="Twinblade Paladin"/>
+        <card number="4" name="Twinflame Tyrant"/>
+        <card number="4" name="Uncharted Haven"/>
+        <card number="4" name="Uncharted Voyage"/>
+        <card number="4" name="Undying Malice"/>
+        <card number="4" name="Unflinching Courage"/>
+        <card number="4" name="Unsummon"/>
+        <card number="4" name="Untamed Hunger"/>
+        <card number="4" name="Valkyrie's Call"/>
+        <card number="4" name="Valorous Stance"/>
+        <card number="4" name="Vampire Gourmand"/>
+        <card number="4" name="Vampire Interloper"/>
+        <card number="4" name="Vampire Neonate"/>
+        <card number="4" name="Vampire Nighthawk"/>
+        <card number="4" name="Vampire Soulcaller"/>
+        <card number="4" name="Vampire Spawn"/>
+        <card number="4" name="Vampiric Rites"/>
+        <card number="4" name="Vanguard Seraph"/>
+        <card number="4" name="Vengeful Bloodwitch"/>
+        <card number="4" name="Venom Connoisseur"/>
+        <card number="4" name="Viashino Pyromancer"/>
+        <card number="4" name="Vile Entomber"/>
+        <card number="4" name="Vivien Reid"/>
+        <card number="4" name="Vizier of the Menagerie"/>
+        <card number="4" name="Volley Veteran"/>
+        <card number="4" name="Voracious Greatshark"/>
+        <card number="4" name="Wardens of the Cycle"/>
+        <card number="4" name="Wary Thespian"/>
+        <card number="4" name="Wildborn Preserver"/>
+        <card number="4" name="Wildheart Invoker"/>
+        <card number="4" name="Wildwood Scourge"/>
+        <card number="4" name="Wilt-Leaf Liege"/>
+        <card number="4" name="Wind-Scarred Crag"/>
+        <card number="4" name="Wishclaw Talisman"/>
+        <card number="4" name="Witness Protection"/>
+        <card number="4" name="Youthful Valkyrie"/>
+        <card number="4" name="Zetalpa, Primal Dawn"/>
+        <card number="4" name="Zimone, Paradox Sculptor"/>
+        <card number="4" name="Zombify"/>
+        <card number="4" name="Zul Ashur, Lich Lord"/>
+    </zone>
+</cockatrice_deck>
