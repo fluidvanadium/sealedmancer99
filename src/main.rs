@@ -245,8 +245,12 @@ async fn main() {
             "./dsk.txt".to_string(),
             Query::And(vec![set("DSK"), not(type_line("basic"))]),
         ),
+        (
+            "./block_rav.txt".to_string(),
+            Query::And(vec![block("RAV"), not(type_line("basic"))]),
+        ),
     ];
-    let index = 14;
+    let index = 15;
     let (destination_filename, der_query) = format[index].clone();
     let query = &der_query;
     // for (destination_filename, query) in format.iter()
