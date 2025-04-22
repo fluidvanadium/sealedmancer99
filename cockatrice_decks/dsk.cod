@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cockatrice_deck version="1">
+    <lastLoadedTimestamp></lastLoadedTimestamp>
+    <deckname></deckname>
+    <bannerCard providerId=""></bannerCard>
+    <comments></comments>
+    <tags/>
+    <zone name="main">
+        <card number="109" name="Plains"/>
+        <card number="109" name="Island"/>
+        <card number="109" name="Swamp"/>
+        <card number="109" name="Mountain"/>
+        <card number="109" name="Forest"/>
+        <card number="4" name="Abandoned Campground"/>
+        <card number="4" name="Abhorrent Oculus"/>
+        <card number="4" name="Acrobatic Cheerleader"/>
+        <card number="4" name="A-Leyline of Resonance"/>
+        <card number="4" name="Altanak, the Thrice-Called"/>
+        <card number="4" name="Anthropede"/>
+        <card number="4" name="Appendage Amalgam"/>
+        <card number="4" name="Arabella, Abandoned Doll"/>
+        <card number="4" name="Attack-in-the-Box"/>
+        <card number="4" name="Balemurk Leech"/>
+        <card number="4" name="Balustrade Wurm"/>
+        <card number="4" name="Baseball Bat"/>
+        <card number="4" name="Bashful Beastie"/>
+        <card number="4" name="Bear Trap"/>
+        <card number="4" name="Beastie Beatdown"/>
+        <card number="4" name="Bedhead Beastie"/>
+        <card number="4" name="Betrayer's Bargain"/>
+        <card number="4" name="Blazemire Verge"/>
+        <card number="4" name="Bleeding Woods"/>
+        <card number="4" name="Boilerbilges Ripper"/>
+        <card number="4" name="Break Down the Door"/>
+        <card number="4" name="Broodspinner"/>
+        <card number="4" name="Cackling Slasher"/>
+        <card number="4" name="Cathartic Parting"/>
+        <card number="4" name="Cautious Survivor"/>
+        <card number="4" name="Chainsaw"/>
+        <card number="4" name="Clammy Prowler"/>
+        <card number="4" name="Clockwork Percussionist"/>
+        <card number="4" name="Come Back Wrong"/>
+        <card number="4" name="Commune with Evil"/>
+        <card number="4" name="Conductive Machete"/>
+        <card number="4" name="Coordinated Clobbering"/>
+        <card number="4" name="Cracked Skull"/>
+        <card number="4" name="Creeping Peeper"/>
+        <card number="4" name="Cryptid Inspector"/>
+        <card number="4" name="Cult Healer"/>
+        <card number="4" name="Cursed Recording"/>
+        <card number="4" name="Cursed Windbreaker"/>
+        <card number="4" name="Cynical Loner"/>
+        <card number="4" name="Daggermaw Megalodon"/>
+        <card number="4" name="Dashing Bloodsucker"/>
+        <card number="4" name="Defiant Survivor"/>
+        <card number="4" name="Demonic Counsel"/>
+        <card number="4" name="Dissection Tools"/>
+        <card number="4" name="Disturbing Mirth"/>
+        <card number="4" name="Diversion Specialist"/>
+        <card number="4" name="Don't Make a Sound"/>
+        <card number="4" name="Doomsday Excruciator"/>
+        <card number="4" name="Drag to the Roots"/>
+        <card number="4" name="Duskmourn's Domination"/>
+        <card number="4" name="Emerge from the Cocoon"/>
+        <card number="4" name="Enduring Courage"/>
+        <card number="4" name="Enduring Curiosity"/>
+        <card number="4" name="Enduring Innocence"/>
+        <card number="4" name="Enduring Tenacity"/>
+        <card number="4" name="Enduring Vitality"/>
+        <card number="4" name="Enter the Enigma"/>
+        <card number="4" name="Entity Tracker"/>
+        <card number="4" name="Erratic Apparition"/>
+        <card number="4" name="Etched Cornfield"/>
+        <card number="4" name="Ethereal Armor"/>
+        <card number="4" name="Exorcise"/>
+        <card number="4" name="Fanatic of the Harrowing"/>
+        <card number="4" name="Fear of Abduction"/>
+        <card number="4" name="Fear of Being Hunted"/>
+        <card number="4" name="Fear of Burning Alive"/>
+        <card number="4" name="Fear of Exposure"/>
+        <card number="4" name="Fear of Failed Tests"/>
+        <card number="4" name="Fear of Falling"/>
+        <card number="4" name="Fear of Immobility"/>
+        <card number="4" name="Fear of Impostors"/>
+        <card number="4" name="Fear of Infinity"/>
+        <card number="4" name="Fear of Isolation"/>
+        <card number="4" name="Fear of Lost Teeth"/>
+        <card number="4" name="Fear of Missing Out"/>
+        <card number="4" name="Fear of Surveillance"/>
+        <card number="4" name="Fear of the Dark"/>
+        <card number="4" name="Final Vengeance"/>
+        <card number="4" name="Flesh Burrower"/>
+        <card number="4" name="Floodfarm Verge"/>
+        <card number="4" name="Floodpits Drowner"/>
+        <card number="4" name="Found Footage"/>
+        <card number="4" name="Frantic Strength"/>
+        <card number="4" name="Friendly Ghost"/>
+        <card number="4" name="Friendly Teddy"/>
+        <card number="4" name="Get Out"/>
+        <card number="4" name="Ghostly Dancers"/>
+        <card number="4" name="Ghostly Keybearer"/>
+        <card number="4" name="Ghost Vacuum"/>
+        <card number="4" name="Give In to Violence"/>
+        <card number="4" name="Glimmerburst"/>
+        <card number="4" name="Glimmerlight"/>
+        <card number="4" name="Glimmer Seeker"/>
+        <card number="4" name="Gloomlake Verge"/>
+        <card number="4" name="Grab the Prize"/>
+        <card number="4" name="Grasping Longneck"/>
+        <card number="4" name="Gremlin Tamer"/>
+        <card number="4" name="Grievous Wound"/>
+        <card number="4" name="Growing Dread"/>
+        <card number="4" name="Hand That Feeds"/>
+        <card number="4" name="Hardened Escort"/>
+        <card number="4" name="Haunted Screen"/>
+        <card number="4" name="Hauntwoods Shrieker"/>
+        <card number="4" name="Hedge Shredder"/>
+        <card number="4" name="Horrid Vigor"/>
+        <card number="4" name="House Cartographer"/>
+        <card number="4" name="Hushwood Verge"/>
+        <card number="4" name="Impossible Inferno"/>
+        <card number="4" name="Infernal Phantom"/>
+        <card number="4" name="Innocuous Rat"/>
+        <card number="4" name="Inquisitive Glimmer"/>
+        <card number="4" name="Insidious Fungus"/>
+        <card number="4" name="Intruding Soulrager"/>
+        <card number="4" name="Irreverent Gremlin"/>
+        <card number="4" name="Jump Scare"/>
+        <card number="4" name="Kaito, Bane of Nightmares"/>
+        <card number="4" name="Keys to the House"/>
+        <card number="4" name="Killer's Mask"/>
+        <card number="4" name="Kona, Rescue Beastie"/>
+        <card number="4" name="Lakeside Shack"/>
+        <card number="4" name="Let's Play a Game"/>
+        <card number="4" name="Leyline of Hope"/>
+        <card number="4" name="Leyline of Mutation"/>
+        <card number="4" name="Leyline of Resonance"/>
+        <card number="4" name="Leyline of the Void"/>
+        <card number="4" name="Leyline of Transformation"/>
+        <card number="4" name="Lionheart Glimmer"/>
+        <card number="4" name="Live or Die"/>
+        <card number="4" name="Living Phone"/>
+        <card number="4" name="Malevolent Chandelier"/>
+        <card number="4" name="Manifest Dread"/>
+        <card number="4" name="Marina Vendrell"/>
+        <card number="4" name="Marina Vendrell's Grimoire"/>
+        <card number="4" name="Marvin, Murderous Mimic"/>
+        <card number="4" name="Meathook Massacre II"/>
+        <card number="4" name="Miasma Demon"/>
+        <card number="4" name="Midnight Mayhem"/>
+        <card number="4" name="Monstrous Emergence"/>
+        <card number="4" name="Most Valuable Slayer"/>
+        <card number="4" name="Murder"/>
+        <card number="4" name="Murky Sewer"/>
+        <card number="4" name="Nashi, Searcher in the Dark"/>
+        <card number="4" name="Neglected Manor"/>
+        <card number="4" name="Niko, Light of Hope"/>
+        <card number="4" name="Norin, Swift Survivalist"/>
+        <card number="4" name="Nowhere to Run"/>
+        <card number="4" name="Oblivious Bookworm"/>
+        <card number="4" name="Omnivorous Flytrap"/>
+        <card number="4" name="Optimistic Scavenger"/>
+        <card number="4" name="Orphans of the Wheat"/>
+        <card number="4" name="Osseous Sticktwister"/>
+        <card number="4" name="Overgrown Zealot"/>
+        <card number="4" name="Overlord of the Balemurk"/>
+        <card number="4" name="Overlord of the Boilerbilges"/>
+        <card number="4" name="Overlord of the Floodpits"/>
+        <card number="4" name="Overlord of the Hauntwoods"/>
+        <card number="4" name="Overlord of the Mistmoors"/>
+        <card number="4" name="Paranormal Analyst"/>
+        <card number="4" name="Patched Plaything"/>
+        <card number="4" name="Patchwork Beastie"/>
+        <card number="4" name="Peculiar Lighthouse"/>
+        <card number="4" name="Peer Past the Veil"/>
+        <card number="4" name="Piggy Bank"/>
+        <card number="4" name="Piranha Fly"/>
+        <card number="4" name="Popular Egotist"/>
+        <card number="4" name="Possessed Goat"/>
+        <card number="4" name="Pyroclasm"/>
+        <card number="4" name="Ragged Playmate"/>
+        <card number="4" name="Rampaging Soulrager"/>
+        <card number="4" name="Raucous Carnival"/>
+        <card number="4" name="Razorkin Hordecaller"/>
+        <card number="4" name="Razorkin Needlehead"/>
+        <card number="4" name="Razortrap Gorge"/>
+        <card number="4" name="Reluctant Role Model"/>
+        <card number="4" name="Resurrected Cultist"/>
+        <card number="4" name="Ripchain Razorkin"/>
+        <card number="4" name="Rip, Spawn Hunter"/>
+        <card number="4" name="Rite of the Moth"/>
+        <card number="4" name="Rootwise Survivor"/>
+        <card number="4" name="Savior of the Small"/>
+        <card number="4" name="Saw"/>
+        <card number="4" name="Sawblade Skinripper"/>
+        <card number="4" name="Say Its Name"/>
+        <card number="4" name="Scorching Dragonfire"/>
+        <card number="4" name="Scrabbling Skullcrab"/>
+        <card number="4" name="Screaming Nemesis"/>
+        <card number="4" name="Seized from Slumber"/>
+        <card number="4" name="Shardmage's Rescue"/>
+        <card number="4" name="Sheltered by Ghosts"/>
+        <card number="4" name="Shepherding Spirits"/>
+        <card number="4" name="Shrewd Storyteller"/>
+        <card number="4" name="Shroudstomper"/>
+        <card number="4" name="Silent Hallcreeper"/>
+        <card number="4" name="Skullsnap Nuisance"/>
+        <card number="4" name="Slavering Branchsnapper"/>
+        <card number="4" name="Spectral Snatcher"/>
+        <card number="4" name="Spineseeker Centipede"/>
+        <card number="4" name="Splitskin Doll"/>
+        <card number="4" name="Split Up"/>
+        <card number="4" name="Sporogenic Infection"/>
+        <card number="4" name="Stalked Researcher"/>
+        <card number="4" name="Stay Hidden, Stay Silent"/>
+        <card number="4" name="Strangled Cemetery"/>
+        <card number="4" name="Terramorphic Expanse"/>
+        <card number="4" name="The Jolly Balloon Man"/>
+        <card number="4" name="The Mindskinner"/>
+        <card number="4" name="The Rollercrusher Ride"/>
+        <card number="4" name="The Swarmweaver"/>
+        <card number="4" name="The Tale of Tamiyo"/>
+        <card number="4" name="The Wandering Rescuer"/>
+        <card number="4" name="Thornspire Verge"/>
+        <card number="4" name="Threats Around Every Corner"/>
+        <card number="4" name="Toby, Beastie Befriender"/>
+        <card number="4" name="Trapped in the Screen"/>
+        <card number="4" name="Trial of Agony"/>
+        <card number="4" name="Tunnel Surveyor"/>
+        <card number="4" name="Turn Inside Out"/>
+        <card number="4" name="Twist Reality"/>
+        <card number="4" name="Twitching Doll"/>
+        <card number="4" name="Tyvar, the Pummeler"/>
+        <card number="4" name="Unable to Scream"/>
+        <card number="4" name="Undead Sprinter"/>
+        <card number="4" name="Under the Skin"/>
+        <card number="4" name="Unidentified Hovership"/>
+        <card number="4" name="Unnerving Grasp"/>
+        <card number="4" name="Unsettling Twins"/>
+        <card number="4" name="Unstoppable Slasher"/>
+        <card number="4" name="Untimely Malfunction"/>
+        <card number="4" name="Unwanted Remake"/>
+        <card number="4" name="Unwilling Vessel"/>
+        <card number="4" name="Valgavoth's Faithful"/>
+        <card number="4" name="Valgavoth's Lair"/>
+        <card number="4" name="Valgavoth's Onslaught"/>
+        <card number="4" name="Valgavoth, Terror Eater"/>
+        <card number="4" name="Vanish from Sight"/>
+        <card number="4" name="Vengeful Possession"/>
+        <card number="4" name="Veteran Survivor"/>
+        <card number="4" name="Vicious Clown"/>
+        <card number="4" name="Victor, Valgavoth's Seneschal"/>
+        <card number="4" name="Vile Mutilator"/>
+        <card number="4" name="Violent Urge"/>
+        <card number="4" name="Waltz of Rage"/>
+        <card number="4" name="Wary Watchdog"/>
+        <card number="4" name="Wickerfolk Thresher"/>
+        <card number="4" name="Wildfire Wickerfolk"/>
+        <card number="4" name="Winter, Misanthropic Guide"/>
+        <card number="4" name="Winter's Intervention"/>
+        <card number="4" name="Withering Torment"/>
+        <card number="4" name="Zimone, All-Questioning"/>
+        <card number="4" name="Bottomless Pool // Locker Room"/>
+        <card number="4" name="Central Elevator // Promising Stairs"/>
+        <card number="4" name="Charred Foyer // Warped Space"/>
+        <card number="4" name="Dazzling Theater // Prop Room"/>
+        <card number="4" name="Defiled Crypt // Cadaver Lab"/>
+        <card number="4" name="Derelict Attic // Widow's Walk"/>
+        <card number="4" name="Dollmaker's Shop // Porcelain Gallery"/>
+        <card number="4" name="Funeral Room // Awakening Hall"/>
+        <card number="4" name="Glassworks // Shattered Yard"/>
+        <card number="4" name="Grand Entryway // Elegant Rotunda"/>
+        <card number="4" name="Greenhouse // Rickety Gazebo"/>
+        <card number="4" name="Meat Locker // Drowned Diner"/>
+        <card number="4" name="Mirror Room // Fractured Realm"/>
+        <card number="4" name="Moldering Gym // Weight Room"/>
+        <card number="4" name="Painter's Studio // Defaced Gallery"/>
+        <card number="4" name="Restricted Office // Lecture Hall"/>
+        <card number="4" name="Roaring Furnace // Steaming Sauna"/>
+        <card number="4" name="Smoky Lounge // Misty Salon"/>
+        <card number="4" name="Surgical Suite // Hospital Room"/>
+        <card number="4" name="Ticket Booth // Tunnel of Hate"/>
+        <card number="4" name="Underwater Tunnel // Slimy Aquarium"/>
+        <card number="4" name="Unholy Annex // Ritual Chamber"/>
+        <card number="4" name="Walk-In Closet // Forgotten Cellar"/>
+    </zone>
+</cockatrice_deck>
