@@ -1,3 +1,4 @@
+use scryfall::card::Rarity;
 use scryfall::format::Format;
 use scryfall::search::param::exact;
 use scryfall::search::prelude::*;
@@ -11,7 +12,7 @@ use timestamp::Report;
 mod timestamp;
 
 async fn query_to_draftmancer_list(query: &Query) -> (String, Report) {
-    println!("query ready");
+    println!("query ready: {}", query.to_string());
 
     let (non_split_cards, non_split_report) = name_strings_for_draftmancer(query, false).await;
     let (split_cards, split_report) = name_strings_for_draftmancer(query, true).await;
@@ -70,8 +71,32 @@ async fn name_strings_for_draftmancer(query: &Query, splits: bool) -> (String, R
 
                         backup_cards = cards.clone();
 
-                        let print_list = card.prints_search_uri;
-                        let number = print_list.fetch_all().await.unwrap().len();
+                        // count prints of the same rarity
+                        let other_prints = card.prints_search_uri;
+                        let mut copies = 0;
+                        let print_list = other_prints.fetch_all().await;
+                        match print_list {
+                            Err(e) => {
+                                // same script as below. helperize?
+                                dbg!(e);
+
+                                let sleep_time: u128 = 1_000_000_000;
+                                sleep(Duration::from_nanos(sleep_time as u64));
+
+                                lazy_report.number_of_errors += 1;
+                                lazy_report.error_sleep_nanos += sleep_time;
+                                lazy_report.error_server_nanos += lookup_time;
+
+                                cards = backup_cards.clone();
+                            }
+                            Ok(print_list_success) => {
+                                for reprinted_card in print_list_success {
+                                    if reprinted_card.rarity == card.rarity {
+                                        copies += 1
+                                    }
+                                }
+                            }
+                        }
 
                         let card_name = card.name;
                         let name = if splits {
@@ -80,7 +105,7 @@ async fn name_strings_for_draftmancer(query: &Query, splits: bool) -> (String, R
                             card_name.split("//").next().unwrap().to_string()
                         };
 
-                        let new_entry = number.to_string() + " " + &name;
+                        let new_entry = copies.to_string() + " " + &name;
 
                         let now = timestamp::now_string();
                         println!("{now} . {lookup_time} > {new_entry}");
@@ -92,7 +117,7 @@ async fn name_strings_for_draftmancer(query: &Query, splits: bool) -> (String, R
                     Err(e) => {
                         dbg!(e);
 
-                        let sleep_time: u128 = 60_000_000_000;
+                        let sleep_time: u128 = 1_000_000_000;
                         sleep(Duration::from_nanos(sleep_time as u64));
 
                         lazy_report.number_of_errors += 1;
@@ -259,25 +284,128 @@ async fn main() {
             Query::And(vec![block("RAV"), not(type_line("basic"))]),
         ),
     ];
-    let index = 6;
-    let (destination_filename, der_query) = format[index].clone();
-    let query = &der_query;
-    // for (destination_filename, query) in format.iter()
-    // {
-    let (list, report) = query_to_draftmancer_list(query).await;
+    let format = [
+        (
+            "./for-subset-draft-bonus.txt".to_string(),
+            Query::Or(vec![
+                Query::And(vec![rarity(Rarity::Bonus), rebalanced.clone()]),
+                Query::And(vec![
+                    rarity(Rarity::Bonus),
+                    vintage_taste_ban.clone(),
+                    not(basics.clone()),
+                    not(meld_duds.clone()),
+                    not(unfun.clone()),
+                    //
+                    not(commander_synergy.clone()),
+                    // not(draft_involved.clone()),
+                ]),
+                conspiracy.clone(),
+            ]),
+        ),
+        (
+            "./for-subset-draft-Mythic.txt".to_string(),
+            Query::Or(vec![
+                Query::And(vec![rarity(Rarity::Mythic), rebalanced.clone()]),
+                Query::And(vec![
+                    rarity(Rarity::Mythic),
+                    vintage_taste_ban.clone(),
+                    not(basics.clone()),
+                    not(meld_duds.clone()),
+                    not(unfun.clone()),
+                    //
+                    not(commander_synergy.clone()),
+                    // not(draft_involved.clone()),
+                ]),
+                conspiracy.clone(),
+            ]),
+        ),
+        (
+            "./for-subset-draft-Special.txt".to_string(),
+            Query::Or(vec![
+                Query::And(vec![rarity(Rarity::Special), rebalanced.clone()]),
+                Query::And(vec![
+                    rarity(Rarity::Special),
+                    vintage_taste_ban.clone(),
+                    not(basics.clone()),
+                    not(meld_duds.clone()),
+                    not(unfun.clone()),
+                    //
+                    not(commander_synergy.clone()),
+                    // not(draft_involved.clone()),
+                ]),
+                conspiracy.clone(),
+            ]),
+        ),
+        (
+            "./for-subset-draft-Rare.txt".to_string(),
+            Query::Or(vec![
+                Query::And(vec![rarity(Rarity::Rare), rebalanced.clone()]),
+                Query::And(vec![
+                    rarity(Rarity::Rare),
+                    vintage_taste_ban.clone(),
+                    not(basics.clone()),
+                    not(meld_duds.clone()),
+                    not(unfun.clone()),
+                    //
+                    not(commander_synergy.clone()),
+                    // not(draft_involved.clone()),
+                ]),
+                conspiracy.clone(),
+            ]),
+        ),
+        (
+            "./for-subset-draft-Uncommon.txt".to_string(),
+            Query::Or(vec![
+                Query::And(vec![rarity(Rarity::Uncommon), rebalanced.clone()]),
+                Query::And(vec![
+                    rarity(Rarity::Uncommon),
+                    vintage_taste_ban.clone(),
+                    not(basics.clone()),
+                    not(meld_duds.clone()),
+                    not(unfun.clone()),
+                    //
+                    not(commander_synergy.clone()),
+                    // not(draft_involved.clone()),
+                ]),
+                conspiracy.clone(),
+            ]),
+        ),
+        (
+            "./for-subset-draft-Common.txt".to_string(),
+            Query::Or(vec![
+                Query::And(vec![rarity(Rarity::Common), rebalanced.clone()]),
+                Query::And(vec![
+                    rarity(Rarity::Common),
+                    vintage_taste_ban.clone(),
+                    not(basics.clone()),
+                    not(meld_duds.clone()),
+                    not(unfun.clone()),
+                    //
+                    not(commander_synergy.clone()),
+                    // not(draft_involved.clone()),
+                ]),
+                conspiracy.clone(),
+            ]),
+        ),
+    ];
+    for (destination_filename, der_query) in format.iter() {
+        // let index = 6;
+        // let (destination_filename, der_query) = format[index].clone();
+        let query = &der_query;
+        let (list, report) = query_to_draftmancer_list(query).await;
 
-    let list_path_name = "lists/".to_string() + destination_filename.as_str();
-    let list_path = Path::new(list_path_name.as_str());
-    let report_path_name = "reports/".to_string() + destination_filename.as_str();
-    let report_path = Path::new(report_path_name.as_str());
-    let mut list_file = File::create(list_path).unwrap();
-    let mut report_file = File::create(report_path).unwrap();
+        let list_path_name = "lists/".to_string() + destination_filename.as_str();
+        let list_path = Path::new(list_path_name.as_str());
+        let report_path_name = "reports/".to_string() + destination_filename.as_str();
+        let report_path = Path::new(report_path_name.as_str());
+        let mut list_file = File::create(list_path).unwrap();
+        let mut report_file = File::create(report_path).unwrap();
 
-    list_file
-        .write_all(list.as_bytes())
-        .expect("Unable to write data");
-    report_file
-        .write_all(report.to_string().as_bytes())
-        .expect("Unable to write data");
-    // }
+        list_file
+            .write_all(list.as_bytes())
+            .expect("Unable to write data");
+        report_file
+            .write_all(report.to_string().as_bytes())
+            .expect("Unable to write data");
+    }
 }
