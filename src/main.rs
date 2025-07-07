@@ -61,7 +61,7 @@ async fn name_strings_for_draftmancer(query: &Query, splits: bool) -> (String, R
                 }
                 Some(card_result) => match card_result {
                     Ok(card) => {
-                        let sleep_time: u128 = 1_000_000;
+                        let sleep_time: u128 = 100_000;
                         sleep(Duration::from_nanos(sleep_time as u64));
 
                         lazy_report.number_of_cards += 1;
@@ -70,16 +70,24 @@ async fn name_strings_for_draftmancer(query: &Query, splits: bool) -> (String, R
 
                         backup_cards = cards.clone();
 
+                        let print_list = card.prints_search_uri;
+                        let number = print_list.fetch_all().await.unwrap().len();
+
                         let card_name = card.name;
                         let name = if splits {
                             card_name
                         } else {
                             card_name.split("//").next().unwrap().to_string()
                         };
-                        println!("{lookup_time} > {name}");
+
+                        let new_entry = number.to_string() + " " + &name;
+
+                        let now = timestamp::now_string();
+                        println!("{now} . {lookup_time} > {new_entry}");
+
                         card_list = card_list
                             + "
-" + &name;
+" + &new_entry;
                     }
                     Err(e) => {
                         dbg!(e);
@@ -157,6 +165,7 @@ async fn main() {
         ("./rebalanced.txt".to_string(), rebalanced.clone()),
         // equal access low choice
         (
+            // 6
             "./for-subset-draft.txt".to_string(),
             Query::Or(vec![
                 rebalanced.clone(),
@@ -250,7 +259,7 @@ async fn main() {
             Query::And(vec![block("RAV"), not(type_line("basic"))]),
         ),
     ];
-    let index = 15;
+    let index = 6;
     let (destination_filename, der_query) = format[index].clone();
     let query = &der_query;
     // for (destination_filename, query) in format.iter()

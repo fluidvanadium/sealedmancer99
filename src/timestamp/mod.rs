@@ -75,3 +75,10 @@ fn format_duh(number: &u128) -> String {
     buf.write_formatted(number, &format);
     buf.as_str().to_string()
 }
+
+use chrono::Local;
+
+pub fn now_string() -> String {
+    let date = Local::now();
+    date.format("%H:%M:%S").to_string()
+}
