@@ -1,0 +1,396 @@
+
+1 Abrupt Decay
+1 Adriana's Valor
+1 Advantageous Proclamation
+1 Aether Vial
+1 Aggravated Assault
+1 Ajani's Pridemate
+1 Akroma, Angel of Wrath
+1 Alesha, Who Smiles at Death
+2 Ancestral Recall
+1 Ancient Den
+1 Ancient Stirrings
+1 Anger of the Gods
+1 Arcades, the Strategist
+1 Arcbound Ravager
+1 Arch of Orazca
+1 Arena
+1 Armageddon
+1 Assemble the Rank and Vile
+1 Attrition
+1 Auratog
+1 Austere Command
+1 Avalanche Riders
+2 Avatar of Woe
+1 Aven Mindcensor
+1 Avoid Fate
+1 Backup Plan
+1 Badlands
+1 Bad Moon
+1 Banishing Light
+2 Baral, Chief of Compliance
+1 Bayou
+1 Bazaar of Baghdad
+1 Beast Whisperer
+1 Beast Within
+1 Become Immense
+1 Bedlam Reveler
+4 Black Lotus
+1 Black Vise
+1 Blighted Woodland
+1 Bloodbraid Elf
+1 Blood Moon
+1 Boil
+1 Bojuka Bog
+1 Bontu the Glorified
+1 Brago's Favor
+1 Browbeat
+1 Call of the Herd
+1 Capsize
+1 Cataclysmic Gearhulk
+1 Celestial Dawn
+1 Chain Lightning
+2 Chalice of the Void
+1 Champion's Helm
+1 Choke
+1 Chromatic Lantern
+1 Chrome Mox
+1 City of Traitors
+1 Claws of Gix
+1 Cloudshredder Sliver
+1 Cloudstone Curio
+2 Coalition Victory
+1 Cockatrice
+1 Combustible Gearhulk
+0 Command From the Shadows
+1 Consecrated Sphinx
+1 Consecrate Land
+1 Conspiracy
+1 Consuming Aberration
+1 Contagion Clasp
+2 Containment Priest
+1 Counterbalance
+1 Counterspell
+1 Courser of Kruphix
+1 Cranial Plating
+1 Craw Giant
+1 Crucible of Worlds
+1 Cryptic Command
+1 Crystal Shard
+1 Damnation
+1 Dandân
+1 Darkness
+1 Dark Ritual
+1 Dauthi Slayer
+1 Daze
+1 Defense Grid
+1 Defiant Vanguard
+1 Desert
+1 Desolation Angel
+1 Desolation Giant
+1 Diabolic Edict
+1 Diabolic Intent
+1 Disdainful Stroke
+1 Disenchant
+1 Disintegrate
+1 Dismember
+1 Divert
+1 Dodecapod
+1 Doomsday
+1 Double Stroke
+1 Dovin's Veto
+1 Dragonstorm
+1 Dragon Whelp
+1 Dreadhorde Arcanist
+1 Duplicant
+1 Echoing Boon
+1 Elvish Mystic
+1 Emissary's Ploy
+1 Enduring Renewal
+1 Engineered Explosives
+1 Ensnaring Bridge
+1 Entomb
+1 Epic Experiment
+1 Eron the Relentless
+1 Essence Sliver
+1 Etali, Primal Storm
+1 Eternal Witness
+1 Ethereal Armor
+1 Everflowing Chalice
+1 Evil Eye of Orms-by-Gore
+1 Evolutionary Leap
+1 Exquisite Firecraft
+1 Extraplanar Lens
+1 Faceless Butcher
+1 Farseek
+1 Fblthp, the Lost
+1 Feather, the Redeemed
+1 Feldon of the Third Path
+1 Feldon's Cane
+1 Field of Ruin
+1 Fiery Justice
+1 Fiery Temper
+1 Fire Whip
+1 Flickerwisp
+1 Flying Men
+1 Forbid
+2 Force of Will
+1 Funeral Charm
+1 Gaea's Blessing
+2 Gaea's Cradle
+1 Gaea's Liege
+1 Gauntlet of Power
+1 Gemstone Mine
+1 Ghost Ship
+1 Giant Oyster
+1 Goblin Engineer
+1 Goblin Snowman
+1 Gray Merchant of Asphodel
+1 Grenzo, Dungeon Warden
+1 Grindstone
+1 Grinning Totem
+1 Gurmag Angler
+1 Hail Storm
+1 Hangarback Walker
+1 Harvester of Souls
+1 Hazoret the Fervent
+1 Hedron Archive
+1 Hired Heist
+1 Hold the Perimeter
+1 Hollow One
+1 Honorable Passage
+1 Hunting Moa
+2 Hymn of the Wilds
+1 Icatian Javelineers
+1 Immediate Action
+1 Incendiary Dissent
+1 Intangible Virtue
+2 Iterative Analysis
+1 Jasmine Boreal
+1 Jolrael, Empress of Beasts
+1 Kefnet the Mindful
+1 Kiki-Jiki, Mirror Breaker
+1 Knight of the Reliquary
+1 Kobold Taskmaster
+1 Krosan Cloudscraper
+1 Laboratory Maniac
+1 Lava Spike
+1 Lavinia, Azorius Renegade
+1 Leveler
+1 Leviathan
+1 Leyline of the Void
+1 Lightning Angel
+1 Lightning Bolt
+1 Lightning Greaves
+1 Liliana's Triumph
+1 Lingering Souls
+1 Lord of Atlantis
+1 Lord of Extinction
+1 Lotus Petal
+1 Loyal Retainers
+1 Maelstrom Pulse
+1 Mana Crypt
+1 Mana Vault
+1 Manifold Key
+0 Marchesa's Surprise Party
+1 Master of the Pearl Trident
+1 Meekstone
+1 Merfolk Assassin
+1 Merieke Ri Berit
+1 Mindless Automaton
+1 Mind's Eye
+1 Mind Twist
+1 Mirari
+1 Mirror Entity
+1 Mistform Ultimus
+1 Molten Rain
+1 Monastery Swiftspear
+1 Moorish Cavalry
+1 Mortify
+1 Mox Emerald
+2 Mox Jet
+1 Mox Opal
+1 Mox Pearl
+1 Mox Ruby
+1 Mox Sapphire
+1 Mulldrifter
+1 Muzzio's Preparations
+1 Mystic Confluence
+1 Mystic Enforcer
+1 Mystic Sanctuary
+1 Mystic Snake
+1 Natural Unity
+1 Nature's Claim
+1 Nicol Bolas
+1 Ninja of the Deep Hours
+1 No Mercy
+1 Noxious Gearhulk
+1 Oblivion Stone
+1 Oketra the True
+1 Omniscience
+1 Opposition
+1 Orcish Librarian
+1 Orgg
+1 Ornithopter
+1 Ovinomancer
+1 Pact of Negation
+1 Painter's Servant
+1 Palace Jailer
+1 Pandemonium
+1 Panharmonicon
+1 Paradox Engine
+1 Paradoxical Outcome
+1 Past in Flames
+1 Path to Exile
+1 Pendelhaven
+1 Pirate Ship
+1 Pithing Needle
+1 Planar Bridge
+1 Plateau
+1 Platinum Angel
+1 Ponder
+1 Power Play
+1 Primeval Titan
+1 Prized Amalgam
+1 Prodigal Sorcerer
+1 Psionic Blast
+1 Qasali Pridemage
+1 Rakdos Charm
+1 Ramunap Ruins
+1 Read the Bones
+2 Reclamation Sage
+1 Relentless Rats
+1 Remand
+1 Repeal
+1 Restoration Angel
+1 Resurrection
+1 Rhonas the Indomitable
+1 Rings of Brighthearth
+0 Rule with an Even Hand
+1 Sacred Mesa
+1 Safe Haven
+1 Sanguine Bond
+1 Savannah
+1 Scragnoth
+1 Scroll Rack
+2 Scrubland
+1 Sculpting Steel
+1 Secret Plans
+1 Secrets of Paradise
+1 Secret Summoning
+1 Sengir Autocrat
+1 Sentinel Dispatch
+1 Serrated Arrows
+1 Shadow Guildmage
+1 Shadowmage Infiltrator
+1 Shatterstorm
+1 Shriekmaw
+1 Sigil of the Empty Throne
+2 Silence
+1 Sindbad
+1 Slaughter Pact
+1 Slimefoot, the Stowaway
+2 Solemn Simulacrum
+1 Sol'kanar the Swamp King
+1 Sol Ring
+1 Soltari Priest
+1 Sorcerous Spyglass
+1 Soul Collector
+1 Sovereign's Realm
+1 Spell Pierce
+1 Sphere of Resistance
+1 Spike Feeder
+1 Spined Sliver
+1 Spitting Slug
+1 Squire
+1 Sram, Senior Edificer
+1 Staff of Domination
+1 Static Orb
+1 Steel Overseer
+1 Stifle
+1 Stinkweed Imp
+1 Stonehorn Dignitary
+1 Stormbind
+1 Stormscape Familiar
+1 Stupor
+1 Summoner's Bond
+1 Sunder
+1 Sundering Titan
+1 Suq'Ata Lancer
+1 Swamp Mosquito
+1 Sword of Body and Mind
+1 Sword of Feast and Famine
+1 Sword of Fire and Ice
+1 Sword of Light and Shadow
+1 Sword of War and Peace
+1 Sylvan Scrying
+1 Taiga
+1 Talrand, Sky Summoner
+1 Tasigur, the Golden Fang
+1 Teferi's Moat
+1 Temur Ascendancy
+1 Temur Battle Rage
+1 Thallid
+1 The Locust God
+1 The Rack
+1 The Scarab God
+1 The Scorpion God
+1 The Tabernacle at Pendrell Vale
+1 Thornscape Battlemage
+2 Thoughtseize
+1 Thraben Inspector
+1 Thragtusk
+1 Threads of Disloyalty
+1 Through the Breach
+1 Tidehollow Sculler
+1 Time of Need
+1 Timetwister
+2 Time Walk
+1 Tormod's Crypt
+1 Torrential Gearhulk
+1 Treasure Cruise
+1 Tribal Flames
+1 Trinisphere
+1 Trinket Mage
+1 True-Name Nemesis
+1 Trygon Predator
+1 Tundra
+1 Twisted Abomination
+1 Uncle Istvan
+1 Undead Warchief
+1 Underground Sea
+1 Undertaker
+1 Unexpected Potential
+1 Unstable Mutation
+1 Uthden Troll
+1 Valor
+1 Vampire Hexmage
+1 Vandalblast
+1 Vanquisher's Banner
+1 Vedalken Shackles
+1 Verdeloth the Ancient
+1 Verdurous Gearhulk
+1 Vhati il-Dal
+1 Vindicate
+1 Void
+1 Voidmage Prodigy
+2 Volcanic Island
+1 Wall of Roots
+1 War Barge
+1 Weight Advantage
+1 Whirling Dervish
+1 Whispers of the Muse
+1 Wildfire Emissary
+1 Willbender
+1 Witch Hunter
+1 Withered Wretch
+1 Worldknit
+1 Worship
+1 Wrath of God
+1 Wurmcoil Engine
+1 Yawgmoth, Thran Physician
+1 Young Pyromancer
+1 Zealous Conscripts
+1 Zhalfirin Commander
+1 Zulaport Cutthroat
+1 Assault // Battery

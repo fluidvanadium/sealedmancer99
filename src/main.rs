@@ -91,7 +91,9 @@ async fn name_strings_for_draftmancer(query: &Query, splits: bool) -> (String, R
                             }
                             Ok(print_list_success) => {
                                 for reprinted_card in print_list_success {
-                                    if reprinted_card.rarity == card.rarity {
+                                    if reprinted_card.promo_types.is_empty()
+                                        && reprinted_card.rarity == card.rarity
+                                    {
                                         copies += 1
                                     }
                                 }
@@ -286,7 +288,7 @@ async fn main() {
     ];
     let format = [
         (
-            "./for-subset-draft-bonus.txt".to_string(),
+            "./for-subset-draft-Bonus.txt".to_string(),
             Query::Or(vec![
                 Query::And(vec![rarity(Rarity::Bonus), rebalanced.clone()]),
                 Query::And(vec![

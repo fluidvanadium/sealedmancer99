@@ -1,0 +1,26 @@
+[Settings]
+{
+	"name": "fast_draft_for_4",
+	
+	"boostersPerPlayer": 5,
+
+	"withReplacement": true,
+	"colorBalance": false,
+	"duplicateProtection": false,
+
+	"boosterSettings": [
+		{
+			"picks": 384,
+			"burns": [0, 0, 0, 0,  0, 0, 0, 0,  0, 0, 0, 0,  0, 2],
+		}
+	],
+
+	"layouts": {
+		"Sealed": {
+			"weight": 1,
+			"slots": {
+  				"Any": 14,
+			}
+		},
+	}
+}

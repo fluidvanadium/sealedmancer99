@@ -6,7 +6,7 @@
 1 Backup Plan
 1 Black Lotus
 1 Brago's Favor
-1 Command From the Shadows
+0 Command From the Shadows
 1 Double Stroke
 1 Echoing Boon
 1 Emissary's Ploy
@@ -16,7 +16,7 @@
 1 Immediate Action
 1 Incendiary Dissent
 2 Iterative Analysis
-1 Marchesa's Surprise Party
+0 Marchesa's Surprise Party
 1 Mox Emerald
 1 Mox Jet
 1 Mox Pearl
@@ -25,7 +25,7 @@
 1 Muzzio's Preparations
 1 Natural Unity
 1 Power Play
-1 Rule with an Even Hand
+0 Rule with an Even Hand
 1 Secrets of Paradise
 1 Secret Summoning
 1 Sentinel Dispatch
