@@ -5,39 +5,34 @@
 	"boostersPerPlayer": 3,
 
 	"withReplacement": true,
-	"colorBalance": false,
+	"colorBalance": true,
 	"duplicateProtection": false,
 
 	"boosterSettings": [
 		{
 			"picks": 1,
-			"burns": [0, 0, 0, 0,  0, 0, 0, 0,  0, 0, 0, 0,  0, 2],
+			"burns": [0, 0, 0, 0, 0,  0, 0, 0, 0, 5],
 		}
 	],
 
 	"layouts": {
-		"Default": {
+		"Rare&Bonus": {
+			"weight": 7,
+			"slots": {
+				"Bonus": 1,
+  				"Rare": 1,
+  				"Uncommon": 3,
+  				"Common": 10
+			}
+		},
+		"Mythic&Special": {
 			"weight": 1,
-			"slots": [
-				{
-					"name": "RareOrMythic", 
-					"count": 1, 
-					"sheets": [
-						{"name": "Rare",   "weight": 7}, 
-						{"name": "Mythic", "weight": 1}
-					]
-				},
-				{"name": "Uncommon", "count": 3 },
-				{"name": "Common",   "count": 10},
-				{
-					"name": "BonusOrSpecial", 
-					"count": 1, 
-					"sheets": [
-						{"name": "Bonus",   "weight": 7}, 
-						{"name": "Special", "weight": 1}
-					]
-				},
-			]
+			"slots": {
+				"Special": 1,
+  				"Mythic": 1,
+  				"Uncommon": 3,
+  				"Common": 10
+			}
 		},
 	}
 }
