@@ -62,6 +62,7 @@ async fn name_strings_for_draftmancer(query: &Query, splits: bool) -> (String, R
                 }
                 Some(card_result) => match card_result {
                     Ok(card) => {
+                        // dont overload the api rate limit
                         let sleep_time: u128 = 100_000;
                         sleep(Duration::from_nanos(sleep_time as u64));
 
@@ -69,6 +70,7 @@ async fn name_strings_for_draftmancer(query: &Query, splits: bool) -> (String, R
                         lazy_report.success_sleep_nanos += sleep_time;
                         lazy_report.success_server_nanos += lookup_time;
 
+                        // in case of error
                         backup_cards = cards.clone();
 
                         // count prints of the same rarity
@@ -95,10 +97,23 @@ async fn name_strings_for_draftmancer(query: &Query, splits: bool) -> (String, R
                                         && reprinted_card.rarity == card.rarity
                                     {
                                         copies += 1
+                                        // the card was reprinted
                                     }
                                 }
                             }
                         }
+
+                        // if let Some(text) = card.oracle_text {
+                        //     if text.contains("elf")
+                        //         || text.contains("elves")
+                        //         || text.contains("zombie")
+                        //         || text.contains("goblin")
+                        //         || text.contains("merfolk")
+                        //         || text.contains("human")
+                        //     {
+                        //         copies *= 2;
+                        //     }
+                        // }
 
                         let card_name = card.name;
                         let name = if splits {
@@ -107,7 +122,7 @@ async fn name_strings_for_draftmancer(query: &Query, splits: bool) -> (String, R
                             card_name.split("//").next().unwrap().to_string()
                         };
 
-                        let new_entry = copies.to_string() + " " + &name;
+                        let new_entry = 1.to_string() + " " + &name;
 
                         let now = timestamp::now_string();
                         println!("{now} . {lookup_time} > {new_entry}");
@@ -287,6 +302,40 @@ async fn main() {
         ),
     ];
     let format = [
+        (
+            "./fin-common.txt".to_string(),
+            Query::And(vec![
+                set("FIN"),
+                not(type_line("basic")),
+                rarity(Rarity::Common),
+            ]),
+        ),
+        (
+            "./fin-uncommon.txt".to_string(),
+            Query::And(vec![
+                set("FIN"),
+                not(type_line("basic")),
+                rarity(Rarity::Uncommon),
+            ]),
+        ),
+        (
+            "./fin-rare.txt".to_string(),
+            Query::And(vec![
+                set("FIN"),
+                not(type_line("basic")),
+                rarity(Rarity::Rare),
+            ]),
+        ),
+        (
+            "./fin-mythic.txt".to_string(),
+            Query::And(vec![
+                set("FIN"),
+                not(type_line("basic")),
+                rarity(Rarity::Mythic),
+            ]),
+        ),
+    ];
+    let formargt = [
         (
             "./for-subset-draft-Bonus.txt".to_string(),
             Query::Or(vec![

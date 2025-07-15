@@ -1,0 +1,307 @@
+
+1 Absolute Virtue
+1 Adelbert Steiner
+1 Adventurer's Airship
+1 Adventurer's Inn
+1 Aerith Gainsborough
+1 Aerith Rescue Mission
+1 Aettir and Priwen
+1 Ahriman
+1 Airship Crash
+1 Al Bhed Salvagers
+1 Ambrosia Whiteheart
+1 Ancient Adamantoise
+1 Ardyn, the Usurper
+1 A Realm Reborn
+1 Ashe, Princess of Dalmasca
+1 Astrologian's Planisphere
+1 Auron's Inspiration
+1 Balamb Garden, SeeD Academy 
+1 Balamb T-Rexaur
+1 Balthier and Fran
+1 Bard's Bow
+1 Baron, Airship Kingdom
+1 Barret Wallace
+1 Bartz and Boko
+1 Battle Menu
+1 Beatrix, Loyal General
+1 Black Mage's Rod
+1 Black Waltz No. 3
+1 Blazing Bomb
+1 Blitzball
+1 Blitzball Shot
+1 Buster Sword
+1 Cactuar
+1 Call the Mountain Chocobo
+1 Capital City
+1 Cargo Ship
+1 Cecil, Dark Knight 
+1 Chocobo Kick
+1 Chocobo Racetrack
+1 Choco-Comet
+1 Choco, Seeker of Paradise
+1 Cid, Timeless Artificer
+1 Circle of Power
+1 Clash of the Eikons
+1 Clive, Ifrit's Dominant 
+1 Clive's Hideaway
+1 Cloudbound Moogle
+1 Cloud, Midgar Mercenary
+1 Cloud of Darkness
+1 Cloud, Planet's Champion
+1 Coeurl
+1 Coliseum Behemoth
+1 Combat Tutorial
+1 Commune with Beavers
+1 Coral Sword
+1 Cornered by Black Mages
+1 Crossroads Village
+1 Crystal Fragments 
+7 Dark Confidant
+1 Dark Knight's Greatsword
+1 Deadly Embrace
+1 Delivery Moogle
+1 Demon Wall
+1 Diamond Weapon
+1 Dion, Bahamut's Dominant 
+1 Dragoon's Lance
+1 Dragoon's Wyvern
+1 Dreams of Laguna
+1 Dwarven Castle Guard
+1 Eden, Seat of the Sanctum
+1 Edgar, King of Figaro
+1 Eject
+1 Elixir
+1 Emet-Selch, Unsundered 
+1 Esper Origins 
+1 Ether
+1 Evil Reawakened
+1 Excalibur II
+1 Exdeath, Void Warlock 
+1 Fang, Fearless l'Cie
+1 Fate of the Sun-Cryst
+1 Fight On!
+1 Fire Magic
+1 Firion, Wild Rose Warrior
+1 Freya Crescent
+1 From Father to Son
+1 Gaelicat
+1 Gaius van Baelsar
+1 Galuf's Final Act
+1 Garland, Knight of Cornelia 
+1 Garnet, Princess of Alexandria
+1 Genji Glove
+1 Gigantoad
+1 Gilgamesh, Master-at-Arms
+1 Giott, King of the Dwarves
+1 Gladiolus Amicitia
+1 Gogo, Master of Mimicry
+1 Gohn, Town of Ruin
+1 Golbez, Crystal Collector
+1 Gongaga, Reactor Town
+1 Goobbue Gardener
+1 G'raha Tia
+1 Gran Pulse Ochu
+1 Guadosalam, Farplane Gateway
+1 Gysahl Greens
+1 Haste Magic
+1 Hecteyes
+1 Hill Gigas
+1 Hope Estheim
+1 Ice Flan
+1 Ice Magic
+1 Ignis Scientia
+1 Il Mheg Pixie
+1 Insomnia, Crown City
+1 Instant Ramen
+1 Iron Giant
+1 Ishgard, the Holy See 
+1 Item Shopkeep
+1 Jecht, Reluctant Guardian 
+1 Jenova, Ancient Calamity
+1 Jidoor, Aristocratic Capital 
+1 Jill, Shiva's Dominant 
+1 Joshua, Phoenix's Dominant 
+1 Judge Magister Gabranth
+1 Judgment Bolt
+1 Jumbo Cactuar
+1 Kain, Traitorous Dragoon
+1 Kefka, Court Mage 
+1 Kuja, Genome Sorcerer 
+1 Laughing Mad
+1 Lightning, Army of One
+1 Lightning, Security Sergeant
+1 Light of Judgment
+1 Lindblum, Industrial Regency 
+1 Lion Heart
+1 Locke Cole
+1 Loporrit Scout
+1 Louisoix's Sacrifice
+1 Lunatic Pandora
+1 Machinist's Arsenal
+1 Magic Damper
+1 Magic Pot
+1 Magitek Armor
+1 Magitek Infantry
+1 Magitek Scythe
+1 Malboro
+1 Matoya, Archon Elder
+1 Memories Returning
+1 Midgar, City of Mako 
+1 Minwu, White Mage
+1 Monk's Fist
+1 Moogles' Valor
+1 Mysidian Elder
+1 Namazu Trader
+1 Nibelheim Aflame
+1 Ninja's Blades
+1 Noctis, Prince of Lucis
+1 Omega, Heartless Evolution
+1 Opera Love Song
+1 Overkill
+1 Paladin's Arms
+1 Phantom Train
+1 Phoenix Down
+1 Poison the Waters
+1 Prishe's Wanderings
+1 Prompto Argentum
+1 PuPu UFO
+1 Qiqirn Merchant
+1 Queen Brahne
+1 Quina, Qu Gourmet
+1 Quistis Trepe
+1 Qutrub Forayer
+1 Rabanastre, Royal City
+1 Ragnarok, Divine Deliverance
+1 Random Encounter
+1 Raubahn, Bull of Ala Mhigo
+1 Reach the Horizon
+1 Red Mage's Rapier
+1 Relentless X-ATM092
+1 Relm's Sketching
+1 Reno and Rude
+1 Resentful Revelation
+1 Restoration Magic
+1 Retrieve the Esper
+1 Ride the Shoopuf
+1 Ring of the Lucii
+1 Rinoa Heartilly
+1 Rook Turret
+1 Rosa, Resolute White Mage
+1 Rufus Shinra
+1 Rydia's Return
+1 Rydia, Summoner of Mist
+1 Sabotender
+1 Sage's Nouliths
+1 Sahagin
+1 Samurai's Katana
+1 Sandworm
+1 Sazh Katzroy
+1 Sazh's Chocobo
+1 Scorpion Sentinel
+1 Seifer Almasy
+1 Self-Destruct
+1 Sephiroth, Fabled SOLDIER 
+1 Sephiroth, Planet's Heir
+1 Sephiroth's Intervention
+1 Serah Farron 
+1 Seymour Flux
+1 Shambling Cie'th
+1 Shantotto, Tactician Magician
+1 Sharlayan, Nation of Scholars
+1 Shinra Reinforcements
+1 Sidequest: Card Collection 
+1 Sidequest: Catch a Fish 
+1 Sidequest: Hunt the Mark 
+1 Sidequest: Play Blitzball 
+1 Sidequest: Raise a Chocobo 
+1 Sin, Spira's Punishment
+1 Slash of Light
+1 Sleep Magic
+1 Snow Villiers
+1 Sorceress's Schemes
+1 Squall, SeeD Mercenary
+1 Starting Town
+1 Stiltzkin, Moogle Merchant
+1 Stolen Uniform
+1 Stuck in Summoner's Sanctum
+1 Summon: Anima
+1 Summon: Bahamut
+1 Summon: Brynhildr
+1 Summon: Choco/Mog
+1 Summoner's Grimoire
+1 Summon: Esper Ramuh
+1 Summon: Fat Chocobo
+1 Summon: Fenrir
+1 Summon: G.F. Cerberus
+1 Summon: G.F. Ifrit
+1 Summon: Knights of Round
+1 Summon: Leviathan
+1 Summon: Primal Garuda
+1 Summon: Primal Odin
+1 Summon: Shiva
+1 Summon: Titan
+1 Suplex
+1 Swallowed by Leviathan
+7 Syncopate
+1 Tellah, Great Sage
+1 Terra, Magical Adept 
+1 The Crystal's Chosen
+1 The Darkness Crystal
+1 The Earth Crystal
+1 The Emperor of Palamecia 
+1 The Final Days
+1 The Fire Crystal
+1 The Gold Saucer
+1 The Lunar Whale
+1 The Masamune
+1 The Prima Vista
+1 The Regalia
+1 The Wandering Minstrel
+1 The Water Crystal
+1 The Wind Crystal
+1 Thief's Knife
+1 Thunder Magic
+1 Tidus, Blitzball Star
+1 Tifa Lockhart
+1 Tifa's Limit Break
+1 Tonberry
+1 Torgal, A Fine Hound
+1 Town Greeter
+1 Traveling Chocobo
+1 Travel the Overworld
+1 Treno, Dark City
+1 Triple Triad
+1 Ultima
+1 Ultima, Origin of Oblivion
+1 Ultima Weapon
+1 Ultimecia, Temporal Threat
+1 Ultimecia, Time Sorceress 
+1 Ultros, Obnoxious Octopus
+1 Undercity Dire Rat
+1 Unexpected Request
+1 Vaan, Street Thief
+1 Valkyrie Aerial Unit
+1 Vanille, Cheerful l'Cie
+1 Vayne's Treachery
+1 Vector, Imperial Capital
+1 Venat, Heart of Hydaelyn 
+1 Vincent's Limit Break
+1 Vincent Valentine 
+1 Vivi Ornitier
+1 Warrior's Sword
+1 Weapons Vendor
+1 White Auracite
+1 White Mage's Staff
+1 Windurst, Federation Center
+1 World Map
+1 Xande, Dark Mage
+1 You're Not Alone
+1 Y'shtola Rhul
+1 Yuna, Hope of Spira
+1 Zack Fair
+1 Zanarkand, Ancient Metropolis 
+1 Zell Dincht
+1 Zenos yae Galvus 
+1 Zidane, Tantalus Thief
+1 Zodiark, Umbral God

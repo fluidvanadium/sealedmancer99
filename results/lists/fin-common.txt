@@ -1,0 +1,91 @@
+
+1 Adventurer's Airship
+1 Adventurer's Inn
+1 Aerith Rescue Mission
+1 Ahriman
+1 Airship Crash
+1 Balamb T-Rexaur
+1 Bard's Bow
+1 Baron, Airship Kingdom
+1 Black Mage's Rod
+1 Blazing Bomb
+1 Blitzball
+1 Blitzball Shot
+1 Call the Mountain Chocobo
+1 Chocobo Kick
+1 Cloudbound Moogle
+1 Coeurl
+1 Combat Tutorial
+1 Commune with Beavers
+1 Cornered by Black Mages
+1 Crossroads Village
+1 Dragoon's Wyvern
+1 Dreams of Laguna
+1 Dwarven Castle Guard
+1 Fate of the Sun-Cryst
+1 Fight On!
+1 Gaelicat
+1 Gigantoad
+1 Gohn, Town of Ruin
+1 Gongaga, Reactor Town
+1 Goobbue Gardener
+1 Gran Pulse Ochu
+1 Guadosalam, Farplane Gateway
+1 Gysahl Greens
+1 Haste Magic
+1 Hecteyes
+1 Hill Gigas
+1 Ice Flan
+1 Ice Magic
+1 Insomnia, Crown City
+1 Instant Ramen
+1 Iron Giant
+1 Item Shopkeep
+1 Laughing Mad
+1 Light of Judgment
+1 Loporrit Scout
+1 Lunatic Pandora
+1 Magic Damper
+1 Magic Pot
+1 Magitek Infantry
+1 Malboro
+1 Monk's Fist
+1 Mysidian Elder
+1 Namazu Trader
+1 Paladin's Arms
+1 Prishe's Wanderings
+1 Qiqirn Merchant
+1 Qutrub Forayer
+1 Rabanastre, Royal City
+1 Red Mage's Rapier
+1 Resentful Revelation
+1 Retrieve the Esper
+1 Rook Turret
+1 Sabotender
+1 Sage's Nouliths
+1 Sahagin
+1 Scorpion Sentinel
+1 Sephiroth's Intervention
+1 Sharlayan, Nation of Scholars
+1 Shinra Reinforcements
+1 Slash of Light
+1 Stuck in Summoner's Sanctum
+1 Summon: Choco/Mog
+1 Summon: Fat Chocobo
+1 Summon: G.F. Ifrit
+1 Suplex
+1 Syncopate
+1 Thunder Magic
+1 Town Greeter
+1 Treno, Dark City
+1 Undercity Dire Rat
+1 Vayne's Treachery
+1 Vector, Imperial Capital
+1 Vincent's Limit Break
+1 Warrior's Sword
+1 Weapons Vendor
+1 White Auracite
+1 White Mage's Staff
+1 Windurst, Federation Center
+1 World Map
+1 You're Not Alone

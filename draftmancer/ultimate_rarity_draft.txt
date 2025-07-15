@@ -10,25 +10,27 @@
 
 	"boosterSettings": [
 		{
-			"picks": 1,
-			"burns": [0, 0, 0, 0, 0,  0, 0, 0, 0, 5],
-		}
+			"picks": [1,   1,   1,   1,   1,    1,   1,   1,   1,   1],
+			"burns": [0,   0,   0,   0,   0,    0,   0,   0,   0,   4],
+		},
+		# {
+		# 	"picks": [1,0, 1,0, 1,0, 1,0, 1,0,  1,0, 1,0, 1,0, 1,0, 1,0,],
+		# 	"burns": [0,   0,   0,   0,   0,    0,   0,   0,   0,   4],
+		# },
 	],
 
 	"layouts": {
-		"Rare&Bonus": {
+		"Rare": {
 			"weight": 7,
 			"slots": {
-				"Bonus": 1,
   				"Rare": 1,
   				"Uncommon": 3,
   				"Common": 10
 			}
 		},
-		"Mythic&Special": {
+		"Mythic": {
 			"weight": 1,
 			"slots": {
-				"Special": 1,
   				"Mythic": 1,
   				"Uncommon": 3,
   				"Common": 10
