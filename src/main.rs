@@ -23,8 +23,32 @@ async fn query_to_draftmancer_list(query: &Query) -> (String, Report) {
     )
 }
 
-async fn name_strings_for_draftmancer(query: &Query, splits: bool) -> (String, Report) {
-    let mut card_list = "".to_string();
+#[derive(Default)]
+struct Rarities {
+    common: u16,
+    uncommon: u16,
+    rare: u16,
+    mythic: u16,
+    other: u16,
+}
+
+impl Rarities {
+    fn increment(&mut self, rarity: Rarity) {
+        match rarity {
+            Rarity::Common => self.common += 1,
+            Rarity::Uncommon => self.uncommon += 1,
+            Rarity::Rare => self.rare += 1,
+            Rarity::Mythic => self.mythic += 1,
+            Rarity::Bonus | Rarity::Special | _ => self.other += 1,
+        }
+    }
+}
+
+async fn name_strings_for_draftmancer(
+    query: &Query,
+    splits: bool,
+) -> (Vec<(String, Rarities)>, Report) {
+    let mut card_list = Vec::<(String, Rarities)>::new();
 
     let complete_query = if splits {
         Query::And(vec![query.clone(), Query::Custom("is:split".to_string())])
@@ -70,51 +94,6 @@ async fn name_strings_for_draftmancer(query: &Query, splits: bool) -> (String, R
                         lazy_report.success_sleep_nanos += sleep_time;
                         lazy_report.success_server_nanos += lookup_time;
 
-                        // in case of error
-                        backup_cards = cards.clone();
-
-                        // count prints of the same rarity
-                        let other_prints = card.prints_search_uri;
-                        let mut copies = 0;
-                        let print_list = other_prints.fetch_all().await;
-                        match print_list {
-                            Err(e) => {
-                                // same script as below. helperize?
-                                dbg!(e);
-
-                                let sleep_time: u128 = 1_000_000_000;
-                                sleep(Duration::from_nanos(sleep_time as u64));
-
-                                lazy_report.number_of_errors += 1;
-                                lazy_report.error_sleep_nanos += sleep_time;
-                                lazy_report.error_server_nanos += lookup_time;
-
-                                cards = backup_cards.clone();
-                            }
-                            Ok(print_list_success) => {
-                                for reprinted_card in print_list_success {
-                                    if reprinted_card.promo_types.is_empty()
-                                        && reprinted_card.rarity == card.rarity
-                                    {
-                                        copies += 1
-                                        // the card was reprinted
-                                    }
-                                }
-                            }
-                        }
-
-                        // if let Some(text) = card.oracle_text {
-                        //     if text.contains("elf")
-                        //         || text.contains("elves")
-                        //         || text.contains("zombie")
-                        //         || text.contains("goblin")
-                        //         || text.contains("merfolk")
-                        //         || text.contains("human")
-                        //     {
-                        //         copies *= 2;
-                        //     }
-                        // }
-
                         let card_name = card.name;
                         let name = if splits {
                             card_name
@@ -127,9 +106,15 @@ async fn name_strings_for_draftmancer(query: &Query, splits: bool) -> (String, R
                         let now = timestamp::now_string();
                         println!("{now} . {lookup_time} > {new_entry}");
 
-                        card_list = card_list
-                            + "
-" + &new_entry;
+                        if let Some(last_card) = card_list.last_mut()
+                            && last_card.0 == name
+                        {
+                        } else {
+                            let mut rarities = Rarities::default();
+                            rarities.increment(card.rarity);
+
+                            card_list.push((name, rarities))
+                        }
                     }
                     Err(e) => {
                         dbg!(e);
