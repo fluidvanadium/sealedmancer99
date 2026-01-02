@@ -335,6 +335,15 @@ async fn main() {
             ]),
         ),
     ];
+    let format = [
+        (
+            "./commanders.txt".to_string(),
+            Query::And(vec![
+                type_line("legendary"),
+                type_line("creature"),
+            ]),
+        ),
+    ];
     let formargt = [
         (
             "./for-subset-draft-Bonus.txt".to_string(),
