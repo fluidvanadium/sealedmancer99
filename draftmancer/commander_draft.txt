@@ -251,7 +251,6 @@
 1 Atreus, Impulsive Son
 1 Atris, Oracle of Half-Truths
 1 Atsushi, the Blazing Sky
-1 Attuma, Atlantean Warlord
 1 Auntie Blyte, Bad Influence
 1 Aunt May
 1 Aurelia, Exemplar of Justice
@@ -307,7 +306,6 @@
 1 Barbara Wright
 1 Barktooth Warbeard
 1 Baron Bertram Graywater
-1 Baron Helmut Zemo
 1 Baron Sengir
 1 Baron Von Count
 1 Barret, Avalanche Leader
@@ -399,7 +397,6 @@
 1 Bristly Bill, Spine Sower
 1 Brokkos, Apex of Forever
 1 Brothers Yamazaki
-1 Bruce Banner 
 1 Brudiclad, Telchor Engineer
 1 Bruenor Battlehammer
 1 Bruna, Light of Alabaster
@@ -436,7 +433,6 @@
 1 Cao Ren, Wei Commander
 1 Caparocti Sunborn
 1 Captain America, First Avenger
-1 Captain America, Super-Soldier
 1 Captain Eberhart
 1 Captain Howler, Sea Scourge
 1 Captain Lannery Storm
@@ -573,7 +569,6 @@
 1 Doc Aurlock, Grizzled Genius
 1 Doc Ock, Evil Inventor
 1 Doc Ock, Sinister Scientist
-1 Doctor Doom
 1 Doctor Octopus, Master Planner
 1 Dogmeat, Ever Loyal
 1 Donal, Herald of Wings
@@ -1025,7 +1020,6 @@
 1 Hidetsugu and Kairi
 1 Hidetsugu, Devouring Chaos
 1 High Marshal Arguel
-1 High Perfect Morcant
 1 Higure, the Still Wind
 1 Hikari, Twilight Guardian
 1 Hildibrand Manderville 
@@ -1049,7 +1043,6 @@
 1 Huatli, Poet of Unity 
 1 Hua Tuo, Honored Physician
 1 Hugs, Grisly Guardian
-1 Human Torch
 1 Hunding Gjornersen
 1 Hurkyl, Master Wizard
 1 Hurska Sweet-Tooth
@@ -1103,7 +1096,6 @@
 1 Invasion of Segovia 
 1 Invasion of Theros 
 1 Invasion of Ulgrotha 
-1 Invisible Woman
 1 Iona, Shield of Emeria
 1 Ioreth of the Healing House
 1 Iraxxa, Empress of Mars
@@ -1345,7 +1337,6 @@
 1 Kiora, Sovereign of the Deep
 1 Kiora, the Rising Tide
 1 Kira, Great Glass-Spinner
-1 Kirol, Attentive First-Year
 1 Kirri, Talented Sprout
 1 Kitsa, Otterball Elite
 1 Kitsune Mystic 
@@ -1669,7 +1660,6 @@
 1 Mishra, Lost to Phyrexia
 1 Mishra, Tamer of Mak Fawa
 1 Missy
-1 Mister Fantastic
 1 Mister Negative
 1 Mistform Ultimus
 1 Mitotic Ultimus
@@ -1694,7 +1684,6 @@
 1 Monk Gyatso
 1 Monoxa, Midway Manager
 1 Monstrosity of the Lake
-1 Moon Girl and Devil Dinosaur
 1 Moraug, Fury of Akoum
 1 Morbius the Living Vampire
 1 Morinfen
@@ -1741,7 +1730,6 @@
 1 Najal, the Storm Runner
 1 Najeela, the Blade-Blossom
 1 Nalia de'Arnise
-1 Namor the Sub-Mariner
 1 Naomi, Pillar of Order
 1 Narci, Fable Singer
 1 Nardole, Resourceful Cyborg
@@ -1977,7 +1965,6 @@
 1 Questing Beast
 1 Queza, Augur of Agonies
 1 Quickbeam, Upstart Ent
-1 Quicksilver, Brash Blur
 1 Quina, Qu Gourmet
 1 Quintorius, Field Historian
 1 Quintorius, Loremaster
@@ -2343,7 +2330,6 @@
 1 Soul of Windgrace
 1 Soundwave, Sonic Spy 
 1 Sovereign Okinec Ahau
-1 SP
 1 Spectacular Spider-Man
 1 Spider-Byte, Web Warden
 1 Spider-Girl, Legacy Hero
@@ -2406,7 +2392,6 @@
 1 Sun-Spider, Nimble Webber
 1 Superior Spider-Man
 1 Super Shredder
-1 Super-Skrull
 1 Surgeon General Commander
 1 Surrak and Goreclaw
 1 Surrak Dragonclaw
@@ -2602,7 +2587,6 @@
 1 The Scarab God
 1 The Scorpion God
 1 The Second Doctor
-1 The Sentry, Golden Guardian
 1 The Seventh Doctor
 1 The Sixth Doctor
 1 The Space Family Goblinson
@@ -2613,7 +2597,6 @@
 1 The Tarrasque
 1 The Tenth Doctor
 1 The Terror of Serpent's Pass
-1 The Thing
 1 The Third Doctor
 1 The Thirteenth Doctor
 1 The Twelfth Doctor
