@@ -16,7 +16,7 @@ const MAX_RETRIES: usize = 4;
 async fn main() {
     std::env::set_current_dir("results").unwrap();
 
-    for (destination_filename, der_query) in query_operations::default_formats() {
+    for (destination_filename, der_query) in query_operations::test_formats() {
         write_query_to_file(destination_filename, &der_query).await;
     }
 }
