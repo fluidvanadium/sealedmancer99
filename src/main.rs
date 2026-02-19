@@ -2,7 +2,8 @@ use scryfall::search::prelude::*;
 use std::fs::File;
 use std::io::Write;
 use std::path::Path;
-use std::time::SystemTime;
+use std::thread::sleep;
+use std::time::{Duration, SystemTime};
 use timestamp::Report;
 
 mod query_operations;
@@ -82,13 +83,14 @@ async fn download_query(query: &Query, splits: bool) -> (String, Report) {
                 Some(card_result) => match card_result {
                     Ok(card) => {
                         lazy_report = lazy_report + Report::card_success(before_time);
+                        let timestamp = timestamp::now_string();
 
                         let (card_entry, copies_report) =
                             create_card_entry(card, splits, true).await;
 
                         lazy_report = lazy_report + copies_report;
 
-                        println!("{card_entry}");
+                        println!("{timestamp} . {card_entry}");
 
                         card_list = card_list
                             + "
