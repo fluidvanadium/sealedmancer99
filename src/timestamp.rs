@@ -12,6 +12,39 @@ pub(crate) struct Report {
     pub error_server_nanos: u128,
 }
 
+impl Report {
+    pub(crate) fn new() -> Self {
+        Report {
+            number_of_cards: 0,
+            number_of_errors: 0,
+            success_sleep_nanos: 0,
+            error_sleep_nanos: 0,
+            success_server_nanos: 0,
+            error_server_nanos: 0,
+        }
+    }
+    pub(crate) fn card_success(sleep_nanos: u128, server_nanos: u128) -> Self {
+        Report {
+            number_of_cards: 1,
+            number_of_errors: 0,
+            success_sleep_nanos: sleep_nanos,
+            error_sleep_nanos: 0,
+            success_server_nanos: server_nanos,
+            error_server_nanos: 0,
+        }
+    }
+    pub(crate) fn card_error(sleep_nanos: u128, server_nanos: u128) -> Self {
+        Report {
+            number_of_cards: 0,
+            number_of_errors: 1,
+            success_sleep_nanos: 0,
+            error_sleep_nanos: sleep_nanos,
+            success_server_nanos: 0,
+            error_server_nanos: server_nanos,
+        }
+    }
+}
+
 impl Display for Report {
     fn fmt(&self, f: &mut std::fmt::Formatter<'_>) -> std::fmt::Result {
         let number_of_cards = format_duh(&self.number_of_cards);

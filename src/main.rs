@@ -8,11 +8,11 @@ use timestamp::Report;
 
 mod timestamp;
 
-async fn query_to_draftmancer_list(query: &Query) -> (String, Report) {
+async fn query_split_list(query: &Query) -> (String, Report) {
     println!("query ready: {}", query);
 
-    let (non_split_cards, non_split_report) = name_strings_for_draftmancer(query, false).await;
-    let (split_cards, split_report) = name_strings_for_draftmancer(query, true).await;
+    let (non_split_cards, non_split_report) = download_query(query, false).await;
+    let (split_cards, split_report) = download_query(query, true).await;
 
     (
         non_split_cards + &split_cards,
@@ -20,7 +20,7 @@ async fn query_to_draftmancer_list(query: &Query) -> (String, Report) {
     )
 }
 
-async fn name_strings_for_draftmancer(query: &Query, splits: bool) -> (String, Report) {
+async fn download_query(query: &Query, splits: bool) -> (String, Report) {
     let mut card_list = "".to_string();
 
     let complete_query = if splits {
@@ -29,14 +29,7 @@ async fn name_strings_for_draftmancer(query: &Query, splits: bool) -> (String, R
         Query::And(vec![query.clone(), Query::Custom("not:split".to_string())])
     };
 
-    let mut lazy_report = Report {
-        number_of_cards: 0,
-        number_of_errors: 0,
-        success_sleep_nanos: 0,
-        error_sleep_nanos: 0,
-        success_server_nanos: 0,
-        error_server_nanos: 0,
-    };
+    let mut lazy_report = Report::new();
 
     if let Ok(mut cards) = complete_query.clone().search().await {
         println!("search download completed (splits = {splits})");
@@ -70,45 +63,6 @@ async fn name_strings_for_draftmancer(query: &Query, splits: bool) -> (String, R
                         // in case of error
                         backup_cards = cards.clone();
 
-                        // count prints of the same rarity
-                        let other_prints = card.prints_search_uri;
-                        let mut copies = 0;
-                        let print_list = other_prints.fetch_all().await;
-                        match print_list {
-                            Err(e) => {
-                                // same script as below. helperize?
-                                dbg!(e);
-
-                                let sleep_time: u128 = 1_000_000_000;
-                                sleep(Duration::from_nanos(sleep_time as u64));
-
-                                lazy_report.number_of_errors += 1;
-                                lazy_report.error_sleep_nanos += sleep_time;
-                                lazy_report.error_server_nanos += lookup_time;
-
-                                cards = backup_cards.clone();
-                            }
-                            Ok(print_list_success) => {
-                                for reprinted_card in print_list_success {
-                                    if reprinted_card.promo_types.is_empty()
-                                        && reprinted_card.rarity == card.rarity
-                                    {
-                                        copies += 1
-                                        // the card was reprinted
-                                    }
-                                }
-                            }
-                        }
-
-                        let card_name = card.name;
-                        let name = if splits {
-                            card_name
-                        } else {
-                            card_name.split("//").next().unwrap().to_string()
-                        };
-
-                        let new_entry = 1.to_string() + " " + &name;
-
                         let now = timestamp::now_string();
                         println!("{now} . {lookup_time} > {new_entry}");
 
@@ -136,6 +90,45 @@ async fn name_strings_for_draftmancer(query: &Query, splits: bool) -> (String, R
     (card_list, lazy_report)
 }
 
+async fn create_card_entry(card: scryfall::Card, truncate_splits: bool) {
+    // count prints of the same rarity
+    let other_prints = card.prints_search_uri;
+    let mut copies = 0;
+    let print_list = other_prints.fetch_all().await;
+    match print_list {
+        Err(e) => {
+            // same script as below. helperize?
+            dbg!(e);
+
+            let sleep_time: u128 = 1_000_000_000;
+            sleep(Duration::from_nanos(sleep_time as u64));
+
+            lazy_report.number_of_errors += 1;
+            lazy_report.error_sleep_nanos += sleep_time;
+            lazy_report.error_server_nanos += lookup_time;
+
+            cards = backup_cards.clone();
+        }
+        Ok(print_list_success) => {
+            for reprinted_card in print_list_success {
+                if reprinted_card.promo_types.is_empty() && reprinted_card.rarity == card.rarity {
+                    copies += 1
+                    // the card was reprinted
+                }
+            }
+        }
+    }
+
+    let card_name = card.name;
+    let name = if truncate_splits {
+        card_name
+    } else {
+        card_name.split("//").next().unwrap().to_string()
+    };
+
+    let new_entry = 1.to_string() + " " + &name;
+}
+
 #[tokio::main]
 async fn main() {
     // dbg!(exact("Dungeon Delver").search().await.unwrap().next().await);
@@ -152,7 +145,7 @@ async fn write_query_to_file(destination_filename: &str, der_query: &Query) {
     // let index = 6;
     // let (destination_filename, der_query) = format[index].clone();
     let query = &der_query;
-    let (list, report) = query_to_draftmancer_list(query).await;
+    let (list, report) = query_split_list(query).await;
 
     let list_path_name = "lists/".to_string() + destination_filename;
     let list_path = Path::new(list_path_name.as_str());
