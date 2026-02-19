@@ -7,7 +7,7 @@ edition = "2021"
 
 [dependencies]
 chrono = "0.4.41"
-derive_more = { version = "2.0.1", features = ["add"]}
+derive_more = { version = "2.0.1", features = ["add", "display"]}
 num-format = "0.4.4"
 scryfall = { version = "*", features = ["unknown_variants"]}
 tokio = { version = "1.35.1", features = ["full"]}

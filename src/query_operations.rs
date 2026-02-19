@@ -62,83 +62,123 @@ pub(crate) fn conspiracy() -> Query {
     type_line("conspiracy")
 }
 
-pub(crate) fn default_formats() -> [(&'static str, scryfall::search::prelude::Query); 10] {
+#[derive(derive_more::Display)]
+#[display("count_copies={count_copies}:{query}")]
+pub(crate) struct DiscreteQuery {
+    pub query: Query,
+    pub count_copies: bool,
+}
+
+impl DiscreteQuery {
+    fn from_parts(query: Query, count_copies: bool) -> Self {
+        DiscreteQuery {
+            query,
+            count_copies,
+        }
+    }
+}
+
+pub(crate) fn default_formats() -> [(&'static str, DiscreteQuery); 10] {
     [
-        ("./basics.txt", basics()),
-        ("./draft_involved.txt", draft_involved()),
-        ("./meld_duds.txt", meld_duds()),
-        ("./unfun.txt", unfun()),
-        ("./commander_synergy.txt", commander_synergy()),
-        ("./rebalanced.txt", rebalanced()),
+        ("./basics.txt", DiscreteQuery::from_parts(basics(), false)),
+        (
+            "./draft_involved.txt",
+            DiscreteQuery::from_parts(draft_involved(), true),
+        ),
+        (
+            "./meld_duds.txt",
+            DiscreteQuery::from_parts(meld_duds(), true),
+        ),
+        ("./unfun.txt", DiscreteQuery::from_parts(unfun(), true)),
+        (
+            "./commander_synergy.txt",
+            DiscreteQuery::from_parts(commander_synergy(), true),
+        ),
+        (
+            "./rebalanced.txt",
+            DiscreteQuery::from_parts(rebalanced(), false),
+        ),
         // equal access low choice
         (
             // 6
             "./for-subset-draft.txt",
-            Query::Or(vec![
-                rebalanced(),
-                Query::And(vec![
-                    vintage_taste_ban(),
-                    not(basics()),
-                    not(meld_duds()),
-                    not(unfun()),
-                    //
-                    not(commander_synergy()),
-                    // not(draft_involved()),
+            DiscreteQuery::from_parts(
+                Query::Or(vec![
+                    rebalanced(),
+                    Query::And(vec![
+                        vintage_taste_ban(),
+                        not(basics()),
+                        not(meld_duds()),
+                        not(unfun()),
+                        //
+                        not(commander_synergy()),
+                        // not(draft_involved()),
+                    ]),
+                    conspiracy(),
                 ]),
-                conspiracy(),
-            ]),
+                true,
+            ),
         ),
         // equal access high choice
         (
             "./for-subset-constructed.txt",
-            Query::Or(vec![
-                rebalanced(),
-                Query::And(vec![
-                    vintage_taste_ban(),
-                    not(basics()),
-                    not(meld_duds()),
-                    not(unfun()),
-                    //
-                    // not(commander_synergy()),
-                    not(draft_involved()),
+            DiscreteQuery::from_parts(
+                Query::Or(vec![
+                    rebalanced(),
+                    Query::And(vec![
+                        vintage_taste_ban(),
+                        not(basics()),
+                        not(meld_duds()),
+                        not(unfun()),
+                        //
+                        // not(commander_synergy()),
+                        not(draft_involved()),
+                    ]),
+                    conspiracy(),
                 ]),
-                conspiracy(),
-            ]),
+                true,
+            ),
         ),
         // unequal access low choice.
         // also appropriate for fundamental magic
         (
             "./for-subset-sealed.txt",
-            Query::Or(vec![
-                rebalanced(),
-                Query::And(vec![
-                    vintage_taste_ban(),
-                    not(basics()),
-                    not(meld_duds()),
-                    not(unfun()),
-                    //
-                    not(commander_synergy()),
-                    not(draft_involved()),
+            DiscreteQuery::from_parts(
+                Query::Or(vec![
+                    rebalanced(),
+                    Query::And(vec![
+                        vintage_taste_ban(),
+                        not(basics()),
+                        not(meld_duds()),
+                        not(unfun()),
+                        //
+                        not(commander_synergy()),
+                        not(draft_involved()),
+                    ]),
+                    // conspiracy(),
                 ]),
-                // conspiracy(),
-            ]),
+                true,
+            ),
         ),
         // unequal access high choice
         (
             "./for-subset-allstars.txt",
-            Query::Or(vec![
-                rebalanced(),
-                Query::And(vec![
-                    vintage_taste_ban(),
-                    not(basics()),
-                    not(meld_duds()),
-                    not(unfun()),
-                    //
-                    // not(commander_synergy()),
-                    not(draft_involved()),
+            DiscreteQuery::from_parts(
+                Query::Or(vec![
+                    rebalanced(),
+                    Query::And(vec![
+                        vintage_taste_ban(),
+                        not(basics()),
+                        not(meld_duds()),
+                        not(unfun()),
+                        //
+                        // not(commander_synergy()),
+                        not(draft_involved()),
+                    ]),
+                    // conspiracy(),
                 ]),
-                // conspiracy(),
-            ]),
+                true,
+            ),
         ),
     ]
 }

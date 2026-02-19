@@ -5,9 +5,11 @@ use std::path::Path;
 use std::time::SystemTime;
 use timestamp::Report;
 
-mod query_operations;
-mod timestamp;
+use crate::query_operations::DiscreteQuery;
 
+mod query_operations;
+
+mod timestamp;
 const MAX_RETRIES: usize = 4;
 
 #[tokio::main]
@@ -21,7 +23,7 @@ async fn main() {
     }
 }
 
-async fn write_query_to_file(destination_filename: &str, der_query: &Query) {
+async fn write_query_to_file(destination_filename: &str, der_query: &DiscreteQuery) {
     // let index = 6;
     // let (destination_filename, der_query) = format[index].clone();
     let query = &der_query;
@@ -42,7 +44,7 @@ async fn write_query_to_file(destination_filename: &str, der_query: &Query) {
         .expect("Unable to write data");
 }
 
-async fn query_split_list(query: &Query) -> (String, Report) {
+async fn query_split_list(query: &DiscreteQuery) -> (String, Report) {
     println!("query ready: {}", query);
 
     let (non_split_cards, non_split_report) = download_query(query, false).await;
@@ -54,13 +56,19 @@ async fn query_split_list(query: &Query) -> (String, Report) {
     )
 }
 
-async fn download_query(query: &Query, splits: bool) -> (String, Report) {
+async fn download_query(query: &DiscreteQuery, splits: bool) -> (String, Report) {
     let mut card_list = String::new();
 
     let complete_query = if splits {
-        Query::And(vec![query.clone(), Query::Custom("is:split".to_string())])
+        Query::And(vec![
+            query.query.clone(),
+            Query::Custom("is:split".to_string()),
+        ])
     } else {
-        Query::And(vec![query.clone(), Query::Custom("not:split".to_string())])
+        Query::And(vec![
+            query.query.clone(),
+            Query::Custom("not:split".to_string()),
+        ])
     };
 
     let mut lazy_report = Report::new();
@@ -85,7 +93,7 @@ async fn download_query(query: &Query, splits: bool) -> (String, Report) {
                         let timestamp = timestamp::now_string();
 
                         let (card_entry, copies_report) =
-                            create_card_entry(card, splits, true).await;
+                            create_card_entry(card, splits, query.count_copies).await;
 
                         lazy_report = lazy_report + copies_report;
 
