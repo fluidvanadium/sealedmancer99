@@ -19,9 +19,18 @@ mod specifics;
 async fn main() {
     std::env::set_current_dir("results").unwrap();
 
-    for order in specifics::test_formats() {
-        write_query_to_file(order).await;
-    }
+    // for order in specifics::test_formats() {
+    //     write_query_to_file(order).await;
+    // }
+
+    write_query_to_file(Order::from_parts(
+        "./test_promo_count.txt",
+        DiscreteQuery::from_parts(
+            specifics::vintage_taste_ban(),
+            Some(CountCopiesConfig::default()),
+        ),
+    ))
+    .await;
 }
 
 async fn write_query_to_file(order: Order) {

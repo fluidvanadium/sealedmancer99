@@ -91,10 +91,6 @@ pub(crate) fn test_formats() -> Vec<Order> {
             "./rebalanced.txt",
             DiscreteQuery::from_parts(rebalanced(), None),
         ),
-        Order::from_parts(
-            "./test_promo_count.txt",
-            DiscreteQuery::from_parts(vintage_taste_ban(), Some(CountCopiesConfig::default())),
-        ),
     ]
 }
 pub(crate) fn for_draft() -> Order {
