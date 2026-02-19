@@ -1,71 +1,66 @@
-mod modular_restrictions {
-    use scryfall::{
-        format::Format,
-        search::{
-            param::exact,
-            prelude::{format, full_oracle_text, name, oracle_text, type_line, CardIs, Regex},
-            query::{not, Query},
-        },
-    };
+use scryfall::{
+    format::Format,
+    search::{
+        param::exact,
+        prelude::{format, full_oracle_text, name, oracle_text, type_line, CardIs, Regex},
+        query::{not, Query},
+    },
+};
 
-    pub(crate) fn vintage_taste_ban() -> Query {
-        Query::Or(vec![
-            Query::And(vec![
-                format(Format::Vintage), //
-                not(exact("Hobble")),    //
-            ]),
-            exact("Stone-Throwing Devils"),
-            exact("Pradesh Gypsies"),
-            exact("Shahrazad"),
-        ])
-    }
-
-    pub(crate) fn basics() -> Query {
-        type_line("basic")
-    }
-    pub(crate) fn draft_involved() -> Query {
+pub(crate) fn vintage_taste_ban() -> Query {
+    Query::Or(vec![
         Query::And(vec![
-            oracle_text("draft"), //
-            not(name("draft")),   //
-        ])
-    }
-    pub(crate) fn meld_duds() -> Query {
-        Query::And(vec![
-            CardIs::Meld.into(),           //
-            not(full_oracle_text("meld")), //
-        ])
-    }
-    pub(crate) fn unfun() -> Query {
-        Query::And(vec![
-            Query::Or(vec![
-                full_oracle_text("sticker"),    //
-                full_oracle_text("ticket"),     //
-                full_oracle_text("{TK}"),       //
-                full_oracle_text("attraction"), //
-            ]),
-            not(exact("Ticket Tortoise")),
-            not(name("Ticket Booth")),
-            not(name("Fatal Attraction")),
-        ])
-    }
-    // often a dud in limited
-    pub(crate) fn commander_synergy() -> Query {
-        Query::And(vec![
-            oracle_text("commander"),                       //
-            not(name("commander")),                         //
-            not(full_oracle_text("can be your commander")), //
-        ])
-    }
-    pub(crate) fn rebalanced() -> Query {
-        name(Regex::from(r"^A-"))
-    }
-    pub(crate) fn conspiracy() -> Query {
-        type_line("conspiracy")
-    }
+            format(Format::Vintage), //
+            not(exact("Hobble")),    //
+        ]),
+        exact("Stone-Throwing Devils"),
+        exact("Pradesh Gypsies"),
+        exact("Shahrazad"),
+    ])
 }
 
-use modular_restrictions::*;
-use scryfall::search::query::{not, Query};
+pub(crate) fn basics() -> Query {
+    type_line("basic")
+}
+pub(crate) fn draft_involved() -> Query {
+    Query::And(vec![
+        oracle_text("draft"), //
+        not(name("draft")),   //
+    ])
+}
+pub(crate) fn meld_duds() -> Query {
+    Query::And(vec![
+        CardIs::Meld.into(),           //
+        not(full_oracle_text("meld")), //
+    ])
+}
+pub(crate) fn unfun() -> Query {
+    Query::And(vec![
+        Query::Or(vec![
+            full_oracle_text("sticker"),    //
+            full_oracle_text("ticket"),     //
+            full_oracle_text("{TK}"),       //
+            full_oracle_text("attraction"), //
+        ]),
+        not(exact("Ticket Tortoise")),
+        not(name("Ticket Booth")),
+        not(name("Fatal Attraction")),
+    ])
+}
+// often a dud in limited
+pub(crate) fn commander_synergy() -> Query {
+    Query::And(vec![
+        oracle_text("commander"),                       //
+        not(name("commander")),                         //
+        not(full_oracle_text("can be your commander")), //
+    ])
+}
+pub(crate) fn rebalanced() -> Query {
+    name(Regex::from(r"^A-"))
+}
+pub(crate) fn conspiracy() -> Query {
+    type_line("conspiracy")
+}
 
 pub(crate) fn default_formats() -> [(&'static str, scryfall::search::prelude::Query); 10] {
     [
