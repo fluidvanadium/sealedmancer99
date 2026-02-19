@@ -8,6 +8,8 @@ use timestamp::Report;
 
 mod timestamp;
 
+const MAX_RETRIES: usize = 4;
+
 async fn query_split_list(query: &Query) -> (String, Report) {
     println!("query ready: {}", query);
 
@@ -32,18 +34,13 @@ async fn download_query(query: &Query, splits: bool) -> (String, Report) {
     let mut lazy_report = Report::new();
 
     if let Ok(mut cards) = complete_query.clone().search().await {
-        println!("search download completed (splits = {splits})");
+        println!("search setup completed (splits = {splits})");
         let mut backup_cards = cards.clone();
 
         loop {
             let before_time = SystemTime::now();
 
             let next_card = cards.next().await;
-
-            let lookup_time = SystemTime::now()
-                .duration_since(before_time)
-                .unwrap()
-                .as_nanos();
 
             match next_card {
                 None => {
@@ -52,32 +49,21 @@ async fn download_query(query: &Query, splits: bool) -> (String, Report) {
                 }
                 Some(card_result) => match card_result {
                     Ok(card) => {
-                        // dont overload the api rate limit
-                        let sleep_time: u128 = 100_000;
-                        sleep(Duration::from_nanos(sleep_time as u64));
+                        lazy_report = lazy_report + Report::card_success(before_time);
 
-                        // in case of error
-                        // backup_cards = cards.clone();
+                        let (card_entry, copies_report) =
+                            create_card_entry(card, splits, true).await;
 
-                        // let now = timestamp::now_string();
-                        // println!("{now} . {lookup_time} > {new_entry}");
+                        lazy_report = lazy_report + copies_report;
 
                         card_list = card_list
                             + "
-" + create_card_entry(card, splits, true)
-                            .await
-                            .unwrap()
-                            .as_str();
+" + card_entry.as_str();
                     }
                     Err(e) => {
+                        lazy_report = lazy_report + Report::card_error(before_time);
+
                         dbg!(e);
-
-                        let sleep_time: u128 = 1_000_000_000;
-                        sleep(Duration::from_nanos(sleep_time as u64));
-
-                        lazy_report.number_of_errors += 1;
-                        lazy_report.error_sleep_nanos += sleep_time;
-                        lazy_report.error_server_nanos += lookup_time;
 
                         cards = backup_cards.clone();
                     }
@@ -93,17 +79,39 @@ async fn create_card_entry(
     card: scryfall::Card,
     truncate_splits: bool,
     count_copies: bool,
-) -> Result<String, scryfall::Error> {
+) -> (String, Report) {
     // count prints of the same rarity
     let other_prints = card.prints_search_uri;
-    let mut copies = 0;
-    let print_list = other_prints.fetch_all().await?;
-    for reprinted_card in print_list {
-        if reprinted_card.promo_types.is_empty() && reprinted_card.rarity == card.rarity {
-            copies += 1;
-            // the card was reprinted
+    let (copies, copy_search_report) = if count_copies {
+        let mut copies = 0;
+        let mut report = Report::new();
+        for _i in 1..MAX_RETRIES {
+            let before_time = SystemTime::now();
+            let print_list_result = other_prints.fetch_all().await;
+            match print_list_result {
+                Ok(print_list) => {
+                    report = report + Report::card_error(before_time);
+                    for reprinted_card in print_list {
+                        if reprinted_card.promo_types.is_empty()
+                            && reprinted_card.rarity == card.rarity
+                        {
+                            copies += 1;
+                            // the card was reprinted
+                        }
+                    }
+                    break;
+                }
+                Err(_) => {
+                    // error, try again
+                    report = report + Report::card_error(before_time);
+                    continue;
+                }
+            }
         }
-    }
+        (copies, report)
+    } else {
+        (1, Report::new())
+    };
 
     let card_name = card.name;
     let name = if truncate_splits {
@@ -112,11 +120,7 @@ async fn create_card_entry(
         card_name.split("//").next().unwrap().to_string()
     };
 
-    if !count_copies {
-        copies = 1;
-    }
-
-    Ok(copies.to_string() + " " + &name)
+    (copies.to_string() + " " + &name, copy_search_report)
 }
 
 #[tokio::main]
@@ -125,7 +129,6 @@ async fn main() {
 
     std::env::set_current_dir("results").unwrap();
 
-    // 14 card pickup decks
     for (destination_filename, der_query) in query_operations::default_formats() {
         write_query_to_file(destination_filename, &der_query).await;
     }

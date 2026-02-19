@@ -1,63 +1,70 @@
 
-Aether Searcher
-Agent of Acquisitions
-Animus of Predation
-Arcane Savant
-Archdemon of Paliano
-Arms Scavenger
-Big Spender
-Bind to Secrecy
-Bladehold Cleaver
-Boseiju Pathlighter
-Break Expectations
-Caller of the Untamed
-Canal Dredger
-Celestial Vault
-Cogwork Grinder
-Cogwork Librarian
-Cogwork Spy
-Cogwork Tracker
-Contagion Dispenser
-Cursebound Witch
-Custodi Peacekeeper
-Deal Broker
-Emmara, Voice of the Conclave
-Experimental Pilot
-Faithful Disciple
-Garbage Fire
-Garruk, Wrath of the Wilds
-Glimmer Hoarder
-Hinterland Chef
-Illusionary Informant
-Imperial Blademaster
-Ishkanah, Broodmother
-Kayla's Kindling
-Key to the Archive
-Leovold's Operative
-Loose in the Park
-Lore Seeker
-Lurking Automaton
-March Toward Perfection
-Noble Banneret
-Ominous Traveler
-Oyaminartok, Polar Werebear
-Paliano, the High City
-Paliano Vanguard
-Protean War Engine
-Pyretic Hunter
-Raddic, Tal Zealot
-Razor Demon
-Recruit Instructor
-Regicide
-Relics of the Rubblebelt
-Scalespeaker Shepherd
-Slayer's Bounty
-Slimefoot, Thallid Transplant
-Smuggler Captain
-Spire Phantasm
-The Hourglass Coven
-Tibalt, Wicked Tormentor
-Tireless Angler
-Volatile Chimera
-Whispergear Sneak
-Xander's Wake
+1 Adaptive Armorer
+1 Aether Searcher
+2 Agent of Acquisitions
+1 Animus of Predation
+1 Arcane Savant
+1 Archdemon of Paliano
+0 Arms Scavenger
+1 Big Spender
+1 Bind to Secrecy
+1 Bladehold Cleaver
+0 Boseiju Pathlighter
+0 Break Expectations
+1 Brood Astronomer
+1 Caller of the Untamed
+1 Canal Dredger
+1 Celestial Vault
+1 Cogwork Grinder
+2 Cogwork Librarian
+1 Cogwork Spy
+1 Cogwork Tracker
+1 Contagion Dispenser
+0 Cursebound Witch
+1 Custodi Peacekeeper
+1 Deal Broker
+1 Dragon Typhoon
+0 Emmara, Voice of the Conclave
+1 Eumidian Lifeseed
+0 Experimental Pilot
+0 Faithful Disciple
+1 Garbage Fire
+0 Garruk, Wrath of the Wilds
+1 Glimmer Hoarder
+0 Hinterland Chef
+1 Illusionary Informant
+0 Imperial Blademaster
+0 Ishkanah, Broodmother
+1 Kayla's Kindling
+0 Key to the Archive
+1 Leovold's Operative
+1 Loose in the Park
+1 Lore Seeker
+1 Lurking Automaton
+1 March Toward Perfection
+1 Masterpiece Vault
+1 Noble Banneret
+0 Ominous Traveler
+1 Oyaminartok, Polar Werebear
+1 Paliano, the High City
+1 Paliano Vanguard
+0 Protean War Engine
+1 Pyretic Hunter
+1 Raddic, Tal Zealot
+1 Razor Demon
+1 Recruit Instructor
+1 Regicide
+0 Relics of the Rubblebelt
+1 Scalespeaker Shepherd
+0 Slayer's Bounty
+0 Slimefoot, Thallid Transplant
+1 Smuggler Captain
+1 Spire Phantasm
+1 Support Skyforge
+1 The Hourglass Coven
+1 Thoughtsteal Sprites
+0 Tibalt, Wicked Tormentor
+0 Tireless Angler
+1 Volatile Chimera
+1 Whispergear Sneak
+1 Xander's Wake

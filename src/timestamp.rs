@@ -1,4 +1,8 @@
-use std::fmt::Display;
+use std::{
+    fmt::Display,
+    thread::sleep,
+    time::{Duration, SystemTime},
+};
 
 use num_format::{Buffer, CustomFormat, Grouping};
 
@@ -12,6 +16,9 @@ pub(crate) struct Report {
     pub error_server_nanos: u128,
 }
 
+const SUCCESS_SLEEP_NANOS: u128 = 100_000;
+const ERROR_SLEEP_NANOS: u128 = 100_000_000;
+
 impl Report {
     pub(crate) fn new() -> Self {
         Report {
@@ -23,24 +30,37 @@ impl Report {
             error_server_nanos: 0,
         }
     }
-    pub(crate) fn card_success(sleep_nanos: u128, server_nanos: u128) -> Self {
+    pub(crate) fn card_success(before_time: SystemTime) -> Self {
+        let server_lookup_duration = SystemTime::now()
+            .duration_since(before_time)
+            .unwrap()
+            .as_nanos();
+        // dont overload the api rate limit
+        let sleep_nanos = SUCCESS_SLEEP_NANOS;
+        sleep(Duration::from_nanos(sleep_nanos as u64));
         Report {
             number_of_cards: 1,
             number_of_errors: 0,
             success_sleep_nanos: sleep_nanos,
             error_sleep_nanos: 0,
-            success_server_nanos: server_nanos,
+            success_server_nanos: server_lookup_duration,
             error_server_nanos: 0,
         }
     }
-    pub(crate) fn card_error(sleep_nanos: u128, server_nanos: u128) -> Self {
+    pub(crate) fn card_error(before_time: SystemTime) -> Self {
+        let server_lookup_duration = SystemTime::now()
+            .duration_since(before_time)
+            .unwrap()
+            .as_nanos();
+        let sleep_nanos = ERROR_SLEEP_NANOS;
+        sleep(Duration::from_nanos(sleep_nanos as u64));
         Report {
             number_of_cards: 0,
             number_of_errors: 1,
             success_sleep_nanos: 0,
             error_sleep_nanos: sleep_nanos,
             success_server_nanos: 0,
-            error_server_nanos: server_nanos,
+            error_server_nanos: server_lookup_duration,
         }
     }
 }
