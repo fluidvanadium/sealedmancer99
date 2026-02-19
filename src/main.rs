@@ -85,9 +85,9 @@ async fn download_list(query: &DiscreteQuery) -> (String, Report) {
 " + card_entry.as_str();
                         }
                         Err(e) => {
-                            lazy_report = lazy_report + Report::card_error(before_time);
-
                             dbg!(e);
+
+                            lazy_report = lazy_report + Report::card_error(before_time);
 
                             cards = backup_cards.clone();
                         }
@@ -122,9 +122,12 @@ async fn create_card_entry(card: scryfall::Card, count_copies: bool) -> (String,
                     }
                     break;
                 }
-                Err(_) => {
+                Err(e) => {
+                    dbg!(e);
+
                     // error, try again
                     report = report + Report::card_error(before_time);
+
                     continue;
                 }
             }

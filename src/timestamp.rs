@@ -17,7 +17,7 @@ pub(crate) struct Report {
 }
 
 const SUCCESS_SLEEP_NANOS: u128 = 100_000_000;
-const ERROR_SLEEP_NANOS: u128 = 100_000_000;
+const ERROR_SLEEP_NANOS: u128 = 100_000_000_000;
 
 impl Report {
     pub(crate) fn new() -> Self {

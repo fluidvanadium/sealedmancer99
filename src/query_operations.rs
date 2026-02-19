@@ -63,7 +63,7 @@ pub(crate) fn conspiracy() -> Query {
 }
 
 #[derive(derive_more::Display)]
-#[display("count_copies={count_copies}:{query}")]
+#[display("with count_copies={count_copies}. {query}")]
 pub(crate) struct DiscreteQuery {
     pub query: Query,
     pub count_copies: bool,
