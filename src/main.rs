@@ -103,18 +103,6 @@ async fn name_strings_for_draftmancer(query: &Query, splits: bool) -> (String, R
                             }
                         }
 
-                        // if let Some(text) = card.oracle_text {
-                        //     if text.contains("elf")
-                        //         || text.contains("elves")
-                        //         || text.contains("zombie")
-                        //         || text.contains("goblin")
-                        //         || text.contains("merfolk")
-                        //         || text.contains("human")
-                        //     {
-                        //         copies *= 2;
-                        //     }
-                        // }
-
                         let card_name = card.name;
                         let name = if splits {
                             card_name
@@ -157,128 +145,9 @@ async fn main() {
 
     std::env::set_current_dir("results").unwrap();
 
-    let vintage_taste_ban = Query::Or(vec![
-        Query::And(vec![
-            format(Format::Vintage), //
-            not(exact("Hobble")),    //
-        ]),
-        exact("Stone-Throwing Devils"),
-        exact("Pradesh Gypsies"),
-        exact("Shahrazad"),
-    ]);
-
-    let basics = type_line("basic".to_string());
-    let draft_involved = Query::And(vec![
-        oracle_text("draft"), //
-        not(name("draft")),   //
-    ]);
-    let meld_duds = Query::And(vec![
-        CardIs::Meld.into(),           //
-        not(full_oracle_text("meld")), //
-    ]);
-    let unfun = Query::And(vec![
-        Query::Or(vec![
-            full_oracle_text("sticker"),    //
-            full_oracle_text("ticket"),     //
-            full_oracle_text("{TK}"),       //
-            full_oracle_text("attraction"), //
-        ]),
-        not(exact("Ticket Tortoise")),
-        not(name("Ticket Booth")),
-        not(name("Fatal Attraction")),
-    ]);
-    // often a dud in limited
-    let commander_synergy = Query::And(vec![
-        oracle_text("commander"),                       //
-        not(name("commander")),                         //
-        not(full_oracle_text("can be your commander")), //
-    ]);
-    let rebalanced = name(Regex::from(r"^A-"));
-    let conspiracy = type_line("conspiracy");
-    let format = [
-        ("./basics.txt".to_string(), basics.clone()),
-        ("./draft_involved.txt".to_string(), draft_involved.clone()),
-        ("./meld_duds.txt".to_string(), meld_duds.clone()),
-        ("./unfun.txt".to_string(), unfun.clone()),
-        (
-            "./commander_synergy.txt".to_string(),
-            commander_synergy.clone(),
-        ),
-        ("./rebalanced.txt".to_string(), rebalanced.clone()),
-        // equal access low choice
-        (
-            // 6
-            "./for-subset-draft.txt".to_string(),
-            Query::Or(vec![
-                rebalanced.clone(),
-                Query::And(vec![
-                    vintage_taste_ban.clone(),
-                    not(basics.clone()),
-                    not(meld_duds.clone()),
-                    not(unfun.clone()),
-                    //
-                    not(commander_synergy.clone()),
-                    // not(draft_involved.clone()),
-                ]),
-                conspiracy.clone(),
-            ]),
-        ),
-        // equal access high choice
-        (
-            "./for-subset-constructed.txt".to_string(),
-            Query::Or(vec![
-                rebalanced.clone(),
-                Query::And(vec![
-                    vintage_taste_ban.clone(),
-                    not(basics.clone()),
-                    not(meld_duds.clone()),
-                    not(unfun.clone()),
-                    //
-                    // not(commander_synergy.clone()),
-                    not(draft_involved.clone()),
-                ]),
-                conspiracy.clone(),
-            ]),
-        ),
-        // unequal access low choice.
-        // also appropriate for fundamental magic
-        (
-            "./for-subset-sealed.txt".to_string(),
-            Query::Or(vec![
-                rebalanced.clone(),
-                Query::And(vec![
-                    vintage_taste_ban.clone(),
-                    not(basics.clone()),
-                    not(meld_duds.clone()),
-                    not(unfun.clone()),
-                    //
-                    not(commander_synergy.clone()),
-                    not(draft_involved.clone()),
-                ]),
-                // conspiracy.clone(),
-            ]),
-        ),
-        // unequal access high choice
-        (
-            "./for-subset-allstars.txt".to_string(),
-            Query::Or(vec![
-                rebalanced.clone(),
-                Query::And(vec![
-                    vintage_taste_ban.clone(),
-                    not(basics.clone()),
-                    not(meld_duds.clone()),
-                    not(unfun.clone()),
-                    //
-                    // not(commander_synergy.clone()),
-                    not(draft_involved.clone()),
-                ]),
-                // conspiracy.clone(),
-            ]),
-        ),
-    ];
     // 14 card pickup decks
-    for (destination_filename, der_query) in format.iter() {
-        write_query_to_file(destination_filename, der_query);
+    for (destination_filename, der_query) in query_operations::default_formats() {
+        write_query_to_file(destination_filename, &der_query).await;
     }
 }
 
@@ -303,4 +172,4 @@ async fn write_query_to_file(destination_filename: &str, der_query: &Query) {
         .expect("Unable to write data");
 }
 
-mod old_formats;
+mod query_operations;
