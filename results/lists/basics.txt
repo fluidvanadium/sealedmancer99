@@ -1,13 +1,13 @@
 
-706 Forest
-691 Island
-688 Mountain
-668 Plains
-9 Snow-Covered Forest
-10 Snow-Covered Island
-9 Snow-Covered Mountain
-9 Snow-Covered Plains
-9 Snow-Covered Swamp
-2 Snow-Covered Wastes
-658 Swamp
-10 Wastes
+1 Forest
+1 Island
+1 Mountain
+1 Plains
+1 Snow-Covered Forest
+1 Snow-Covered Island
+1 Snow-Covered Mountain
+1 Snow-Covered Plains
+1 Snow-Covered Swamp
+1 Snow-Covered Wastes
+1 Swamp
+1 Wastes
