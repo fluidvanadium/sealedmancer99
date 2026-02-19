@@ -56,19 +56,18 @@ async fn download_query(query: &Query, splits: bool) -> (String, Report) {
                         let sleep_time: u128 = 100_000;
                         sleep(Duration::from_nanos(sleep_time as u64));
 
-                        lazy_report.number_of_cards += 1;
-                        lazy_report.success_sleep_nanos += sleep_time;
-                        lazy_report.success_server_nanos += lookup_time;
-
                         // in case of error
-                        backup_cards = cards.clone();
+                        // backup_cards = cards.clone();
 
-                        let now = timestamp::now_string();
-                        println!("{now} . {lookup_time} > {new_entry}");
+                        // let now = timestamp::now_string();
+                        // println!("{now} . {lookup_time} > {new_entry}");
 
                         card_list = card_list
                             + "
-" + &new_entry;
+" + create_card_entry(card, splits, true)
+                            .await
+                            .unwrap()
+                            .as_str();
                     }
                     Err(e) => {
                         dbg!(e);
@@ -90,32 +89,19 @@ async fn download_query(query: &Query, splits: bool) -> (String, Report) {
     (card_list, lazy_report)
 }
 
-async fn create_card_entry(card: scryfall::Card, truncate_splits: bool) {
+async fn create_card_entry(
+    card: scryfall::Card,
+    truncate_splits: bool,
+    count_copies: bool,
+) -> Result<String, scryfall::Error> {
     // count prints of the same rarity
     let other_prints = card.prints_search_uri;
     let mut copies = 0;
-    let print_list = other_prints.fetch_all().await;
-    match print_list {
-        Err(e) => {
-            // same script as below. helperize?
-            dbg!(e);
-
-            let sleep_time: u128 = 1_000_000_000;
-            sleep(Duration::from_nanos(sleep_time as u64));
-
-            lazy_report.number_of_errors += 1;
-            lazy_report.error_sleep_nanos += sleep_time;
-            lazy_report.error_server_nanos += lookup_time;
-
-            cards = backup_cards.clone();
-        }
-        Ok(print_list_success) => {
-            for reprinted_card in print_list_success {
-                if reprinted_card.promo_types.is_empty() && reprinted_card.rarity == card.rarity {
-                    copies += 1
-                    // the card was reprinted
-                }
-            }
+    let print_list = other_prints.fetch_all().await?;
+    for reprinted_card in print_list {
+        if reprinted_card.promo_types.is_empty() && reprinted_card.rarity == card.rarity {
+            copies += 1;
+            // the card was reprinted
         }
     }
 
@@ -126,7 +112,11 @@ async fn create_card_entry(card: scryfall::Card, truncate_splits: bool) {
         card_name.split("//").next().unwrap().to_string()
     };
 
-    let new_entry = 1.to_string() + " " + &name;
+    if !count_copies {
+        copies = 1;
+    }
+
+    Ok(copies.to_string() + " " + &name)
 }
 
 #[tokio::main]
