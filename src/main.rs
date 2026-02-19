@@ -6,9 +6,42 @@ use std::thread::sleep;
 use std::time::{Duration, SystemTime};
 use timestamp::Report;
 
+mod query_operations;
 mod timestamp;
 
 const MAX_RETRIES: usize = 4;
+
+#[tokio::main]
+async fn main() {
+    // dbg!(exact("Dungeon Delver").search().await.unwrap().next().await);
+
+    std::env::set_current_dir("results").unwrap();
+
+    for (destination_filename, der_query) in query_operations::default_formats() {
+        write_query_to_file(destination_filename, &der_query).await;
+    }
+}
+
+async fn write_query_to_file(destination_filename: &str, der_query: &Query) {
+    // let index = 6;
+    // let (destination_filename, der_query) = format[index].clone();
+    let query = &der_query;
+    let (list, report) = query_split_list(query).await;
+
+    let list_path_name = "lists/".to_string() + destination_filename;
+    let list_path = Path::new(list_path_name.as_str());
+    let report_path_name = "reports/".to_string() + destination_filename;
+    let report_path = Path::new(report_path_name.as_str());
+    let mut list_file = File::create(list_path).unwrap();
+    let mut report_file = File::create(report_path).unwrap();
+
+    list_file
+        .write_all(list.as_bytes())
+        .expect("Unable to write data");
+    report_file
+        .write_all(report.to_string().as_bytes())
+        .expect("Unable to write data");
+}
 
 async fn query_split_list(query: &Query) -> (String, Report) {
     println!("query ready: {}", query);
@@ -23,7 +56,7 @@ async fn query_split_list(query: &Query) -> (String, Report) {
 }
 
 async fn download_query(query: &Query, splits: bool) -> (String, Report) {
-    let mut card_list = "".to_string();
+    let mut card_list = String::new();
 
     let complete_query = if splits {
         Query::And(vec![query.clone(), Query::Custom("is:split".to_string())])
@@ -35,7 +68,7 @@ async fn download_query(query: &Query, splits: bool) -> (String, Report) {
 
     if let Ok(mut cards) = complete_query.clone().search().await {
         println!("search setup completed (splits = {splits})");
-        let mut backup_cards = cards.clone();
+        let backup_cards = cards.clone();
 
         loop {
             let before_time = SystemTime::now();
@@ -55,6 +88,8 @@ async fn download_query(query: &Query, splits: bool) -> (String, Report) {
                             create_card_entry(card, splits, true).await;
 
                         lazy_report = lazy_report + copies_report;
+
+                        println!("{card_entry}");
 
                         card_list = card_list
                             + "
@@ -122,37 +157,3 @@ async fn create_card_entry(
 
     (copies.to_string() + " " + &name, copy_search_report)
 }
-
-#[tokio::main]
-async fn main() {
-    // dbg!(exact("Dungeon Delver").search().await.unwrap().next().await);
-
-    std::env::set_current_dir("results").unwrap();
-
-    for (destination_filename, der_query) in query_operations::default_formats() {
-        write_query_to_file(destination_filename, &der_query).await;
-    }
-}
-
-async fn write_query_to_file(destination_filename: &str, der_query: &Query) {
-    // let index = 6;
-    // let (destination_filename, der_query) = format[index].clone();
-    let query = &der_query;
-    let (list, report) = query_split_list(query).await;
-
-    let list_path_name = "lists/".to_string() + destination_filename;
-    let list_path = Path::new(list_path_name.as_str());
-    let report_path_name = "reports/".to_string() + destination_filename;
-    let report_path = Path::new(report_path_name.as_str());
-    let mut list_file = File::create(list_path).unwrap();
-    let mut report_file = File::create(report_path).unwrap();
-
-    list_file
-        .write_all(list.as_bytes())
-        .expect("Unable to write data");
-    report_file
-        .write_all(report.to_string().as_bytes())
-        .expect("Unable to write data");
-}
-
-mod query_operations;
