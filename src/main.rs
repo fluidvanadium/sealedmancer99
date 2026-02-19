@@ -14,8 +14,6 @@ const MAX_RETRIES: usize = 4;
 
 #[tokio::main]
 async fn main() {
-    // dbg!(exact("Dungeon Delver").search().await.unwrap().next().await);
-
     std::env::set_current_dir("results").unwrap();
 
     for (destination_filename, der_query) in query_operations::default_formats() {
@@ -111,7 +109,7 @@ async fn create_card_entry(card: scryfall::Card, count_copies: bool) -> (String,
             let print_list_result = other_prints.fetch_all().await;
             match print_list_result {
                 Ok(print_list) => {
-                    report = report + Report::card_error(before_time);
+                    report = report + Report::card_success(before_time);
                     for reprinted_card in print_list {
                         if reprinted_card.promo_types.is_empty()
                             && reprinted_card.rarity == card.rarity
