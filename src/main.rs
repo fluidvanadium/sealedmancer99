@@ -2,8 +2,7 @@ use scryfall::search::prelude::*;
 use std::fs::File;
 use std::io::Write;
 use std::path::Path;
-use std::thread::sleep;
-use std::time::{Duration, SystemTime};
+use std::time::SystemTime;
 use timestamp::Report;
 
 mod query_operations;
