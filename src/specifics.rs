@@ -7,7 +7,7 @@ use scryfall::{
     },
 };
 
-use crate::instructions::{DiscreteQuery, Order};
+use crate::instructions::{CountCopiesConfig, DiscreteQuery, Order};
 
 pub(crate) fn vintage_taste_ban() -> Query {
     Query::Or(vec![
@@ -66,31 +66,34 @@ pub(crate) fn conspiracy() -> Query {
 
 pub(crate) fn test_formats() -> Vec<Order> {
     vec![
-        Order::from_parts("./basics.txt", DiscreteQuery::from_parts(basics(), false)),
+        Order::from_parts("./basics.txt", DiscreteQuery::from_parts(basics(), None)),
         Order::from_parts(
             "./draft_involved.txt",
-            DiscreteQuery::from_parts(draft_involved(), true),
+            DiscreteQuery::from_parts(draft_involved(), Some(CountCopiesConfig::default())),
         ),
         Order::from_parts(
             "./meld_duds.txt",
-            DiscreteQuery::from_parts(meld_duds(), true),
+            DiscreteQuery::from_parts(meld_duds(), Some(CountCopiesConfig::default())),
         ),
-        Order::from_parts("./unfun.txt", DiscreteQuery::from_parts(unfun(), true)),
+        Order::from_parts(
+            "./unfun.txt",
+            DiscreteQuery::from_parts(unfun(), Some(CountCopiesConfig::default())),
+        ),
         Order::from_parts(
             "./commander_synergy.txt",
-            DiscreteQuery::from_parts(commander_synergy(), true),
+            DiscreteQuery::from_parts(commander_synergy(), Some(CountCopiesConfig::default())),
         ),
         Order::from_parts(
             "./conspiracy.txt",
-            DiscreteQuery::from_parts(conspiracy(), true),
+            DiscreteQuery::from_parts(conspiracy(), Some(CountCopiesConfig::default())),
         ),
         Order::from_parts(
             "./rebalanced.txt",
-            DiscreteQuery::from_parts(rebalanced(), false),
+            DiscreteQuery::from_parts(rebalanced(), None),
         ),
         Order::from_parts(
             "./test_promo_count.txt",
-            DiscreteQuery::from_parts(vintage_taste_ban(), true),
+            DiscreteQuery::from_parts(vintage_taste_ban(), Some(CountCopiesConfig::default())),
         ),
     ]
 }
@@ -112,7 +115,7 @@ pub(crate) fn for_draft() -> Order {
                 ]),
                 conspiracy(),
             ]),
-            true,
+            Some(CountCopiesConfig::default()),
         ),
     )
 }
@@ -134,7 +137,7 @@ pub(crate) fn for_constructed() -> Order {
                 ]),
                 conspiracy(),
             ]),
-            true,
+            Some(CountCopiesConfig::default()),
         ),
     )
 }
@@ -157,7 +160,7 @@ pub(crate) fn for_sealed() -> Order {
                 ]),
                 // conspiracy(),
             ]),
-            true,
+            Some(CountCopiesConfig::default()),
         ),
     )
 }
@@ -179,7 +182,7 @@ pub(crate) fn for_allstars() -> Order {
                 ]),
                 // conspiracy(),
             ]),
-            true,
+            Some(CountCopiesConfig::default()),
         ),
     )
 }

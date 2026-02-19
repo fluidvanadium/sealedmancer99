@@ -6,6 +6,7 @@ use std::time::SystemTime;
 use timestamp::Report;
 
 mod instructions;
+use crate::instructions::CountCopiesConfig;
 use crate::instructions::DiscreteQuery;
 use crate::instructions::Order;
 
@@ -99,11 +100,15 @@ async fn download_list(query: &DiscreteQuery) -> (String, Report) {
     (card_list, lazy_report)
 }
 
-async fn create_card_entry(card: scryfall::Card, count_copies: bool) -> (String, Report) {
+async fn create_card_entry(
+    card: scryfall::Card,
+    cc: Option<CountCopiesConfig>,
+) -> (String, Report) {
     // count prints of the same rarity
     let other_prints = card.prints_search_uri;
-    let (copies, copy_search_report) = if count_copies {
+    let (copies, copy_search_report) = if let Some(count_copies_config) = cc {
         let mut copies = 0;
+        let mut sets_found = vec![];
         let mut report = Report::new();
         for _i in 1..MAX_RETRIES {
             let before_time = SystemTime::now();
@@ -111,13 +116,20 @@ async fn create_card_entry(card: scryfall::Card, count_copies: bool) -> (String,
             match print_list_result {
                 Ok(print_list) => {
                     report = report + Report::card_success(before_time);
-                    for reprinted_card in print_list {
-                        if reprinted_card.promo_types.is_empty()
-                            && reprinted_card.rarity == card.rarity
-                        {
-                            copies += 1;
-                            // the card was reprinted
+                    'reprint: for reprinted_card in print_list {
+                        // the card was reprinted
+                        if count_copies_config.same_rarity && reprinted_card.rarity != card.rarity {
+                            continue;
                         }
+                        if count_copies_config.different_sets {
+                            for set in &sets_found {
+                                if *set == card.set {
+                                    continue 'reprint;
+                                }
+                            }
+                            sets_found.push(card.set);
+                        }
+                        copies += 1;
                     }
                     break;
                 }
