@@ -1,6 +1,3 @@
-use scryfall::card::Rarity;
-use scryfall::format::Format;
-use scryfall::search::param::exact;
 use scryfall::search::prelude::*;
 use std::fs::File;
 use std::io::Write;
@@ -12,7 +9,7 @@ use timestamp::Report;
 mod timestamp;
 
 async fn query_to_draftmancer_list(query: &Query) -> (String, Report) {
-    println!("query ready: {}", query.to_string());
+    println!("query ready: {}", query);
 
     let (non_split_cards, non_split_report) = name_strings_for_draftmancer(query, false).await;
     let (split_cards, split_report) = name_strings_for_draftmancer(query, true).await;
