@@ -5,27 +5,28 @@ use std::path::Path;
 use std::time::SystemTime;
 use timestamp::Report;
 
-use crate::query_operations::DiscreteQuery;
-
-mod query_operations;
+mod instructions;
+use crate::instructions::DiscreteQuery;
+use crate::instructions::Order;
 
 mod timestamp;
 const MAX_RETRIES: usize = 4;
+
+mod specifics;
 
 #[tokio::main]
 async fn main() {
     std::env::set_current_dir("results").unwrap();
 
-    for (destination_filename, der_query) in query_operations::test_formats() {
-        write_query_to_file(destination_filename, &der_query).await;
+    for order in specifics::test_formats() {
+        write_query_to_file(order).await;
     }
 }
 
-async fn write_query_to_file(destination_filename: &str, der_query: &DiscreteQuery) {
-    // let index = 6;
-    // let (destination_filename, der_query) = format[index].clone();
-    let query = &der_query;
-    println!("Beginning fetch of {der_query} to store in file {destination_filename}.");
+async fn write_query_to_file(order: Order) {
+    let query = &order.discrete_query;
+    let destination_filename = &order.destination_file;
+    println!("Beginning fetch of {query} to store in file {destination_filename}.");
     let (list, report) = download_list(query).await;
 
     let list_path_name = "lists/".to_string() + destination_filename;

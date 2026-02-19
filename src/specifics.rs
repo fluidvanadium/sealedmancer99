@@ -7,6 +7,8 @@ use scryfall::{
     },
 };
 
+use crate::instructions::{DiscreteQuery, Order};
+
 pub(crate) fn vintage_taste_ban() -> Query {
     Query::Or(vec![
         Query::And(vec![
@@ -62,51 +64,39 @@ pub(crate) fn conspiracy() -> Query {
     type_line("conspiracy")
 }
 
-#[derive(derive_more::Display)]
-#[display("with count_copies={count_copies}. {query}")]
-pub(crate) struct DiscreteQuery {
-    pub query: Query,
-    pub count_copies: bool,
-}
-
-impl DiscreteQuery {
-    fn from_parts(query: Query, count_copies: bool) -> Self {
-        DiscreteQuery {
-            query,
-            count_copies,
-        }
-    }
-}
-
-pub(crate) fn test_formats() -> Vec<(&'static str, DiscreteQuery)> {
+pub(crate) fn test_formats() -> Vec<Order> {
     vec![
-        ("./basics.txt", DiscreteQuery::from_parts(basics(), false)),
-        (
+        Order::from_parts("./basics.txt", DiscreteQuery::from_parts(basics(), false)),
+        Order::from_parts(
             "./draft_involved.txt",
             DiscreteQuery::from_parts(draft_involved(), true),
         ),
-        // (
-        //     "./meld_duds.txt",
-        //     DiscreteQuery::from_parts(meld_duds(), true),
-        // ),
-        // ("./unfun.txt", DiscreteQuery::from_parts(unfun(), true)),
-        // (
-        //     "./commander_synergy.txt",
-        //     DiscreteQuery::from_parts(commander_synergy(), true),
-        // ),
-        (
+        Order::from_parts(
+            "./meld_duds.txt",
+            DiscreteQuery::from_parts(meld_duds(), true),
+        ),
+        Order::from_parts("./unfun.txt", DiscreteQuery::from_parts(unfun(), true)),
+        Order::from_parts(
+            "./commander_synergy.txt",
+            DiscreteQuery::from_parts(commander_synergy(), true),
+        ),
+        Order::from_parts(
+            "./conspiracy.txt",
+            DiscreteQuery::from_parts(conspiracy(), true),
+        ),
+        Order::from_parts(
             "./rebalanced.txt",
             DiscreteQuery::from_parts(rebalanced(), false),
         ),
-        (
+        Order::from_parts(
             "./test_promo_count.txt",
             DiscreteQuery::from_parts(vintage_taste_ban(), true),
         ),
     ]
 }
-pub(crate) fn for_draft() -> (&'static str, DiscreteQuery) {
+pub(crate) fn for_draft() -> Order {
     // equal access low choice
-    (
+    Order::from_parts(
         "./for-subset-draft.txt",
         DiscreteQuery::from_parts(
             Query::Or(vec![
@@ -126,9 +116,9 @@ pub(crate) fn for_draft() -> (&'static str, DiscreteQuery) {
         ),
     )
 }
-pub(crate) fn for_constructed() -> (&'static str, DiscreteQuery) {
+pub(crate) fn for_constructed() -> Order {
     // equal access high choice
-    (
+    Order::from_parts(
         "./for-subset-constructed.txt",
         DiscreteQuery::from_parts(
             Query::Or(vec![
@@ -148,10 +138,10 @@ pub(crate) fn for_constructed() -> (&'static str, DiscreteQuery) {
         ),
     )
 }
-pub(crate) fn for_sealed() -> (&'static str, DiscreteQuery) {
+pub(crate) fn for_sealed() -> Order {
     // unequal access low choice.
     // also appropriate for fundamental magic
-    (
+    Order::from_parts(
         "./for-subset-sealed.txt",
         DiscreteQuery::from_parts(
             Query::Or(vec![
@@ -171,9 +161,9 @@ pub(crate) fn for_sealed() -> (&'static str, DiscreteQuery) {
         ),
     )
 }
-pub(crate) fn for_allstars() -> (&'static str, DiscreteQuery) {
+pub(crate) fn for_allstars() -> Order {
     // unequal access high choice
-    (
+    Order::from_parts(
         "./for-subset-allstars.txt",
         DiscreteQuery::from_parts(
             Query::Or(vec![
