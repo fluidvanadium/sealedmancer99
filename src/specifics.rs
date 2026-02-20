@@ -2,7 +2,9 @@ use scryfall::{
     format::Format,
     search::{
         param::exact,
-        prelude::{format, full_oracle_text, name, oracle_text, type_line, CardIs, Regex},
+        prelude::{
+            color_identity, format, full_oracle_text, name, oracle_text, type_line, CardIs, Regex,
+        },
         query::{not, Query},
     },
 };
@@ -93,6 +95,7 @@ pub(crate) fn test_formats() -> Vec<Order> {
         ),
     ]
 }
+
 pub(crate) fn for_draft() -> Order {
     // equal access low choice
     Order::from_parts(
@@ -177,6 +180,32 @@ pub(crate) fn for_allstars() -> Order {
                     not(draft_involved()),
                 ]),
                 // conspiracy(),
+            ]),
+            Some(CountCopiesConfig::default()),
+        ),
+    )
+}
+
+pub(crate) fn for_twostep_prologue() -> Order {
+    // equal access low choice
+    Order::from_parts(
+        "./for-twostep_prologue.txt",
+        DiscreteQuery::from_parts(
+            Query::And(vec![
+                Query::Or(vec![
+                    rebalanced(),
+                    Query::And(vec![
+                        vintage_taste_ban(),
+                        not(basics()),
+                        not(meld_duds()),
+                        not(unfun()),
+                        //
+                        not(commander_synergy()),
+                        not(draft_involved()),
+                    ]),
+                    conspiracy(),
+                ]),
+                color_identity("0"),
             ]),
             Some(CountCopiesConfig::default()),
         ),

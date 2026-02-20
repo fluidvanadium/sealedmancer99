@@ -23,14 +23,21 @@ async fn main() {
     //     write_query_to_file(order).await;
     // }
 
-    write_query_to_file(Order::from_parts(
-        "./test_promo_count.txt",
-        DiscreteQuery::from_parts(
-            specifics::vintage_taste_ban(),
-            Some(CountCopiesConfig::default()),
-        ),
-    ))
-    .await;
+    // write_query_to_file(Order::from_parts(
+    //     "./test_promo_count.txt",
+    //     DiscreteQuery::from_parts(
+    //         specifics::vintage_taste_ban(),
+    //         Some(CountCopiesConfig::default()),
+    //     ),
+    // ))
+    // .await;
+
+    write_query_to_file(specifics::for_twostep_prologue()).await;
+
+    write_query_to_file(specifics::for_draft()).await;
+    write_query_to_file(specifics::for_constructed()).await;
+    write_query_to_file(specifics::for_sealed()).await;
+    write_query_to_file(specifics::for_allstars()).await;
 }
 
 async fn write_query_to_file(order: Order) {
