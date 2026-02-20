@@ -55,9 +55,9 @@ pub(crate) fn unfun() -> Query {
 // often a dud in limited
 pub(crate) fn commander_synergy() -> Query {
     Query::And(vec![
-        oracle_text("commander"),                       //
-        not(name("commander")),                         //
-        not(full_oracle_text("can be your commander")), //
+        oracle_text("commander"),                                        //
+        not(Query::And(vec![name("commander"), type_line("creature")])), //
+        not(full_oracle_text("can be your commander")),                  //
     ])
 }
 pub(crate) fn rebalanced() -> Query {
@@ -205,10 +205,10 @@ pub(crate) fn default_plus(res: Vec<Query>) -> DiscreteQuery {
     DiscreteQuery::from_parts(Query::And(resa), Some(CountCopiesConfig::default()))
 }
 
-pub(crate) fn for_twostep_prologue() -> Order {
+pub(crate) fn for_twostep_prelude() -> Order {
     // equal access low choice
     Order::from_parts(
-        "./for-twostep_prologue.txt",
+        "./for-twostep_prelude.txt",
         default_plus(vec![color_identity("0")]),
     )
 }
