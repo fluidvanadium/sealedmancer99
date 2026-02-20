@@ -5,23 +5,23 @@ use scryfall::search::query::Query;
 #[derive(Debug)]
 pub(crate) struct CountCopiesConfig {
     /// ignore copies with different from the selected card
-    pub same_rarity: bool,
+    pub only_same_rarity: bool,
     /// ignore copies with the same set as each-other
-    pub different_sets: bool,
+    pub only_different_sets: bool,
 }
 impl CountCopiesConfig {
     pub fn from_parts(same_rarity: bool, different_sets: bool) -> Self {
         CountCopiesConfig {
-            same_rarity,
-            different_sets,
+            only_same_rarity: same_rarity,
+            only_different_sets: different_sets,
         }
     }
 }
 impl Default for CountCopiesConfig {
     fn default() -> Self {
         Self {
-            same_rarity: true,
-            different_sets: true,
+            only_same_rarity: false,
+            only_different_sets: true,
         }
     }
 }

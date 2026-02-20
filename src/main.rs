@@ -139,18 +139,25 @@ async fn create_card_entry(
                 Ok(print_list) => {
                     report = report + Report::card_success(before_time);
                     'reprint: for reprinted_card in print_list {
+                        dbg!(reprinted_card.name);
                         // the card was reprinted
-                        if count_copies_config.same_rarity && reprinted_card.rarity != card.rarity {
+                        if count_copies_config.only_same_rarity
+                            && reprinted_card.rarity != card.rarity
+                        {
                             continue;
                         }
-                        if count_copies_config.different_sets {
+                        if count_copies_config.only_different_sets {
+                            dbg!(card.variation_of);
+                            let this_set = card.set_id.clone();
                             for set in &sets_found {
-                                if *set == card.set {
+                                if *set == this_set {
+                                    println!("duplicate from set {this_set}. to next print.");
                                     continue 'reprint;
                                 }
                             }
-                            sets_found.push(card.set);
+                            sets_found.push(this_set);
                         }
+                        println!("found a copy.");
                         copies += 1;
                     }
                     break;
