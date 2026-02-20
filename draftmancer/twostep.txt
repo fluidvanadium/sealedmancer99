@@ -34,7 +34,7 @@
 		"Prelude": {
 			"weight": 1,
 			"slots": {
-  				"Colorless": 20,
+  				"Colorless": 15,
 			}
 		},
 		"Azorius": {
