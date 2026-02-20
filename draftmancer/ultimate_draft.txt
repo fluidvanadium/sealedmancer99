@@ -4,7 +4,7 @@
 	
 	"boostersPerPlayer": 4,
 
-	"withReplacement": true,
+	"withReplacement": false,
 	"colorBalance": true,
 	"duplicateProtection": false,
 

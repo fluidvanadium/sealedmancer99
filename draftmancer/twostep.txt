@@ -1,0 +1,123 @@
+[Settings]
+{
+	"name": "twostep",
+	"showSlots": true,
+	"showSheets": true,
+	
+	"boostersPerPlayer": 3,
+
+
+	"withReplacement": true,
+	"colorBalance": false,
+	"duplicateProtection": false,
+	"refillWhenEmpty": false,
+	"layoutWithReplacement": false,
+
+	"boosterSettings": [
+		{
+			"picks": 1,
+			"burns": [0, 0, 0, 0, 10],
+		},
+		{
+			"picks": 15,
+			"burns": [0, 10],
+		},
+	],
+
+	"predeterminedLayouts": [
+		["Prelude"],
+		["Azorius", "Dimir", "Rakdos", "Gruul", "Selesnya", "Orzhov", "Golgari", "Simic", "Izzet", "Boros"],
+		["Azorius", "Dimir", "Rakdos", "Gruul", "Selesnya", "Orzhov", "Golgari", "Simic", "Izzet", "Boros"],
+	],
+
+	"layouts": {
+		"Prelude": {
+			"weight": 1,
+			"slots": {
+  				"Colorless": 20,
+			}
+		},
+		"Azorius": {
+			"weight": 10,
+			"slots": {
+  				"White": 20,
+  				"Blue": 20,
+			}
+		},
+		"Dimir": {
+			"weight": 10,
+			"slots": {
+  				"Blue": 20,
+  				"Black": 20,
+			}
+		},
+		"Rakdos": {
+			"weight": 10,
+			"slots": {
+  				"Black": 20,
+  				"Red": 20,
+			}
+		},
+		"Gruul": {
+			"weight": 10,
+			"slots": {
+  				"Red": 20,
+  				"Green": 20,
+			}
+		},
+		"Selesnya": {
+			"weight": 10,
+			"slots": {
+  				"Green": 20,
+  				"White": 20,
+			}
+		},
+		"Orzhov": {
+			"weight": 10,
+			"slots": {
+  				"White": 20,
+  				"Black": 20,
+			}
+		},
+		"Golgari": {
+			"weight": 10,
+			"slots": {
+  				"Black": 20,
+  				"Green": 20,
+			}
+		},
+		"Simic": {
+			"weight": 10,
+			"slots": {
+  				"Green": 20,
+  				"Blue": 20,
+			}
+		},
+		"Izzet": {
+			"weight": 10,
+			"slots": {
+  				"Blue": 20,
+  				"Red": 20,
+			}
+		},
+		"Boros": {
+			"weight": 10,
+			"slots": {
+  				"Red": 20,
+  				"White": 20,
+			}
+		},
+	}
+}
+[Colorless]
+Library of Alexandria
+[White]
+Savannah Lions
+[Blue]
+Spectral Sailor
+[Black]
+Afflict
+[Red]
+Raging Goblin
+[Green]
+Thallid

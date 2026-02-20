@@ -3,7 +3,8 @@ use scryfall::{
     search::{
         param::exact,
         prelude::{
-            color_identity, format, full_oracle_text, name, oracle_text, type_line, CardIs, Regex,
+            color_identity, format, full_oracle_text, gte, name, oracle_text, type_line, CardIs,
+            Regex,
         },
         query::{not, Query},
     },
@@ -186,29 +187,64 @@ pub(crate) fn for_allstars() -> Order {
     )
 }
 
+pub(crate) fn default_plus(res: Vec<Query>) -> DiscreteQuery {
+    let mut resa = res;
+    resa.push(Query::Or(vec![
+        rebalanced(),
+        Query::And(vec![
+            vintage_taste_ban(),
+            not(basics()),
+            not(meld_duds()),
+            not(unfun()),
+            //
+            not(commander_synergy()),
+            not(draft_involved()),
+        ]),
+        conspiracy(),
+    ]));
+    DiscreteQuery::from_parts(Query::And(resa), Some(CountCopiesConfig::default()))
+}
+
 pub(crate) fn for_twostep_prologue() -> Order {
     // equal access low choice
     Order::from_parts(
         "./for-twostep_prologue.txt",
-        DiscreteQuery::from_parts(
-            Query::And(vec![
-                Query::Or(vec![
-                    rebalanced(),
-                    Query::And(vec![
-                        vintage_taste_ban(),
-                        not(basics()),
-                        not(meld_duds()),
-                        not(unfun()),
-                        //
-                        not(commander_synergy()),
-                        not(draft_involved()),
-                    ]),
-                    conspiracy(),
-                ]),
-                color_identity("0"),
-            ]),
-            Some(CountCopiesConfig::default()),
-        ),
+        default_plus(vec![color_identity("0")]),
+    )
+}
+pub(crate) fn for_twostep_white() -> Order {
+    // equal access low choice
+    Order::from_parts(
+        "./for-twostep_white.txt",
+        default_plus(vec![color_identity(gte("W"))]),
+    )
+}
+pub(crate) fn for_twostep_blue() -> Order {
+    // equal access low choice
+    Order::from_parts(
+        "./for-twostep_blue.txt",
+        default_plus(vec![color_identity(gte("U"))]),
+    )
+}
+pub(crate) fn for_twostep_black() -> Order {
+    // equal access low choice
+    Order::from_parts(
+        "./for-twostep_black.txt",
+        default_plus(vec![color_identity(gte("B"))]),
+    )
+}
+pub(crate) fn for_twostep_red() -> Order {
+    // equal access low choice
+    Order::from_parts(
+        "./for-twostep_red.txt",
+        default_plus(vec![color_identity(gte("R"))]),
+    )
+}
+pub(crate) fn for_twostep_green() -> Order {
+    // equal access low choice
+    Order::from_parts(
+        "./for-twostep_green.txt",
+        default_plus(vec![color_identity(gte("G"))]),
     )
 }
 
