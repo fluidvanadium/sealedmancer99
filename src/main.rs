@@ -148,7 +148,7 @@ async fn create_card_entry(
                         }
                         if count_copies_config.only_different_sets {
                             dbg!(card.variation_of);
-                            let this_set = card.set_id.clone();
+                            let this_set = card.set.clone();
                             for set in &sets_found {
                                 if *set == this_set {
                                     println!("duplicate from set {this_set}. to next print.");
