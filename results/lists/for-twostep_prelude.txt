@@ -1,118 +1,4 @@
-[Settings]
-{
-	"name": "twostep",
-	"showSlots": true,
-	"showSheets": true,
-	
-	"boostersPerPlayer": 3,
 
-
-	"withReplacement": true,
-	"colorBalance": false,
-	"duplicateProtection": false,
-	"refillWhenEmpty": false,
-	"layoutWithReplacement": false,
-
-	"boosterSettings": [
-		{
-			"picks": 1,
-		},
-		{
-			"picks": 15,
-			"burns": [25],
-		},
-		{
-			"picks": 15,
-			"burns": [25],
-		},
-	],
-
-	"predeterminedLayouts": [
-		["Prelude"],
-		["Azorius", "Dimir", "Rakdos", "Gruul", "Selesnya", "Orzhov", "Golgari", "Simic", "Izzet", "Boros"],
-		["Azorius", "Dimir", "Rakdos", "Gruul", "Selesnya", "Orzhov", "Golgari", "Simic", "Izzet", "Boros"],
-	],
-
-	"layouts": {
-		"Prelude": {
-			"weight": 1,
-			"slots": {
-  				"Colorless": 5,
-			}
-		},
-		"Azorius": {
-			"weight": 10,
-			"slots": {
-  				"White": 20,
-  				"Blue": 20,
-			}
-		},
-		"Dimir": {
-			"weight": 10,
-			"slots": {
-  				"Blue": 20,
-  				"Black": 20,
-			}
-		},
-		"Rakdos": {
-			"weight": 10,
-			"slots": {
-  				"Black": 20,
-  				"Red": 20,
-			}
-		},
-		"Gruul": {
-			"weight": 10,
-			"slots": {
-  				"Red": 20,
-  				"Green": 20,
-			}
-		},
-		"Selesnya": {
-			"weight": 10,
-			"slots": {
-  				"Green": 20,
-  				"White": 20,
-			}
-		},
-		"Orzhov": {
-			"weight": 10,
-			"slots": {
-  				"White": 20,
-  				"Black": 20,
-			}
-		},
-		"Golgari": {
-			"weight": 10,
-			"slots": {
-  				"Black": 20,
-  				"Green": 20,
-			}
-		},
-		"Simic": {
-			"weight": 10,
-			"slots": {
-  				"Green": 20,
-  				"Blue": 20,
-			}
-		},
-		"Izzet": {
-			"weight": 10,
-			"slots": {
-  				"Blue": 20,
-  				"Red": 20,
-			}
-		},
-		"Boros": {
-			"weight": 10,
-			"slots": {
-  				"Red": 20,
-  				"White": 20,
-			}
-		},
-	}
-}
-[Colorless]
 1 Aang's Journey
 4 Abandoned Sarcophagus
 1 A-Base Camp
@@ -537,8 +423,6 @@
 1 Colossus of Akros
 10 Colossus of Sardia
 1 Command Bridge
-6 Commander's Plate
-35 Commander's Sphere
 1 Command From the Shadows
 1 Compass Gnome
 1 Complex Automaton
@@ -2678,13 +2562,3 @@
 10 Zoetic Cavern
 1 Zuko's Exile
 8 Zuran Orb
-[White]
-Savannah Lions
-[Blue]
-Spectral Sailor
-[Black]
-Afflict
-[Red]
-Raging Goblin
-[Green]
-Thallid
