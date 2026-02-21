@@ -19,11 +19,11 @@
 		},
 		{
 			"picks": 15,
-			"burns": [25],
+			"burns": 45,
 		},
 		{
 			"picks": 15,
-			"burns": [25],
+			"burns": 45,
 		},
 	],
 
@@ -43,71 +43,71 @@
 		"Azorius": {
 			"weight": 10,
 			"slots": {
-  				"White": 20,
-  				"Blue": 20,
+  				"White": 30,
+  				"Blue": 30,
 			}
 		},
 		"Dimir": {
 			"weight": 10,
 			"slots": {
-  				"Blue": 20,
-  				"Black": 20,
+  				"Blue": 30,
+  				"Black": 30,
 			}
 		},
 		"Rakdos": {
 			"weight": 10,
 			"slots": {
-  				"Black": 20,
-  				"Red": 20,
+  				"Black": 30,
+  				"Red": 30,
 			}
 		},
 		"Gruul": {
 			"weight": 10,
 			"slots": {
-  				"Red": 20,
-  				"Green": 20,
+  				"Red": 30,
+  				"Green": 30,
 			}
 		},
 		"Selesnya": {
 			"weight": 10,
 			"slots": {
-  				"Green": 20,
-  				"White": 20,
+  				"Green": 30,
+  				"White": 30,
 			}
 		},
 		"Orzhov": {
 			"weight": 10,
 			"slots": {
-  				"White": 20,
-  				"Black": 20,
+  				"White": 30,
+  				"Black": 30,
 			}
 		},
 		"Golgari": {
 			"weight": 10,
 			"slots": {
-  				"Black": 20,
-  				"Green": 20,
+  				"Black": 30,
+  				"Green": 30,
 			}
 		},
 		"Simic": {
 			"weight": 10,
 			"slots": {
-  				"Green": 20,
-  				"Blue": 20,
+  				"Green": 30,
+  				"Blue": 30,
 			}
 		},
 		"Izzet": {
 			"weight": 10,
 			"slots": {
-  				"Blue": 20,
-  				"Red": 20,
+  				"Blue": 30,
+  				"Red": 30,
 			}
 		},
 		"Boros": {
 			"weight": 10,
 			"slots": {
-  				"Red": 20,
-  				"White": 20,
+  				"Red": 30,
+  				"White": 30,
 			}
 		},
 	}
@@ -8323,7 +8323,7 @@
 1 Sparring Mummy
 1 Sparring Regimen
 1 Spawnbinder Mage
-1 SP
+1 SP//dr, Piloted by Peni
 1 Speakeasy Server
 1 Speaker of the Heavens
 1 Spear of Heliod
@@ -14868,7 +14868,7 @@
 1 Spatial Binding
 1 Spawnbroker
 2 Spawning Kraken
-2 SP
+2 SP//dr, Piloted by Peni
 1 Species Gorger
 3 Specimen Collector
 1 Specimen Freighter
