@@ -12,7 +12,7 @@ use scryfall::{
 
 use crate::instructions::{CountCopiesConfig, DiscreteQuery, Order};
 
-pub(crate) fn vintage_taste_ban() -> Query {
+pub(crate) fn good_taste() -> Query {
     Query::Or(vec![
         Query::And(vec![
             format(Format::Vintage), //
@@ -22,6 +22,10 @@ pub(crate) fn vintage_taste_ban() -> Query {
         exact("Pradesh Gypsies"),
         exact("Shahrazad"),
     ])
+}
+
+pub(crate) fn not_overpowered() -> Query {
+    not(exact("Sovereign's Realm")) //
 }
 
 pub(crate) fn basics() -> Query {
@@ -105,7 +109,7 @@ pub(crate) fn for_draft() -> Order {
             Query::Or(vec![
                 rebalanced(),
                 Query::And(vec![
-                    vintage_taste_ban(),
+                    good_taste(),
                     not(basics()),
                     not(meld_duds()),
                     not(unfun()),
@@ -127,7 +131,7 @@ pub(crate) fn for_constructed() -> Order {
             Query::Or(vec![
                 rebalanced(),
                 Query::And(vec![
-                    vintage_taste_ban(),
+                    good_taste(),
                     not(basics()),
                     not(meld_duds()),
                     not(unfun()),
@@ -150,7 +154,7 @@ pub(crate) fn for_sealed() -> Order {
             Query::Or(vec![
                 rebalanced(),
                 Query::And(vec![
-                    vintage_taste_ban(),
+                    good_taste(),
                     not(basics()),
                     not(meld_duds()),
                     not(unfun()),
@@ -172,7 +176,7 @@ pub(crate) fn for_allstars() -> Order {
             Query::Or(vec![
                 rebalanced(),
                 Query::And(vec![
-                    vintage_taste_ban(),
+                    good_taste(),
                     not(basics()),
                     not(meld_duds()),
                     not(unfun()),
@@ -192,7 +196,7 @@ pub(crate) fn default_plus(res: Vec<Query>) -> DiscreteQuery {
     resa.push(Query::Or(vec![
         rebalanced(),
         Query::And(vec![
-            vintage_taste_ban(),
+            good_taste(),
             not(basics()),
             not(meld_duds()),
             not(unfun()),
