@@ -1,113 +1,38 @@
 [Settings]
 {
-	"name": "twostep",
+	"name": "fairly bad list",
 	"showSlots": true,
 	"showSheets": true,
 	
-	"boostersPerPlayer": 3,
+	"boostersPerPlayer": 1,
 
 
 	"withReplacement": true,
 	"colorBalance": false,
 	"duplicateProtection": false,
 	"refillWhenEmpty": false,
-	"layoutWithReplacement": false,
+	"layoutWithReplacement": true,
 
 	"boosterSettings": [
 		{
-			"picks": 1,
-		},
-		{
-			"picks": 15,
-			"burns": 45,
-		},
-		{
-			"picks": 15,
-			"burns": 45,
+			"picks": 999,
 		},
 	],
 
 	"predeterminedLayouts": [
-		["Prelude"],
-		["Azorius", "Dimir", "Rakdos", "Gruul", "Selesnya", "Orzhov", "Golgari", "Simic", "Izzet", "Boros"],
-		["Azorius", "Dimir", "Rakdos", "Gruul", "Selesnya", "Orzhov", "Golgari", "Simic", "Izzet", "Boros"],
+		["Constructed"],
 	],
 
 	"layouts": {
-		"Prelude": {
-			"weight": 1,
-			"slots": {
-  				"Colorless": 5,
-			}
-		},
-		"Azorius": {
+		"Constructed": {
 			"weight": 10,
 			"slots": {
-  				"White": 30,
-  				"Blue": 30,
-			}
-		},
-		"Dimir": {
-			"weight": 10,
-			"slots": {
-  				"Blue": 30,
-  				"Black": 30,
-			}
-		},
-		"Rakdos": {
-			"weight": 10,
-			"slots": {
-  				"Black": 30,
-  				"Red": 30,
-			}
-		},
-		"Gruul": {
-			"weight": 10,
-			"slots": {
-  				"Red": 30,
-  				"Green": 30,
-			}
-		},
-		"Selesnya": {
-			"weight": 10,
-			"slots": {
-  				"Green": 30,
-  				"White": 30,
-			}
-		},
-		"Orzhov": {
-			"weight": 10,
-			"slots": {
-  				"White": 30,
-  				"Black": 30,
-			}
-		},
-		"Golgari": {
-			"weight": 10,
-			"slots": {
-  				"Black": 30,
-  				"Green": 30,
-			}
-		},
-		"Simic": {
-			"weight": 10,
-			"slots": {
-  				"Green": 30,
-  				"Blue": 30,
-			}
-		},
-		"Izzet": {
-			"weight": 10,
-			"slots": {
-  				"Blue": 30,
-  				"Red": 30,
-			}
-		},
-		"Boros": {
-			"weight": 10,
-			"slots": {
-  				"Red": 30,
-  				"White": 30,
+  				"Colorless": 7,
+  				"White": 25,
+  				"Blue": 25,
+  				"Black": 25,
+  				"Red": 25,
+  				"Green": 25,
 			}
 		},
 	}

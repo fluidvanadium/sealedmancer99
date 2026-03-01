@@ -140,7 +140,7 @@ async fn create_card_entry(
                     report = report + Report::card_success(before_time);
                     'reprint: for print in print_list {
                         // the card was reprinted
-                        if count_copies_config.only_same_rarity && print.rarity != card.rarity {
+                        if count_copies_config.only_same_rarity && (print.rarity != card.rarity) {
                             continue;
                         }
                         if count_copies_config.only_different_sets {
