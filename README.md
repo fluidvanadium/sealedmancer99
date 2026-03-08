@@ -1,6 +1,6 @@
 Welcome to FBL ( fairly bad logic )     
      
-0: create the draft script (already complete as of February)     
+0: create the pool randomizer script (already complete as of February)     
 0.1.0: the pack will include       
 0.1.1: 7 cards with no color symbols       
 0.1.2: 25 cards with at-least 1 blue symbol     
