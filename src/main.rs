@@ -32,8 +32,8 @@ async fn main() {
     // ))
     // .await;
 
-    // write_query_to_file(specifics::for_twostep_prelude()).await;
-    // write_query_to_file(specifics::for_twostep_white()).await;
+    write_query_to_file(specifics::for_twostep_prelude()).await;
+    write_query_to_file(specifics::for_twostep_white()).await;
     write_query_to_file(specifics::for_twostep_blue()).await;
     write_query_to_file(specifics::for_twostep_black()).await;
     write_query_to_file(specifics::for_twostep_red()).await;
