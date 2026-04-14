@@ -137,8 +137,8 @@ async fn create_card_entry(
             let print_list_result = other_prints.fetch_all().await;
             match print_list_result {
                 Ok(print_list) => {
-                    report = report + Report::card_success(before_time);
                     'reprint: for print in print_list {
+                        report = report + Report::card_success(before_time);
                         // the card was reprinted
                         if count_copies_config.only_same_rarity && (print.rarity != card.rarity) {
                             continue;
