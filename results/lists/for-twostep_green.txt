@@ -11,7 +11,7 @@
 1 Aboroth
 1 A-Bretagard Stronghold
 1 A-Briar Hydra
-9 Abrupt Decay
+10 Abrupt Decay
 7 Abundance
 9 Abundant Growth
 3 Abundant Harvest
@@ -38,7 +38,7 @@
 1 Acridian
 2 Adaptive Snapjaw
 1 Adaptive Sporesinger
-5 Adrix and Nev, Twincasters
+6 Adrix and Nev, Twincasters
 1 A-Druid Class
 1 A-Druidic Ritual
 2 Adun Oakenshield
@@ -115,7 +115,7 @@
 1 Alacrian Jaguar
 3 Alaundo the Seer
 6 Albino Troll
-4 Alchemist's Refuge
+5 Alchemist's Refuge
 1 Alert Heedbonder
 2 Algae Gharial
 1 Alistair, the Brigadier
@@ -140,7 +140,7 @@
 2 Alpine Grizzly
 1 Altanak, the Thrice-Called
 1 Altar of Bone
-5 Altered Ego
+6 Altered Ego
 2 Aluren
 1 Amarant Coral
 3 Amareth, the Lustrous
@@ -191,7 +191,7 @@
 2 Animal Magnetism
 7 Animar, Soul of Elements
 1 Animate Land
-2 Animist's Awakening
+3 Animist's Awakening
 1 Animist's Might
 1 Ankle Biter
 2 Annie Flash, the Veteran
@@ -318,7 +318,7 @@
 13 Aspect of Wolf
 1 A-Split the Spoils
 1 A-Sprouting Goblin
-10 Assassin's Trophy
+11 Assassin's Trophy
 4 Assault 
 5 Assault Formation
 1 Assault Zeppelid
@@ -387,10 +387,10 @@
 3 Awakener Druid
 2 Awakening
 2 Awakening of Vitu-Ghazi
-7 Awakening Zone
+8 Awakening Zone
 2 Awaken the Bear
 2 Awaken the Honored Dead
-3 Awaken the Woods
+4 Awaken the Woods
 1 A-Warm Welcome
 1 Axebane Beast
 2 Axebane Ferox
@@ -496,7 +496,8 @@
 1 Beastrider Vanguard
 1 Beast Walkers
 11 Beast Whisperer
-33 Beast Within
+34 Beast Within
+1 Bebop & Rocksteady
 2 Beck 
 4 Become Immense
 1 Become the Avalanche
@@ -508,7 +509,7 @@
 8 Behemoth Sledge
 2 Beifong's Bounty Hunters
 2 Belbe, Corrupted Observer
-4 Beledros Witherbloom
+5 Beledros Witherbloom
 2 Belligerent Brontodon
 1 Bello, Bard of the Brambles
 1 Bellowing Elk
@@ -519,9 +520,9 @@
 3 Beneath the Sands
 1 Benefaction of Rhonas
 2 Benefactor's Draught
-2 Benevolent Hydra
+3 Benevolent Hydra
 1 Bequeathal
-11 Berserk
+12 Berserk
 1 Berserk Murlodont
 2 Bess, Soul Nourisher
 1 Bestial Bloodline
@@ -544,7 +545,7 @@
 6 Biogenic Upgrade
 2 Biomancer's Familiar
 2 Biomantic Mastery
-6 Biomass Mutation
+7 Biomass Mutation
 1 Biomathematician
 1 Biomechan Engineer
 1 Biophagus
@@ -607,7 +608,7 @@
 8 Bloom Tender
 2 Bloomvine Regent 
 2 Blossom Dryad
-2 Blossoming Bogbeast
+3 Blossoming Bogbeast
 5 Blossoming Defense
 17 Blossoming Sands
 2 Blossoming Tortoise
@@ -727,7 +728,7 @@
 2 Bringer of the Green Dawn
 2 Bringer of the Red Dawn
 2 Bringer of the White Dawn
-5 Bring to Light
+6 Bring to Light
 2 Bristlebane Battler
 1 Bristlebane Outrider
 1 Bristlebud Farmer
@@ -874,7 +875,7 @@
 2 Case of the Locked Hothouse
 1 Case of the Trampled Garden
 3 Castle Garenbrig
-6 Casualties of War
+7 Casualties of War
 2 Catacomb Sifter
 1 Cathartic Parting
 1 Cathedral Acolyte
@@ -1020,7 +1021,7 @@
 3 Cobra Trap
 13 Cockatrice
 3 Cocoon
-3 Codie, Vociferous Codex
+4 Codie, Vociferous Codex
 17 Coiling Oracle
 1 Coiling Stalker
 1 Coiling Woodworm
@@ -1054,7 +1055,7 @@
 3 Commencement of Festivities
 2 Commercial District
 1 Common Bond
-1 Communal Brewing
+2 Communal Brewing
 1 Commune with Beavers
 3 Commune with Dinosaurs
 5 Commune with Nature
@@ -1112,12 +1113,14 @@
 2 Cosmium Confluence
 2 Cosmogoyf
 3 Courage in Crisis
+2 Courier of Comestibles
 2 Courier's Briefcase
 9 Courser of Kruphix
 1 Coursers' Accord
 1 Court Archers
 2 Court of Bounty
 1 Court of Garenbrig
+1 Cowabunga!
 2 Cowl Prowler
 1 Crabapple Cohort
 1 Cracked Earth Technique
@@ -1142,7 +1145,7 @@
 16 Craw Wurm
 1 Crazed Armodon
 1 Creakwood Ghoul
-3 Creakwood Liege
+4 Creakwood Liege
 2 Cream of the Crop
 3 Creeperhulk
 1 Creeping Corrosion
@@ -1158,7 +1161,7 @@
 3 Crocanura
 2 Crocodile of the Crossing
 1 Cromat
-11 Crop Rotation
+12 Crop Rotation
 1 Crop Sigil
 1 Crossbow Ambush
 2 Crossroads Consecrator
@@ -1181,8 +1184,8 @@
 3 Crystal Quarry
 4 Cudgel Troll
 1 Culling Mark
-8 Culling Ritual
-44 Cultivate
+10 Culling Ritual
+45 Cultivate
 5 Cultivator Colossus
 4 Cultivator of Blades
 2 Cult of the Waxing Moon
@@ -1248,7 +1251,7 @@
 5 Deadbridge Goliath
 1 Deadfall
 2 Deadly Allure
-2 Deadly Brew
+3 Deadly Brew
 4 Deadly Insect
 7 Deadly Recluse
 1 Deadshot Minotaur
@@ -1258,7 +1261,7 @@
 3 Deathbloom Ritualist
 2 Deathbonnet Sprout 
 4 Deathcap Cultivator
-5 Deathcap Glade
+6 Deathcap Glade
 3 Deathcoil Wurm
 1 Death Frenzy
 3 Deathgorge Scavenger
@@ -1277,7 +1280,7 @@
 14 Decimate
 1 Decimator Beetle
 4 Decimator of the Provinces
-3 Decisive Denial
+4 Decisive Denial
 2 Declare Dominance
 1 Decomposition
 1 Deconstruct
@@ -1338,7 +1341,7 @@
 5 Dig Up
 2 Diligent Farmhand
 2 Diligent Zookeeper
-3 Dina, Soul Steeper
+4 Dina, Soul Steeper
 1 Dining Room
 1 Dinosaur Egg
 1 Dionus, Elvish Archdruid
@@ -1414,7 +1417,7 @@
 1 Dread Tiller
 2 Dreamdew Entrancer
 4 Dreampod Druid
-8 Dreamroot Cascade
+9 Dreamroot Cascade
 1 Dredger's Insight
 5 Dreg Mangler
 2 Drey Keeper
@@ -1565,7 +1568,7 @@
 1 Elrond of the White Council
 1 Elturgard Ranger
 3 Elusive Krasis
-2 Elusive Otter 
+3 Elusive Otter 
 2 Elven Ambush
 3 Elven Bow
 4 Elven Cache
@@ -1598,7 +1601,7 @@
 1 Elvish Hydromancer
 1 Elvish Lookout
 7 Elvish Lyrist
-13 Elvish Mystic
+14 Elvish Mystic
 1 Elvish Pathcutter
 3 Elvish Pioneer
 8 Elvish Piper
@@ -1695,13 +1698,14 @@
 2 Ettercap 
 1 Eumidian Terrabotanist
 4 Eureka
-3 Eureka Moment
+4 Eureka Moment
 1 Eusocial Engineering
 2 Eutropia the Twice-Favored
 2 Evendo, Waking Haven
 1 Everbark Shaman
 1 Evercoat Ursine
 1 Everglove Courier
+1 Everything Pizza
 1 Evidence Examiner
 3 Evolutionary Escalation
 4 Evolutionary Leap
@@ -1835,7 +1839,7 @@
 1 Fertilid's Favor
 3 Festerhide Boar
 1 Festering Gulch
-2 Festering Thicket
+3 Festering Thicket
 1 Fiddlehead Kami
 1 Field Trip
 5 Fiend Artisan
@@ -1875,7 +1879,7 @@
 1 Flesh Burrower
 1 Fleshformer
 2 Flinthoof Boar
-12 Flooded Grove
+13 Flooded Grove
 1 Flopsie, Bumi's Buddy
 1 Floral Evoker
 1 Floral Spuzzem
@@ -1890,6 +1894,7 @@
 1 Flubs, the Fool
 1 Flurry of Wings
 1 Flycatcher Giraffid
+1 Foe-liage
 5 Foe-Razer Regent
 27 Fog
 1 Foggy Bottom Swamp
@@ -1912,7 +1917,7 @@
 2 Foreboding Landscape
 1 Forerunner of the Heralds
 2 Forest Bear
-18 Forgotten Ancient
+19 Forgotten Ancient
 1 Forgotten Harvest
 2 Forgotten Lore
 1 Forked-Branch Garami
@@ -1935,7 +1940,7 @@
 1 Fowl Strike
 2 Foxfire
 1 Foxfire Oak
-2 Fractal Harness
+3 Fractal Harness
 1 Fractal Summoning
 3 Fracturing Gust
 1 Frantic Strength
@@ -1956,6 +1961,7 @@
 1 Frilled Oculus
 2 Frilled Sandwalla
 2 Frodo Baggins
+1 Frog Butler
 3 Froghemoth
 1 Frog-Squirrels
 2 Frog Tongue
@@ -1992,7 +1998,7 @@
 2 Fyndhorn Brownie
 1 Fyndhorn Druid
 6 Fyndhorn Elder
-11 Fyndhorn Elves
+12 Fyndhorn Elves
 2 Fyndhorn Pollen
 7 Fynn, the Fangbearer
 4 Gabriel Angelfire
@@ -2088,6 +2094,7 @@
 9 Genesis Hydra
 4 Genesis Ultimatum
 5 Genesis Wave
+1 Genghis Frog
 3 Genju of the Cedars
 1 Genju of the Realm
 1 Geothermal Crevice
@@ -2118,7 +2125,7 @@
 1 Giant Beaver
 4 Giant Caterpillar
 3 Giant Dustwasp
-53 Giant Growth
+54 Giant Growth
 1 Giant Inheritance
 1 Giant Ladybug
 3 Giant Mantis
@@ -2143,7 +2150,7 @@
 5 Gigantosaurus
 2 Gigapede
 2 Gilanra, Caller of Wirewood
-7 Gilded Goose
+8 Gilded Goose
 2 Gilder Bairn
 1 Giltgrove Stalker
 1 Gilt-Leaf Ambush
@@ -2156,7 +2163,7 @@
 2 Gimli, Mournful Avenger
 2 Gingerbread Cabin
 1 Gingerbread Hunter 
-5 Gishath, Sun's Avatar
+6 Gishath, Sun's Avatar
 3 Give 
 1 Glacial Revelation
 1 Glacier Godmaw
@@ -2174,7 +2181,7 @@
 4 Gleancrawler
 3 Gleeful Sabotage
 2 Glimmer Bairn
-2 Glimpse of Nature
+3 Glimpse of Nature
 2 Glimpse the Core
 3 Glint-Eye Nephilim
 1 Glinting Creeper
@@ -2237,7 +2244,7 @@
 1 Golden Ratio
 1 Golden-Tail Trainer
 1 Gold Rush
-2 Goldvein Hydra
+3 Goldvein Hydra
 2 Golgari Brownscale
 7 Golgari Charm
 1 Golgari Cluestone
@@ -2329,7 +2336,7 @@
 5 Greenwood Sentinel
 1 Greta, Sweettooth Scourge
 1 Gretchen Titchwillow
-9 Grim Backwoods
+10 Grim Backwoods
 2 Grim Contest
 2 Grime Gorger
 1 Grim Feast
@@ -2352,6 +2359,7 @@
 3 Grothama, All-Devouring
 4 Ground Assault
 4 Groundbreaker
+1 Groundchuck & Dirtbag
 1 Grounded
 1 Groundling Pouncer
 4 Ground Seal
@@ -2389,6 +2397,7 @@
 23 Gruul Turf
 4 Gruul War Chant
 1 Gruul War Plow
+1 Guac & Marshmallow Pizza
 1 Guadosalam, Farplane Gateway
 2 Guardian Gladewalker
 1 Guardian of Cloverdell
@@ -2406,7 +2415,7 @@
 2 Guy in the Chair
 3 Gwenna, Eyes of Gaea
 1 Gylwain, Casting Director
-2 Gyome, Master Chef
+3 Gyome, Master Chef
 1 Gyre Engineer
 5 Gyre Sage
 2 Gyrus, Waker of Corpses
@@ -2439,7 +2448,7 @@
 5 Harbinger of the Hunt
 1 Hardbristle Bandit
 2 Hardened-Scale Armor
-13 Hardened Scales
+14 Hardened Scales
 1 Hard-Hitting Question
 2 Hardy Veteran
 1 Harmonic Convergence
@@ -2464,14 +2473,14 @@
 5 Hashep Oasis
 1 Hatchery Sliver
 2 Hatchery Spider
-3 Haunted Mire
+4 Haunted Mire
 1 Haunted Screen
 2 Hauntwoods Shrieker
 8 Havenwood Battleground
 2 Havenwood Wurm
 1 Havi, the All-Father
 1 Hawkeater Moth
-4 Haywire Mite
+5 Haywire Mite
 1 Hazard of the Dunes
 2 Hazardous Conditions
 1 Hazardroot Herbalist
@@ -2526,6 +2535,7 @@
 1 Hermitic Herbalist
 1 Hermit of the Natterknolls 
 7 Heroes' Bane
+1 Heroes in a Half Shell
 4 Heroes' Reunion
 15 Heroic Intervention
 2 Heronblade Elite
@@ -2552,12 +2562,13 @@
 1 Highland Weald
 2 High Perfect Morcant
 2 High-Rise Sawjack
+1 High Score
 2 Highspire Artisan
 2 Highspire Infusion
 1 High Stride
 2 Hill Giant Herdgorger
 2 Hindervines
-15 Hinterland Harbor
+16 Hinterland Harbor
 3 Hinterland Logger 
 1 Hippo-Cows
 4 Hissing Quagmire
@@ -2675,12 +2686,13 @@
 3 Hydra's Growth
 1 Hydra Trainer
 1 Hydroform
-7 Hydroid Krasis
+8 Hydroid Krasis
 2 Hymn of Rebirth
 2 Hypergenesis
 1 Hyrax Tower Scout
 1 Hystrodon
 1 Icecave Crasher
+1 Ice Cream Kitty
 6 Ice-Fang Coatl
 2 Icefeather Aven
 1 Icehide Troll
@@ -2693,6 +2705,7 @@
 1 Ignis Scientia
 7 Ignoble Hierarch
 7 Ikra Shidiqi, the Usurper
+1 Illegitimate Business
 4 Illuna, Apex of Wishes
 3 Illusion 
 4 Ilysian Caryatid
@@ -2928,7 +2941,7 @@
 1 Kami of the Hunt
 1 Kami of the Tended Garden
 3 Kami of Transience
-1 Kami of Whispered Hopes
+2 Kami of Whispered Hopes
 2 Kapow!
 2 Kappa Tech-Wrecker
 9 Karador, Ghost Chieftain
@@ -3043,7 +3056,7 @@
 6 Knight of the Reliquary
 4 Knight of the Skyward Eye
 1 Knight of the Stampede
-1 Knockout Maneuver
+2 Knockout Maneuver
 1 Knotvine Mystic
 2 Knotvine Paladin
 1 Kodama of the Center Tree
@@ -3163,6 +3176,8 @@
 1 Leaping Ambush
 2 Leaping Lizard
 4 Leatherback Baloth
+1 Leatherhead, Iron Gator
+1 Leatherhead, Swamp Stalker
 1 Leaves from the Vine
 1 Ledev Champion
 1 Leeching Bite
@@ -3174,8 +3189,11 @@
 2 Legolas, Master Archer
 1 Legolas's Quick Reflexes
 3 Leinore, Autumn Sovereign
+1 Leonardo, the Balance
 1 Leonin Armorguard
 5 Leovold, Emissary of Trest
+1 Lessons from Life
+1 Level Up
 13 Ley Druid
 1 Ley Line
 1 Leyline Immersion
@@ -3194,7 +3212,7 @@
 2 Liege of the Tangle
 1 Lie in Wait
 2 Life and Limb
-3 Lifeblood Hydra
+4 Lifeblood Hydra
 1 Lifecraft Awakening
 2 Lifecraft Cavalry
 9 Lifecrafter's Bestiary
@@ -3252,7 +3270,7 @@
 6 Llanowar Tribe
 1 Llanowar Vanguard
 4 Llanowar Visionary
-19 Llanowar Wastes
+20 Llanowar Wastes
 2 Lluwen, Imperfect Naturalist
 2 Loading Zone
 2 Loamcrafter Faun
@@ -3278,6 +3296,7 @@
 1 Loot, the Key to Everything
 2 Loot, the Pathfinder
 1 Loporrit Scout
+1 Lord Dregg, Insect Invader
 1 Lord Magnus
 7 Lord of Extinction
 5 Lord Windgrace
@@ -3340,7 +3359,7 @@
 2 Magnigoth Treefolk
 1 Magus Lucea Kane
 3 Magus of the Candelabra
-1 Magus of the Library
+2 Magus of the Library
 2 Magus of the Order
 3 Magus of the Vineyard
 4 Maja, Bretagard Protector
@@ -3359,7 +3378,7 @@
 1 Mammoth Growth
 1 Mammoth Harness
 4 Mammoth Spider
-1 Mana Bloom
+2 Mana Bloom
 3 Manabond
 8 Managorger Hydra
 6 Manamorphose
@@ -3427,7 +3446,7 @@
 1 Maze Behemoth
 1 Maze Skullbomb
 1 Maze's Mantle
-7 Mazirek, Kraul Death Priest
+8 Mazirek, Kraul Death Priest
 3 Mazzy, Truesword Paladin
 3 Meandering Towershell
 1 Medicine Runner
@@ -3462,6 +3481,13 @@
 5 Metamorphosis
 1 Meteor Storm
 1 Me, the Immortal
+1 Michelangelo, Game Master
+1 Michelangelo, Improviser
+1 Michelangelo, Mutant BFF
+1 Michelangelo, On the Scene
+1 Michelangelo's Technique
+1 Michelangelo, the Heart
+1 Michelangelo, Weirdness to 11
 1 Midnight Tilling
 1 Midsummer Revel
 1 Might Beyond Reason
@@ -3481,6 +3507,9 @@
 5 Migration Path
 2 Migratory Greathorn
 4 Miirym, Sentinel Wyrm
+1 Mikey & Don, Party Planners
+1 Mikey & Leo, Chaos & Order
+1 Mikey & Mona, Mutant Sitters
 2 Mild-Mannered Librarian
 3 Miles Morales 
 2 Mimeoplasm, Revered One
@@ -3521,7 +3550,7 @@
 1 Moldering Karok
 3 Molder Slug
 3 Moldervine Cloak
-7 Moldervine Reclamation
+8 Moldervine Reclamation
 6 Moldgraf Millipede
 3 Moldgraf Monstrosity
 1 Moldgraf Scavenger
@@ -3533,6 +3562,8 @@
 5 Moment's Peace
 1 Momentum
 4 Momir Vig, Simic Visionary
+1 Mona Lisa, Ever Adaptable
+1 Mona Lisa, Science Geek
 2 Mongrel Pack
 1 Monsoon
 4 Monster Manual 
@@ -3553,7 +3584,7 @@
 7 Morophon, the Boundless
 1 Morselhoarder
 1 Morska, Undersea Sleuth
-2 Mortality Spear
+3 Mortality Spear
 1 Mortal's Resolve
 1 Mortal Wound
 1 Mortipede
@@ -3609,13 +3640,16 @@
 2 Mutable Explorer
 1 Mutagen Connoisseur
 3 Mutagenic Growth
+1 Mutagen Man, Living Ooze
+1 Mutant Chain Reaction
 1 Mutant's Prey
+1 Mutant Town
 2 Mutational Advantage
 2 Mwonvuli Acid-Moss
 3 Mwonvuli Beast Tracker
 1 Mwonvuli Ooze
 3 Mycoid Shepherd
-8 Mycoloth
+9 Mycoloth
 1 Myconid Spore Tender
 2 Mycosynth Fiend
 2 Myojin of Life's Web
@@ -3678,7 +3712,7 @@
 2 Nature's Cloak
 2 Nature's Embrace
 1 Nature's Kiss
-18 Nature's Lore
+19 Nature's Lore
 1 Nature's Panoply
 3 Nature's Resurgence
 2 Nature's Revolt
@@ -3695,7 +3729,7 @@
 2 Nazahn, Revered Bladesmith
 1 Necra Disciple
 2 Necravolver
-8 Necroblossom Snarl
+9 Necroblossom Snarl
 4 Necrogenesis
 1 Necrogen Rotpriest
 1 Needleshot Gourna
@@ -3726,6 +3760,7 @@
 1 Neverwinter Dryad
 1 Neverwinter Hydra
 1 New Frontiers
+1 New Generation's Technique
 6 New Horizons
 1 Nexos
 2 Next of Kin
@@ -3743,6 +3778,7 @@
 5 Nimble Mongoose
 4 Nimbus Swimmer
 2 Nine-Fingers Keene
+1 Ninja Pizza
 1 Nishoba Brawler
 2 Nissa, Ascended Animist
 1 Nissa, Genesis Mage
@@ -3785,6 +3821,7 @@
 1 Nourish
 2 Nourishing Shoal
 1 Novablast Wurm
+1 Novel Nunchaku
 3 Novijen, Heart of Progress
 1 Noxious Assault
 1 Noxious Hatchling
@@ -3845,7 +3882,7 @@
 1 Odious Trow
 2 Ognis, the Dragon's Lash
 1 Ohabi Caleria
-6 Ohran Frostfang
+7 Ohran Frostfang
 3 Ohran Viper
 1 Oil-Gorger Troll
 1 Ojer Kaslem, Deepest Growth 
@@ -3889,7 +3926,7 @@
 1 Ooze Garden
 1 Ooze Patrol
 2 Open the Gates
-2 Open the Way
+3 Open the Way
 13 Opulent Palace
 6 Oracle of Mul Daya
 2 Oracle of Nectars
@@ -3898,7 +3935,7 @@
 4 Oran-Rief Ooze
 2 Oran-Rief Recluse
 1 Oran-Rief Survivalist
-10 Oran-Rief, the Vastwood
+11 Oran-Rief, the Vastwood
 2 Orazca Frillback
 1 Orbweaver Kumo
 1 Orchard Elemental
@@ -3933,7 +3970,7 @@
 1 Overabundance
 3 Overbeing of Myth
 7 Overcome
-8 Overflowing Basin
+9 Overflowing Basin
 1 Overgrown Arch
 2 Overgrown Armasaur
 6 Overgrown Battlement
@@ -3948,7 +3985,7 @@
 2 Overlord of the Hauntwoods
 1 Overprotect
 22 Overrun
-3 Oversimplify
+4 Oversimplify
 1 Oversoul of Dusk
 1 Over the Edge
 6 Overwhelm
@@ -3962,7 +3999,7 @@
 2 Owlbear Cub
 2 Owlbear Shepherd
 5 Oxidize
-2 Ozolith, the Shattered Spire
+3 Ozolith, the Shattered Spire
 3 Pack Guardian
 1 Pack Hunt
 2 Pack's Favor
@@ -3990,6 +4027,7 @@
 3 Parcelbeast
 3 Park Heights Maverick
 3 Park Heights Pegasus
+1 Party Dude
 3 Patagia Viper
 1 Patchwork Beastie
 5 Pathbreaker Ibex
@@ -4032,7 +4070,7 @@
 1 Perrie, the Pulverizer
 3 Pestilent Cauldron 
 3 Pestilent Wolf
-4 Pest Infestation
+5 Pest Infestation
 1 Pest Summoning
 1 Petalmane Baku
 4 Peter Parker 
@@ -4062,7 +4100,7 @@
 2 Phytohydra
 3 Phytotitan
 1 Pia Nalaar, Chief Mechanic
-1 Pick Your Poison
+2 Pick Your Poison
 1 Picnic Ruiner 
 2 Pictures of Spider-Man
 2 Pierce the Sky
@@ -4086,6 +4124,7 @@
 2 Pitiless Gorgon
 1 Pixie Illusionist
 1 Pixie Queen
+1 Pizza Face, Gastromancer
 1 Placid Rottentail
 2 Plague Boiler
 2 Plaguemaw Beast
@@ -4149,6 +4188,7 @@
 3 Predatory Urge
 1 Predatory Wurm
 1 Preferred Selection
+1 Prehistoric Turtlesaurus
 3 Prepare 
 2 Preposterous Proportions
 8 Presence of Gond
@@ -4172,7 +4212,7 @@
 1 Primal Frenzy
 4 Primal Growth
 2 Primal Huntbeast
-6 Primal Might
+7 Primal Might
 3 Primal Order
 2 Primal Prayers
 3 Primal Rage
@@ -4191,7 +4231,8 @@
 9 Primeval Titan
 1 Primitive Etchings
 2 Primitive Justice
-5 Primordial Hydra
+6 Primordial Hydra
+1 Primordial Pachyderm
 4 Primordial Sage
 2 Primordial Wurm
 1 Printlifter Ooze
@@ -4231,12 +4272,14 @@
 7 Pulse of Murasa
 2 Pulse of the Tangle
 1 Pummeler for Hire
+1 Punk Frogs
 1 Pure 
 1 Purestrain Genestealer
 2 Purple Worm
 1 Putrefax
 29 Putrefy
 3 Putrid Leech
+1 Putrid Pals
 1 Pygmy Allosaurus
 1 Pygmy Hippo
 1 Pygmy Kavu
@@ -4250,9 +4293,9 @@
 2 Quagmire Druid
 1 Quagnoth
 1 Quakestrider Ceratops
-1 Quandrix Apprentice
-3 Quandrix Campus
-4 Quandrix Command
+2 Quandrix Apprentice
+4 Quandrix Campus
+5 Quandrix Command
 1 Quandrix Cultivator
 1 Quandrix Pledgemage
 2 Quarry Beetle
@@ -4296,6 +4339,7 @@
 3 Radioactive Spider
 7 Radjan Spirit
 4 Rafiq of the Many
+1 Ragamuffin Raptor
 3 Raggadragga, Goreguts Boss
 3 Raging Kavu
 9 Raging Ravine
@@ -4305,7 +4349,7 @@
 2 Raiding Schemes
 2 Railway Brawler
 4 Rain of Thorns
-2 Rain-Slicked Copse
+3 Rain-Slicked Copse
 1 Rainveil Rejuvenator
 1 Raised by Wolves
 2 Rakeclaw Gargantuan
@@ -4344,6 +4388,7 @@
 1 Ranger's Longbow
 1 Ranger's Path
 3 Ranging Raptors
+1 Raph & Mikey, Troublemakers
 1 Rashmi and Ragavan
 5 Rashmi, Eternities Crafter
 3 Rattleclaw Mystic
@@ -4562,6 +4607,8 @@
 1 Rockcaster Platoon
 1 Rocketeer Boostbuggy
 7 Rockfall Vale
+1 Rocksteady, Crash Courser
+1 Rocksteady, Mutant Marauder
 1 Rocky Rebuke
 3 Rofellos, Llanowar Emissary
 1 Rofellos's Gift
@@ -4613,7 +4660,7 @@
 1 Rowan Treefolk
 3 Rowen
 2 Roxanne, Starfall Savant
-1 Royal Treatment
+2 Royal Treatment
 1 Rubbleback Rhino
 1 Rubblebelt Maverick
 4 Rubblebelt Raiders
@@ -4696,7 +4743,7 @@
 1 Saheeli, Radiant Creator
 1 Sail into the West
 2 Sakiko, Mother of Summer
-33 Sakura-Tribe Elder
+34 Sakura-Tribe Elder
 2 Sakura-Tribe Scout
 1 Sakura-Tribe Springcaller
 6 Saltcrusted Steppe
@@ -4775,6 +4822,7 @@
 10 Savage Twister
 6 Savage Ventmaw
 14 Savannah
+1 Saved by the Shell
 4 Savra, Queen of the Golgari
 2 Savvy Hunter
 1 Savvy Trader
@@ -4791,7 +4839,7 @@
 2 Scaled Behemoth
 1 Scaled Herbalist
 1 Scaled Hulk
-2 Scaled Nurturer
+3 Scaled Nurturer
 8 Scaled Wurm
 3 Scaleguard Sentinels
 2 Scale the Heights
@@ -4803,7 +4851,7 @@
 1 Scarwood Goblins
 1 Scarwood Hag
 1 Scarwood Treefolk
-10 Scattered Groves
+11 Scattered Groves
 1 Scattershot Archer
 6 Scatter the Seeds
 7 Scavenger Folk
@@ -4933,7 +4981,7 @@
 1 Shalai and Hallar
 1 Shalai's Acolyte
 6 Shalai, Voice of Plenty
-15 Shamanic Revelation
+16 Shamanic Revelation
 1 Shaman of Forgotten Ways
 1 Shaman of Spring
 2 Shaman of the Great Hunt
@@ -4950,7 +4998,7 @@
 2 Shape the Sands
 1 Shard Convergence
 8 Shardless Agent
-1 Shared Roots
+3 Shared Roots
 4 Shared Summons
 3 Sharktocrab
 2 Sharp-Eyed Rookie
@@ -4964,7 +5012,7 @@
 1 Shelkin Brownie
 2 Shelob, Child of Ungoliant
 1 Sheltered Aerie
-15 Sheltered Thicket
+16 Sheltered Thicket
 2 Sheltering Ancient
 2 Sheltering Boughs
 1 Sheltering Landscape
@@ -5018,7 +5066,7 @@
 1 Silhana Starfletcher
 2 Silhana Wayfinder
 1 Silken Strength
-3 Silkguard
+4 Silkguard
 6 Silklash Spider
 1 Silk Net
 2 Silkweaver Elite
@@ -5128,6 +5176,7 @@
 4 Slippery Bogle
 11 Slippery Karst
 2 Slitherhead
+1 Slithering Cryptid
 1 Slith Predator
 1 Sliver Gravemother
 5 Sliver Hivelord
@@ -5160,7 +5209,7 @@
 1 Snowblind
 1 Snowhorn Rider
 1 Social Climber
-2 Sodden Verdure
+3 Sodden Verdure
 1 Soilshaper
 3 Solidarity of Heroes
 1 Solid Ground
@@ -5285,7 +5334,7 @@
 1 Sporogenesis
 3 Sporoloth Ancient
 2 Spreading Algae
-8 Springbloom Druid
+9 Springbloom Druid
 1 Spring Cleaning
 2 Springheart Nantuko
 1 Springing Tiger
@@ -5340,7 +5389,7 @@
 2 Staunch-Hearted Warrior
 1 Steady Aim
 1 Steam Spitter
-3 Steelbane Hydra
+4 Steelbane Hydra
 3 Steel Leaf Champion
 1 Steel Leaf Paladin
 2 Steely Resolve
@@ -5408,6 +5457,7 @@
 2 Struggle for Skemfar
 4 Struggle 
 1 Stubborn Burrowfiend
+1 Study the Classics
 1 Stump Stomp 
 3 Stunted Growth
 1 Sturdy Hatchling
@@ -5454,6 +5504,7 @@
 3 Sunscape Battlemage
 1 Sunscape Master
 1 Sunshower Druid
+1 Super Combo
 1 Superior Numbers
 1 Super Mutant Scavenger
 2 Supply 
@@ -5492,7 +5543,7 @@
 5 Sylvan Caryatid
 1 Sylvan Echoes
 1 Sylvan Hierophant
-16 Sylvan Library
+17 Sylvan Library
 7 Sylvan Messenger
 4 Sylvan Might
 5 Sylvan Offering
@@ -5525,6 +5576,7 @@
 14 Taiga
 4 Tail Swipe
 1 Tainted Observer
+1 Tainted Treats
 13 Tainted Wood
 2 Tajuru Archer
 1 Tajuru Beastmaster
@@ -5554,14 +5606,14 @@
 2 Tamiyo's Safekeeping
 2 Tam, Mindful First-Year
 4 Tana, the Bloodsower
-3 Tanazir Quandrix
+4 Tanazir Quandrix
 1 Tandem Takedown
 6 Tangle
 1 Tangle Angler
 1 Tangle Asp
 1 Tangleclaw Werewolf 
 2 Tangled Florahedron 
-3 Tangled Islet
+4 Tangled Islet
 1 Tangled Skyline
 1 Tangle Hulk
 1 Tangle Mantis
@@ -5618,8 +5670,8 @@
 1 Tempest Hart 
 12 Temple Garden
 16 Temple of Abandon
-17 Temple of Malady
-22 Temple of Mystery
+18 Temple of Malady
+23 Temple of Mystery
 17 Temple of Plenty
 3 Temporal Spring
 1 Tempting Licid
@@ -5637,7 +5689,8 @@
 1 Temur Tawnyback
 5 Temur War Shaman
 1 Tenacious Hunter
-4 Tendershoot Dryad
+1 Tenderize
+5 Tendershoot Dryad
 2 Tender Wildguide
 1 Tendril of the Mycotyrant
 1 Tend the Pests
@@ -5695,7 +5748,7 @@
 1 The Fugitive Doctor
 9 The Gitrog Monster
 2 The Gitrog, Ravenous Ride
-2 The Goose Mother
+3 The Goose Mother
 3 The Great Aurora
 5 The Great Henge
 2 The Howling Abomination
@@ -5705,6 +5758,7 @@
 3 The Kami War 
 1 The Lady of Otaria
 2 The Lady of the Mountain
+1 The Last Ronin
 2 The Legend of Kyoshi 
 2 The Lion-Turtle
 2 Thelonite Druid
@@ -5779,7 +5833,7 @@
 3 Threats Undetected
 1 Three Tree Rootweaver
 1 Three Tree Scribe
-12 Three Visits
+13 Three Visits
 1 Thresher Beast
 2 Thrill of the Hunt
 1 Thriss, Nantuko Primus
@@ -5915,6 +5969,7 @@
 1 Tranquil Landscape
 1 Tranquil Path
 25 Tranquil Thicket
+1 Transdimensional Bovine
 2 Transguild Courier
 2 Transluminant
 2 Trap Essence
@@ -5967,7 +6022,7 @@
 1 Trigon of Infestation
 2 Trip Wire
 3 Triumph of Ferocity
-4 Triumph of the Hordes
+5 Triumph of the Hordes
 7 Troll Ascetic
 2 Trollbred Guardian
 3 Trollhide
@@ -5983,8 +6038,8 @@
 4 Trostani's Summoner
 2 Trostani, Three Whispers
 1 Troublemaker Ouphe
-1 Troyan, Gutsy Explorer
-2 Trudge Garden
+2 Troyan, Gutsy Explorer
+3 Trudge Garden
 1 True Ancestry
 1 Trufflesnout
 2 Trumpeting Armodon
@@ -6011,12 +6066,14 @@
 3 Turntimber Symbiosis 
 1 Turn to Dust
 1 Turtle-Duck
+1 Turtle Power!
+1 Turtle Tracks
 1 Tusked Colossodon
 6 Tuskguard Captain
 3 Tuvasa the Sunlit
 3 Tuya Bearclaw
 1 Twigwalker
-11 Twilight Mire
+12 Twilight Mire
 2 Twinblade Assassins
 1 Twinblade Slasher
 3 Twin-Silk Spider
@@ -6035,7 +6092,7 @@
 2 Tyrranax Rex
 2 Tyvar, Jubilant Brawler
 5 Tyvar Kell
-2 Tyvar's Stand
+3 Tyvar's Stand
 1 Tyvar the Bellicose
 2 Tyvar, the Pummeler
 2 Uktabi Drake
@@ -6057,7 +6114,7 @@
 4 Ulvenwald Oddity 
 3 Ulvenwald Tracker
 4 Umori, the Collector
-3 Unbound Flourishing
+4 Unbound Flourishing
 2 Unbridled Growth
 2 Uncage the Menagerie
 1 Unchecked Growth
@@ -6150,7 +6207,7 @@
 3 Vec Townships
 1 Vedalken Heretic
 1 Vegetation Abomination
-4 Veil of Summer
+5 Veil of Summer
 1 Veldt
 1 Veloheart Bike
 1 Venerable Kumo
@@ -6174,6 +6231,7 @@
 2 Venomspout Brackus
 1 Venomthrope
 1 Venture Forth
+1 Venus, Torn Between Worlds
 3 Verazol, the Split Current
 1 Verdant Automaton
 3 Verdant Command
@@ -6198,7 +6256,7 @@
 3 Vernadi Shieldmate
 4 Vernal Bloom
 2 Vernal Equinox
-3 Vernal Fen
+4 Vernal Fen
 2 Vernal Sovereign
 3 Vessel of Nascency
 1 Veteran Adventurer
@@ -6232,7 +6290,7 @@
 1 Vinebred Brawler
 1 Vine Dryad
 1 Vine Gecko
-11 Vineglimmer Snarl
+12 Vineglimmer Snarl
 1 Vine Kami
 3 Vinelasher Kudzu
 2 Vine Mare
@@ -6249,7 +6307,7 @@
 3 Violent Outburst
 3 Violent Ultimatum
 1 Viral Spawning
-6 Viridescent Bog
+7 Viridescent Bog
 1 Viridescent Wisps
 1 Viridian Acolyte
 1 Viridian Betrayers
@@ -6424,6 +6482,7 @@
 8 Wellwisher
 6 Werebear
 3 Werewolf Pack Leader
+1 West Wind Avatar
 3 Wheel of Sun and Moon
 1 Whippoorwill
 2 Whip Silk
@@ -6442,7 +6501,7 @@
 1 Wickerfolk Thresher
 3 Widespread Thieving
 1 Wielding the Green Dragon
-2 Wight of the Reliquary
+3 Wight of the Reliquary
 2 Wiitigo
 3 Wild Beastmaster
 4 Wildborn Preserver
@@ -6535,8 +6594,8 @@
 2 Witchstalker
 2 Witch's Web
 2 Witherbloom Apprentice
-1 Witherbloom Campus
-3 Witherbloom Command
+2 Witherbloom Campus
+4 Witherbloom Command
 1 Witherbloom Pledgemage
 1 Witherscale Wurm
 1 Withstand Death
@@ -6567,7 +6626,7 @@
 5 Woodfall Primus
 1 Woodland Acolyte 
 1 Woodland Bellower
-13 Woodland Cemetery
+14 Woodland Cemetery
 4 Woodland Champion
 2 Woodland Changeling
 2 Woodland Chasm
@@ -6642,7 +6701,7 @@
 3 Yavimaya Ancients
 4 Yavimaya Ants
 2 Yavimaya Barbarian
-19 Yavimaya Coast
+20 Yavimaya Coast
 4 Yavimaya Dryad
 14 Yavimaya Elder
 8 Yavimaya Enchantress
@@ -6700,17 +6759,18 @@
 3 Ziatora's Proving Ground
 4 Ziatora, the Incinerator
 2 Zilortha, Strength Incarnate
-2 Zimone, All-Questioning
+3 Zimone, All-Questioning
 2 Zimone and Dina
 1 Zimone, Mystery Unraveler
 2 Zimone, Paradox Sculptor
-1 Zimone, Quandrix Prodigy
+2 Zimone, Quandrix Prodigy
 2 Zodiac Horse
 3 Zodiac Monkey
 2 Zodiac Ox
 2 Zodiac Rabbit
 2 Zodiac Rooster
 2 Zodiac Tiger
+1 Zoo Escapees
 1 Zoologist
 2 Zopandrel, Hunger Dominus
 2 Zuo Ci, the Mocking Sage

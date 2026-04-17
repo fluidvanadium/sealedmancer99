@@ -6,7 +6,7 @@
 1 Abstruse Archaic
 1 Abundant Countryside
 9 Academy Manufactor
-5 Access Tunnel
+6 Access Tunnel
 2 Accomplished Automaton
 3 Accorder's Shield
 1 Accursed Duneyard
@@ -100,8 +100,9 @@
 1 Apple of Eden, Isu Relic
 1 Arachnoid
 2 Aradara Express
+1 Arcade Cabinet
 3 Arcane Encyclopedia
-4 Arcane Lighthouse
+5 Arcane Lighthouse
 1 Arcane Spyglass
 1 Arcbound Bruiser
 2 Arcbound Crusher
@@ -148,7 +149,7 @@
 5 Assault Suit
 1 Assembly Hall
 4 Assembly-Worker
-5 Astral Cornucopia
+6 Astral Cornucopia
 2 Astrolabe
 1 A-The One Ring
 1 A-Thran Portal
@@ -207,9 +208,11 @@
 1 Bender's Waterskin
 1 Bessie, the Doctor's Roadster
 1 Biblioplex Assistant
+1 Big Apple, 3 a.m.
+1 Big Mother Mouser
 1 Bilbo's Ring
 3 Birthing Boughs
-1 Bitterthorn, Nissa's Animus
+2 Bitterthorn, Nissa's Animus
 10 Blackblade Reforged
 11 Black Lotus
 16 Black Vise
@@ -366,6 +369,7 @@
 6 Chromatic Star
 1 Chrome Cat
 1 Chrome Companion
+1 Chrome Dome
 9 Chrome Mox
 1 Chrome Replicator
 1 Chrome Steed
@@ -415,6 +419,7 @@
 1 Cogwork Archivist
 3 Cogwork Assembler
 2 Coiled Tinviper
+1 Coin of Mastery
 7 Coldsteel Heart
 2 Cold Storage
 2 Colfenor's Urn
@@ -443,7 +448,7 @@
 2 Consulate Turret
 10 Contagion Clasp
 4 Contagion Engine
-2 Containment Construct
+3 Containment Construct
 1 Contested Game Ball
 2 Contested War Zone
 1 Conversion Apparatus
@@ -501,7 +506,7 @@
 1 Culling Scales
 1 Cultist's Staff
 7 Cultivator's Caravan
-4 Currency Converter
+5 Currency Converter
 6 Cursed Rack
 6 Cursed Scroll
 4 Cursed Totem
@@ -550,6 +555,7 @@
 1 Decimator Web
 4 Decoction Module
 6 Defense Grid
+1 Definitely Not a Turtle
 1 Delif's Cone
 1 Delif's Cube
 5 Demolition Field
@@ -650,7 +656,7 @@
 3 Edifice of Authority
 1 Elaborate Firecannon
 1 Eldrazi Confluence
-5 Eldrazi Conscription
+6 Eldrazi Conscription
 2 Eldrazi Devastator
 2 Eldrazi Mimic
 6 Eldrazi Monument
@@ -658,7 +664,7 @@
 8 Eldrazi Temple
 1 Eldritch Immunity
 4 Electrostatic Pummeler
-2 Elementalist's Palette
+3 Elementalist's Palette
 2 Elephant Graveyard
 1 Elixir
 8 Elixir of Immortality
@@ -717,10 +723,11 @@
 1 Excavated Wall
 1 Excavator
 1 Executioner's Hood
-40 Exotic Orchard
+41 Exotic Orchard
 1 Expanded Anatomy
 10 Expedition Map
 1 Expert-Level Safe
+1 Exploding Barrel
 9 Explorer's Scope
 3 Explosive Apparatus
 2 Extinguisher Battleship
@@ -731,7 +738,7 @@
 4 Eye of Ugin
 3 Eye of Vecna
 2 Eye of Yawgmoth
-13 Fabled Passage
+14 Fabled Passage
 3 Fabrication Module
 4 Faceless Haven
 3 False Floor
@@ -741,7 +748,7 @@
 3 Farsight Mask
 8 Feldon's Cane
 2 Fell Flagship
-31 Fellwar Stone
+32 Fellwar Stone
 3 Feroz's Ban
 1 Ferropede
 3 Field Creeper
@@ -928,7 +935,7 @@
 1 Guildmages' Forum
 2 Gustha's Scepter
 2 Hair-Strung Koto
-3 Hall of Oracles
+4 Hall of Oracles
 3 Hall of Tagsin
 3 Hall of the Bandit Lord
 3 Hall of Triumph
@@ -939,7 +946,7 @@
 2 Hammer of Ruin
 1 Hand of Emrakul
 3 Hand of Vecna
-8 Hangarback Walker
+9 Hangarback Walker
 1 Hankyu
 3 Harvest Hand 
 3 Haunted Cloak
@@ -975,6 +982,7 @@
 5 Helm of the Host
 4 Helvault
 1 Hematite Talisman
+1 Henchbots
 2 Henge Guardian
 1 Henge of Ramos
 1 Henge Walker
@@ -990,7 +998,7 @@
 1 Hidden Blade
 1 Hidden Grotto
 1 Hierophant's Chalice
-11 High Market
+12 High Market
 1 High-Speed Hoverbike
 1 Hithlain Rope
 2 Hivestone
@@ -1158,6 +1166,7 @@
 2 Kozilek, the Broken Reality
 6 Kozilek, the Great Distortion
 8 Kraken's Eye
+1 Krang, Utrom Warlord
 4 Krark-Clan Ironworks
 3 Krark's Thumb
 22 Krosan Verge
@@ -1193,8 +1202,8 @@
 1 Leyline Dowser
 1 Liar's Pendulum
 4 Liberator, Urza's Battlethopter
-6 Library of Alexandria
-13 Library of Leng
+7 Library of Alexandria
+14 Library of Leng
 2 Lich's Mirror
 1 Lich's Tomb
 2 Life Chisel
@@ -1203,7 +1212,7 @@
 1 Life Matrix
 2 Lightning Coils
 1 Lightning-Core Excavator
-36 Lightning Greaves
+37 Lightning Greaves
 1 Limestone Golem
 1 Lion Heart
 3 Lion's Eye Diamond
@@ -1226,7 +1235,7 @@
 1 Lothlórien Blade
 6 Lotus Bloom
 2 Lotus Blossom
-4 Lotus Field
+5 Lotus Field
 1 Lotus Guardian
 8 Lotus Petal
 2 Lotus Ring
@@ -1275,6 +1284,7 @@
 20 Mana Vault
 1 Mana Web
 1 Mangara's Tome
+1 Manhole Cover
 3 Manifold Key
 1 Manor Gargoyle
 1 Manriki-Gusari
@@ -1328,7 +1338,7 @@
 2 Mighty Servant of Leuk-o
 4 Mikokoro, Center of the Sea
 2 Millennial Gargoyle
-7 Millikin
+8 Millikin
 17 Millstone
 2 Mimic
 7 Mimic Vat
@@ -1336,14 +1346,14 @@
 7 Mindless Automaton
 7 Mind's Eye
 4 Mindslaver
-36 Mind Stone
+37 Mind Stone
 1 Mindstorm Crown
 1 Mine Worker
 1 Minion Reflector
 1 Mirage Mesa
 7 Mirage Mirror
 5 Mirari
-2 Miren, the Moaning Well
+3 Miren, the Moaning Well
 2 Mirran Safehouse
 2 Mirrex
 4 Mirrodin's Core
@@ -1378,6 +1388,7 @@
 4 Mobilized District
 1 Model of Unity
 1 Mogg Cannon
+1 Mole Module
 1 Molten-Tail Masticore
 2 Monkey Cage
 1 Monk's Fist
@@ -1475,6 +1486,7 @@
 1 Noble's Purse
 1 No-Dachi
 1 Noetic Scales
+1 Northampton Farm
 1 North Star
 3 Not of This World
 2 Nova Pentacle
@@ -1506,6 +1518,7 @@
 1 Omen Machine
 1 Ominous Cemetery
 1 Ominous Parcel
+1 Omni-Cheese Pizza
 3 O-Naginata
 1 One-Eyed Scarecrow
 8 Onulet
@@ -1544,7 +1557,7 @@
 3 Pariah's Shield
 4 Patagia Golem
 3 Patchwork Automaton
-3 Patchwork Banner
+4 Patchwork Banner
 5 Patchwork Gnomes
 5 Pathrazer of Ulamog
 1 Pathway Arrows
@@ -1563,7 +1576,7 @@
 1 Peregrine Mask
 5 Perilous Myr
 4 Perilous Vault
-3 Perpetual Timepiece
+4 Perpetual Timepiece
 3 Peter Parker's Camera
 3 Petrified Field
 2 Phial of Galadriel
@@ -1719,7 +1732,7 @@
 3 Relic of Legends
 9 Relic of Progenitus
 1 Relic Vial
-32 Reliquary Tower
+33 Reliquary Tower
 1 Renegade Freighter
 3 Renegade Map
 3 Replicating Ring
@@ -1750,6 +1763,7 @@
 8 Rishadan Port
 1 River Song's Diary
 4 Riveteers Overlook
+1 Roadkill Rodney
 2 Roadside Reliquary
 2 Roaming Throne
 4 Rocket Launcher
@@ -1757,7 +1771,7 @@
 7 Rocky Tar Pit
 21 Rod of Ruin
 3 Rogue's Gloves
-29 Rogue's Passage
+30 Rogue's Passage
 1 Rolling Hamsphere
 1 Ronin Warclub
 1 Rooftop Percher
@@ -1934,6 +1948,7 @@
 1 Siren Song Lyre
 2 Sire of Seven Deaths
 3 Sisay's Ring
+1 Skateboard
 1 Skeleton Key
 2 Skinwing
 1 Skittering Cicada
@@ -1984,7 +1999,7 @@
 1 Soldevi Sentry
 2 Soldevi Simulacrum
 1 Soldevi Steam Beast
-39 Solemn Simulacrum
+40 Solemn Simulacrum
 2 Sol Grail
 72 Sol Ring
 3 Sol Talisman
@@ -2076,7 +2091,7 @@
 2 Sting, the Glinting Dagger
 4 Stitcher's Graft
 2 Stone Calendar
-5 Stonecoil Serpent
+6 Stonecoil Serpent
 2 Stoneforge Masterwork
 3 Stone Golem
 1 Stone Idol Generator
@@ -2181,6 +2196,7 @@
 6 Tawnos's Wand
 7 Tawnos's Weaponry
 1 Team Pennant
+1 Technodrome
 7 Tectonic Edge
 1 Teeka's Dragon
 8 Teferi's Puzzle Box
@@ -2191,14 +2207,14 @@
 1 Tel-Jilad Stylus
 4 Temple Bell
 2 Temple of the Dragon Queen
-36 Temple of the False God
+37 Temple of the False God
 2 Temporal Aperture
 2 Tempting Contract
 3 Tendo Ice Bridge
 2 Tenza, Godo's Maul
 2 Terminal Moraine
 6 Terrain Generator
-55 Terramorphic Expanse
+56 Terramorphic Expanse
 5 Terrarion
 6 Tetravus
 2 Tezzeret, Cruel Captain
@@ -2234,6 +2250,7 @@
 2 The Monumental Facade
 3 The Mycosynth Gardens
 2 The One Ring
+1 The Ooze
 5 The Ozolith
 12 The Rack
 2 The Regalia
@@ -2353,6 +2370,9 @@
 4 Trusty Machete
 3 Tsabo's Web
 3 Tumble Magnet
+1 Turtle Blimp
+1 Turtle Lair
+1 Turtle Van
 1 Twinning Glass
 2 Twinning Staff
 1 Twins of Discord
@@ -2497,6 +2517,7 @@
 3 Weathered Sentinels
 5 Weatherlight
 2 Weatherlight Compleated
+1 Weather Maker
 2 Wedding Invitation
 1 Weight Advantage
 3 Welding Jar

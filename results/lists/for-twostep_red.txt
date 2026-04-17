@@ -10,7 +10,7 @@
 5 Abbot of Keral Keep
 1 Abby, Merciless Soldier
 2 About Face
-19 Abrade
+21 Abrade
 1 Abraded Bluffs
 1 A-Bruenor Battlehammer
 1 A-Cabaretti Charm
@@ -177,7 +177,7 @@
 4 Anax and Cymede
 4 Anax, Hardened in the Forge
 1 Ancestors' Aid
-4 Ancestral Anger
+5 Ancestral Anger
 5 Ancient Amphitheater
 4 Ancient Copper Dragon
 11 Ancient Grudge
@@ -189,7 +189,7 @@
 1 Angelfire Crusader
 5 Angelfire Ignition
 2 Angelic Captain
-14 Anger
+15 Anger
 8 Anger of the Gods
 5 Angrath, Captain of Chaos
 1 Angrath, Minotaur Pirate
@@ -199,7 +199,7 @@
 4 Angrath, the Flame-Chained
 2 Angry Rabble
 1 An-Havva Township
-2 Anhelo, the Painter
+3 Anhelo, the Painter
 7 Animar, Soul of Elements
 2 Anim Pakal, Thousandth Moon
 3 Anje Falkenrath
@@ -338,7 +338,7 @@
 1 Atogatog
 1 A-Tome Shredder
 1 Atreus, Impulsive Son
-5 Atsushi, the Blazing Sky
+6 Atsushi, the Blazing Sky
 3 Audacious Reshapers
 2 Audacious Swap
 6 Auger Spree
@@ -403,7 +403,7 @@
 2 Balduvian Warlord
 1 Balduvian War-Makers
 7 Balefire Dragon
-4 Balefire Liege
+5 Balefire Liege
 2 Ballista Watcher 
 17 Ball Lightning
 2 Balmor, Battlemage Captain
@@ -452,7 +452,7 @@
 2 Battering Craghorn
 2 Battering Sliver
 4 Battle Cry Goblin
-19 Battlefield Forge
+20 Battlefield Forge
 3 Battlefield Scavenger
 1 Battle Frenzy
 2 Battlegate Mimic
@@ -469,6 +469,7 @@
 6 Battle Squadron
 1 Battle Strain
 2 Battlewing Mystic
+1 Baxter Stockman
 1 Bayek of Siwa
 3 Baylen, the Haymaker
 1 Bazaar Trader
@@ -514,7 +515,7 @@
 2 Bhaal, Lord of Murder
 1 Bhaal's Invoker
 1 Bigger on the Inside
-8 Big Score
+10 Big Score
 2 Bilbo, Retired Burglar
 1 Billiard Room
 1 Bill Potts
@@ -542,7 +543,7 @@
 3 Bladetusk Boar
 1 Bladewing, Deathless Tyrant
 8 Bladewing the Risen
-30 Blasphemous Act
+31 Blasphemous Act
 1 Blaster, Combat DJ 
 1 Blaster Hulk
 1 Blaster Mage
@@ -642,7 +643,7 @@
 5 Bloodtithe Harvester
 3 Blood Tyrant
 2 Bloodwater Entity
-2 Bloody Betrayal
+3 Bloody Betrayal
 1 Blooming Blast
 2 Blow Your House Down
 1 Bludgeon Brawl
@@ -736,6 +737,7 @@
 4 Boros Swiftblade
 4 Borrowed Hostility
 7 Bosh, Iron Golem
+1 Bot Bashing Time
 1 Bothersome Quasit
 1 Bottle-Cap Blast
 1 Boulder Dash
@@ -792,6 +794,7 @@
 1 Brighthearth Banneret
 1 Bright-Palm, Soul Awakener
 2 Brightstone Ritual
+1 Brilliance Unleashed
 3 Brimstone Dragon
 2 Brimstone Mage
 1 Brimstone Roundup
@@ -806,6 +809,7 @@
 2 Bring Low
 8 Brion Stoutarm
 1 Bristling Backwoods
+1 Broadcast Takeover
 1 Broadside Barrage
 2 Broadside Bombardiers
 2 Bronzeplate Boar
@@ -813,11 +817,11 @@
 1 Brood Keeper
 5 Broodmate Dragon
 1 Broodmate Tyrant
-4 Brotherhood's End
+5 Brotherhood's End
 6 Brothers of Fire
 3 Brothers Yamazaki
 9 Browbeat
-6 Brudiclad, Telchor Engineer
+7 Brudiclad, Telchor Engineer
 2 Bruenor Battlehammer
 5 Bruse Tarl, Boorish Herder
 3 Bruse Tarl, Roving Rancher
@@ -832,7 +836,7 @@
 1 Buccaneer's Bravado
 1 Builder's Bane
 3 Built to Smash
-1 Bulk Up
+2 Bulk Up
 3 Bull Cerodon
 1 Bull Rush
 1 Bull-Rush Bruiser
@@ -879,7 +883,7 @@
 3 Burnt Offering
 1 Burn Trail
 12 Burrowing
-6 Burst Lightning
+7 Burst Lightning
 1 Burst of Speed
 2 Butcher of the Horde
 1 Butcher Orgg
@@ -918,7 +922,7 @@
 1 Canyon Drake
 2 Canyon Lurkers
 5 Canyon Minotaur
-11 Canyon Slough
+12 Canyon Slough
 4 Canyon Wildcat
 1 Caparocti Sunborn
 1 Capital Guard
@@ -946,9 +950,14 @@
 4 Carnival Hellsteed
 1 Carrion Thrash
 4 Cartouche of Zeal
-11 Cascade Bluffs
+12 Cascade Bluffs
 1 Case of the Burning Masks
 2 Case of the Crimson Pulse
+1 Casey Jones, Asphalt Hooligan
+1 Casey Jones, Back Alley Brute
+1 Casey Jones, Jury-Rig Justiciar
+1 Casey Jones, Vigilante
+1 Casey & Raph, Hotheads
 1 Cass, Hand of Vengeance
 1 Cast into the Fire
 6 Castle Embereth
@@ -991,7 +1000,7 @@
 1 Chainflinger
 13 Chain Lightning
 1 Chain of Plasma
-15 Chain Reaction
+16 Chain Reaction
 2 Chainsaw
 2 Chainwhip Cyclops
 2 Chakram Slinger
@@ -999,7 +1008,7 @@
 3 Champion of the Flame
 2 Champion of the Path
 3 Chance Encounter
-1 Chance for Glory
+2 Chance for Glory
 1 Chancellor of the Forge
 1 Chandler
 1 Chandra Ablaze
@@ -1059,7 +1068,7 @@
 1 Chaosphere
 1 Chaos Spewer
 1 Chaos Terminator Lord
-37 Chaos Warp
+38 Chaos Warp
 1 Chaotic Backlash
 2 Chaotic Goo
 1 Chaotic Strike
@@ -1136,7 +1145,7 @@
 1 Cleon, Merry Champion
 4 Clickslither
 2 Cliffgate
-14 Clifftop Retreat
+15 Clifftop Retreat
 2 Clive, Ifrit's Dominant 
 1 Clockwork Percussionist
 1 Close Quarters
@@ -1157,7 +1166,7 @@
 4 Coal Stoker
 1 Coastline Marauders
 3 Cobblebrute
-3 Codie, Vociferous Codex
+4 Codie, Vociferous Codex
 3 Coercive Recruiter
 1 Collapsing Borders
 2 Collateral Damage
@@ -1199,7 +1208,7 @@
 2 Conquering Manticore
 1 Conscripted Infantry
 4 Conspicuous Snoop
-3 Conspiracy Theorist
+4 Conspiracy Theorist
 1 Consuming Bonfire
 1 Consuming Ferocity
 1 Consuming Fervor
@@ -1209,6 +1218,7 @@
 1 Convenient Target
 1 Convicted Killer 
 2 Convulsing Licid
+1 Cool but Rude
 7 Coordinated Assault
 5 Copperline Gorge
 1 Coral Sword
@@ -1239,7 +1249,7 @@
 2 Covetous Dragon
 1 Coward 
 1 Crackleburr
-4 Crackle with Power
+5 Crackle with Power
 1 Crackling Club
 1 Crackling Cyclops
 7 Crackling Doom
@@ -1268,7 +1278,7 @@
 1 Crazed Firecat
 1 Crazed Goblin
 1 Creative Outburst
-2 Creative Technique
+3 Creative Technique
 1 Creeping Trailblazer
 4 Creepy Puppeteer
 1 Crescent Island Temple
@@ -1325,7 +1335,7 @@
 2 Cunning Sparkmage
 1 Cunning Strike
 1 Curator of Sun's Creation
-8 Cursed Mirror
+9 Cursed Mirror
 2 Cursed Recording
 1 Curse of Bloodletting
 1 Curse of Chaos
@@ -1354,7 +1364,7 @@
 2 Dagger Caster
 1 Daggersail Aeronaut
 3 Dalakos, Crafter of Wonders
-1 Dance with Calamity
+2 Dance with Calamity
 3 Dance with Devils
 1 Dangerous Wager
 1 Dan Lewis
@@ -1413,7 +1423,7 @@
 1 Defibrillating Current
 3 Defiler of Instinct
 1 Defiler of Souls
-4 Deflecting Palm
+5 Deflecting Palm
 1 Dega Disciple
 1 Degavolver
 2 Delayed Blast Fireball
@@ -1460,7 +1470,7 @@
 1 Destructive Urge
 2 Detective's Phoenix
 1 Detective's Satchel
-2 Determined Iteration
+3 Determined Iteration
 12 Detonate
 1 Detritivore
 2 Deus of Calamity
@@ -1481,6 +1491,7 @@
 5 Diaochan, Artful Beauty
 4 Dictate of the Twin Gods
 1 Dihada, Binder of Wills
+1 Dimension X
 1 Dining Room
 1 Din of the Fireherd
 1 Dinosaurs on a Spaceship
@@ -1528,12 +1539,14 @@
 1 Don Andres, the Renegade
 2 Dong Zhou, the Tyrant
 1 Donna Noble
+1 Don & Raph, Hard Science
 1 Doomskar Titan
 2 Doors of Durin
 6 Door to Nothingness
 3 Dormant Volcano
 3 Doublecast
 3 Double Cleave
+1 Double Jump 
 1 Double Negative
 1 Double Trouble
 4 Double Vision
@@ -1611,7 +1624,7 @@
 2 Dropkick Bomber
 3 Drossforge Bridge
 2 Druid of the Anima
-11 Dualcaster Mage
+12 Dualcaster Mage
 2 Dual Casting
 3 Dual Shot
 1 Dual Strike
@@ -1706,6 +1719,7 @@
 1 Electric Eel
 3 Electrickery
 5 Electric Revelation
+1 Electric Seaweed
 3 Electrify
 3 Electro, Assaulting Battery
 4 Electrodominance
@@ -1761,7 +1775,7 @@
 1 Embraal Gear-Smasher
 1 Embrace the Unknown
 2 Emissary of Grudges
-7 Empty the Warrens
+8 Empty the Warrens
 3 Emrakul's Hatcher
 3 Enchanter's Bane
 2 End-Blaze Epiphany
@@ -1790,6 +1804,7 @@
 1 Éomer of the Riddermark
 2 Éowyn, Fearless Knight
 1 Éowyn, Shieldmaiden
+1 EPF Point Squad
 1 Epicenter
 6 Epic Experiment
 1 Epiphany Storm
@@ -1826,6 +1841,7 @@
 1 Everflame Eidolon
 3 Everlasting Torment
 4 Everquill Phoenix
+1 Everything Pizza
 1 Exalted Flamer of Tzeentch
 1 Exava, Rakdos Blood Witch
 1 Excavation Explosion
@@ -1851,7 +1867,7 @@
 3 Explosive Singularity
 2 Explosive Welcome
 1 Expose the Culprit
-9 Expressive Iteration
+11 Expressive Iteration
 5 Exquisite Firecraft
 1 Exterminator Magmarch
 1 Extra Arms
@@ -1861,7 +1877,7 @@
 1 Ezio Auditore da Firenze
 1 Ezio, Brash Novice
 4 Fable of the Mirror-Breaker 
-25 Faithless Looting
+26 Faithless Looting
 3 Faithless Salvaging
 1 Faldorn, Dread Wolf Herald
 4 Falkenrath Aristocrat
@@ -1894,6 +1910,7 @@
 1 Farideh, Devil's Chosen
 2 Farideh's Fireball
 2 Farid, Enterprising Salvager
+1 Fast Forward
 2 Fast 
 1 Fatal Attraction
 1 Fatal Frenzy
@@ -1937,7 +1954,7 @@
 1 Ferocification
 1 Ferocious Tigorilla
 1 Ferocity of the Wilds
-4 Ferrous Lake
+5 Ferrous Lake
 1 Ferrovore
 2 Fervent Cathar
 2 Fervent Champion
@@ -2261,7 +2278,7 @@
 1 Frontline Rush
 1 Frontline War-Rager
 1 Frost Bite
-11 Frostboil Snarl
+12 Frostboil Snarl
 3 Frostburn Weird
 2 Frostcliff Siege
 1 Frost Fair Lure Fish
@@ -2303,7 +2320,7 @@
 7 Fury
 4 Furyblade Vampire
 1 Furyborn Hellkite
-12 Furycalm Snarl
+13 Furycalm Snarl
 4 Fury Charm
 2 Fury of the Horde
 5 Fury Sliver
@@ -2313,7 +2330,7 @@
 1 Gadget Technician
 5 Gadrak, the Crown-Scourge
 3 Gahiji, Honored One
-3 Galazeth Prismari
+4 Galazeth Prismari
 3 Gallia of the Endless Dance
 1 Gallifrey Falls 
 1 Galvanic Arc
@@ -2364,6 +2381,7 @@
 1 General Kreat, the Boltbringer
 1 General Marhault Elsdragon
 2 General Tazri
+1 General Traag, Heart of Stone
 3 Generator Servant
 1 Generous Plunderer
 4 Genesis Ultimatum
@@ -2433,7 +2451,7 @@
 1 Gimli's Reckless Might
 1 Giott, King of the Dwarves
 9 Gisela, Blade of Goldnight
-5 Gishath, Sun's Avatar
+6 Gishath, Sun's Avatar
 2 Glacial Crevasses
 1 Glacial Dragonhunt
 4 Glacial Ray
@@ -2450,7 +2468,7 @@
 3 Glint-Eye Nephilim
 3 Glint-Horn Buccaneer
 1 Glitterfang
-1 Glittering Massif
+2 Glittering Massif
 3 Glittering Stockpile
 2 Glóin, Dwarf Emissary
 3 Glorious End
@@ -2638,12 +2656,13 @@
 2 Goldhound
 1 Goldlust Triad
 3 Goldnight Castigator
-7 Goldspan Dragon
+8 Goldspan Dragon
 1 Goldwardens' Gambit
 2 Goliath Daydreamer
 2 Golos, Tireless Pilgrim
 2 Goma Fada Vanguard
 1 Gongaga, Reactor Town
+1 Go Ninja Go
 6 Gorehorn Minotaurs
 1 Gorehorn Raider
 1 Gore-House Chainwalker
@@ -2778,8 +2797,9 @@
 1 Haradrim Spearmaster
 5 Harbinger of the Hunt
 2 Hardened Berserker
+1 Hard-Won Jitte
 5 Harmless Offering
-3 Harmonic Prodigy
+4 Harmonic Prodigy
 1 Harness by Force
 2 Harnessed Lightning
 1 Harnesser of Storms
@@ -2879,6 +2899,7 @@
 1 Heretic's Punishment
 2 Herigast, Erupting Nullkite
 2 Heroes' Hangout
+1 Heroes in a Half Shell
 1 Heroes of the Revel
 1 Heroic Charge
 5 Heroic Reinforcements
@@ -2927,7 +2948,7 @@
 2 Hobgoblin Captain
 1 Hobgoblin Dragoon
 2 Hobgoblin, Mantled Marauder
-3 Hofri Ghostforge
+4 Hofri Ghostforge
 1 Hog-Monkey Rampage
 3 Hollowhead Sliver
 3 Homing Lightning
@@ -3052,6 +3073,7 @@
 1 Impossible Inferno
 2 Improbable Alliance
 1 Impromptu Raid
+1 Improvised Arsenal
 1 Improvised Club
 3 Improvised Weaponry
 2 Impulsive Maneuvers
@@ -3159,7 +3181,7 @@
 1 Invasion of Regatha 
 2 Invasion of Tarkir 
 1 Invasion of the Giants
-2 Invasion Plans
+3 Invasion Plans
 1 Invasive Maneuvers
 2 Inventor's Apprentice
 1 Inventor's Axe
@@ -3244,6 +3266,7 @@
 4 Jeering Instigator
 5 Jegantha, the Wellspring
 2 Jeleva, Nephalia's Scourge
+1 Jennika's Technique
 1 Jenny Flint
 1 Jenny, Generated Anomaly
 1 Jenson Carthalion, Druid Exile
@@ -3530,7 +3553,7 @@
 1 Laccolith Whelp
 2 Lacerate Flesh
 3 Lady Orca
-5 Laelia, the Blade Reforged
+6 Laelia, the Blade Reforged
 1 Lagac Lizard
 1 Lagomos, Hand of Hatred
 2 Lambholt Harrier
@@ -3596,6 +3619,7 @@
 3 Legion Loyalist
 2 Legion's Initiative
 5 Legion Warboss
+1 Leonardo, the Balance
 3 Leopard-Spotted Jiao
 1 Leori, Sparktouched Hunter
 3 Lesser Gargadon
@@ -3654,7 +3678,7 @@
 2 Lightning Wolf
 1 Light of Judgment
 4 Light Up the Night
-9 Light Up the Stage
+10 Light Up the Stage
 2 Lilah, Undefeated Slickshot
 1 Lim-Dûl's Paladin
 2 Limits of Solidarity
@@ -3690,7 +3714,7 @@
 2 Lord Xander, the Collector
 2 Lore Drakkis
 1 Lorehold Apprentice
-1 Lorehold Campus
+2 Lorehold Campus
 3 Lorehold Command
 1 Lorehold Excavation
 1 Lorehold Pledgemage
@@ -3751,7 +3775,7 @@
 1 Magma Hellion
 10 Magma Jet
 1 Magmakin Artillerist
-4 Magma Opus
+5 Magma Opus
 2 Magma Phoenix
 2 Magma Pummeler
 11 Magmaquake
@@ -3804,10 +3828,11 @@
 2 Mana Echoes
 16 Mana Flare
 1 Manaforge Cinder
-5 Manaform Hellkite
-8 Mana Geyser
+6 Manaform Hellkite
+9 Mana Geyser
 6 Manamorphose
 1 Mana Seism
+1 Manhole Missile
 8 Maniacal Rage
 2 Manic Vandal
 3 Manifold Mouse
@@ -3882,6 +3907,7 @@
 1 Mayhem Patrol
 1 Maze Rusher
 3 Mazzy, Truesword Paladin
+1 Mechanized Ninja Cavalry
 3 Mechanized Warfare
 1 Meddling Youths
 2 Meek Attack
@@ -3915,6 +3941,7 @@
 1 Merry Bards
 2 Merry, Esquire of Rohan
 1 Messenger's Speed
+1 Metalhead
 1 Metallic Mastery
 3 Meteor Blast
 3 Meteoric Mace
@@ -3963,7 +3990,7 @@
 1 Mirror Sheen
 1 Mirror-Shield Hoplite
 1 Mirror-Style Master
-6 Mirrorwing Dragon
+7 Mirrorwing Dragon
 1 Mirrorwood Treefolk
 1 Mischievous Chimera
 1 Misfortune
@@ -3992,7 +4019,7 @@
 2 Mob Rule
 1 Mob Verdict
 1 Mogg Alarm
-2 Mogg Assassin
+3 Mogg Assassin
 1 Mogg Bombers
 2 Moggcatcher
 3 Mogg Conscripts
@@ -4038,7 +4065,7 @@
 1 Molten Sentry
 8 Molten Slagheap
 1 Moltensteel Dragon
-1 Molten Tributary
+2 Molten Tributary
 1 Molten Vortex
 1 Momentum Rumbler
 1 Momo's Heist
@@ -4050,9 +4077,10 @@
 1 Monoxa, Midway Manager
 1 Monsoon
 16 Mons's Goblin Raiders
+1 Monster Mashup
 1 Monstrous Carabid
 3 Monstrous Hound
-3 Monstrous Rage
+4 Monstrous Rage
 2 Moonhold
 2 Moonrager's Slash
 1 Moonveil Dragon
@@ -4076,6 +4104,9 @@
 2 Mount Doom
 2 Mounted Dreadknight
 1 Mount Velus Manticore
+1 Mouser Attack!
+1 Mouser Foundry
+1 Mouser Mark III
 10 Mox Ruby
 1 Mr. House, President and CEO
 1 Mr. Orfeo, the Boulder
@@ -4092,6 +4123,7 @@
 1 Murasa Pyromancer
 6 Murderous Redcap
 1 Mutalith Vortex Beast
+1 Mutant Town Musicians
 2 Mutinous Massacre
 2 Mutiny
 4 Muxus, Goblin Grandee
@@ -4188,6 +4220,7 @@
 12 Niv-Mizzet, the Firemind
 2 Niv-Mizzet, Visionary
 3 Nobilis of War
+1 Nobody
 2 Noggle Bandit
 1 Noggle Bridgebreaker
 2 Noggle Hedge-Mage
@@ -4201,10 +4234,12 @@
 1 Norin, Swift Survivalist
 3 Norin the Wary
 3 Norman Osborn 
+1 North Wind Avatar
 1 Nosy Goblin
 1 Nova Chaser
 2 Nova Hellkite
 4 Nucklavee
+1 Null Group Biological Assets
 3 Numot, the Devastator
 1 Nyxborn Brute
 1 Nyxborn Rollicker
@@ -4259,6 +4294,7 @@
 4 O-Kagachi, Vengeful Kami
 3 Okaun, Eye of Chaos
 3 Okk
+1 Old Hob, Alleycat Blues
 1 Oliphaunt
 3 Olivia, Crimson Bride
 5 Olivia, Mobilized for War
@@ -4464,7 +4500,7 @@
 1 Planebound Accomplice
 2 Planeswalker's Fury
 1 Planetary Annihilation
-1 Plargg and Nassari
+2 Plargg and Nassari
 4 Plargg, Dean of Chaos 
 1 Plasma Bolt
 1 Plasma Caster
@@ -4485,7 +4521,7 @@
 3 Portent of Betrayal
 4 Port Razer
 1 Possessed Barbarian
-1 Possibility Storm
+2 Possibility Storm
 2 Possibility Technician
 1 Pouncing Kavu
 1 Powder Ganger
@@ -4518,8 +4554,8 @@
 2 Prince of Thralls
 1 Priority Boarding
 1 Prismari Apprentice
-2 Prismari Campus
-5 Prismari Command
+3 Prismari Campus
+6 Prismari Command
 1 Prismari Pledgemage
 2 Prism Array
 1 Prisoner's Dilemma
@@ -4559,6 +4595,7 @@
 7 Purphoros, God of the Forge
 3 Purphoros's Emissary
 3 Purphoros's Intervention
+1 Purple Dragon Punks
 2 Pursue Glory
 1 Pursuit of Flight
 1 Push 
@@ -4573,7 +4610,7 @@
 1 Pyretic Charge
 1 Pyretic Prankster 
 1 Pyretic Rebirth
-3 Pyretic Ritual
+4 Pyretic Ritual
 5 Pyrewild Shaman
 2 Pyrewood Gearhulk
 2 Pyre Zombie
@@ -4621,9 +4658,9 @@
 3 Quicksmith Genius
 4 Quicksmith Rebel
 1 Quilled Charger
-2 Quintorius, Field Historian
+3 Quintorius, Field Historian
 2 Quintorius Kand
-2 Quintorius, Loremaster
+3 Quintorius, Loremaster
 1 Rabanastre, Royal City
 3 Rabbit Battery
 1 Rabble-Rouser
@@ -4640,8 +4677,8 @@
 1 Radiant Kavu
 2 Radiant Performer
 3 Radiant Scrollwielder
-1 Radiant Summit
-1 Radiate
+2 Radiant Summit
+2 Radiate
 2 Radiating Lightning
 1 Rafter Demon
 7 Ragavan, Nimble Pilferer
@@ -4754,6 +4791,16 @@
 11 Rapacious Dragon
 4 Rapacious One
 3 Raphael, Fiendish Savior
+1 Raphael, Most Attitude
+1 Raphael, Ninja Destroyer
+1 Raphael's Technique
+1 Raphael, Tag Team Tough
+1 Raphael, the Muscle
+1 Raphael, the Nightwatcher
+1 Raphael, Tough Turtle
+1 Raph & Leo, Sibling Rivals
+1 Raph & Mikey, Troublemakers
+1 Raph's Bravado
 1 Rapid Augmenter
 1 Raptor Hatchling
 1 Rashmi and Ragavan
@@ -4775,6 +4822,7 @@
 5 Ravenous Bloodseeker
 3 Ravenous Giant
 3 Ravenous Intruder
+1 Ravenous Robots
 1 Ravenous Tyrannosaurus
 1 Raze
 3 Raze the Effigy
@@ -4842,7 +4890,7 @@
 2 Rediscover the Way
 1 Red Mage's Rapier
 4 Red Mana Battery
-1 Redoubled Stormsinger
+2 Redoubled Stormsinger
 2 Redshift, Rocketeer Chief
 2 Red Sun's Twilight
 1 Red Sun's Zenith
@@ -4902,7 +4950,7 @@
 4 Response 
 2 Restless Bivouac
 2 Restless Ridgeline
-2 Restless Spire
+3 Restless Spire
 2 Restless Vents
 3 Retaliator Griffin
 1 Retreat to Valakut
@@ -4910,7 +4958,7 @@
 3 Retriever Phoenix
 1 Retromancer
 1 Returned Pastcaller
-1 Return the Favor
+2 Return the Favor
 1 Return the Past
 1 Revel of the Fallen God
 5 Reverberate
@@ -4945,12 +4993,12 @@
 1 Rimescale Dragon
 4 Rimrock Knight 
 2 Rin and Seri, Inseparable
-3 Rionya, Fire Dancer
+4 Rionya, Fire Dancer
 1 Riot Devils
 1 Riot Piker
 1 Riot Ringleader
 2 Riot Spikes
-4 Rip Apart
+5 Rip Apart
 1 Ripchain Razorkin
 2 Rip-Clan Crasher
 5 Ripscale Predator
@@ -5014,6 +5062,7 @@
 2 Rockslide Ambush
 2 Rockslide Elemental
 1 Rockslide Sorcerer
+1 Rock Soldiers
 1 Rocky Roads
 10 Roc of Kher Ridges
 1 Rodeo Pyromancers
@@ -5038,7 +5087,7 @@
 1 Ronin Cliffrider
 1 Ronin Houndmaster
 19 Rootbound Crag
-2 Rootha, Mercurial Artist
+3 Rootha, Mercurial Artist
 2 Rooting Moloch
 5 Rorix Bladewing
 1 Rose, Cutthroat Raider
@@ -5051,7 +5100,7 @@
 1 Roughshod Duo
 3 Rough 
 1 Rouse the Mob
-3 Rousing Refrain
+4 Rousing Refrain
 1 Roving Actuator
 1 Rowan, Fearless Sparkmage
 4 Rowan Kenrith
@@ -5075,7 +5124,7 @@
 3 Ruby, Daring Tracker
 1 Ruby Leech
 16 Rugged Highlands
-11 Rugged Prairie
+12 Rugged Prairie
 3 Ruhan of the Fomori
 4 Ruination
 2 Ruination Rioter
@@ -5132,7 +5181,7 @@
 1 Sacellum Archers
 2 Sacred Fire
 12 Sacred Foundry
-3 Sacred Peaks
+4 Sacred Peaks
 3 Sage of the Inward Eye
 3 Saheeli, Filigree Master
 1 Saheeli, Radiant Creator
@@ -5333,7 +5382,7 @@
 1 Seismic Wave
 1 Seize Opportunity
 4 Seize the Day
-4 Seize the Spoils
+5 Seize the Spoils
 5 Seize the Spotlight
 4 Seize the Storm
 4 Sek'Kuar, Deathkeeper
@@ -5395,7 +5444,8 @@
 1 Shatter the Source
 1 Shauku's Minion
 1 Shaun, Father of Synths
-15 Sheltered Thicket
+1 Shellshock
+16 Sheltered Thicket
 1 Sheltering Landscape
 4 Shenanigans
 3 Shifting Shadow
@@ -5418,7 +5468,7 @@
 5 Shivan Oasis
 1 Shivan Phoenix
 2 Shivan Raptor
-20 Shivan Reef
+21 Shivan Reef
 2 Shivan Sand-Mage
 1 Shivan Wumpus
 2 Shivan Wurm
@@ -5529,6 +5579,7 @@
 2 Slag Strider
 3 Slagwoods Bridge
 1 Slash Panther
+1 Slash, Reptile Rampager
 2 Slaughter Cry
 2 Slaughter Games
 1 Slaughter-Priest of Mogis
@@ -5660,6 +5711,7 @@
 3 Spawn of Thraxes
 1 Spearpoint Oread
 2 Spear Spewer
+1 Special Move
 1 Spectacle Mage
 2 Spectacular Showdown
 3 Spectator Seating
@@ -5675,6 +5727,7 @@
 2 Spellrune Painter 
 4 Spellshock
 2 Sphinx of the Guildpact
+2 Spicy Oatmeal Pizza
 2 Spider-Gwen, Free Spirit
 2 Spider-Islanders
 3 Spider-Man 2099
@@ -5735,7 +5788,7 @@
 1 Squawkroaster
 1 Squealing Devil
 2 Squee, Dubious Monarch
-8 Squee, Goblin Nabob
+9 Squee, Goblin Nabob
 2 Squee's Embrace
 2 Squee's Revenge
 4 Squee, the Immortal
@@ -5808,8 +5861,8 @@
 3 Stormbreath Dragon
 2 Storm Caller
 1 Stormcaller of Keranos
-6 Stormcarved Coast
-1 Stormcatch Mentor
+7 Stormcarved Coast
+2 Stormcatch Mentor
 3 Stormchaser Chimera
 2 Stormchaser Mage
 1 Stormclaw Rager
@@ -5824,9 +5877,10 @@
 1 Storm, Force of Nature
 2 Storm God's Oracle
 3 Storm Herald
-5 Storm-Kiln Artist
+7 Storm-Kiln Artist
 3 Storm King's Thunder
 1 Storm of Memories
+1 Storm of Steel
 1 Stormscale Anarch
 2 Stormscale Scion
 3 Storm Shaman
@@ -5869,7 +5923,7 @@
 3 Subterranean Scout
 1 Subterranean Shambler
 1 Subterranean Spirit
-2 Subterranean Tremors
+3 Subterranean Tremors
 2 Sudden Breakthrough
 3 Sudden Demise
 6 Sudden Impact
@@ -5878,7 +5932,7 @@
 1 Suicidal Charge
 1 Suleiman's Legacy
 2 Sulfur Elemental
-14 Sulfur Falls
+15 Sulfur Falls
 1 Sulfuric Vapors
 8 Sulfuric Vortex
 6 Sulfurous Blast
@@ -5907,7 +5961,7 @@
 1 Sundering Eruption 
 2 Sundering Stroke
 2 Sunder Shaman
-6 Sundown Pass
+7 Sundown Pass
 1 Sunfire Torch
 1 Sunflare Shaman
 6 Sunforger
@@ -5916,7 +5970,7 @@
 3 Sunhome Guildmage
 2 Sunrise Cavalier
 3 Sunrise Sovereign
-4 Sunscorched Divide
+5 Sunscorched Divide
 1 Sunset Strikemaster
 1 Sunshot Militia
 2 Sunspine Lynx
@@ -5928,7 +5982,7 @@
 9 Sure Strike
 2 Surge of Strength
 1 Surge of Zeal
-2 Surge to Victory
+3 Surge to Victory
 3 Surging Flame
 1 Surly Badgersaur
 3 Surrak Dragonclaw
@@ -6010,6 +6064,7 @@
 2 Taxi Driver
 4 Tazri, Beacon of Unity
 2 Tazri, Stalwart Survivor
+1 TCRI Building
 2 Teach by Example
 1 Teapot Slinger
 2 Tears of Rage
@@ -6030,10 +6085,11 @@
 2 Tellah, Great Sage
 1 Tempered in Solitude
 1 Tempest Angler
+1 Tempestra, Dame of Games
 16 Temple of Abandon
-24 Temple of Epiphany
+25 Temple of Epiphany
 14 Temple of Malice
-21 Temple of Triumph
+22 Temple of Triumph
 3 Temporal Firestorm
 2 Temporary Insanity
 1 Tempt with Mayhem
@@ -6066,7 +6122,7 @@
 1 Territory Forge
 3 Terror of Mount Velus
 1 Terror of the Fairgrounds
-6 Terror of the Peaks
+7 Terror of the Peaks
 2 Tersa Lightshatter
 1 Tesak, Judith's Hellhound
 1 Tetsuo, Imperial Champion
@@ -6122,6 +6178,7 @@
 1 The Master, Multiplied
 2 Themberchaud
 1 The Motherlode, Excavator
+1 The Neutrinos
 1 The Ninth Doctor
 1 The Nipton Lottery
 1 Théoden, King of Rohan
@@ -6180,7 +6237,7 @@
 11 Thriving Bluff
 1 Thriving Grubs
 1 Thriving Skyclaw
-5 Throes of Chaos
+6 Throes of Chaos
 2 Thromok the Insatiable
 5 Through the Breach
 1 Thud
@@ -6225,6 +6282,7 @@
 4 Tibalt's Trickery
 3 Tibalt, the Fiend-Blooded
 2 Tibor and Lumia
+1 Ticked Off
 1 Ticket Booth 
 1 Tide of War
 1 Tifa, Martial Artist
@@ -6252,6 +6310,8 @@
 1 Titans' Vanguard
 3 Toggo, Goblin Weaponsmith
 2 Toil 
+1 Tokka & Rahzar, Terrible Twos
+1 Tokka & Rahzar, Unsupervised
 1 Tomakul Scrapsmith
 2 Tom Bombadil
 1 Tome Shredder
@@ -6355,7 +6415,7 @@
 1 Twin Blades
 3 Twin Bolt
 3 Twinferno
-3 Twinflame
+4 Twinflame
 1 Twinflame Travelers
 2 Twinflame Tyrant
 1 Twinmaw Stormbrood 
@@ -6492,7 +6552,7 @@
 1 Veinfire Borderpost
 4 Velomachus Lorehold
 2 Velukan Dragon
-3 Venerable Warsinger
+4 Venerable Warsinger
 4 Vengeful Ancestor
 1 Vengeful Devil
 2 Vengeful Firebrand
@@ -6512,7 +6572,7 @@
 1 Veteran's Voice
 3 Vexing Devil
 4 Vexing Shusher
-5 Veyran, Voice of Duality
+6 Veyran, Voice of Duality
 1 Vial Smasher, Gleeful Grenadier
 7 Vial Smasher the Fierce
 1 Viashino Bey
@@ -6586,12 +6646,12 @@
 2 Volcanic Offering
 1 Volcanic Rambler
 2 Volcanic Rush
-3 Volcanic Salvo
+4 Volcanic Salvo
 2 Volcanic Spite
 1 Volcanic Spray
 2 Volcanic Strength
 1 Volcanic Submersion
-4 Volcanic Torrent
+5 Volcanic Torrent
 1 Volcanic Upheaval
 5 Volcanic Vision
 1 Volcanic Wind
@@ -6678,7 +6738,7 @@
 2 War-Spike Changeling
 1 War Squeak
 2 War's Toll
-13 Warstorm Surge
+14 Warstorm Surge
 2 Wartime Protestors
 1 War-Torch Goblin
 1 War-Trained Slasher
@@ -6756,6 +6816,7 @@
 2 Windseeker Centaur
 11 Winds of Change
 1 Winged Hive Tyrant
+1 Wingnut, Bat on the Belfry
 4 Winota, Joiner of Forces
 1 Winterflame
 2 Winter, Misanthropic Guide
@@ -6830,7 +6891,7 @@
 2 Yore-Tiller Nephilim
 1 Yotia Declares War
 2 You Come to the Gnoll Camp
-3 You Find Some Prisoners
+4 You Find Some Prisoners
 14 Young Pyromancer
 3 Young Red Dragon 
 1 You See a Pair of Goblins
@@ -6882,6 +6943,7 @@
 2 Zodiac Dog
 2 Zodiac Dragon
 2 Zodiac Goat
+1 Zog, Triceraton Castaway
 1 Zookeeper Mechan
 1 Zoyowa Lava-Tongue
 1 Zoyowa's Justice

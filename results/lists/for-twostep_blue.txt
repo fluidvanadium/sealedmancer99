@@ -210,7 +210,7 @@
 2 Angler Drake
 5 Angler Turtle
 2 Angus Mackenzie
-2 Anhelo, the Painter
+3 Anhelo, the Painter
 7 Animar, Soul of Elements
 12 Animate Artifact
 2 Animating Faerie 
@@ -646,7 +646,7 @@
 1 Braided Net 
 4 Braids, Conjurer Adept
 1 Brainbite
-6 Brain Freeze
+7 Brain Freeze
 11 Braingeyser
 34 Brainstorm
 1 Brainsurge
@@ -687,7 +687,7 @@
 2 Bringer of the Red Dawn
 2 Bringer of the White Dawn
 1 Bring the Ending
-5 Bring to Light
+6 Bring to Light
 1 Broadside Barrage
 1 Broken Ambitions
 1 Broken Concentration
@@ -986,7 +986,7 @@
 1 Confounding Riddle
 1 Conjured Currency
 4 Connive 
-5 Consecrated Sphinx
+6 Consecrated Sphinx
 12 Consider
 3 Consign 
 1 Consign to Dream
@@ -1062,7 +1062,7 @@
 2 Counterlash
 1 Countermand
 1 Counterpoint
-57 Counterspell
+58 Counterspell
 4 Countersquall
 2 Countervailing Winds
 2 Courier's Briefcase
@@ -1223,7 +1223,7 @@
 3 Daxos of Meletis
 4 Day of the Dragons
 5 Day's Undoing
-9 Daze
+10 Daze
 1 Dazzling Denial
 2 Dazzling Lights
 3 Dazzling Sphinx
@@ -1768,7 +1768,7 @@
 4 Essence Flux
 1 Essence Fracture
 1 Essence Leak
-14 Essence Scatter
+15 Essence Scatter
 1 Essence Vortex
 4 Estrid's Invocation
 4 Estrid, the Masked
@@ -1831,7 +1831,7 @@
 2 Experimental Aviator
 1 Experimental Overload
 3 Experiment Kraj
-10 Expressive Iteration
+11 Expressive Iteration
 4 Expropriate
 3 Extinguish
 1 Extract
@@ -3122,7 +3122,7 @@
 2 Library of Lat-Nam
 2 Lich Lord of Unx
 1 Lie in Wait
-5 Lier, Disciple of the Drowned
+6 Lier, Disciple of the Drowned
 13 Lifetap
 1 Lifted by Clouds
 1 Lighthouse Chronologist
@@ -3868,7 +3868,7 @@
 1 North Pole Patrol
 1 North Wind Avatar
 2 Notion Rain
-6 Notion Thief
+7 Notion Thief
 2 Notorious Throng
 3 Novijen, Heart of Progress
 2 Novijen Sages
@@ -4204,7 +4204,7 @@
 4 Predict
 1 Preemptive Strike
 1 Preening Champion
-16 Preordain
+17 Preordain
 2 Prescient Chimera
 2 Press for Answers
 2 Press the Enemy
@@ -4344,7 +4344,7 @@
 1 Quicksilver Geyser
 1 Quicksilver Wall
 2 Quicksmith Spy
-2 Quick Study
+3 Quick Study
 1 Quiet Contemplation
 4 Quiet Speculation
 1 Quillmane Baku
@@ -4444,7 +4444,7 @@
 10 Reckless Scholar
 3 Reclusive Artificer
 4 Recoil
-4 Reconnaissance Mission
+5 Reconnaissance Mission
 5 Reconstruction
 1 Recurring Insight
 2 Red Cliffs Armada
@@ -5206,7 +5206,7 @@
 1 Sleep of the Dead
 3 Sleep Paralysis
 1 Sleep with the Fishes
-9 Sleight of Hand
+10 Sleight of Hand
 13 Sleight of Mind
 1 Slick Imitator
 1 Slick Sequence
@@ -5359,7 +5359,7 @@
 3 Spellheart Chimera
 1 Spelljack
 1 Spellkeeper Weird
-12 Spell Pierce
+13 Spell Pierce
 6 Spell Queller
 1 Spell Rupture
 1 Spellscorn Coven 
@@ -6033,7 +6033,7 @@
 7 Thought Monitor
 1 Thought Nibbler
 3 Thought Reflection
-8 Thought Scour
+9 Thought Scour
 1 Thought Shucker
 1 Thought Sponge
 1 Thoughtweft Gambit
@@ -6108,7 +6108,7 @@
 2 Time Spiral
 5 Time Stop
 3 Timestream Navigator
-4 Time Stretch
+5 Time Stretch
 10 Timetwister
 10 Time Walk
 8 Time Warp

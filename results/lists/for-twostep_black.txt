@@ -13,7 +13,7 @@
 4 Abomination
 1 Abomination of Gudul
 4 Abomination of Llanowar
-9 Abrupt Decay
+10 Abrupt Decay
 5 Absorb Vis
 2 Abstruse Appropriation
 3 Abundant Maw
@@ -55,7 +55,7 @@
 1 Adéwalé, Breaker of Chains
 5 Admiral Beckett Brass
 1 Admiral Brass, Unsinkable
-2 Ad Nauseam
+3 Ad Nauseam
 1 A-Dokuchi Silencer
 1 Adorned Crocodile
 2 Adun Oakenshield
@@ -154,6 +154,7 @@
 3 Anathemancer
 1 Anavolver
 2 Ancestral Vengeance
+1 Anchovy & Banana Pizza
 3 Ancient Brass Dragon
 1 Ancient Cellarspawn
 9 Ancient Craving
@@ -171,10 +172,10 @@
 1 Angrath's Fury
 1 Angrath's Rampage
 4 Angrath, the Flame-Chained
-10 Anguished Unmaking
-2 Anhelo, the Painter
+11 Anguished Unmaking
+3 Anhelo, the Painter
 1 Anikthea, Hand of Erebos
-21 Animate Dead
+22 Animate Dead
 3 Anje Falkenrath
 3 Anje, Maid of Dishonor
 4 Ankle Shanker
@@ -231,6 +232,7 @@
 4 Arguel's Blood Fast 
 1 Arisen Gorgon
 1 A-Riveteers Initiate
+1 Armaggon, Future Shark
 2 Armament Corps
 1 Armament Dragon
 3 Armix, Filigree Thrasher
@@ -304,7 +306,7 @@
 2 Assassin's Blade
 1 Assassin's Ink
 3 Assassin's Strike
-10 Assassin's Trophy
+11 Assassin's Trophy
 1 Assault Intercessor
 1 Assemble the Rank and Vile
 4 Astarion, the Decadent
@@ -436,11 +438,14 @@
 1 Battlefly Swarm
 2 Battle-Rage Blessing
 2 Bat Whisperer
-3 Batwing Brume
+4 Batwing Brume
 14 Bayou
 10 Beacon of Unrest
 1 Beamsaw Prospector
 2 Bearer of Silence
+1 Bebop & Rocksteady
+1 Bebop, Skull & Crossbones
+1 Bebop, Warthog Warrior
 3 Beckon Apparition
 3 Bedeck 
 9 Bedevil
@@ -454,7 +459,7 @@
 1 Be'lakor, the Dark Master
 2 Belbe, Corrupted Observer
 1 Belbe's Percher
-4 Beledros Witherbloom
+5 Beledros Witherbloom
 1 Belle of the Brawl
 2 Bellowing Fiend
 3 Bellowing Mauler
@@ -462,7 +467,7 @@
 1 Benalish Sleeper
 1 Benthic Djinn
 2 Bereavement
-2 Beseech the Mirror
+3 Beseech the Mirror
 5 Beseech the Queen
 1 Betor, Ancestor's Voice
 2 Betor, Kin to All
@@ -492,7 +497,7 @@
 1 Bitterheart Witch
 1 Bitter Ordeal
 3 Bitter Revelation
-3 Bitter Triumph
+4 Bitter Triumph
 12 Bituminous Blast
 2 Blackbloom Rogue 
 1 Black Carriage
@@ -550,7 +555,7 @@
 2 Blighted Shaman
 1 Blight Grenade
 2 Blight Keeper
-2 Blight Mound
+3 Blight Mound
 7 Blightning
 2 Blight Pile
 1 Blightreaper Thallid 
@@ -573,7 +578,7 @@
 2 Blizzard Specter
 2 Bloated Processor
 1 Bloatfly Swarm
-13 Blood Artist
+14 Blood Artist
 3 Blood Bairn
 4 Blood Baron of Vizkopa
 2 Blood Beckoning
@@ -602,7 +607,7 @@
 1 Blood for the Blood God!
 4 Blood Fountain
 1 Blood Funnel
-8 Bloodghast
+9 Bloodghast
 4 Bloodgift Demon
 1 Blood Glutton
 5 Bloodhall Priest
@@ -690,7 +695,7 @@
 1 Bog Wreckage
 1 Boiling Rock Prison
 2 Boiling Rock Rioter
-32 Bojuka Bog
+33 Bojuka Bog
 1 Bojuka Brigand
 7 Bolas's Citadel
 2 Bold Plagiarist
@@ -755,7 +760,7 @@
 1 Breathstealer
 1 Breathstealer's Crypt
 6 Breeding Pit
-4 Breena, the Demagogue
+5 Breena, the Demagogue
 6 Breya, Etherium Shaper
 1 Briarblade Adept
 5 Bridge from Below
@@ -796,7 +801,7 @@
 3 Bushmeat Poacher
 1 Butch DeLoria, Tunnel Snake
 3 Butcher Ghoul
-14 Butcher of Malakir
+15 Butcher of Malakir
 2 Butcher of the Horde
 3 Butcher's Glee
 1 Buzzard-Wasp Colony
@@ -858,7 +863,7 @@
 1 Canonized in Blood
 4 Can't Stay Away
 1 Canyon Crawler
-11 Canyon Slough
+12 Canyon Slough
 2 Cao Cao, Lord of Wei
 2 Cao Ren, Wei Commander
 1 Capital Punishment
@@ -903,7 +908,7 @@
 1 Cast into Darkness
 3 Castle Locthwain
 1 Castle Sengir
-6 Casualties of War
+7 Casualties of War
 2 Catacomb Crocodile
 1 Catacomb Dragon
 2 Catacomb Sifter
@@ -932,7 +937,7 @@
 2 Cavern Harpy
 2 Cavern Lampad
 2 Cavern Whisperer
-17 Caves of Koilos
+18 Caves of Koilos
 1 Cease 
 2 Cecil, Dark Knight 
 2 Cecily, Haunted Mage
@@ -1045,7 +1050,7 @@
 3 Coalition Victory
 2 Coalstoke Gearhulk
 4 Coat with Venom
-3 Codie, Vociferous Codex
+4 Codie, Vociferous Codex
 1 Coerced Confession
 1 Coerced to Kill
 10 Coercion
@@ -1172,7 +1177,7 @@
 1 Crawling Filth
 2 Crazed Skirge
 1 Creakwood Ghoul
-3 Creakwood Liege
+4 Creakwood Liege
 1 Creakwood Safewright
 2 Creeping Bloodsucker
 2 Creeping Chill
@@ -1240,9 +1245,9 @@
 1 Cryptwailing
 3 Crystal Quarry
 1 Culling Drone
-8 Culling Ritual
+10 Culling Ritual
 1 Culling Sun
-4 Culling the Weak
+5 Culling the Weak
 1 Cultbrand Cinder
 1 Cult Conscript
 1 Cult Guildmage
@@ -1341,6 +1346,7 @@
 1 Dark Inquiry
 3 Dark Intimations
 1 Dark Knight's Greatsword
+1 Dark Leo & Shredder
 1 Darkling Stalker
 1 Darklit Gargoyle
 3 Darkmoss Bridge
@@ -1348,7 +1354,7 @@
 1 Darkness Descends
 1 Dark Nourishment
 2 Dark Offering
-4 Dark Petition
+5 Dark Petition
 2 Dark Privilege
 1 Dark Prophecy
 1 Dark Remedy
@@ -1396,7 +1402,7 @@
 2 Deadeye Tracker
 1 Deadly Alliance
 2 Deadly Allure
-2 Deadly Brew
+3 Deadly Brew
 1 Deadly Complication
 2 Deadly Cover-Up
 1 Deadly Derision
@@ -1428,7 +1434,7 @@
 8 Deathbringer Regent
 3 Deathbringer Thoctar
 4 Deathcap Cultivator
-5 Deathcap Glade
+6 Deathcap Glade
 1 Deathcap Marionette
 1 Death Charmer
 3 Death Cloud
@@ -1443,6 +1449,7 @@
 4 Deathgreeter
 13 Deathgrip
 1 Death in Heaven
+1 Death in the Family
 1 Deathknell Berserker
 1 Deathknell Kami
 11 Deathlace
@@ -1569,7 +1576,7 @@
 1 Desert's Due
 1 Desiccated Naga
 1 Desmond Miles
-3 Desolate Mire
+4 Desolate Mire
 1 Desolation
 3 Desolation Angel
 10 Despark
@@ -1609,6 +1616,7 @@
 1 Dig Up the Body
 1 Dihada, Binder of Wills
 1 Dihada's Ploy
+1 Dimension X Pizzasaur
 25 Dimir Aqueduct
 4 Dimir Charm
 1 Dimir Cluestone
@@ -1624,7 +1632,7 @@
 21 Dimir Signet
 2 Dimir Spybug
 1 Dimir Strandcatcher
-3 Dina, Soul Steeper
+4 Dina, Soul Steeper
 1 Din of the Fireherd
 2 Dinosaur Hunter
 6 Dinrova Horror
@@ -1672,7 +1680,7 @@
 8 Disfigure
 2 Disinformation Campaign
 19 Dismal Backwater
-10 Dismember
+11 Dismember
 2 Disowned Ancestor
 3 Dispossess
 1 Disruptive Stormbrood 
@@ -1704,7 +1712,7 @@
 1 Doomsday Confluence
 2 Doomsday Excruciator
 3 Doomsday Specter
-7 Doomwake Giant
+8 Doomwake Giant
 2 Doom Weaver
 4 Doom Whisperer
 1 Do or Die
@@ -1782,6 +1790,7 @@
 1 Dreadwing
 1 Dreadwing Scavenger
 3 Dreadwurm
+1 Dream Beavers
 3 Dream Devourer
 1 Dreamdrinker Vampire
 2 Dream Harvest
@@ -1997,7 +2006,7 @@
 3 Erebos's Intervention
 1 Erebos's Titan
 10 Erg Raiders
-2 Eriette of the Charmed Apple
+3 Eriette of the Charmed Apple
 1 Eriette's Whisper
 2 Eriette, the Beguiler
 1 Erstwhile Trooper
@@ -2045,6 +2054,7 @@
 3 Everlasting Torment
 2 Evernight Shade
 1 Evershrike
+1 Everything Pizza
 5 Evil Eye of Orms-by-Gore
 2 Evil Eye of Urborg
 14 Evil Presence
@@ -2125,7 +2135,7 @@
 16 Fallen Angel
 3 Fallen Askari
 1 Fallen Cleric
-3 Fallen Ideal
+4 Fallen Ideal
 4 Fallen Shinobi
 1 Faller's Faithful
 1 False Cure
@@ -2179,7 +2189,7 @@
 1 Feed the Cycle
 1 Feed the Infection
 1 Feed the Serpent
-21 Feed the Swarm
+22 Feed the Swarm
 2 Feign Death
 1 Felhide Brawler
 1 Felhide Minotaur
@@ -2212,15 +2222,15 @@
 1 Festering March
 2 Festering Mummy
 4 Festering Newt
-2 Festering Thicket
+3 Festering Thicket
 1 Festering Wound
 1 Festerleech
 1 Festive Funeral
 1 Fetid Gargantua
-9 Fetid Heath
+10 Fetid Heath
 1 Fetid Horror
 5 Fetid Imp
-9 Fetid Pools
+10 Fetid Pools
 1 Fevered Convulsions
 2 Fevered Strength
 2 Fevered Suspicion
@@ -2231,7 +2241,7 @@
 3 Fill with Fright
 2 Filth
 1 Filthy Cur
-1 Final Act
+2 Final Act
 1 Final Death
 2 Finale of Eternity
 1 Final Flourish
@@ -2306,7 +2316,12 @@
 2 Font of Agonies
 1 Font of Return
 3 Footbottom Feast
+1 Foot Chopper
+1 Foot Elite
+1 Foot Headquarters
 3 Footlight Fiend
+1 Foot Mystic
+1 Foot Ninjas
 2 Footsteps of the Goryo
 14 Forbidden Alchemy
 2 Forbidden Crypt
@@ -2343,7 +2358,7 @@
 2 Foundry Hornet
 2 Foundry Screecher
 2 Fourth Bridge Prowler
-3 Fracture
+5 Fracture
 1 Francisco, Fowl Marauder
 1 Frankenstein's Monster
 2 Fraying Omnipotence
@@ -2375,6 +2390,7 @@
 7 Fusion Elemental
 1 Gaius van Baelsar
 1 Gallowbraid
+1 Game Over
 1 Gangrenous Goliath
 3 Gangrenous Zombies
 1 Gang Up
@@ -2442,7 +2458,7 @@
 1 Ghoulcaller's Chant
 4 Ghoulcaller's Harvest
 1 Ghoulflesh
-2 Ghoulish Impetus
+3 Ghoulish Impetus
 3 Ghoulish Procession
 5 Ghoulraiser
 3 Ghoul's Feast
@@ -2650,7 +2666,7 @@
 3 Grim Affliction
 1 Gríma, Saruman's Footman
 2 Gríma Wormtongue
-9 Grim Backwoods
+10 Grim Backwoods
 1 Grim Bauble
 4 Grim Bounty
 1 Grim Captain's Call
@@ -2665,7 +2681,7 @@
 1 Grim Giganotosaurus
 5 Grimgrin, Corpse-Born
 1 Grim Guardian
-8 Grim Haruspex
+9 Grim Haruspex
 3 Grim Harvest
 6 Grim Hireling
 1 Grim Javelineer
@@ -2737,7 +2753,7 @@
 2 Gwendlyn Di Corci
 3 Gwenom, Remorseless
 4 Gwyllion Hedge-Mage
-2 Gyome, Master Chef
+3 Gyome, Master Chef
 4 Gyruda, Doom of Depths
 2 Gyrus, Waker of Corpses
 4 Haakon, Stromgald Scourge
@@ -2773,14 +2789,14 @@
 1 Harvest Gwyllion
 1 Hashaton, Scarab's Fist
 5 Hasran Ogress
-1 Hateful Eidolon
+2 Hateful Eidolon
 2 Hate Weaver
 2 Hatred
 1 Haunted Cadaver
 1 Haunted Crossroads
 4 Haunted Dead
 1 Haunted Hellride
-3 Haunted Mire
+4 Haunted Mire
 6 Haunted Ridge
 1 Haunted Screen
 1 Haunter of Nightveil
@@ -2844,6 +2860,7 @@
 1 Herald of the Dreadhorde
 1 Herald of Torment
 1 Herbology Instructor 
+1 Heroes in a Half Shell
 1 Hero of the Dunes
 1 Hero's Demise
 9 Hero's Downfall
@@ -2949,6 +2966,7 @@
 20 Hypnotic Specter
 1 Hypnox
 1 Hythonia the Cruel
+1 Ice Cream Kitty
 2 Icequake
 1 Ice Tunnel
 1 Ichor Drinker
@@ -2963,6 +2981,7 @@
 7 Ignoble Hierarch
 7 Ihsan's Shade
 7 Ikra Shidiqi, the Usurper
+1 Illegitimate Business
 2 Ill-Gotten Gains
 4 Ill-Gotten Inheritance
 2 Illicit Masquerade
@@ -3011,7 +3030,7 @@
 2 Infernal Darkness
 1 Infernal Denizen
 1 Infernal Genesis
-11 Infernal Grasp
+12 Infernal Grasp
 1 Infernal Harvest
 1 Infernal Idol
 1 Infernal Kirin
@@ -3040,7 +3059,7 @@
 4 Inkfathom Witch
 1 Inkling Summoning
 2 Inkrise Infiltrator
-4 Inkshield
+5 Inkshield
 2 Inner Demon
 2 Inner Demons Gangsters
 9 Innocent Blood
@@ -3056,6 +3075,7 @@
 2 Insatiable Hemophage
 1 Insatiable Skittermaw
 3 Inscription of Ruin
+1 Insectoid Exterminator
 2 Insidious Bookworms
 1 Insidious Dreams
 1 Insidious Roots
@@ -3094,7 +3114,7 @@
 4 Isareth the Awakener
 6 Ishkanah, Grafwidow
 2 Isildur's Fateful Strike
-14 Isolated Chapel
+15 Isolated Chapel
 5 Isshin, Two Heavens as One
 1 It Doesn't Add Up
 3 Ivorytusk Fortress
@@ -3102,7 +3122,7 @@
 2 Izoni, Center of the Web
 4 Izoni, Thousand-Eyed
 1 Jacob Frye
-3 Jadar, Ghoulcaller of Nephalia
+4 Jadar, Ghoulcaller of Nephalia
 1 Jagged Barrens
 2 Jagged Poppet
 1 Jagwasp Swarm
@@ -3185,6 +3205,8 @@
 1 Kami of the Waning Moon
 1 Kamiz, Obscura Oculus
 9 Karador, Ghost Chieftain
+1 Karai, Future of the Foot
+1 Karai's Technique
 3 Karazikar, the Eye Tyrant
 5 Kardur, Doomscourge
 1 Kardur's Vicious Return
@@ -3210,7 +3232,7 @@
 2 Kazarov, Sengir Pureblood
 1 Kederekt Creeper
 3 Kederekt Parasite
-3 Keen Duelist
+4 Keen Duelist
 5 Keening Banshee
 2 Keeper of the Dead
 1 Keeper of Tresserhorn
@@ -3241,7 +3263,7 @@
 1 Kiku, Night's Flower
 1 Kiku's Shadow
 1 Killer's Mask
-1 Killian, Ink Duelist
+2 Killian, Ink Duelist
 2 Killing Glare
 4 Killing Wave
 1 Kill! Maim! Burn!
@@ -3291,9 +3313,11 @@
 1 Kotis, Sibsig Champion
 2 Kotis, the Fangkeeper
 3 Kotose, the Silent Spider
+1 Koya, Death from Above
 1 Kozilek's Shrieker
 1 Kozilek's Translator
 1 Kragma Warcaller
+1 Krang & Shredder
 1 Kraul Raider
 2 Kraul Swarm
 1 Kraul Whipcracker
@@ -3340,7 +3364,7 @@
 1 Lash of Thorns
 2 Lashwrithe
 1 Last Caress
-6 Last Gasp
+7 Last Gasp
 2 Last Kiss
 1 Last Laugh
 1 Last One Standing
@@ -3378,6 +3402,7 @@
 2 Legions of Lim-Dûl
 4 Legions to Ashes
 3 Legion Vanguard
+1 Leonardo, the Balance
 5 Leovold, Emissary of Trest
 4 Leshrac's Rite
 2 Leshrac's Sigil
@@ -3443,7 +3468,7 @@
 8 Liliana, the Last Hope
 1 Liliana, the Necromancer
 5 Liliana, Untouched by Death
-10 Liliana Vess
+11 Liliana Vess
 3 Liliana, Waker of the Dead
 2 Lim-Dûl's Cohort
 1 Lim-Dûl's Hex
@@ -3462,9 +3487,9 @@
 1 Lively Dirge
 1 Live or Die
 16 Living Death
-4 Living End
+5 Living End
 1 Llanowar Dead
-19 Llanowar Wastes
+20 Llanowar Wastes
 2 Lluwen, Imperfect Naturalist
 1 Lo and Li, Royal Advisors
 1 Lo and Li, Twin Tutors
@@ -3480,13 +3505,14 @@
 1 Locthwain Lancer
 1 Locthwain Paladin
 1 Locust Miser
-1 Locust Spray
+2 Locust Spray
 1 Lokhust Heavy Destroyer
 4 Lolth, Spider Queen
 1 Long Feng, Grand Secretariat
 1 Long Goodbye
 6 Looming Shade
 1 Lorcan, Warlock Collector
+1 Lord Dregg, Insect Invader
 7 Lord of Extinction
 10 Lord of the Accursed
 5 Lord of the Forsaken
@@ -3536,6 +3562,7 @@
 1 Macabre Reconstruction
 9 Macabre Waltz
 1 MacCready, Lamplight Mayor
+1 Madame Null, Power Broker
 6 Mad Auntie
 1 Maddening Imp
 1 Madrush Cyclops
@@ -3664,7 +3691,7 @@
 6 Master of Cruelties
 1 Master of Dark Rites
 4 Master of Death
-1 Master of the Feast
+2 Master of the Feast
 3 Mathas, Fiend Seeker
 1 Mauhúr, Uruk-hai Captain
 2 Maulfist Squad
@@ -3676,7 +3703,7 @@
 1 Maximum Overdrive
 7 Mayhem Devil
 1 Maze Abomination
-7 Mazirek, Kraul Death Priest
+8 Mazirek, Kraul Death Priest
 1 Measure of Wickedness
 2 Meathook Massacre II
 3 Meeting of the Five
@@ -3822,7 +3849,7 @@
 1 Mold Demon
 1 Molderhulk
 1 Moldering Karok
-7 Moldervine Reclamation
+8 Moldervine Reclamation
 1 Mold Folk
 2 Mole Worms
 2 Molten Collapse
@@ -3854,7 +3881,7 @@
 1 Morbid Bloom
 2 Morbid Curiosity
 1 Morbid Hunger
-12 Morbid Opportunist
+13 Morbid Opportunist
 2 Morbid Plunder
 2 Morbius the Living Vampire
 1 Morcant's Loyalist
@@ -3882,7 +3909,7 @@
 4 Morphic Pool
 1 Morsel Theft
 2 Mortal Combat
-2 Mortality Spear
+3 Mortality Spear
 1 Mortarion, Daemon Primarch
 2 Mortician Beetle
 26 Mortify
@@ -3971,7 +3998,7 @@
 2 Necravolver
 3 Necrite
 3 Necrobite
-8 Necroblossom Snarl
+9 Necroblossom Snarl
 2 Necrodominance
 1 Necrogen Communion
 4 Necrogenesis
@@ -4033,7 +4060,7 @@
 1 Nether Horror
 14 Nether Shadow
 4 Nether Spirit
-2 Nether Traitor
+3 Nether Traitor
 3 Nether Void
 4 Nethroi, Apex of Death
 1 Nettlevine Blight
@@ -4102,7 +4129,7 @@
 1 Nightsnare
 1 Nightsquad Commando
 1 Nightstalker Engine
-16 Night's Whisper
+17 Night's Whisper
 2 Night Terrors
 2 Nightveil Predator
 5 Nightveil Specter
@@ -4128,6 +4155,7 @@
 2 Nine-Lives Familiar
 1 Ninja of the New Moon
 2 Ninja's Blades
+1 Ninja Teen
 1 Nip Gwyllion
 3 Nirkana Assassin
 2 Nirkana Cutthroat
@@ -4153,7 +4181,7 @@
 1 Not Dead After All
 1 Nothic
 2 Notion Rain
-6 Notion Thief
+7 Notion Thief
 1 Notorious Assassin
 1 Novice Dissector
 2 Novice Occultist
@@ -4268,7 +4296,7 @@
 1 Oona's Gatewarden
 2 Oona's Prowler
 4 Open the Graves
-6 Ophiomancer
+7 Ophiomancer
 5 Opposition Agent
 5 Oppression
 13 Opulent Palace
@@ -4287,6 +4315,7 @@
 1 Organ Grinder
 3 Oriq Loremage
 1 Orochi Soul-Reaver
+1 Oroku Saki, Shredder Rising
 6 Oros, the Avenger
 2 Orzhova, the Church of Deals
 25 Orzhov Basilica
@@ -4333,6 +4362,7 @@
 1 Pactdoll Terror
 2 Pact of the Serpent
 3 Pact Weapon
+1 Pain 101
 1 Painbringer
 3 Painful Lesson
 2 Painful Memories
@@ -4353,10 +4383,11 @@
 2 Parallax Dementia
 1 Parallax Nexus
 14 Paralyze
+1 Paramecia Coloniex
 1 Paranoid Delusions
 1 Parasitic Bond
 2 Parasitic Grasp
-4 Parasitic Impetus
+5 Parasitic Impetus
 2 Parasitic Implant
 2 Pardic Collaborator
 3 Parker Luck
@@ -4371,7 +4402,7 @@
 5 Patron of the Nezumi
 4 Patron of the Vein
 2 Pavel Maliki
-4 Pawn of Ulamog
+5 Pawn of Ulamog
 2 Peat Bog
 5 Peer into the Abyss
 2 Pelakka Predation 
@@ -4472,7 +4503,7 @@
 5 Pillory of the Sleepless
 3 Pine Barrens
 1 Pious Evangel 
-4 Piper of the Swarm
+5 Piper of the Swarm
 1 Pippin, Warden of Isengard
 2 Piranha Marsh
 1 Pirate Peddlers
@@ -4489,6 +4520,7 @@
 1 Pit Raptor
 6 Pit Scorpion
 1 Pit Spawn
+1 Pizza Face, Gastromancer
 1 Plaguebearer
 6 Plague Beetle
 3 Plague Belcher
@@ -4514,7 +4546,7 @@
 1 Planar Void
 1 Planeswalker's Scorn
 1 Plasmancer
-2 Plumb the Forbidden
+3 Plumb the Forbidden
 1 Plunge into Darkness
 3 Poet's Quill
 2 Pointed Discussion
@@ -4563,9 +4595,9 @@
 1 Price of Knowledge
 1 Prickly Boggart
 1 Prideful Feastling
-2 Pride of the Perfect
+3 Pride of the Perfect
 4 Priest of Fell Rites
-5 Priest of Forgotten Gods
+6 Priest of Forgotten Gods
 4 Priest of Gix
 7 Priest of the Blood Rite
 1 Priest of the Haunted Edge
@@ -4605,7 +4637,7 @@
 1 Prying Questions
 5 Psychatog
 1 Psychic Drain
-2 Psychic Frog
+3 Psychic Frog
 1 Psychic Intrusion
 1 Psychic Miasma
 1 Psychic Spear
@@ -4637,6 +4669,7 @@
 3 Putrid Goblin
 3 Putrid Imp
 3 Putrid Leech
+1 Putrid Pals
 1 Putrid Raptor
 2 Putrid Warrior
 1 Pyretic Prankster 
@@ -4750,6 +4783,8 @@
 1 Rathi Fiend
 1 Rathi Intimidator
 3 Rathi Trapper
+1 Rat King, Pale Piper
+1 Rat King, Verminister
 1 Ratonhnhaké꞉ton
 1 Rat Out
 3 Rats' Feast
@@ -4991,7 +5026,7 @@
 2 Rukarumel, Biologist
 1 Rune-Brand Juggler
 1 Rune of Mortality
-6 Rune-Scarred Demon
+7 Rune-Scarred Demon
 3 Runo Stromkirk 
 1 Rushblade Commander
 3 Rushed Rebirth
@@ -5066,6 +5101,7 @@
 16 Savage Lands
 1 Savai Crystal
 3 Savai Triome
+1 Savanti Romero, Time's Exile
 1 Savor
 4 Savra, Queen of the Golgari
 2 Savvy Hunter
@@ -5116,7 +5152,7 @@
 2 Scrapwork Rager
 1 Screaming Phantom
 1 Scream Puff
-1 Screams from Within
+2 Screams from Within
 1 Screams of the Damned
 1 Screeching Bat 
 2 Screeching Buzzard
@@ -5232,7 +5268,7 @@
 1 Shadow the Hedgehog
 2 Shadow Urchin
 2 Shadowy Backstreet
-4 Shadrix Silverquill
+5 Shadrix Silverquill
 1 Shady Informant
 2 Shady Traveler 
 2 Shagrat, Loot Bearer
@@ -5256,12 +5292,13 @@
 1 Shard of the Void Dragon
 2 Shared Trauma
 2 Sharkey, Tyrant of the Shire
+1 Shark Shredder, Killer Clone
 7 Sharuum the Hegemon
 1 Shatter Assumptions
 1 Shattered Crypt
 1 Shattered Dreams
 2 Shattered Landscape
-6 Shattered Sanctum
+7 Shattered Sanctum
 1 Shattered Seraph
 4 Shattergang Brothers
 1 Shatter the Oath
@@ -5272,7 +5309,7 @@
 2 Shelob, Child of Ungoliant
 1 Shelob, Dread Weaver
 1 Shelob's Ambush
-3 Sheoldred's Edict
+4 Sheoldred's Edict
 1 Sheoldred's Headcleaver
 1 Sheoldred's Restoration
 2 Sheoldred, the Apocalypse
@@ -5285,7 +5322,7 @@
 2 Shimian Specter
 1 Shimmercreep
 1 Shinen of Fear's Chill
-9 Shineshadow Snarl
+10 Shineshadow Snarl
 1 Shinra Reinforcements
 6 Shipwreck Marsh
 3 Shipwreck Singer
@@ -5297,6 +5334,11 @@
 2 Shoreline Salvager
 1 Shore Snapper
 1 Showstopper
+1 Shredder's Armor
+1 Shredder, Shadow Master
+1 Shredder's Revenge
+1 Shredder's Technique
+1 Shredder, Unrelenting
 1 Shred Memory
 1 Shriekdiver
 1 Shrieking Affliction
@@ -5349,7 +5391,7 @@
 1 Silvar, Devourer of the Free
 1 Silver-Fur Master
 1 Silverquill Apprentice
-2 Silverquill Campus
+3 Silverquill Campus
 3 Silverquill Command
 1 Silverquill Pledgemage
 3 Silverquill Silencer
@@ -5483,7 +5525,7 @@
 1 Sluiceway Scorpion
 4 Slum Reaper
 2 Sly Requisitioner
-5 Smallpox
+6 Smallpox
 2 Sméagol, Helpful Guide
 2 Smiting Helix
 3 Smitten Swordmaster 
@@ -5495,7 +5537,7 @@
 1 Smoldering Tar
 1 Smolder Initiate
 6 Smother
-2 Smothering Abomination
+3 Smothering Abomination
 1 Snake Cult Initiation
 4 Snapdax, Apex of the Hunt
 1 Snarling Gorehound
@@ -5574,6 +5616,7 @@
 3 Soul Transfer
 1 Soundwave, Sonic Spy 
 1 Soured Springs
+1 South Wind Avatar
 1 Sovereign's Bite
 3 Sower of Discord
 2 Spark Harvest
@@ -5628,6 +5671,10 @@
 1 Spitting Sliver
 1 Splatter Goblin
 2 Splendid Agony
+1 Splinter, Hamato Yoshi
+1 Splinter, Radical Rat
+1 Splinter's Technique
+1 Splinter, the Mentor
 1 Splitting Headache
 1 Spoils of Blood
 1 Spoils of Evil
@@ -5649,6 +5696,7 @@
 4 Squelching Leeches
 2 Squirming Emergence
 1 Squirming Mass
+1 Squirrelanoids
 1 Stab
 1 Stabbing Pain
 9 Stab Wound
@@ -5659,7 +5707,7 @@
 1 Stalking Bloodsucker
 2 Stallion of Ashmouth
 1 Stalwart Successor
-1 Stargaze
+2 Stargaze
 2 Starlit Sanctum
 1 Starlit Soothsayer
 1 Starscape Cleric
@@ -5679,7 +5727,7 @@
 1 Stinging Cave Crawler
 1 Stinging Hivemaster
 2 Stinkdrinker Bandit
-9 Stinkweed Imp
+10 Stinkweed Imp
 1 Stirge
 1 Stir the Grave
 2 Stir the Sands
@@ -5687,6 +5735,7 @@
 7 Stitch Together
 1 Stoic Grove-Guide
 2 Stolen Grain
+1 Stomped by the Foot
 1 Stone Catapult
 2 Stonefare Crocodile
 1 Stone-Throwing Devils
@@ -5758,10 +5807,11 @@
 3 Summon Undead
 28 Sunken Hollow
 4 Sunken Ruins
-3 Sunlit Marsh
+4 Sunlit Marsh
 2 Sunset Saboteur
 3 Superior Spider-Man
 10 Supernatural Stamina
+2 Super Shredder
 3 Suppress
 1 Suq'Ata Assassin
 7 Surgical Extraction
@@ -5787,6 +5837,7 @@
 1 Swarmyard Massacre
 2 Swat
 1 Sweettooth Witch
+1 Swift Demise
 2 Swift Warkite
 2 Sword-Point Diplomacy
 1 Sycorax Commander
@@ -5828,6 +5879,7 @@
 1 Tainted Sigil
 1 Tainted Specter
 1 Tainted Strike
+1 Tainted Treats
 1 Tainted Well
 13 Tainted Wood
 1 Taken by Nightmares
@@ -5868,9 +5920,9 @@
 1 Tegwyll's Scouring
 1 Temmet, Naktamun's Will
 16 Temple of Deceit
-17 Temple of Malady
+18 Temple of Malady
 14 Temple of Malice
-22 Temple of Silence
+23 Temple of Silence
 1 Temple Thief
 2 Temporal Extortion
 1 Temporal Intervention
@@ -5936,6 +5988,7 @@
 3 The Book of Vile Darkness
 2 The Cauldron of Eternity
 1 The Celestial Toymaker
+1 The Cloning of Shredder
 1 The Creation of Avacyn
 2 The Cruelty of Gix
 1 The Cyber-Controller
@@ -5967,6 +6020,7 @@
 3 The Kami War 
 2 The Kenriths' Royal Funeral
 2 The Last Ride
+1 The Last Ronin
 1 The Long Reach of Night 
 2 Thelon of Havenwood
 1 The Lord of Pain
@@ -6086,6 +6140,7 @@
 2 Tivit, Seller of Secrets
 1 Tizerus Charger
 2 Toil 
+1 Tokka & Rahzar, Terrible Twos
 1 Toll of the Invasion
 1 Tolls of War
 2 Toluz, Clever Conductor
@@ -6101,7 +6156,7 @@
 1 Tombstone Stairwell
 2 Tomb Tyrant
 2 Tomebound Lich
-1 Tomik, Wielder of Law
+2 Tomik, Wielder of Law
 1 Tonberry
 1 Too Greedily, Too Deep
 2 Tooth Collector
@@ -6135,7 +6190,7 @@
 1 Tournament Grounds
 5 Tower Gargoyle
 1 Toxic Abomination
-11 Toxic Deluge
+12 Toxic Deluge
 1 Toxic Nim
 1 Toxic Stench
 1 Toxin Analysis
@@ -6197,8 +6252,10 @@
 2 Tsabo's Decree
 2 Tsabo Tavoc
 1 Tundra Tank
+1 Tunnel Rats
+1 Turncoat Kunoichi
 2 Twilight Diviner
-11 Twilight Mire
+12 Twilight Mire
 2 Twilight Panther
 7 Twilight Prophet
 2 Twilight's Call
@@ -6238,7 +6295,7 @@
 4 Ultimate Green Goblin
 8 Ultimate Price
 1 Ultimecia, Time Sorceress 
-1 Umbral Collar Zealot
+2 Umbral Collar Zealot
 1 Umbral Juke
 1 Umbra Stalker
 2 Umbris, Fear Manifest
@@ -6291,7 +6348,7 @@
 1 Undying Beast
 1 Undying Evil
 3 Undying Malice
-8 Unearth
+9 Unearth
 2 Unexpected Fangs
 1 Unforgiving One
 1 Unfortunate Accident
@@ -6401,10 +6458,10 @@
 1 Vampiric Sliver
 2 Vampiric Spirit
 1 Vampiric Touch
-12 Vampiric Tutor
+13 Vampiric Tutor
 2 Vampirism
 1 Vanille, Cheerful l'Cie
-4 Vanishing Verse
+5 Vanishing Verse
 3 Vanquish the Weak
 4 Varina, Lich Queen
 1 Varolz, the Scar-Striped
@@ -6434,7 +6491,7 @@
 2 Vein Drinker
 1 Veinfire Borderpost
 2 Vein Ripper
-3 Veinwitch Coven
+4 Veinwitch Coven
 7 Vela the Night-Clad
 1 Veldrane of Sengir
 4 Vendetta
@@ -6459,7 +6516,7 @@
 2 Venser, Corpse Puppet
 1 Vermiculos
 3 Vermin Gorger
-3 Vernal Fen
+4 Vernal Fen
 1 Verrak, Warped Sengir
 2 Vesper Ghoul
 2 Vessel of Malignity
@@ -6505,7 +6562,7 @@
 3 Violent Ultimatum
 1 Violet Pall
 1 Viper's Kiss
-6 Viridescent Bog
+7 Viridescent Bog
 3 Virtue of Persistence 
 3 Virtue's Ruin
 1 Virtus's Maneuver
@@ -6518,7 +6575,7 @@
 1 Visage of Dread 
 5 Visara the Dreadful
 1 Viscera Dragger
-9 Viscera Seer
+10 Viscera Seer
 1 Viscid Lemures
 1 Vishgraz, the Doomhive
 3 Vish Kal, Blood Arbiter
@@ -6697,7 +6754,7 @@
 3 Widespread Thieving
 2 Wight
 7 Wight of Precinct Six
-2 Wight of the Reliquary
+3 Wight of the Reliquary
 3 Wilhelt, the Rotcleaver
 14 Will-o'-the-Wisp
 3 Willowdusk, Essence Seer
@@ -6718,7 +6775,7 @@
 2 Witch-king of Angmar
 1 Witch-king, Sky Scourge
 2 Witch-Maw Nephilim
-4 Witch of the Moors
+5 Witch of the Moors
 3 Witch's Cauldron
 1 Witch's Cottage
 2 Witch's Familiar
@@ -6726,8 +6783,8 @@
 2 Witch's Vengeance
 1 Wither and Bloom
 2 Witherbloom Apprentice
-1 Witherbloom Campus
-3 Witherbloom Command
+2 Witherbloom Campus
+4 Witherbloom Command
 1 Witherbloom Pledgemage
 1 Withercrown
 7 Withered Wretch
@@ -6742,9 +6799,9 @@
 2 Wizards' School
 2 Woebearer
 2 Woebringer Demon
-8 Woe Strider
+9 Woe Strider
 1 Wolfbat
-13 Woodland Cemetery
+14 Woodland Cemetery
 2 Woodland Chasm
 1 Woodlot Crawler
 1 Woodlurker Mimic
@@ -6797,7 +6854,7 @@
 2 Xu-Ifit, Osteoharmonist
 2 Xun Yu, Wei Advisor
 4 Yahenni's Expertise
-8 Yahenni, Undying Partisan
+9 Yahenni, Undying Partisan
 3 Yargle and Multani
 7 Yargle, Glutton of Urborg
 1 Yarok's Fenlurker
@@ -6867,14 +6924,14 @@
 1 Zombie Outlander
 1 Zombie Scavengers
 1 Zombie Trailblazer
-10 Zombify
+12 Zombify
 2 Zoraline, Cosmos Caller
 1 Zoyowa Lava-Tongue
 2 Zuko, Conflicted
 1 Zuko's Conviction
 1 Zuko, Seeking Honor
 2 Zulaport Chainmage
-12 Zulaport Cutthroat
+13 Zulaport Cutthroat
 2 Zulaport Enforcer
 2 Zul Ashur, Lich Lord
 1 Zuran Enchanter

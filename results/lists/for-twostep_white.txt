@@ -65,6 +65,7 @@
 1 Acrobatic Cheerleader
 2 Acrobatic Leap
 3 Acrobatic Maneuver
+1 Action News Crew
 1 Act of Authority
 2 Act of Heroism
 2 Adagia, Windswept Bastion
@@ -128,6 +129,7 @@
 2 Against All Odds
 1 Ageless Guardian
 1 Ageless Sentinels
+1 Agent Bishop, Man in Black
 2 Agent of Masks
 1 Agrus Kos, Eternal Soldier
 2 Agrus Kos, Spirit of Justice
@@ -154,7 +156,7 @@
 2 Ajani, Nacatl Pariah 
 2 Ajani, Outland Chaperone
 1 Ajani's Aid
-5 Ajani's Chosen
+6 Ajani's Chosen
 1 Ajani's Influence
 3 Ajani's Last Stand
 3 Ajani, Sleeper Agent
@@ -280,7 +282,7 @@
 3 Angelic Chorus
 2 Angelic Cub
 2 Angelic Curator
-4 Angelic Destiny
+5 Angelic Destiny
 5 Angelic Edict
 3 Angelic Exaltation
 2 Angelic Favor
@@ -309,7 +311,7 @@
 2 Angel of Fury
 3 Angel of Glory's Rise
 1 Angel of Grace
-1 Angel of Indemnity
+2 Angel of Indemnity
 5 Angel of Invention
 1 Angel of Jubilation
 3 Angel of Light
@@ -324,12 +326,12 @@
 2 Angel of the God-Pharaoh
 11 Angel of the Ruins
 6 Angel of Vitality
-5 Angel's Grace
+6 Angel's Grace
 1 Angel's Herald
 4 Angel's Mercy
 4 Angelsong
 6 Angry Mob
-10 Anguished Unmaking
+11 Anguished Unmaking
 2 Angus Mackenzie
 1 An-Havva Township
 1 Anikthea, Hand of Erebos
@@ -355,7 +357,7 @@
 4 Anya, Merciless Angel
 1 A-Ocelot Pride
 1 A-Omnath, Locus of Creation
-3 Ao, the Dawn Sky
+4 Ao, the Dawn Sky
 2 Apex Hawks
 1 A-Plate Armor
 1 Apostle of Invasion
@@ -371,6 +373,7 @@
 2 Appeal 
 1 Appeal to Eirdu
 8 Approach of the Second Sun
+1 April O'Neil, Kunoichi Trainee
 1 A-Queza, Augur of Agonies
 1 Araba Mothrider
 1 Arabella, Abandoned Doll
@@ -404,7 +407,7 @@
 2 Arcbound Prototype
 2 Arcbound Shikari
 1 Arcee, Sharpshooter 
-5 Archaeomancer's Map
+6 Archaeomancer's Map
 9 Archangel
 6 Archangel Avacyn 
 2 Archangel Elspeth
@@ -422,7 +425,7 @@
 2 Archon of Falling Stars
 4 Archon of Justice
 3 Archon of Redemption
-8 Archon of Sun's Grace
+9 Archon of Sun's Grace
 4 Archon of the Triumvirate
 2 Archon of the Wild Rose
 2 Archon of Valor's Reach
@@ -454,7 +457,7 @@
 2 Argivian Phalanx
 2 Armada Wurm
 9 Armadillo Cloak
-29 Armageddon
+30 Armageddon
 2 Armament Corps
 1 Armament Dragon
 1 Armament Master
@@ -469,7 +472,7 @@
 4 Armored Griffin
 1 Armored Guardian
 6 Armored Pegasus
-2 Armored Skyhunter
+3 Armored Skyhunter
 1 Armored Warhorse
 1 Armored Wolf-Rider
 3 Armor of Faith
@@ -668,7 +671,7 @@
 1 Balancing Act
 4 Balan, Wandering Knight
 3 Baldin, Century Herdmaster
-4 Balefire Liege
+5 Balefire Liege
 3 Ballista Squad
 1 Ballot Broker
 1 Ballroom
@@ -731,7 +734,7 @@
 3 Battle Angels of Tyr
 1 Battle at the Helvault
 1 Battle Cry
-19 Battlefield Forge
+20 Battlefield Forge
 1 Battlefield Improvisation
 1 Battlefield Medic
 4 Battlefield Promotion
@@ -749,7 +752,7 @@
 1 Battlewise Aven
 2 Battlewise Hoplite
 1 Battlewise Valor
-3 Batwing Brume
+4 Batwing Brume
 1 Bayek of Siwa
 3 Baylen, the Haymaker
 1 Bazaar Krovod
@@ -933,7 +936,7 @@
 3 Breathkeeper Seraph
 2 Breathless Knight
 7 Breath of Life
-4 Breena, the Demagogue
+5 Breena, the Demagogue
 2 Brenard, Ginger Sculptor
 2 Bre of Clan Stoutarm
 2 Bretagard Stronghold
@@ -1116,7 +1119,7 @@
 1 Cavalry Master
 3 Cavalry Pegasus
 3 Cave of the Frost Dragon
-17 Caves of Koilos
+18 Caves of Koilos
 1 Cayth, Famed Mechanist
 1 Cease 
 1 Cease-Fire
@@ -1156,7 +1159,7 @@
 1 Cessation
 2 Chained to the Rocks
 1 Chain of Silence
-2 Chains of Custody
+3 Chains of Custody
 2 Chamber Sentry
 2 Champion Lancer
 3 Champion of Arashin
@@ -1164,7 +1167,7 @@
 3 Champion of the Parish
 1 Champions from Beyond
 1 Champions of Minas Tirith
-1 Chance for Glory
+2 Chance for Glory
 2 Chancellor of the Annex
 2 Changeling Hero
 1 Changeling Sentinel
@@ -1241,7 +1244,7 @@
 1 Civic Stalwart
 1 Civil Servant
 1 Clachan Festival
-2 Claim Jumper
+3 Claim Jumper
 2 Clarion Cathars
 2 Clarion Conqueror
 2 Clarion Spirit
@@ -1269,7 +1272,7 @@
 2 Cliffside Lookout
 1 Cliffside Rescuer
 1 Cliff Threader
-14 Clifftop Retreat
+15 Clifftop Retreat
 1 Clockwork Drawbridge
 1 Cloistered Youth 
 2 Cloister Gargoyle
@@ -1302,7 +1305,7 @@
 5 Coastal Tower
 1 Coastline Chimera
 1 Codespell Cleric
-3 Codie, Vociferous Codex
+4 Codie, Vociferous Codex
 1 Coeurl
 2 Cogworker's Puzzleknot
 1 Coin of Fate
@@ -1316,7 +1319,7 @@
 1 Colonel Autumn
 2 Colorful Feiyi Sparrow
 2 Colossal Plow
-2 Combat Calligrapher
+3 Combat Calligrapher
 3 Combat Medic
 2 Combat Professor
 1 Combat Thresher
@@ -1371,6 +1374,7 @@
 9 Containment Priest
 1 Contaminated Landscape
 1 Contemplation
+1 Continue?
 2 Contraband Livestock
 2 Contractual Safeguard
 1 Convalescence
@@ -1488,8 +1492,9 @@
 1 Daring Leap
 1 Daring Mechanic
 3 Daring Skyjek
+1 Dark Leo & Shredder
 1 Darklit Gargoyle
-7 Darksteel Mutation
+8 Darksteel Mutation
 1 Darksteel Splicer
 1 Darling of the Masses
 1 Daru Cavalier
@@ -1595,7 +1600,7 @@
 2 Defiant Vanguard
 1 Defibrillating Current
 3 Defiler of Faith
-4 Deflecting Palm
+5 Deflecting Palm
 3 Deftblade Elite
 1 Deft Dismissal
 2 Deft Duelist
@@ -1630,7 +1635,7 @@
 6 Deserted Beach
 5 Desert of the True
 2 Desert's Hold
-3 Desolate Mire
+4 Desolate Mire
 3 Desolation Angel
 4 Desolation Giant
 10 Despark
@@ -1667,6 +1672,8 @@
 3 Digsite Engineer
 1 Dihada, Binder of Wills
 1 Dimensional Breach
+1 Dimensional Exile
+1 Dimension X
 1 Dinosaurs on a Spaceship
 2 Dion, Bahamut's Dominant 
 1 Dire Tactics
@@ -1722,6 +1729,7 @@
 1 Dog Walker
 2 Dollmaker's Shop 
 2 Dominaria's Judgment
+1 Don & Leo, Problem Solvers
 1 Don't Move
 1 Doomed Artisan
 15 Doomed Traveler
@@ -1790,7 +1798,7 @@
 1 Droning Bureaucrats
 1 Drought
 2 Druid of the Anima
-1 Drumbellower
+2 Drumbellower
 6 Dryad Militant
 1 Dryad's Caress
 1 Dual-Sun Adepts
@@ -1826,7 +1834,7 @@
 1 Dutiful Griffin
 1 Dutiful Servants
 1 Dutiful Thrull
-1 Duty Beyond Death
+3 Duty Beyond Death
 1 Dwarfhold Champion
 1 Dwarven Castle Guard
 1 Dwarven Lightsmith
@@ -1848,6 +1856,7 @@
 1 Earthshape
 1 Eastfarthing Farmer
 1 East-Mark Cavalier
+1 East Wind Avatar
 1 Echoes of the Kin Tree
 1 Echoing Calm
 1 Eclipsed Kithkin
@@ -1863,7 +1872,7 @@
 6 Eerie Ultimatum
 1 Efreet Weaponmaster
 1 Eidolon of Astral Winds
-2 Eidolon of Countless Battles
+3 Eidolon of Countless Battles
 1 Eidolon of Inspiration
 3 Eidolon of Obstruction
 4 Eidolon of Rhetoric
@@ -1937,7 +1946,7 @@
 1 Emeria Captain
 3 Emeria's Call 
 4 Emeria Shepherd
-4 Emeria, the Sky Ruin
+5 Emeria, the Sky Ruin
 5 Emiel the Blessed
 1 Emissary of Hope
 1 Emissary of Soulfire
@@ -1958,6 +1967,7 @@
 1 Encumbered Reejerey
 1 End Hostilities
 4 Endless Detour
+1 Endless Foot Assault
 1 Endless Horizons
 1 Endure
 4 Enduring Angel 
@@ -1990,6 +2000,7 @@
 2 Éowyn, Fearless Knight
 1 Éowyn, Lady of Rohan
 1 Éowyn, Shieldmaiden
+1 EPF Point Squad
 3 Ephara, God of the Polis
 1 Ephara's Enlightenment
 1 Ephara's Radiance
@@ -2002,7 +2013,7 @@
 1 Equipoise
 1 Era of Enlightenment 
 4 Erase
-2 Eriette of the Charmed Apple
+3 Eriette of the Charmed Apple
 1 Eriette's Lullaby
 2 Eriette, the Beguiler
 2 Errand of Duty
@@ -2054,6 +2065,7 @@
 1 Evershrike's Gift
 1 Everybody Lives!
 1 Everything Comes to Dust
+1 Everything Pizza
 3 Evra, Halcyon Witness
 8 Exalted Angel
 2 Exalted Dragon
@@ -2158,6 +2170,7 @@
 1 Fear of Immobility
 1 Fear of Surveillance
 1 Feast of the Victorious Dead
+1 Featherbrained Filcher
 1 Feather of Flight
 1 Feather, Radiant Arbiter
 4 Feather, the Redeemed
@@ -2184,7 +2197,7 @@
 1 Festival
 1 Festival of the Guildpact
 1 Festival of Trokin
-9 Fetid Heath
+10 Fetid Heath
 2 Feudkiller's Verdict
 1 Fey Steed
 3 Field Marshal
@@ -2219,7 +2232,7 @@
 2 Fire Lord Zuko
 5 Firemane Angel
 5 Firemane Avenger
-1 Firemane Commando
+2 Firemane Commando
 4 Firesong and Sunspeaker
 3 Firja, Judge of Valor
 3 Firja's Retribution
@@ -2250,7 +2263,7 @@
 1 Flicker
 3 Flickerform
 1 Flickering Spirit
-2 Flickering Ward
+3 Flickering Ward
 2 Flicker of Fate
 16 Flickerwisp
 1 Flight-Deck Coordinator
@@ -2274,7 +2287,10 @@
 1 Folk Medicine
 1 Font of Vigor
 1 Food Coma
+1 Foot Elite
+1 Foot Headquarters
 1 Foothill Guide
+1 Foot Ninjas
 3 Foot Soldiers
 2 Forbidding Spirit
 4 Forbidding Watchtower
@@ -2310,7 +2326,7 @@
 1 Fountain of Cho
 2 Fountain Watch
 1 Four Knocks
-3 Fracture
+5 Fracture
 5 Fractured Identity
 3 Fracturing Gust
 3 Fragmentize
@@ -2338,7 +2354,7 @@
 8 Fumigate
 1 Funeral Pyre
 1 Furious Forebear
-12 Furycalm Snarl
+13 Furycalm Snarl
 7 Fusion Elemental
 1 Fuss 
 1 Fylgja
@@ -2423,7 +2439,7 @@
 1 Ghost-Lit Redeemer
 2 Ghostly Dancers
 2 Ghostly Possession
-20 Ghostly Prison
+21 Ghostly Prison
 1 Ghostly Sentinel
 1 Ghosts of the Innocent
 1 Ghost Tactician
@@ -2452,7 +2468,7 @@
 1 Gideon, the Oathsworn
 5 Gift of Estates
 1 Gift of Granite
-1 Gift of Immortality
+2 Gift of Immortality
 4 Gift of Orzhova
 4 Gilded Light
 1 Gilraen, Dúnedain Protector
@@ -2461,7 +2477,7 @@
 3 Gird for Battle
 9 Gisela, Blade of Goldnight
 6 Gisela, the Broken Blade
-5 Gishath, Sun's Avatar
+6 Gishath, Sun's Avatar
 1 Githzerai Monk
 1 Give No Ground
 7 Giver of Runes
@@ -2492,7 +2508,7 @@
 4 Glint-Sleeve Artisan
 1 Glittering Lion
 1 Glittering Lynx
-1 Glittering Massif
+2 Glittering Massif
 3 Glittering Wish
 2 Global Ruin
 1 Gloom Stalker
@@ -2547,6 +2563,7 @@
 1 Goldwarden's Helm
 1 Goliath Paladin
 2 Golos, Tireless Pilgrim
+1 Go Ninja Go
 5 Good-Fortune Unicorn
 1 Gore Vassal
 3 Goring Ceratops
@@ -2605,6 +2622,7 @@
 1 Griffnaut Tracker
 4 Grind 
 2 Grizzled Leotau
+1 Grounded for Life
 4 Grove of the Guardian
 1 Grovetender Druids
 4 Growing Ranks
@@ -2621,7 +2639,7 @@
 1 Guardian Kirin
 1 Guardian Lions
 2 Guardian Naga 
-3 Guardian of Faith
+4 Guardian of Faith
 2 Guardian of Ghirapur
 3 Guardian of New Benalia
 3 Guardian of Pilgrims
@@ -2630,7 +2648,7 @@
 1 Guardian of the Great Door
 1 Guardian of the Guildpact
 1 Guardian of Vitu-Ghazi
-1 Guardian Scalelord
+2 Guardian Scalelord
 1 Guardian Seraph
 2 Guardian's Magemark
 2 Guardians of Akrasa
@@ -2688,6 +2706,8 @@
 4 Halo Fountain
 3 Halvar, God of Battle 
 1 Hama Pashar, Ruin Seeker
+1 Hamato Guardian Stance
+1 Hamato Ninpō
 2 Hammer Dropper
 1 Hammers of Moradin
 5 Hamza, Guardian of Arashin
@@ -2770,7 +2790,7 @@
 1 Helionaut
 1 Helitrooper
 2 Helpful Hunter
-1 Helping Hand
+2 Helping Hand
 5 Hengegate Pathway 
 2 Herald of Anafenza
 1 Herald of Dromoka
@@ -2782,6 +2802,7 @@
 4 Herald of the Host
 2 Herald of the Sun
 3 Herald of War
+1 Heroes in a Half Shell
 1 Heroes Remembered
 4 Heroes' Reunion
 1 Heroic Charge
@@ -2811,6 +2832,7 @@
 1 Hieromancer's Cage
 2 High Alert
 2 Highcliff Felidar
+1 High-Flying Ace
 3 High Ground
 2 High Noon
 3 High Priest of Penance
@@ -2829,7 +2851,7 @@
 3 Hixus, Prison Warden
 1 Hobbit's Sting
 1 Hobgoblin Dragoon
-3 Hofri Ghostforge
+4 Hofri Ghostforge
 3 Hokori, Dust Drinker
 1 Hold at Bay
 1 Hold for Ransom
@@ -2865,7 +2887,7 @@
 2 Hopeful Eidolon
 5 Hopeful Initiate
 1 Hopeful Vigil
-1 Hop to It
+2 Hop to It
 3 Horde of Notions
 6 Horizon Canopy
 2 Horizon Seed
@@ -2979,7 +3001,7 @@
 1 Ingenious Smith
 2 Inheritance
 1 Inkling Summoning
-4 Inkshield
+5 Inkshield
 1 Ink-Treader Nephilim
 1 Inner-Chamber Guard
 1 Inner Sanctum
@@ -3057,14 +3079,14 @@
 1 Iron Will
 1 Ironwright's Cleansing
 4 Irregular Cohort
-11 Irrigated Farmland
+12 Irrigated Farmland
 1 Irrigation Ditch
 4 Isamaru, Hound of Konda
 7 Ishai, Ojutai Dragonspeaker
 2 Ishgard, the Holy See 
 13 Island Sanctuary
 3 Isolate
-14 Isolated Chapel
+15 Isolated Chapel
 2 Isolation Zone
 4 Isperia, Supreme Judge
 2 Isperia the Inscrutable
@@ -3101,6 +3123,7 @@
 2 Jelenn Sphinx
 1 Jem Lightfoote, Sky Explorer
 3 Jenara, Asura of War
+1 Jennika, Bad Apple Big Sister
 1 Jenny, Generated Anomaly
 1 Jenson Carthalion, Druid Exile
 1 Jeong Jeong's Deserters
@@ -3175,7 +3198,7 @@
 4 Kalemne's Captain
 4 Kambal, Consul of Allocation
 2 Kambal, Profiteering Mayor
-4 Kami of Ancient Law
+5 Kami of Ancient Law
 2 Kami of False Hope
 2 Kami of Old Stone
 1 Kami of Tattered Shoji
@@ -3187,6 +3210,8 @@
 3 Kangee, Sky Warden
 2 Kangee's Lieutenant
 9 Karador, Ghost Chieftain
+1 Karai, Future of the Foot
+1 Karai's Technique
 10 Karakas
 7 Karametra, God of Harvests
 2 Karametra's Blessing
@@ -3194,7 +3219,7 @@
 4 Karlov of the Ghost Council
 1 Karlov Watchdog
 14 Karma
-10 Karmic Guide
+11 Karmic Guide
 3 Karmic Justice
 2 Karona, False God
 2 Karona's Zealot
@@ -3256,7 +3281,7 @@
 2 Kestia, the Cultivator
 2 Kethis, the Hidden Hand
 2 Ketramose, the New Dawn
-1 Killian, Ink Duelist
+2 Killian, Ink Duelist
 3 Kill Shot
 1 Kilo, Apogee Mind
 2 Kinbinding
@@ -3396,8 +3421,9 @@
 1 Kor Scythemaster
 2 Kor Sky Climber
 8 Kor Skyfisher
-7 Kor Spiritdancer
+8 Kor Spiritdancer
 2 Kotori, Pilot Prodigy
+1 Koya, Death from Above
 1 Kranioceros
 1 Kratos, Stoic Father
 1 Krile Baldesion
@@ -3440,7 +3466,7 @@
 1 Land Cap
 1 Landroval, Horizon Witness
 1 Landscaper Colos
-14 Land Tax
+15 Land Tax
 4 Lantern Flare
 1 Lantern Kami
 2 Lantern Scout
@@ -3464,6 +3490,7 @@
 2 Lay Down Arms
 1 Layla Hassan
 1 Lead Astray
+1 Leader's Talent
 2 Leaping Master
 1 Leap of Faith
 3 Leave 
@@ -3486,6 +3513,13 @@
 3 Leinore, Autumn Sovereign
 3 Lena, Selfless Champion
 1 Lens Flare
+1 Leonardo, Big Brother
+1 Leonardo, Cutting Edge
+1 Leonardo, Leader in Blue
+1 Leonardo, Sewer Samurai
+1 Leonardo's Technique
+1 Leonardo, the Balance
+1 Leonardo, Worldly Warrior
 3 Leonin Abunas
 4 Leonin Arbiter
 1 Leonin Armorguard
@@ -3506,6 +3540,7 @@
 3 Leonin Vanguard
 5 Leonin Warleader
 1 Leori, Sparktouched Hunter
+1 Leo's Guidance
 6 Leyline Binding
 2 Leyline of Hope
 2 Leyline of Mutation
@@ -3559,6 +3594,7 @@
 1 Lionheart Glimmer
 2 Lionheart Maverick
 4 Lion Sash
+1 Lita, Little Orphan Amphibian
 2 Lita, Mechanical Engineer
 1 Lithomancer's Focus
 2 Liu Bei, Lord of Shu
@@ -3581,7 +3617,7 @@
 1 Lord Jyscal Guado
 1 Lord Magnus
 1 Lorehold Apprentice
-1 Lorehold Campus
+2 Lorehold Campus
 3 Lorehold Command
 1 Lorehold Excavation
 1 Lorehold Pledgemage
@@ -3697,7 +3733,7 @@
 4 Mangara of Corondor
 1 Mangara's Blessing
 1 Mangara's Equity
-8 Mangara, the Diplomat
+9 Mangara, the Diplomat
 2 Mantis Rider
 1 Mantle of Leadership
 3 Mantle of the Ancients
@@ -3741,7 +3777,7 @@
 1 Marsh Threader
 10 Martial Coup
 5 Martial Glory
-6 Martial Impetus
+7 Martial Impetus
 1 Martial Law
 1 Martyrdom
 2 Martyred Rusalka
@@ -3788,6 +3824,7 @@
 2 Meadowboon
 9 Meandering River
 1 Meanders Guide
+1 Mechanized Ninja Cavalry
 7 Meddling Mage
 1 Meddling Youths
 1 Medicine Runner
@@ -3835,8 +3872,10 @@
 1 Midvast Protector
 1 Might of the Ancestors
 14 Mighty Leap
+1 Mighty Mutanimals
 8 Migratory Route
 8 Mikaeus, the Lunarch
+1 Mikey & Leo, Chaos & Order
 4 Mila, Crafty Companion 
 3 Miles Morales 
 1 Miles "Tails" Prower
@@ -3865,7 +3904,7 @@
 2 Mirran Bardiche
 5 Mirran Crusader
 6 Mirri, Weatherlight Duelist
-11 Mirror Entity
+12 Mirror Entity
 1 Mirror-Shield Hoplite
 1 Mirror-Sigil Sergeant
 1 Mirror Strike
@@ -3881,7 +3920,7 @@
 9 Mistmeadow Witch
 2 Mistmoon Griffin
 3 Mistral Charger
-3 Mistveil Plains
+4 Mistveil Plains
 1 Misty Palms Oasis
 1 Mite Overseer
 1 MJ, Rising Star
@@ -3907,7 +3946,7 @@
 3 Monk Idealist
 2 Monk of the Open Hand
 2 Monk Realist
-5 Monologue Tax
+6 Monologue Tax
 2 Monumental Henge
 2 Moogles' Valor
 3 Moon-Blessed Cleric
@@ -3917,7 +3956,7 @@
 3 Moonlit Strider
 1 Moonlit Wake
 1 Moonrise Cleric
-3 Moonshaker Cavalry
+4 Moonshaker Cavalry
 1 Moonwing Moth
 2 Moorish Cavalry
 1 Moorland Drifter
@@ -4057,7 +4096,7 @@
 3 Niko Aris
 1 Niko Defies Destiny
 2 Niko, Light of Hope
-2 Nils, Discipline Enforcer
+3 Nils, Discipline Enforcer
 1 Nimble Hobbit
 1 Nimble Larcenist
 3 Nimbus Maze
@@ -4164,6 +4203,7 @@
 2 Oketra's Last Mercy
 4 Oketra the True
 2 Old Ghastbark
+1 Old Hob, Alleycat Blues
 1 Olivia, Opulent Outlaw
 2 Ollenbock Escort
 1 Olórin's Searing Light
@@ -4328,7 +4368,7 @@
 6 Path of Peace
 4 Path of Peril
 1 Path of the Ghosthunter
-42 Path to Exile
+43 Path to Exile
 2 Path to Redemption
 3 Path to the World Tree
 1 Patrician's Scorn
@@ -4345,7 +4385,7 @@
 6 Peacewalker Colossus
 3 Peach Garden Oath
 2 Pearl Dragon
-2 Pearl-Ear, Imperial Advisor
+3 Pearl-Ear, Imperial Advisor
 14 Pearled Unicorn
 2 Pearl Shard
 1 Pearlspear Courier
@@ -4481,6 +4521,7 @@
 3 Preacher
 3 Precinct Captain
 2 Preeminent Captain
+1 Prehistoric Pet
 3 Prepare 
 2 Presence of the Master
 1 Presence of the Wise
@@ -4510,7 +4551,7 @@
 2 Prism Array
 1 Prismatic Boon
 1 Prismatic Circle
-4 Prismatic Ending
+6 Prismatic Ending
 3 Prismatic Strands
 2 Prismatic Ward
 1 Prison Barricade
@@ -4532,7 +4573,7 @@
 2 Progenitor Exarch
 8 Progenitus
 4 Promise of Bunrei
-7 Promise of Loyalty
+8 Promise of Loyalty
 2 Promise of Tomorrow
 2 Propeller Pioneer
 1 Proper Burial
@@ -4601,9 +4642,10 @@
 1 Quicksand Whirlpool
 1 Quiet Purity
 1 Quilled Sliver
-2 Quintorius, Field Historian
+1 Quintessential Katana
+3 Quintorius, Field Historian
 2 Quintorius Kand
-2 Quintorius, Loremaster
+3 Quintorius, Loremaster
 1 Rabanastre, Royal City
 1 Rabaroo Troop
 1 Rabbit Response
@@ -4621,10 +4663,10 @@
 6 Radiant's Judgment
 2 Radiant Solar
 1 Radiant Strike
-1 Radiant Summit
+2 Radiant Summit
 5 Raff Capashen, Ship's Mage
 2 Raffine, Scheming Seer
-1 Raffine's Guidance
+2 Raffine's Guidance
 2 Raffine's Informant
 3 Raffine's Tower
 2 Raff, Weatherlight Stalwart
@@ -4669,6 +4711,7 @@
 2 Ranger en-Vec
 4 Ranger of Eos
 1 Ranger's Hawk
+1 Raph & Leo, Sibling Rivals
 1 Rapid Fire
 1 Rappelling Scouts
 4 Raptor Companion
@@ -4732,7 +4775,7 @@
 1 Recuperate
 2 Redeem
 1 Redeem the Lost
-1 Redemption Arc
+2 Redemption Arc
 1 Redemption Choir
 2 Rediscover the Way
 1 Redress Fate
@@ -4773,7 +4816,7 @@
 2 Remember the Fallen
 1 Remembrance
 3 Rem Karolus, Stalwart Slayer
-4 Remorseful Cleric
+5 Remorseful Cleric
 1 Remote Farm
 1 Remove Enchantments
 5 Render Silent
@@ -4787,7 +4830,7 @@
 3 Rent Is Due
 1 Repair and Recharge
 1 Reparations
-1 Repel Calamity
+2 Repel Calamity
 1 Repel Intruders
 1 Repel the Abominable
 4 Repel the Darkness
@@ -4795,12 +4838,12 @@
 2 Repentance
 5 Repentant Blacksmith
 2 Replenish
-3 Reprieve
+4 Reprieve
 8 Reprisal
 2 Reprobation
 1 Reputable Merchant
 3 Requiem Angel
-1 Requisition Raid
+2 Requisition Raid
 1 Reroute Systems
 2 Rescuer Chwinga
 2 Rescue Retriever
@@ -4850,7 +4893,7 @@
 1 Retribution of the Meek
 1 Returned Pastcaller
 17 Return to Dust
-2 Return to the Ranks
+3 Return to the Ranks
 1 Return Triumphant
 1 Reunion of the House
 8 Reveillark
@@ -4920,7 +4963,7 @@
 1 Rinoa, Angel Wing
 1 Rinoa Heartilly
 2 Riot Control
-4 Rip Apart
+5 Rip Apart
 2 Rip, Spawn Hunter
 3 Riptide Crab
 2 Riptide Gearhulk
@@ -4979,7 +5022,7 @@
 4 Royal Trooper
 8 Rubinia Soulsinger
 1 Rufus Shinra
-11 Rugged Prairie
+12 Rugged Prairie
 1 Ruham Djinn
 3 Ruhan of the Fomori
 1 Ruin Ghost
@@ -4987,7 +5030,7 @@
 6 Ruinous Ultimatum
 5 Ruins of Trokair
 2 Rukarumel, Biologist
-3 Rule of Law
+4 Rule of Law
 1 Rumbling Sentry
 3 Rumor Gatherer
 1 Rune-Cervin Rider
@@ -5020,7 +5063,7 @@
 1 Sacred Knight
 5 Sacred Mesa
 5 Sacred Nectar
-3 Sacred Peaks
+4 Sacred Peaks
 2 Sacred Rites
 1 Safeguard
 1 Safehold Duo
@@ -5032,8 +5075,9 @@
 1 Sage-Eye Harrier
 3 Sage of the Inward Eye
 2 Sage of the Skies
-6 Sage's Reverie
+7 Sage's Reverie
 1 Saint Traft and Rem Karolus
+1 Sally Pride, Lioness Leader
 1 Sally Sparrow
 4 Saltblast
 6 Saltcrusted Steppe
@@ -5124,7 +5168,7 @@
 3 Scalelord Reckoner
 1 Scapegoat
 3 Scars of the Veteran
-10 Scattered Groves
+11 Scattered Groves
 1 Scent of Jasmine
 1 Scepter of Dominance
 2 Scheming Fence
@@ -5179,7 +5223,7 @@
 2 Second Sunrise
 2 Second Thoughts
 1 Secret Arcade 
-4 Secret Rendezvous
+5 Secret Rendezvous
 1 Secure the Scene
 5 Secure the Wastes
 1 Securitron Squadron
@@ -5219,7 +5263,7 @@
 2 Selfless Police Captain
 1 Selfless Samurai
 2 Selfless Savior
-9 Selfless Spirit
+10 Selfless Spirit
 5 Selfless Squire
 3 Seller of Songbirds
 2 Selvala, Eager Trailblazer
@@ -5233,7 +5277,7 @@
 4 Sensor Splicer
 1 Sentinel of the Eternal Watch
 1 Sentinel Sarah Lyons
-1 Sentinel's Eyes
+2 Sentinel's Eyes
 4 Sentinel Sliver
 1 Sentinel's Mark
 4 Sen Triplets
@@ -5270,7 +5314,7 @@
 2 Serra Disciple
 1 Serra Inquisitors
 2 Serra Paladin
-3 Serra Paragon
+4 Serra Paragon
 3 Serra Redeemer
 3 Serra's Blessing
 3 Serra's Boon
@@ -5290,7 +5334,7 @@
 4 Settle the Wreckage
 1 Seven-Tail Mentor
 2 Severance Priest
-7 Sevinne's Reclamation
+8 Sevinne's Reclamation
 2 Sevinne, the Chronoclasm
 2 Shabraz, the Skyshark
 3 Shackles
@@ -5302,7 +5346,7 @@
 1 Shadow Lance
 2 Shadow Summoning
 2 Shadowy Backstreet
-4 Shadrix Silverquill
+5 Shadrix Silverquill
 1 Shahrazad
 4 Shaile, Dean of Radiance 
 1 Shalai and Hallar
@@ -5321,7 +5365,7 @@
 7 Sharuum the Hegemon
 5 Shattered Angel
 2 Shattered Landscape
-6 Shattered Sanctum
+7 Shattered Sanctum
 1 Shattered Seraph
 1 Shattering Blow
 4 Shatter the Sky
@@ -5331,7 +5375,7 @@
 3 Shefet Dunes
 1 Shelinda, Yevon Acolyte
 8 Shelter
-2 Sheltered by Ghosts
+3 Sheltered by Ghosts
 1 Sheltering Landscape
 1 Sheltering Light
 1 Sheltering Prayers
@@ -5345,7 +5389,7 @@
 1 Sheriff of Safe Passage
 3 Shield Bearer
 1 Shield Dancer
-5 Shielded by Faith
+6 Shielded by Faith
 1 Shielded Passage
 2 Shieldhide Dragon
 1 Shieldmage Advocate
@@ -5364,7 +5408,7 @@
 1 Shimmering Barrier
 1 Shinechaser
 1 Shinen of Stars' Light
-9 Shineshadow Snarl
+10 Shineshadow Snarl
 1 Shinewend
 2 Shining Aerosaur
 3 Shining Armor
@@ -5450,7 +5494,7 @@
 3 Silverflame Squire 
 5 Silver Knight
 1 Silverquill Apprentice
-2 Silverquill Campus
+3 Silverquill Campus
 3 Silverquill Command
 1 Silverquill Lecturer
 1 Silverquill Pledgemage
@@ -5483,7 +5527,7 @@
 2 Skyboon Evangelist
 2 Skybridge Towers
 4 Skycat Sovereign
-7 Skyclave Apparition
+8 Skyclave Apparition
 1 Skyclave Cleric 
 1 Skycloud Egg
 18 Skycloud Expanse
@@ -5580,7 +5624,7 @@
 2 Soltari Visionary
 1 Somnomancer
 1 Sonar Strike
-1 Songbirds' Blessing
+2 Songbirds' Blessing
 1 Song of the Worldsoul
 2 Songstitcher
 1 Sonic Shrieker
@@ -5695,7 +5739,7 @@
 1 Spirit Flare
 14 Spirit Link
 1 Spirit Loop
-7 Spirit Mantle
+8 Spirit Mantle
 3 Spirit Mirror
 1 Spirit of Resistance
 4 Spirit of the Hearth
@@ -5714,6 +5758,9 @@
 3 Spitemare
 2 Splendor Mare
 2 Splicer's Skill
+1 Splinter, Aging Champion
+1 Splinter & Leo, Father & Son
+1 Splinter, Radical Rat
 1 Splitskin Doll
 1 Split-Tail Miko
 2 Split Up
@@ -5736,9 +5783,9 @@
 3 Squire
 1 Squire's Devotion
 1 Squire's Lightblade
-10 Sram, Senior Edificer
+11 Sram, Senior Edificer
 3 Sram's Expertise
-3 Staff of the Storyteller
+4 Staff of the Storyteller
 1 Stagecoach Security
 3 Staggering Insight
 5 Stalking Leonin
@@ -5756,7 +5803,7 @@
 1 Star Charter
 2 Star-Crowned Stag
 2 Starfall Invocation
-6 Starfield Mystic
+7 Starfield Mystic
 3 Starfield of Nyx
 1 Starfield Shepherd
 1 Starfighter Pilot
@@ -5916,7 +5963,7 @@
 4 Sundering Growth
 2 Sunder the Gateway
 1 Sundial, Dawn Tyrant
-6 Sundown Pass
+7 Sundown Pass
 2 Sunfall
 1 Sunfire Balm
 6 Sunforger
@@ -5931,7 +5978,7 @@
 4 Sunhome Stalwart
 6 Sunlance
 1 Sunlit Hoplite
-3 Sunlit Marsh
+4 Sunlit Marsh
 2 Sunmane Pegasus
 1 Sunpearl Kirin
 15 Sunpetal Grove
@@ -5942,7 +5989,7 @@
 3 Sunscape Battlemage
 2 Sunscape Familiar
 1 Sunscape Master
-4 Sunscorched Divide
+5 Sunscorched Divide
 9 Sunscorch Regent
 1 Sunscour
 2 Sunscourge Champion
@@ -5959,7 +6006,7 @@
 1 Sunstar Lightsmith
 1 Sunstrike Legionnaire
 6 Suntail Hawk
-27 Sun Titan
+28 Sun Titan
 1 Sun Warriors
 4 Sunweb
 2 Supernatural Rescue
@@ -6003,7 +6050,7 @@
 1 Swooping Pteranodon
 1 Swooping Talon
 2 Sword Dancer
-69 Swords to Plowshares
+71 Swords to Plowshares
 1 Swordsworn Cavalier
 1 Sworn Companions
 1 Sworn Defender
@@ -6097,8 +6144,8 @@
 12 Temple Garden
 20 Temple of Enlightenment
 17 Temple of Plenty
-22 Temple of Silence
-21 Temple of Triumph
+23 Temple of Silence
+22 Temple of Triumph
 3 Temporal Firestorm
 3 Temporal Isolation
 3 Temporary Lockdown
@@ -6124,7 +6171,7 @@
 2 Terra, Magical Adept 
 2 Territorial Hammerskull
 1 Territorial Roc
-6 Teshar, Ancestor's Apostle
+7 Teshar, Ancestor's Apostle
 1 Testament of Faith
 3 Test of Endurance
 4 Test of Faith
@@ -6180,9 +6227,11 @@
 2 The Jolly Balloon Man
 3 The Kami War 
 2 The Kenriths' Royal Funeral
+1 The Last Ronin's Technique
 2 The Legend of Yangchen 
 1 The Master of Keys
 2 The Necrobloom
+1 The Neutrinos
 1 The Night of the Doctor
 1 Théoden, King of Rohan
 1 The Pandorica
@@ -6289,7 +6338,7 @@
 2 Toby, Beastie Befriender
 3 Tocasia, Dig Site Mentor
 1 Tocasia's Onulet
-5 Tocasia's Welcome
+6 Tocasia's Welcome
 2 Tocatli Honor Guard
 8 Together Forever
 1 Tolarian Emissary
@@ -6301,7 +6350,7 @@
 2 Toluz, Clever Conductor
 2 Tom Bombadil
 3 Tomik, Distinguished Advokist
-1 Tomik, Wielder of Law
+2 Tomik, Wielder of Law
 1 Tonic Peddler
 1 Took Reaper
 3 Toolcraft Exemplar
@@ -6329,7 +6378,7 @@
 1 Town Sentry
 2 Trace of Abundance
 1 Trade Caravan
-6 Tragic Arrogance
+7 Tragic Arrogance
 2 Tragic Poet
 1 Trained Arynx
 2 Trained Caracal
@@ -6339,7 +6388,7 @@
 1 Tranquil Garden
 1 Tranquil Landscape
 1 Transcendence
-3 Transcendent Envoy
+4 Transcendent Envoy
 2 Transcendent Master
 2 Transguild Courier
 2 Transluminant
@@ -6367,6 +6416,8 @@
 1 Trial of a Time Lord
 2 Trial of Solidarity
 1 Tributary Vaulter
+1 Triceraton Commander
+1 Triceraton Regenta
 1 Triclopean Sight
 1 Trigon of Mending
 5 Triplicate Spirits
@@ -6404,8 +6455,10 @@
 9 Tundra Wolves
 1 Tune Up
 1 Tura Kennerüd, Skyknight
+1 Turncoat Kunoichi
 1 Turn the Tables
 3 Turn to Mist
+1 Turtles Forever
 3 Tuvasa the Sunlit
 5 Twilight Drover
 2 Twilight Panther
@@ -6432,6 +6485,7 @@
 2 Undead Slayer
 1 Undercellar Sweep
 3 Underworld Coinsmith
+1 Uneasy Alliance
 4 Unexpectedly Absent
 1 Unexplained Absence
 2 Unfinished Business
@@ -6501,7 +6555,7 @@
 2 Vanguard of Brimaz
 1 Vanguard of the Rose
 1 Vanguard Seraph
-4 Vanishing Verse
+5 Vanishing Verse
 2 Vanish into Eternity
 4 Vanish into Memory
 1 Vanquish
@@ -6528,7 +6582,7 @@
 1 Venerable Knight
 1 Venerable Lammasu
 11 Venerable Monk
-3 Venerable Warsinger
+4 Venerable Warsinger
 4 Venerated Loxodon
 7 Vengeance
 1 Vengeful Archon
@@ -6697,7 +6751,7 @@
 6 Watchwolf
 1 Water Tribe Captain
 1 Water Tribe Rallier
-3 Wave of Reckoning
+4 Wave of Reckoning
 1 Waveskimmer Aven
 2 Waves of Aggression
 3 Waxmane Baku
@@ -6747,7 +6801,7 @@
 1 White Mage's Staff
 4 White Mana Battery
 9 Whitemane Lion
-3 White Orchid Phantom
+4 White Orchid Phantom
 2 White Plume Adventurer
 1 White Scarab
 1 White Shield Crusader
@@ -6775,8 +6829,8 @@
 3 Windreaver
 18 Wind-Scarred Crag
 2 Windshaper Planetar
-4 Winds of Abandon
-9 Winds of Rath
+5 Winds of Abandon
+10 Winds of Rath
 1 Windurst, Federation Center
 1 Windwright Mage
 1 Wingbeat Warrior
@@ -6803,7 +6857,7 @@
 1 Witch Enchanter 
 4 Witch Hunter
 2 Witch-Maw Nephilim
-3 With Great Power...
+3 With Great Power . . .
 1 Withstand
 2 Wizards' School
 2 Wizened Cenn
@@ -6815,6 +6869,7 @@
 1 Wojek Siren
 1 Wolf Cove Villager
 4 Wooded Bastion
+1 Wooden Cane
 1 Woodland Acolyte 
 1 Woodvine Elemental
 1 Woolly Razorback
