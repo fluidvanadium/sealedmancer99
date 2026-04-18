@@ -16,7 +16,7 @@ pub(crate) struct Report {
     pub error_server_nanos: u128,
 }
 
-const SUCCESS_SLEEP_NANOS: u128 = 100_000_000;
+const SUCCESS_SLEEP_NANOS: u128 = 1_000_000_000;
 const ERROR_SLEEP_NANOS: u128 = 100_000_000_000;
 
 impl Report {
