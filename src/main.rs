@@ -74,6 +74,7 @@ async fn download_list(query: &DiscreteQuery) -> (String, Report) {
     match query.query.search().await {
         Err(e) => {
             dbg!(e);
+            panic!();
         }
         Ok(mut cards) => {
             println!("Search setup completed. Beginning iteration.");
