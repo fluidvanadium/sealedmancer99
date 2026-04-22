@@ -39,7 +39,7 @@ async fn main() {
     // write_query_to_file(specifics::for_twostep_red()).await;
     // write_query_to_file(specifics::for_twostep_green()).await;
 
-    // write_query_to_file(specifics::for_draft()).await;
+    write_query_to_file(specifics::for_draft()).await;
     write_query_to_file(specifics::for_constructed()).await;
     write_query_to_file(specifics::for_sealed()).await;
     write_query_to_file(specifics::for_allstars()).await;
